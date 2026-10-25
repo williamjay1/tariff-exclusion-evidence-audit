@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_utc": "2026-10-25T12:06:04.239689+00:00",
+  "created_utc": "2026-10-25T12:12:08.284168+00:00",
   "manifest_self_exclusion": "package_manifest.json",
   "files": [
     {
@@ -100,13 +100,13 @@
     },
     {
       "path": "deliverables/Tariff_Evidence_Audit_20261023.docx",
-      "bytes": 1937788,
-      "sha256": "fa96fafe3bf269a0f17f4bf171e492860d4641c48c977fc4fd979f51b6ebf2ed"
+      "bytes": 1937899,
+      "sha256": "a353323fc409abc9d4c6c538171f1949a3c34e39d137e27ee0c277203b3b4749"
     },
     {
       "path": "deliverables/Tariff_Evidence_Audit_Supplement_20261023.docx",
       "bytes": 68729,
-      "sha256": "91de584eed9d4143d79e9e7b3282ab448a593bec04b5365480546113dc79620e"
+      "sha256": "144b499e95c095294d4c89749970275376b715e1747fa8f837340493eacbb1e9"
     },
     {
       "path": "docs/BUILD_SPEC.md",
@@ -1055,8 +1055,8 @@
     },
     {
       "path": "manuscript/manuscript.md",
-      "bytes": 73229,
-      "sha256": "5cb1dad08835378a1c6acbb737496f481ae75a6736cf299b2d84a39bbfdc45ee"
+      "bytes": 73434,
+      "sha256": "0212712beb6ffe26bff243823670708c7d0512ef4fac5a96e2e2f0c8b48cb1c0"
     },
     {
       "path": "manuscript/references_verified.md",
@@ -1555,8 +1555,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8165,
-      "sha256": "b0bc6b7c460b4b7782ca5005dd4eb3c8e0aab901830483071ce236278ab870db"
+      "bytes": 8279,
+      "sha256": "4d10dc6c9348dbda83dff14ed0d136394a89575ab8086f6040b73c1e5d66ff39"
     },
     {
       "path": "requirements-optional.txt",
@@ -1645,8 +1645,8 @@
     },
     {
       "path": "scripts/verify_package.py",
-      "bytes": 23744,
-      "sha256": "1299fa7b9ee96d9ffa0db7820dd40eaea644ac81e5f52b01b98773730d814617"
+      "bytes": 23770,
+      "sha256": "52ddd10fc46f75015548a72e6b7c2354f30b4d5c5928b5243a82da762d9c79f3"
     },
     {
       "path": "scripts/verify_source_audit.py",
@@ -1786,12 +1786,12 @@
     {
       "path": "verification/docx_content_audit.json",
       "bytes": 2005,
-      "sha256": "51f552066b7879ad59a09852aa8f215d2114ba3f9e8f6fd6a631ec0085aecf76"
+      "sha256": "bf0f0da8573020db4f14ea2ad98964d592d359648cf7f0a80472aa1b5a9fbdd2"
     },
     {
       "path": "verification/final_delivery_audit.json",
       "bytes": 662,
-      "sha256": "4de8571a5218a8ab93840a229b92c8677ef0ce104f60307fd31c44e0cc94d0d7"
+      "sha256": "d230535e8f6f998dc027918a6ff3fc763ce59f4d4db92ddeb6cebf099e2e64d9"
     },
     {
       "path": "verification/final_result_ledger.json",
@@ -1895,8 +1895,8 @@
     },
     {
       "path": "verification/visual_inspection.json",
-      "bytes": 2106,
-      "sha256": "3598e8a0a6caeceefe6108f6b900dbf150051ac6be9760891dd1a3e950da9799"
+      "bytes": 2369,
+      "sha256": "a1d5c27f08ac7a1f33c80ad0708bfb6ea2320dcd0fb860d1813404b8a87036f1"
     }
   ],
   "boundary": "SHA-256 checks retained byte identity; scoring and legal validity are separate questions."

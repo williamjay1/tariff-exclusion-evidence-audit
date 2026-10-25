@@ -11,7 +11,7 @@
     "figure2_source_audit",
     "figure3_controlled_diagnostics"
   ],
-  "method": "Every page image of the current build was inspected. All 43 pages were scanned in 4-up contact sheets at 760 px page width; pages carrying displays and page boundaries were then inspected again at 1100 px width (main pages 1, 4, 5, 12, 13, 14, 17, 21; supplement pages 1, 4, 5, 9, 10, 13, 14, 17). Figure placements were adjusted after the first pass and the whole document was re-rendered and re-scanned.",
+  "method": "Every page image of the current build was inspected. All 43 pages were scanned in 4-up contact sheets at 760 px page width; pages carrying displays and page boundaries were then inspected again at 1100 px width (main pages 1, 4, 5, 12, 13, 14, 17, 21; supplement pages 1, 4, 5, 9, 10, 13, 14, 17). Figure placements were adjusted after the first pass and the whole document was re-rendered and re-scanned. The Declarations page (main page 20) and the reference pages (main 21) were re-inspected after the DOI statements were added; reference spacing was tightened so the list stays on one page.",
   "layout_actions": [
     "Figure 1 moved to the start of Section 3.2 to remove a 5.6 inch gap on page 5",
     "Figure 2 moved to the end of Section 5.1 to remove a 3 inch gap",
@@ -24,11 +24,12 @@
     "All 4 main tables and 18 supplementary tables retain every row and repeated header",
     "Three figures render at final size without text collision",
     "Section headings are not stranded at page bottoms",
-    "Remaining trailing space on main pages 13 and 17 is under two inches"
+    "Remaining trailing space on main pages 13 and 17 is under two inches",
+    "Availability statements carry the Zenodo version and concept DOIs"
   ],
   "current_docx_hashes": {
-    "Tariff_Evidence_Audit_20261023.docx": "fa96fafe3bf269a0f17f4bf171e492860d4641c48c977fc4fd979f51b6ebf2ed",
-    "Tariff_Evidence_Audit_Supplement_20261023.docx": "91de584eed9d4143d79e9e7b3282ab448a593bec04b5365480546113dc79620e"
+    "Tariff_Evidence_Audit_20261023.docx": "a353323fc409abc9d4c6c538171f1949a3c34e39d137e27ee0c277203b3b4749",
+    "Tariff_Evidence_Audit_Supplement_20261023.docx": "144b499e95c095294d4c89749970275376b715e1747fa8f837340493eacbb1e9"
   },
   "renderer": "Word compatible COM export to PDF, then Poppler page rasterization at 150 dpi. Page counts recorded in the per-document render_metadata.json.",
   "boundary": "Visual and export checks do not establish semantic or legal validity."

@@ -359,11 +359,11 @@ Ethics approval and consent to participate: Not applicable. The study analyses p
 
 Consent for publication: Not applicable.
 
-Data availability: The retained derived records, source locators, constructed inputs, reference erratum, prompts, raw model outputs and analysis code are provided in the reproducibility package accompanying the submission. Official public source snapshots are identified in the package manifest. Model weights are not redistributed and their official provenance and hashes are recorded.
+Data availability: The retained derived records, source locators, constructed inputs, reference erratum, prompts, raw model outputs and analysis code are archived at Zenodo under version DOI 10.5281/zenodo.23641463, with concept DOI 10.5281/zenodo.23641462 for later versions. Official public source snapshots are included in that archive and identified in its manifest. Model weights are not redistributed, and their official provenance and hashes are recorded.
 
 Materials availability: Not applicable beyond the public documents identified in the package manifest.
 
-Code availability: Audit scripts, aggregation code, figure scripts and analysis code are included in the reproducibility package.
+Code availability: Audit scripts, aggregation code, figure scripts and analysis code are included in the same Zenodo archive (10.5281/zenodo.23641463). The verification command recomputes the reported counts from the retained records and saved model replies.
 
 Author contributions: Junjie Zhang designed the study, curated the sources, performed the audit, ran the experiments, analysed the results and wrote the manuscript.
 
