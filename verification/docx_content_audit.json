@@ -1,9 +1,9 @@
 [
   {
     "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\manuscript\\manuscript.md",
-    "source_sha256": "0212712beb6ffe26bff243823670708c7d0512ef4fac5a96e2e2f0c8b48cb1c0",
+    "source_sha256": "b6b71f7436ce3dbe1b5fd9ea68a80179fbfc8e741c1b203fb89def8b1a8c88de",
     "output": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_20261023.docx",
-    "sha256": "a353323fc409abc9d4c6c538171f1949a3c34e39d137e27ee0c277203b3b4749",
+    "sha256": "225abb5e9e132ddc5ec16b68102420e66a8d7acca2d4a187b98d98bc77af8c1e",
     "paragraphs_exact": true,
     "table_cells_exact": true,
     "tables": 4,
@@ -32,7 +32,7 @@
     "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\manuscript\\supplement.md",
     "source_sha256": "2938c15ba6274f82b1ed84303f2d1aba20daf091bb8731b8600a0dce2ebb1ced",
     "output": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_Supplement_20261023.docx",
-    "sha256": "144b499e95c095294d4c89749970275376b715e1747fa8f837340493eacbb1e9",
+    "sha256": "414b6c5ea2388ffa983f1d6aa058f3638ca2536da3706d4f57bbec261e6175af",
     "paragraphs_exact": true,
     "table_cells_exact": true,
     "tables": 18,

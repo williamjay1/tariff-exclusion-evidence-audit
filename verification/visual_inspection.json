@@ -25,11 +25,11 @@
     "Three figures render at final size without text collision",
     "Section headings are not stranded at page bottoms",
     "Remaining trailing space on main pages 13 and 17 is under two inches",
-    "Availability statements carry the Zenodo version and concept DOIs"
+    "Data availability carries a single Zenodo DOI; code availability points to the same archive"
   ],
   "current_docx_hashes": {
-    "Tariff_Evidence_Audit_20261023.docx": "a353323fc409abc9d4c6c538171f1949a3c34e39d137e27ee0c277203b3b4749",
-    "Tariff_Evidence_Audit_Supplement_20261023.docx": "144b499e95c095294d4c89749970275376b715e1747fa8f837340493eacbb1e9"
+    "Tariff_Evidence_Audit_20261023.docx": "225abb5e9e132ddc5ec16b68102420e66a8d7acca2d4a187b98d98bc77af8c1e",
+    "Tariff_Evidence_Audit_Supplement_20261023.docx": "414b6c5ea2388ffa983f1d6aa058f3638ca2536da3706d4f57bbec261e6175af"
   },
   "renderer": "Word compatible COM export to PDF, then Poppler page rasterization at 150 dpi. Page counts recorded in the per-document render_metadata.json.",
   "boundary": "Visual and export checks do not establish semantic or legal validity."
