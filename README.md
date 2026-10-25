@@ -1,3 +1,5 @@
+﻿[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23641463.svg)](https://doi.org/10.5281/zenodo.23641463)
+
 # Tariff exclusion evidence audit: source to input protocol
 
 Reproducibility package for **Auditing evidence construction in legal AI
