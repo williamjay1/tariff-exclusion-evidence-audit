@@ -1,0 +1,112 @@
+{
+  "checked_utc": "2026-10-22T19:52:34.024696+00:00",
+  "status": "PASS_WITH_NONBLOCKING_WORDING_SUGGESTION",
+  "scope": "Read-only source/legal-contribution and numerical integration check of two manuscript sections; no review of partial formal model outputs and no new model evaluation.",
+  "material_discrepancies": [],
+  "recomputed": {
+    "cases": 73,
+    "conditions": 208,
+    "sources": 67,
+    "safe_conjunctions": 58,
+    "logic_unresolved": 15,
+    "tier_counts": {
+      "interpretive": 45,
+      "direct": 132,
+      "insufficient": 19,
+      "disputed": 12
+    },
+    "excerpt_states": {
+      "unknown": 76,
+      "support": 125,
+      "refute": 5,
+      "not_applicable": 2
+    },
+    "restored_states": {
+      "unknown": 72,
+      "support": 129,
+      "refute": 5,
+      "not_applicable": 2
+    },
+    "direct_restored_keys": [
+      "H330938_1:c4",
+      "H322923_1:c2",
+      "H340899_1:c3",
+      "H340899_1:c4"
+    ],
+    "historical_unknown_case_n": 47,
+    "historical_unknown_condition_n": 59,
+    "strict_unknown_within_historical_unknown_case_n": 67,
+    "policy_packages": [
+      {
+        "name": "strict_withhold",
+        "counts": {
+          "unknown": 45,
+          "support": 10,
+          "refute": 3
+        }
+      },
+      {
+        "name": "declared_technical_scope_lab_peak",
+        "counts": {
+          "support": 17,
+          "unknown": 33,
+          "refute": 8
+        }
+      },
+      {
+        "name": "declared_alternative_material_use_party_nominal",
+        "counts": {
+          "refute": 5,
+          "unknown": 34,
+          "support": 19
+        }
+      }
+    ]
+  },
+  "legal_scope_checks": [
+    {
+      "item": "administrative disposition versus admitted evidence",
+      "finding": "Distinct endpoints are explicit; no reassessment of legal entitlement is claimed."
+    },
+    {
+      "item": "H333673 passive infrared wording",
+      "finding": "Confirmed as an independently identifiable agency descriptive assertion in p046, raw text span 12120–12273; manuscript does not infer passivity from receiver-diode wording alone."
+    },
+    {
+      "item": "H318593 dimensions and capacity",
+      "finding": "Handle exclusion and own-mass/load distinction preserved; 6000 lb conversion is arithmetically exact using 0.45359237 kg/lb."
+    },
+    {
+      "item": "N311039 quantified ratings",
+      "finding": "Four coil/contact pairs and currents match source paragraphs p014–p017. All-listed-products refutation is explicitly a declared task, not a new independent entitlement for each product."
+    },
+    {
+      "item": "H333371 competing composition",
+      "finding": "48% party and approximately76% laboratory assertions retained; alternative evidentiary-priority policies are not presented as equally authoritative legal recommendations."
+    },
+    {
+      "item": "controlled demonstration",
+      "finding": "Supplied conditions, limited output schema, no automatic rule parser, no importer/workflow outcomes and no expert validation are stated. Final outcome-specific statements must still be aligned after complete experiment outputs are frozen."
+    },
+    {
+      "item": "inventory coverage",
+      "finding": "397/354/43/1096 and16/397 correspond to retained audit. Zero-based index convention now explicit in owned inventory supplement/report."
+    }
+  ],
+  "nonblocking_suggestion": {
+    "location": "cases_and_discussion.md §7.2 first sentence",
+    "current": "A supplied condition list offers an operational advantage when the task is to inspect what a decision rests on.",
+    "suggested": "A supplied condition list makes the reported basis of a decision more inspectable.",
+    "reason": "Avoid reading operational advantage as measured workflow benefit; following sentences already limit the claim, so this does not alter the substantive conclusion."
+  },
+  "input_sha256": {
+    "manuscript/cases_and_discussion.md": "57e0c613c6a51554e97c7684262d248ec89eaa3a598d190c1a3c44c0f4193b40",
+    "manuscript/source_results.md": "941021aabf30e00ee9f6d3542e56151e4fadf4879e2a40841ec3721e46d5a45f",
+    "source_audit/condition_audit_long.jsonl": "163da1d36cd50e23d160ced52cd610b83633467bf66db67c1a6f98a186b5d851",
+    "source_audit/case_audit.jsonl": "2ef227443176963ab61532f8c5fb8f075d5d3218c90f18b0c9246b7dcff6ffbd",
+    "source_audit/source_audit_summary.json": "54fb5622dc4356bafa56603d3a1f711bb2e49ade2ee677850622d317c37b3ab4",
+    "source_audit/policy_sensitivity.json": "0002ab596a5998ec394873706e99f30c7b13aeec685519391a96c2f40342998a",
+    "inventory_audit/inventory_validation.json": "2861cdd2454390fa092d2bbb2aaf8548b5562349b2b79141e6e43c3eab0e2018"
+  },
+  "boundary": "Independent AI review of traceable records, not independent expert legal validation. Numeric verification here is deterministic recounting; no inference rerun or statistical refitting."
+}

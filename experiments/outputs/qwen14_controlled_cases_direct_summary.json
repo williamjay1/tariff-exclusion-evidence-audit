@@ -1,0 +1,22 @@
+{
+  "n": 108,
+  "conditions_n": 216,
+  "valid": 108,
+  "correct_decisions": 98,
+  "correct_conditions": null,
+  "unsupported_affirmations": 10,
+  "decisive_refutation_missing_passes": 0,
+  "passed": false,
+  "failed_ids": [
+    "CF01_other_only",
+    "CF02_other_only",
+    "CF03_other_only",
+    "CF04_other_only",
+    "CF06_deleted",
+    "CF09_other_only",
+    "CF10_deleted",
+    "CF10_other_only",
+    "CF11_other_only",
+    "CF12_other_only"
+  ]
+}

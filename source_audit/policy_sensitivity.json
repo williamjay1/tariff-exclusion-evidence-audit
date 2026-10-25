@@ -1,0 +1,2046 @@
+{
+  "scope": "58 safe outer-conjunction cases; full-public-source direct attributes fixed",
+  "not_in_scope": "15 unresolved-logic cases; legal completeness; arbitrary unseen interpretations",
+  "rules": [
+    "Every condition can retain strict unknown; only explicitly listed interpretive/disputed options may change it.",
+    "Direct states fixed. Insufficient conditions remain unknown unless direct source recovery already resolved them.",
+    "No-option interpretive conditions remain unknown. Administrative outcomes are not criteria.",
+    "Per-case sets are local logical sensitivity, not independent probabilities or simultaneously coherent legal choices.",
+    "Marginal count envelopes do not form a joint realizable total; explicit packages provide actual joint totals."
+  ],
+  "case_n": 58,
+  "cases": [
+    {
+      "case_id": "H330938_1",
+      "possible_states": [
+        "refute",
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 9,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H330938_1:c1": "withhold_interpretation",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "withhold_interpretation",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "withhold_interpretation",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "conducting_core_only",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "withhold_interpretation",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "all_materials",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "refute"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "single_pole_system",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "withhold_interpretation",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "single_pole_system",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "conducting_core_only",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "support"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "single_pole_system",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "all_materials",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "refute"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "no_domain_definition",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "withhold_interpretation",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "no_domain_definition",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "conducting_core_only",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H330938_1:c1": "no_domain_definition",
+            "H330938_1:c2": "withhold_interpretation",
+            "H330938_1:c3": "all_materials",
+            "H330938_1:c4": "withhold_interpretation"
+          },
+          "state": "refute"
+        }
+      ]
+    },
+    {
+      "case_id": "H341677_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H341677_1:c1": "withhold_interpretation",
+            "H341677_1:c2": "withhold_interpretation",
+            "H341677_1:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H323452_1",
+      "possible_states": [
+        "refute",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H323452_1:c1": "withhold_interpretation",
+            "H323452_1:c2": "withhold_interpretation",
+            "H323452_1:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H323452_1:c1": "cursor_control_is_necessary",
+            "H323452_1:c2": "withhold_interpretation",
+            "H323452_1:c3": "withhold_interpretation"
+          },
+          "state": "refute"
+        }
+      ]
+    },
+    {
+      "case_id": "H333110_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H333110_1:c1": "withhold_interpretation",
+            "H333110_1:c2": "withhold_interpretation",
+            "H333110_1:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H319100_2",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H319100_2:c1": "withhold_interpretation",
+            "H319100_2:c2": "withhold_interpretation",
+            "H319100_2:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H311957_1",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H311957_1:c1": "withhold_interpretation",
+            "H311957_1:c2": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "H311151_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H311151_1:c1": "withhold_interpretation",
+            "H311151_1:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H322923_1",
+      "possible_states": [
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H322923_1:c1": "withhold_interpretation",
+            "H322923_1:c2": "withhold_interpretation",
+            "H322923_1:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H322923_1:c1": "withhold_interpretation",
+            "H322923_1:c2": "withhold_interpretation",
+            "H322923_1:c3": "stated_household_shopping_use_suffices"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "H330005_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H330005_1:c1": "withhold_interpretation",
+            "H330005_1:c2": "withhold_interpretation",
+            "H330005_1:c3": "withhold_interpretation",
+            "H330005_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H316387_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H316387_1:c1": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H332948_1",
+      "possible_states": [
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H332948_1:c1": "withhold_interpretation",
+            "H332948_1:c2": "withhold_interpretation",
+            "H332948_1:c3": "withhold_interpretation",
+            "H332948_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H332948_1:c1": "withhold_interpretation",
+            "H332948_1:c2": "withhold_interpretation",
+            "H332948_1:c3": "withhold_interpretation",
+            "H332948_1:c4": "explicit_marketing_use_suffices"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "H332948_2",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H332948_2:c1": "withhold_interpretation",
+            "H332948_2:c2": "withhold_interpretation",
+            "H332948_2:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H332948_3",
+      "possible_states": [
+        "refute",
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 3,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H332948_3:c1": "withhold_interpretation",
+            "H332948_3:c2": "withhold_interpretation",
+            "H332948_3:c3": "withhold_interpretation",
+            "H332948_3:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H332948_3:c1": "withhold_interpretation",
+            "H332948_3:c2": "withhold_interpretation",
+            "H332948_3:c3": "withhold_interpretation",
+            "H332948_3:c4": "any_advertised_use_suffices"
+          },
+          "state": "support"
+        },
+        {
+          "selected_policies": {
+            "H332948_3:c1": "withhold_interpretation",
+            "H332948_3:c2": "withhold_interpretation",
+            "H332948_3:c3": "withhold_interpretation",
+            "H332948_3:c4": "principal_marketed_use_controls"
+          },
+          "state": "refute"
+        }
+      ]
+    },
+    {
+      "case_id": "H332948_4",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H332948_4:c1": "withhold_interpretation",
+            "H332948_4:c2": "withhold_interpretation",
+            "H332948_4:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H318593_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H318593_1:c1": "withhold_interpretation",
+            "H318593_1:c2": "withhold_interpretation",
+            "H318593_1:c3": "withhold_interpretation",
+            "H318593_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H318593_1:c1": "withhold_interpretation",
+            "H318593_1:c2": "predominant_base_metal",
+            "H318593_1:c3": "withhold_interpretation",
+            "H318593_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H318593_2",
+      "possible_states": [
+        "refute"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H318593_2:c1": "withhold_interpretation",
+            "H318593_2:c2": "withhold_interpretation"
+          },
+          "state": "refute"
+        }
+      ]
+    },
+    {
+      "case_id": "H340899_1",
+      "possible_states": [
+        "refute",
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 6,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H340899_1:c1": "withhold_interpretation",
+            "H340899_1:c2": "withhold_interpretation",
+            "H340899_1:c3": "withhold_interpretation",
+            "H340899_1:c4": "withhold_interpretation",
+            "H340899_1:c5": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H340899_1:c1": "withhold_interpretation",
+            "H340899_1:c2": "withhold_interpretation",
+            "H340899_1:c3": "retain_original_mapping",
+            "H340899_1:c4": "withhold_interpretation",
+            "H340899_1:c5": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H340899_1:c1": "withhold_interpretation",
+            "H340899_1:c2": "commercial_floor_upright_category",
+            "H340899_1:c3": "withhold_interpretation",
+            "H340899_1:c4": "withhold_interpretation",
+            "H340899_1:c5": "withhold_interpretation"
+          },
+          "state": "refute"
+        },
+        {
+          "selected_policies": {
+            "H340899_1:c1": "withhold_interpretation",
+            "H340899_1:c2": "commercial_floor_upright_category",
+            "H340899_1:c3": "retain_original_mapping",
+            "H340899_1:c4": "withhold_interpretation",
+            "H340899_1:c5": "withhold_interpretation"
+          },
+          "state": "refute"
+        },
+        {
+          "selected_policies": {
+            "H340899_1:c1": "withhold_interpretation",
+            "H340899_1:c2": "physical_upright_orientation",
+            "H340899_1:c3": "withhold_interpretation",
+            "H340899_1:c4": "withhold_interpretation",
+            "H340899_1:c5": "withhold_interpretation"
+          },
+          "state": "support"
+        },
+        {
+          "selected_policies": {
+            "H340899_1:c1": "withhold_interpretation",
+            "H340899_1:c2": "physical_upright_orientation",
+            "H340899_1:c3": "retain_original_mapping",
+            "H340899_1:c4": "withhold_interpretation",
+            "H340899_1:c5": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "H345780_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H345780_1:c1": "withhold_interpretation",
+            "H345780_1:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H333371_1",
+      "possible_states": [
+        "refute",
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 3,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H333371_1:c1": "withhold_interpretation",
+            "H333371_1:c2": "withhold_interpretation",
+            "H333371_1:c3": "withhold_interpretation",
+            "H333371_1:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H333371_1:c1": "withhold_interpretation",
+            "H333371_1:c2": "laboratory_priority",
+            "H333371_1:c3": "withhold_interpretation",
+            "H333371_1:c4": "withhold_interpretation"
+          },
+          "state": "refute"
+        },
+        {
+          "selected_policies": {
+            "H333371_1:c1": "withhold_interpretation",
+            "H333371_1:c2": "party_priority",
+            "H333371_1:c3": "withhold_interpretation",
+            "H333371_1:c4": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "H317208_1",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H317208_1:c1": "withhold_interpretation",
+            "H317208_1:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "H317208_1:c1": "retain_original_mapping",
+            "H317208_1:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "H336964_1",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H336964_1:c1": "withhold_interpretation",
+            "H336964_1:c2": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "H327850_1",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "H327850_1:c1": "withhold_interpretation",
+            "H327850_1:c2": "withhold_interpretation",
+            "H327850_1:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N303860",
+      "possible_states": [
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N303860:c1": "withhold_interpretation",
+            "N303860:c2": "withhold_interpretation",
+            "N303860:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "N303860:c1": "withhold_interpretation",
+            "N303860:c2": "withhold_interpretation",
+            "N303860:c3": "retain_original_mapping"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N304078",
+      "possible_states": [
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N304078:c1": "withhold_interpretation",
+            "N304078:c2": "withhold_interpretation",
+            "N304078:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "N304078:c1": "withhold_interpretation",
+            "N304078:c2": "retain_original_mapping",
+            "N304078:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N304707",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N304707:c1": "withhold_interpretation",
+            "N304707:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "N304707:c1": "withhold_interpretation",
+            "N304707:c2": "retain_original_mapping"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N304766",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N304766:c1": "withhold_interpretation",
+            "N304766:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N305670",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N305670:c1": "withhold_interpretation",
+            "N305670:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N306552",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N306552:c1": "withhold_interpretation",
+            "N306552:c2": "withhold_interpretation",
+            "N306552:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N307161",
+      "possible_states": [
+        "refute"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N307161:c1": "withhold_interpretation",
+            "N307161:c2": "withhold_interpretation",
+            "N307161:c3": "withhold_interpretation"
+          },
+          "state": "refute"
+        }
+      ]
+    },
+    {
+      "case_id": "N307469",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N307469:c1": "withhold_interpretation",
+            "N307469:c2": "withhold_interpretation",
+            "N307469:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N309167",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N309167:c1": "withhold_interpretation",
+            "N309167:c2": "withhold_interpretation",
+            "N309167:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N311039_33",
+      "possible_states": [
+        "refute"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N311039_33:c1": "withhold_interpretation",
+            "N311039_33:c2": "withhold_interpretation",
+            "N311039_33:c3": "withhold_interpretation"
+          },
+          "state": "refute"
+        }
+      ]
+    },
+    {
+      "case_id": "N304781",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N304781:c1": "withhold_interpretation",
+            "N304781:c2": "withhold_interpretation",
+            "N304781:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N307931",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N307931:c1": "withhold_interpretation",
+            "N307931:c2": "withhold_interpretation",
+            "N307931:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N307830",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N307830:c1": "withhold_interpretation",
+            "N307830:c2": "withhold_interpretation",
+            "N307830:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N308085",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N308085:c1": "withhold_interpretation",
+            "N308085:c2": "withhold_interpretation",
+            "N308085:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N309430",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N309430:c1": "withhold_interpretation",
+            "N309430:c2": "withhold_interpretation",
+            "N309430:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N309775_knobs",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N309775_knobs:c1": "withhold_interpretation",
+            "N309775_knobs:c2": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N310745",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N310745:c1": "withhold_interpretation",
+            "N310745:c2": "withhold_interpretation",
+            "N310745:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N311044",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N311044:c1": "withhold_interpretation",
+            "N311044:c2": "withhold_interpretation",
+            "N311044:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N310775",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N310775:c1": "withhold_interpretation",
+            "N310775:c2": "withhold_interpretation",
+            "N310775:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N311153",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N311153:c1": "withhold_interpretation",
+            "N311153:c2": "withhold_interpretation",
+            "N311153:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N311074",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N311074:c1": "withhold_interpretation",
+            "N311074:c2": "withhold_interpretation",
+            "N311074:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N310714",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N310714:c1": "withhold_interpretation",
+            "N310714:c2": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N311558",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N311558:c1": "withhold_interpretation",
+            "N311558:c2": "withhold_interpretation",
+            "N311558:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N310804",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N310804:c1": "withhold_interpretation",
+            "N310804:c2": "withhold_interpretation",
+            "N310804:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N312309",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N312309:c1": "withhold_interpretation",
+            "N312309:c2": "withhold_interpretation",
+            "N312309:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N312568",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N312568:c1": "withhold_interpretation",
+            "N312568:c2": "withhold_interpretation",
+            "N312568:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N312471",
+      "possible_states": [
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N312471:c1": "withhold_interpretation",
+            "N312471:c2": "withhold_interpretation",
+            "N312471:c3": "withhold_interpretation",
+            "N312471:c4": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "N312471:c1": "retain_original_mapping",
+            "N312471:c2": "withhold_interpretation",
+            "N312471:c3": "withhold_interpretation",
+            "N312471:c4": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N313188",
+      "possible_states": [
+        "support",
+        "unknown"
+      ],
+      "enumerated_combinations": 2,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N313188:c1": "withhold_interpretation",
+            "N313188:c2": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "N313188:c1": "withhold_interpretation",
+            "N313188:c2": "retain_original_mapping"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N314745_self",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N314745_self:c1": "withhold_interpretation",
+            "N314745_self:c2": "withhold_interpretation",
+            "N314745_self:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N314745_pedal",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N314745_pedal:c1": "withhold_interpretation",
+            "N314745_pedal:c2": "withhold_interpretation",
+            "N314745_pedal:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N315526",
+      "possible_states": [
+        "support"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N315526:c1": "withhold_interpretation",
+            "N315526:c2": "withhold_interpretation",
+            "N315526:c3": "withhold_interpretation"
+          },
+          "state": "support"
+        }
+      ]
+    },
+    {
+      "case_id": "N318455",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N318455:c1": "withhold_interpretation",
+            "N318455:c2": "withhold_interpretation",
+            "N318455:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N318822",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N318822:c1": "withhold_interpretation",
+            "N318822:c2": "withhold_interpretation",
+            "N318822:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N325922",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N325922:c1": "withhold_interpretation",
+            "N325922:c2": "withhold_interpretation",
+            "N325922:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N327114",
+      "possible_states": [
+        "refute",
+        "unknown"
+      ],
+      "enumerated_combinations": 3,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N327114:c1": "withhold_interpretation",
+            "N327114:c2": "withhold_interpretation",
+            "N327114:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        },
+        {
+          "selected_policies": {
+            "N327114:c1": "withhold_interpretation",
+            "N327114:c2": "withhold_interpretation",
+            "N327114:c3": "peak_output"
+          },
+          "state": "refute"
+        },
+        {
+          "selected_policies": {
+            "N327114:c1": "withhold_interpretation",
+            "N327114:c2": "withhold_interpretation",
+            "N327114:c3": "nominal_output"
+          },
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "case_id": "N332207",
+      "possible_states": [
+        "unknown"
+      ],
+      "enumerated_combinations": 1,
+      "combinations": [
+        {
+          "selected_policies": {
+            "N332207:c1": "withhold_interpretation",
+            "N332207:c2": "withhold_interpretation",
+            "N332207:c3": "withhold_interpretation"
+          },
+          "state": "unknown"
+        }
+      ]
+    }
+  ],
+  "marginal_count_envelopes": {
+    "support": {
+      "necessarily_this_state": 10,
+      "possibly_this_state": 20
+    },
+    "refute": {
+      "necessarily_this_state": 3,
+      "possibly_this_state": 9
+    },
+    "unknown": {
+      "necessarily_this_state": 33,
+      "possibly_this_state": 45
+    }
+  },
+  "explicit_policy_packages": [
+    {
+      "name": "strict_withhold",
+      "overrides": {},
+      "counts": {
+        "unknown": 45,
+        "support": 10,
+        "refute": 3
+      },
+      "cases": [
+        {
+          "case_id": "H330938_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H341677_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H323452_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H333110_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H319100_2",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H311957_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H311151_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H322923_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H330005_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H316387_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_2",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_3",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_4",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H318593_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H318593_2",
+          "state": "refute"
+        },
+        {
+          "case_id": "H340899_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H345780_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H333371_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H317208_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H336964_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H327850_1",
+          "state": "support"
+        },
+        {
+          "case_id": "N303860",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N304078",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N304707",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N304766",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N305670",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N306552",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N307161",
+          "state": "refute"
+        },
+        {
+          "case_id": "N307469",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309167",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N311039_33",
+          "state": "refute"
+        },
+        {
+          "case_id": "N304781",
+          "state": "support"
+        },
+        {
+          "case_id": "N307931",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N307830",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N308085",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309430",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309775_knobs",
+          "state": "support"
+        },
+        {
+          "case_id": "N310745",
+          "state": "support"
+        },
+        {
+          "case_id": "N311044",
+          "state": "support"
+        },
+        {
+          "case_id": "N310775",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N311153",
+          "state": "support"
+        },
+        {
+          "case_id": "N311074",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N310714",
+          "state": "support"
+        },
+        {
+          "case_id": "N311558",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N310804",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312309",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312568",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312471",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N313188",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N314745_self",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N314745_pedal",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N315526",
+          "state": "support"
+        },
+        {
+          "case_id": "N318455",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N318822",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N325922",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N327114",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N332207",
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "declared_technical_scope_lab_peak",
+      "overrides": {
+        "H330938_1:c1": "single_pole_system",
+        "H330938_1:c3": "conducting_core_only",
+        "H323452_1:c1": "cursor_control_is_necessary",
+        "H322923_1:c3": "stated_household_shopping_use_suffices",
+        "H332948_1:c4": "explicit_marketing_use_suffices",
+        "H332948_3:c4": "principal_marketed_use_controls",
+        "H318593_1:c2": "predominant_base_metal",
+        "H340899_1:c2": "commercial_floor_upright_category",
+        "H340899_1:c3": "retain_original_mapping",
+        "H333371_1:c2": "laboratory_priority",
+        "H317208_1:c1": "retain_original_mapping",
+        "N303860:c3": "retain_original_mapping",
+        "N304078:c2": "retain_original_mapping",
+        "N304707:c2": "retain_original_mapping",
+        "N312471:c1": "retain_original_mapping",
+        "N313188:c2": "retain_original_mapping",
+        "N327114:c3": "peak_output"
+      },
+      "counts": {
+        "support": 17,
+        "unknown": 33,
+        "refute": 8
+      },
+      "cases": [
+        {
+          "case_id": "H330938_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H341677_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H323452_1",
+          "state": "refute"
+        },
+        {
+          "case_id": "H333110_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H319100_2",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H311957_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H311151_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H322923_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H330005_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H316387_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H332948_2",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_3",
+          "state": "refute"
+        },
+        {
+          "case_id": "H332948_4",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H318593_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H318593_2",
+          "state": "refute"
+        },
+        {
+          "case_id": "H340899_1",
+          "state": "refute"
+        },
+        {
+          "case_id": "H345780_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H333371_1",
+          "state": "refute"
+        },
+        {
+          "case_id": "H317208_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H336964_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H327850_1",
+          "state": "support"
+        },
+        {
+          "case_id": "N303860",
+          "state": "support"
+        },
+        {
+          "case_id": "N304078",
+          "state": "support"
+        },
+        {
+          "case_id": "N304707",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N304766",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N305670",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N306552",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N307161",
+          "state": "refute"
+        },
+        {
+          "case_id": "N307469",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309167",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N311039_33",
+          "state": "refute"
+        },
+        {
+          "case_id": "N304781",
+          "state": "support"
+        },
+        {
+          "case_id": "N307931",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N307830",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N308085",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309430",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309775_knobs",
+          "state": "support"
+        },
+        {
+          "case_id": "N310745",
+          "state": "support"
+        },
+        {
+          "case_id": "N311044",
+          "state": "support"
+        },
+        {
+          "case_id": "N310775",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N311153",
+          "state": "support"
+        },
+        {
+          "case_id": "N311074",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N310714",
+          "state": "support"
+        },
+        {
+          "case_id": "N311558",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N310804",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312309",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312568",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312471",
+          "state": "support"
+        },
+        {
+          "case_id": "N313188",
+          "state": "support"
+        },
+        {
+          "case_id": "N314745_self",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N314745_pedal",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N315526",
+          "state": "support"
+        },
+        {
+          "case_id": "N318455",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N318822",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N325922",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N327114",
+          "state": "refute"
+        },
+        {
+          "case_id": "N332207",
+          "state": "unknown"
+        }
+      ]
+    },
+    {
+      "name": "declared_alternative_material_use_party_nominal",
+      "overrides": {
+        "H330938_1:c1": "single_pole_system",
+        "H330938_1:c3": "all_materials",
+        "H323452_1:c1": "cursor_control_is_necessary",
+        "H322923_1:c3": "stated_household_shopping_use_suffices",
+        "H332948_1:c4": "explicit_marketing_use_suffices",
+        "H332948_3:c4": "any_advertised_use_suffices",
+        "H318593_1:c2": "predominant_base_metal",
+        "H340899_1:c2": "physical_upright_orientation",
+        "H340899_1:c3": "retain_original_mapping",
+        "H333371_1:c2": "party_priority",
+        "H317208_1:c1": "retain_original_mapping",
+        "N303860:c3": "retain_original_mapping",
+        "N304078:c2": "retain_original_mapping",
+        "N304707:c2": "retain_original_mapping",
+        "N312471:c1": "retain_original_mapping",
+        "N313188:c2": "retain_original_mapping",
+        "N327114:c3": "nominal_output"
+      },
+      "counts": {
+        "refute": 5,
+        "unknown": 34,
+        "support": 19
+      },
+      "cases": [
+        {
+          "case_id": "H330938_1",
+          "state": "refute"
+        },
+        {
+          "case_id": "H341677_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H323452_1",
+          "state": "refute"
+        },
+        {
+          "case_id": "H333110_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H319100_2",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H311957_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H311151_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H322923_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H330005_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H316387_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H332948_2",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H332948_3",
+          "state": "support"
+        },
+        {
+          "case_id": "H332948_4",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H318593_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H318593_2",
+          "state": "refute"
+        },
+        {
+          "case_id": "H340899_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H345780_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H333371_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H317208_1",
+          "state": "unknown"
+        },
+        {
+          "case_id": "H336964_1",
+          "state": "support"
+        },
+        {
+          "case_id": "H327850_1",
+          "state": "support"
+        },
+        {
+          "case_id": "N303860",
+          "state": "support"
+        },
+        {
+          "case_id": "N304078",
+          "state": "support"
+        },
+        {
+          "case_id": "N304707",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N304766",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N305670",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N306552",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N307161",
+          "state": "refute"
+        },
+        {
+          "case_id": "N307469",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309167",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N311039_33",
+          "state": "refute"
+        },
+        {
+          "case_id": "N304781",
+          "state": "support"
+        },
+        {
+          "case_id": "N307931",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N307830",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N308085",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309430",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N309775_knobs",
+          "state": "support"
+        },
+        {
+          "case_id": "N310745",
+          "state": "support"
+        },
+        {
+          "case_id": "N311044",
+          "state": "support"
+        },
+        {
+          "case_id": "N310775",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N311153",
+          "state": "support"
+        },
+        {
+          "case_id": "N311074",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N310714",
+          "state": "support"
+        },
+        {
+          "case_id": "N311558",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N310804",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312309",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312568",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N312471",
+          "state": "support"
+        },
+        {
+          "case_id": "N313188",
+          "state": "support"
+        },
+        {
+          "case_id": "N314745_self",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N314745_pedal",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N315526",
+          "state": "support"
+        },
+        {
+          "case_id": "N318455",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N318822",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N325922",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N327114",
+          "state": "unknown"
+        },
+        {
+          "case_id": "N332207",
+          "state": "unknown"
+        }
+      ]
+    }
+  ]
+}

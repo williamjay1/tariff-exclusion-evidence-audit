@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "house_style": {
+    "nominal_mm": [
+      183.0,
+      170.0
+    ],
+    "tight_mm": [
+      171.1,
+      161.5
+    ],
+    "tight_growth_mm": -11.9,
+    "tight_within_max": true,
+    "max_width_mm": 183.0,
+    "panel_titles": [],
+    "left_titles_found": 0,
+    "min_font_pt": 7.5,
+    "fonts_under_5pt": [],
+    "pdf_fonttype": 42,
+    "ok": true
+  },
+  "fixed_canvas_mm": [
+    183.0,
+    170.0
+  ],
+  "dpi": 1200,
+  "min_font_pt": 7.3,
+  "text_boxes": 58,
+  "outside_canvas": [],
+  "text_text_overlap": [],
+  "text_in_data_regions": [],
+  "text_line_intersections": [],
+  "sources": {
+    "experiments\\outputs\\qwen14_controlled_cases_functional_analysis.json": "8eff95ac4bd9ac0ac6e4f50ebca912e380303d8c1c46a06cb86528fe6b960e2a"
+  }
+}

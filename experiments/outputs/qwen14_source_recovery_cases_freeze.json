@@ -1,0 +1,16 @@
+{
+  "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\experiments\\source_recovery_cases.jsonl",
+  "sha256": "b9a916a8c55b7b853ad51e343b64e2246186c1e5e8eec4b5347f61a002ff4cb5",
+  "case_ids": [
+    "REC_H330938_1_c4_before",
+    "REC_H330938_1_c4_after",
+    "REC_H322923_1_c2_before",
+    "REC_H322923_1_c2_after",
+    "REC_H340899_1_c3_before",
+    "REC_H340899_1_c3_after",
+    "REC_H340899_1_c4_before",
+    "REC_H340899_1_c4_after"
+  ],
+  "protocol_sha256": "4f0e9cc7158125e7aa71e0c5134f96dacb13b735f4d5fbacd606d89801fbdf5e",
+  "model_sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0"
+}

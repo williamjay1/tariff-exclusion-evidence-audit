@@ -1,0 +1,569 @@
+{
+  "sources": [
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_recovery_20261007T150232Z.jsonl",
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_rulings_20261007T143403Z.jsonl",
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_supplement_20261007T143907Z.jsonl"
+  ],
+  "derived": "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_rulings_derived.jsonl",
+  "n_records": 2482,
+  "collections": {
+    "hq": 363,
+    "ny": 2110,
+    "HQ": 5,
+    "NY": 4
+  },
+  "years": {
+    "2018": 133,
+    "2019": 149,
+    "2020": 154,
+    "2021": 357,
+    "2022": 413,
+    "2023": 326,
+    "2024": 359,
+    "2025": 537,
+    "2026": 54
+  },
+  "section_counts": {
+    "FACTS": 265,
+    "ISSUE": 243,
+    "LAW AND ANALYSIS": 285,
+    "HOLDING": 294,
+    "ISSUES": 44,
+    "ANALYSIS": 2
+  },
+  "screen_counts": {
+    "section_301_or_code": 1906,
+    "exclusion_in_subject": 97,
+    "exclusion_in_issue": 40,
+    "exclusion_in_holding": 127,
+    "operationally_revoked": 0,
+    "pdf_mojibake": 0
+  },
+  "substantive_candidates": [
+    {
+      "rulingNumber": "H338585",
+      "date": "2025-07-21T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4601-20-122648; Application of Section 301 Trade Remedy Duties on Certain Tilapia Fillets."
+    },
+    {
+      "rulingNumber": "H330938",
+      "date": "2024-03-05T00:00:00",
+      "subject": "Request for Internal Advice; Classification and applicability of Section 301 China products trade remedy; Electrical cable conductors"
+    },
+    {
+      "rulingNumber": "H342570",
+      "date": "2025-07-21T00:00:00",
+      "subject": "Application for Further Review of Protest No 270424171208; Tariff Classification of Static Converters from China"
+    },
+    {
+      "rulingNumber": "H342571",
+      "date": "2025-07-21T00:00:00",
+      "subject": "Application for Further Review of Protest No 460124137836; Tariff Classification of Static Converters from China"
+    },
+    {
+      "rulingNumber": "H341677",
+      "date": "2025-02-14T00:00:00",
+      "subject": "Application for Further Review of Protest No 280924111068; Applicability of Section 301 trade remedies of breathalyzers from China"
+    },
+    {
+      "rulingNumber": "H319100",
+      "date": "2025-08-26T00:00:00",
+      "subject": "Application for Further Review of Protest No. 3802-20-104253; Tariff classification and applicability of Section 301 trade remedies to smart speakers and smart displays from China"
+    },
+    {
+      "rulingNumber": "H316644",
+      "date": "2022-06-06T00:00:00",
+      "subject": "Internal Advice Request for duffle bags; application of Section 301 exclusion"
+    },
+    {
+      "rulingNumber": "H317391",
+      "date": "2022-10-13T00:00:00",
+      "subject": "Internal Advice Request; Tariff Classification and Section 301 Exclusion Eligibility of Certain Vacuums"
+    },
+    {
+      "rulingNumber": "H323452",
+      "date": "2023-07-18T00:00:00",
+      "subject": "Application for Further Review of Protest No. 3901-21-125285; Section 301 Exclusion; Subheading 9903.88.03, HTSUS; Classification of Certain Golf Simulator Pads"
+    },
+    {
+      "rulingNumber": "H333110",
+      "date": "2024-04-22T00:00:00",
+      "subject": "Application for Further Review of Protest No. 0901-21-103100; Section 301 Exclusion; Subheading 9903.88.15, HTSUS; Classification of certain wireless speakers of Chinese origin"
+    },
+    {
+      "rulingNumber": "N325290",
+      "date": "2022-04-19T00:00:00",
+      "subject": "The tariff classification and eligibility for partial duty exemption of laminated truck flooring made in China"
+    },
+    {
+      "rulingNumber": "H302203",
+      "date": "2019-02-21T00:00:00",
+      "subject": "Subheadings 9801.00.10 and 9801.00.20, HTSUS; Section 301 Measures"
+    },
+    {
+      "rulingNumber": "H302252",
+      "date": "2019-02-27T00:00:00",
+      "subject": "Subheading 9802.00.80, HTSUS; Steel Fence Posts; Section 232 Measures"
+    },
+    {
+      "rulingNumber": "H311957",
+      "date": "2020-09-15T00:00:00",
+      "subject": "Protest and Application for Further Review No 2704-20-130833; Applicability of Section 301 trade remedies of electric fireplace inserts from China"
+    },
+    {
+      "rulingNumber": "H307904",
+      "date": "2020-09-15T00:00:00",
+      "subject": "Tariff classification of cow cooling soaker"
+    },
+    {
+      "rulingNumber": "H311978",
+      "date": "2020-09-16T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4103-20-100943; Section 301; Subheading 9903.88.03, HTSUS; Plain Woven Fabric"
+    },
+    {
+      "rulingNumber": "H308870",
+      "date": "2020-11-10T00:00:00",
+      "subject": "Protest and Application for Further Review No 3901-19-104467; Classification and applicability of Section 301 trade remedies of cast iron counterweights from China"
+    },
+    {
+      "rulingNumber": "H315164",
+      "date": "2020-12-16T00:00:00",
+      "subject": "Tariff classification of the Giraffe Rolling Cane from China"
+    },
+    {
+      "rulingNumber": "H311151",
+      "date": "2021-02-02T00:00:00",
+      "subject": "Protest and Application for Further Review of Protest No. 5301-20-103261; tariff classification of Unicat SR-110CX Zinc Oxide Adsorbent; application of Section 301 trade remedies"
+    },
+    {
+      "rulingNumber": "H303881",
+      "date": "2021-04-30T00:00:00",
+      "subject": "Tariff classification of the Nike Adapt BB basketball shoe"
+    },
+    {
+      "rulingNumber": "H315201",
+      "date": "2021-04-30T00:00:00",
+      "subject": "Tariff classification of the “Anova Precision Oven”"
+    },
+    {
+      "rulingNumber": "H312261",
+      "date": "2021-06-15T00:00:00",
+      "subject": "Tariff classification of Liquefied Natural Gas Plant"
+    },
+    {
+      "rulingNumber": "H310170",
+      "date": "2021-06-25T00:00:00",
+      "subject": "Tariff classification of Liquefied Natural Gas Plant"
+    },
+    {
+      "rulingNumber": "H316154",
+      "date": "2021-07-27T00:00:00",
+      "subject": "Protest and Application for Further Review No 3195-19-100475; Classification and applicability of Section 301 trade remedy to patch-clamp amplifiers from China"
+    },
+    {
+      "rulingNumber": "H316373",
+      "date": "2021-08-30T00:00:00",
+      "subject": "Protest No. 2809-20-105171; Classification of heat exchangers"
+    },
+    {
+      "rulingNumber": "H316429",
+      "date": "2021-08-31T00:00:00",
+      "subject": "Modification of NY N305614; Tariff Classification of a Portable Food Allergen Detection Device, Single-Use Pods and a Starter Kit from China and various other countries"
+    },
+    {
+      "rulingNumber": "H301861",
+      "date": "2021-09-14T00:00:00",
+      "subject": "Revocation of NY N300351; Classification of Refrigerator Gaskets"
+    },
+    {
+      "rulingNumber": "H312118",
+      "date": "2021-10-18T00:00:00",
+      "subject": "Application for Further Review of Protest No. 3801-20-102544; Classification of Unfinished Engines"
+    },
+    {
+      "rulingNumber": "H323185",
+      "date": "2022-04-04T00:00:00",
+      "subject": "Request for Internal Advice; Classification of automotive telematics device with cellular modem, GPS, code reader, accelerometer/gyroscope"
+    },
+    {
+      "rulingNumber": "H320060",
+      "date": "2022-04-08T00:00:00",
+      "subject": "Protest and Application for Further Review No 1401-21-106089; Classification and applicability of Section 301 trade remedies of rubber tracks from China"
+    },
+    {
+      "rulingNumber": "H322923",
+      "date": "2022-08-18T00:00:00",
+      "subject": "Application for Further Review of Protest No. 2704-20-147641; Classification; Applicability of Section 301 trade remedies; Non-mechanically propelled carts/wagons from China"
+    },
+    {
+      "rulingNumber": "H206455",
+      "date": "2022-08-26T00:00:00",
+      "subject": "Revocation of NY H82059, NY R04727, NY N005077, NY N081177 and NY N034766; Classification of composite portable storage batteries."
+    },
+    {
+      "rulingNumber": "H314080",
+      "date": "2022-09-08T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4601-2012-0178; Section 301 Measures; Subheading 9903.88.03, HTSUS; Tariff classification of certain impregnated, coated, covered, or laminated textile fabrics"
+    },
+    {
+      "rulingNumber": "H325669",
+      "date": "2022-10-06T00:00:00",
+      "subject": "Tariff classification of a Penrose Drains from China"
+    },
+    {
+      "rulingNumber": "H317208",
+      "date": "2022-10-20T00:00:00",
+      "subject": "Application for Further Review of Protest No. 5201-20-101898; tariff classification of steel shelves and posts used in adjustable shelving units"
+    },
+    {
+      "rulingNumber": "H325523",
+      "date": "2022-11-09T00:00:00",
+      "subject": "Tariff classification of fireplace mantels with built-in electric fireplaces from China"
+    },
+    {
+      "rulingNumber": "H304455",
+      "date": "2023-01-10T00:00:00",
+      "subject": "Protest and Application for Further Review 2704-19-103345; Classification of a network video recorder and camera kit"
+    },
+    {
+      "rulingNumber": "H324564",
+      "date": "2023-02-28T00:00:00",
+      "subject": "Application for Further Review of Protest No. 2095-21-113137; Classification of Temperature Screening Devices"
+    },
+    {
+      "rulingNumber": "H323434",
+      "date": "2023-02-28T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4601-20-122338; Classification of vertical and single shaft recycling shredder machines from China; Size reduction machines; granulator machine parts (rotors and screens); Hydraulic couplings"
+    },
+    {
+      "rulingNumber": "H318409",
+      "date": "2023-03-09T00:00:00",
+      "subject": "Tariff classification of plastic foam playmat"
+    },
+    {
+      "rulingNumber": "H318593",
+      "date": "2023-03-21T00:00:00",
+      "subject": "Application for Further Review of Protest No. 1303-20-102671; Tariff classification of hybrid steel and aluminum hydraulic floor jacks from China; base metals; Application of Section 301 China products trade remedy"
+    },
+    {
+      "rulingNumber": "H312779",
+      "date": "2023-04-21T00:00:00",
+      "subject": "Application for Further Review of Protest 140120104117; Classification of a tube mill"
+    },
+    {
+      "rulingNumber": "H273307",
+      "date": "2023-05-05T00:00:00",
+      "subject": "Tariff Classification of a Slackline with Ratchet"
+    },
+    {
+      "rulingNumber": "H328731",
+      "date": "2023-06-06T00:00:00",
+      "subject": "Tariff classification and Country of Origin of Monolith Station"
+    },
+    {
+      "rulingNumber": "H322527",
+      "date": "2023-06-07T00:00:00",
+      "subject": "Request for Internal Advice; classification of chainsaw guide bar; classification of chainsaw guide bar and chainsaw blade put up as a set for retail sale"
+    },
+    {
+      "rulingNumber": "H325548",
+      "date": "2023-06-13T00:00:00",
+      "subject": "Application for Further Review of Protest No. 1704-22-105336; Tariff classification of chainsaw guide bar"
+    },
+    {
+      "rulingNumber": "H265011",
+      "date": "2023-07-24T00:00:00",
+      "subject": "Request for Reconsideration of NY N261261; Classification of Winch Strap and Chain"
+    },
+    {
+      "rulingNumber": "H326071",
+      "date": "2023-07-25T00:00:00",
+      "subject": "Tariff classification of HP Presence Small Space Solutions"
+    },
+    {
+      "rulingNumber": "H327109",
+      "date": "2023-08-04T00:00:00",
+      "subject": "Tariff classification of a crude distillation plant"
+    },
+    {
+      "rulingNumber": "H329719",
+      "date": "2023-08-15T00:00:00",
+      "subject": "Tariff Classification of an Electric Drive Unit Wheel End Motor Assembly"
+    },
+    {
+      "rulingNumber": "H329175",
+      "date": "2023-08-15T00:00:00",
+      "subject": "Country of Origin; USMCA; Section 301"
+    },
+    {
+      "rulingNumber": "H333646",
+      "date": "2023-11-02T00:00:00",
+      "subject": "Request for Reconsideration of NY N332018; Classification of a Plumbing Snake Auger from China"
+    },
+    {
+      "rulingNumber": "H330975",
+      "date": "2024-01-25T00:00:00",
+      "subject": "Country of Origin; Marking; Section 301 Measures; Truck Bed Flooring Panels Processed in FTZ"
+    },
+    {
+      "rulingNumber": "H330005",
+      "date": "2024-02-20T00:00:00",
+      "subject": "Request for Further Review of Protest Number 3002-21-103548; Tariff classification of and Applicability of Section 301 Trade Remedy to BBQ Tools."
+    },
+    {
+      "rulingNumber": "H333131",
+      "date": "2024-03-14T00:00:00",
+      "subject": "Tariff Classification of a Mule Mobile Workshop"
+    },
+    {
+      "rulingNumber": "H329725",
+      "date": "2024-03-29T00:00:00",
+      "subject": "Internal Advice Request; Classification of a BYD Coach and Bus Class 8 Battery-Electric Terminal Tractor"
+    },
+    {
+      "rulingNumber": "H336964",
+      "date": "2024-04-17T00:00:00",
+      "subject": "Application for Further Review of Protest No. 209523117254; Classification; Applicability of Section 301 Trade Remedies on Certain Speed Drive Controllers"
+    },
+    {
+      "rulingNumber": "H325541",
+      "date": "2024-04-26T00:00:00",
+      "subject": "Application for Further Review of Protest No. 3901-22-126797; Classification of Dispensing Stations for Hand Sanitizers"
+    },
+    {
+      "rulingNumber": "H333673",
+      "date": "2024-05-14T00:00:00",
+      "subject": "Application for Further Review of Protest No. 3901-23-129760; Classification of a Rain-Light-Solar-Humidity Sensor from China"
+    },
+    {
+      "rulingNumber": "H337761",
+      "date": "2024-06-18T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4197-22-105721; Classification of the FL 350 and FL 400 Pulse Oximeters from China"
+    },
+    {
+      "rulingNumber": "H338599",
+      "date": "2024-07-02T00:00:00",
+      "subject": "Application for Further Review of Protest No. 3901-23-128434; Classification of Pulse Oximeters"
+    },
+    {
+      "rulingNumber": "H316387",
+      "date": "2024-07-29T00:00:00",
+      "subject": "Application for Further Review of Protest No. 1703-20-108669; Classification; Applicability of Section 301 Trade Remedies; Certain automobile control arms from China"
+    },
+    {
+      "rulingNumber": "H336040",
+      "date": "2024-07-31T00:00:00",
+      "subject": "Classification of Unfinished Household Metal Cabinets; Applicability of Section 301 Duties"
+    },
+    {
+      "rulingNumber": "H328977",
+      "date": "2024-08-19T00:00:00",
+      "subject": "Modification of NY J85077, NY N302039, NY N302895, and NY N314064; Revocation of NY B84458, NY R03088, NY N289369, and NY N290319; Classification of certain permanent magnets and articles with the essential character of permanent magnets"
+    },
+    {
+      "rulingNumber": "H333371",
+      "date": "2024-08-27T00:00:00",
+      "subject": "Application for Further Review of Protest No. 1401-22-107120; Applicability of Section 301 Trade Remedy on Certain Work Gloves"
+    },
+    {
+      "rulingNumber": "H333105",
+      "date": "2024-09-27T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4772-23-101801; Classification of a Firefly DE550 Wireless Digital Video Otoscope"
+    },
+    {
+      "rulingNumber": "H337821",
+      "date": "2024-10-17T00:00:00",
+      "subject": "Classification of Certain Static Converters with Artificial Plants from China"
+    },
+    {
+      "rulingNumber": "H338099",
+      "date": "2024-10-22T00:00:00",
+      "subject": "Classification of Certain Shuffleboard Tables"
+    },
+    {
+      "rulingNumber": "H343160",
+      "date": "2024-12-10T00:00:00",
+      "subject": "Modification of HQ H337821"
+    },
+    {
+      "rulingNumber": "H307394",
+      "date": "2024-12-30T00:00:00",
+      "subject": "Revocation of NY N114998 (August 5, 2010), NY 807222 (March 23, 1995), and NY 801876 (September 19, 1994), and modification of NY N297986 (July 17, 2018) and NY 897172 (May 2, 1994); Tariff classification of Wood Chipping/Shredding Machines"
+    },
+    {
+      "rulingNumber": "H334777",
+      "date": "2025-01-02T00:00:00",
+      "subject": "Revocation of NY N308716; Classification of Insight Infrared Video Goggles from China"
+    },
+    {
+      "rulingNumber": "H339953",
+      "date": "2025-04-03T00:00:00",
+      "subject": "Modification of NY N309547; Classification of the Cub Cadet Utility Vehicles"
+    },
+    {
+      "rulingNumber": "H337673",
+      "date": "2025-05-20T00:00:00",
+      "subject": "Application for Further Review of Protest No. 270424169122/Request for Internal Advice; Tariff Classification of Docking Stations and Dual High-Definition Multimedia Interface Adapters"
+    },
+    {
+      "rulingNumber": "H342749",
+      "date": "2025-06-09T00:00:00",
+      "subject": "Application for Further Review of Protest No. 2801-24-102038; Application of Section 301 duties to filter membrane rolls and filter membrane flats from China; U.S. note 20(ttt)(i)(2), (28) to subchapter III of Chapter 99 (subheadings 9903.88.01, 9903.88.67, HTSUS)."
+    },
+    {
+      "rulingNumber": "H329722",
+      "date": "2025-06-16T00:00:00",
+      "subject": "Application for Further Review of Protest No. 5301-22-108091; Classification of Battery Energy Storage System Containers"
+    },
+    {
+      "rulingNumber": "H338586",
+      "date": "2025-07-21T00:00:00",
+      "subject": "Application for Further Review of Protest No. 2704-20-147302; Tariff Classification of Frozen Tilapia Fillets; Application of Section 301 China Products Trade Remedy"
+    },
+    {
+      "rulingNumber": "H344006",
+      "date": "2025-07-21T00:00:00",
+      "subject": "Application for Further Review of Protest No 550124107225; Tariff Classification of Static Converters from China"
+    },
+    {
+      "rulingNumber": "H338459",
+      "date": "2025-07-21T00:00:00",
+      "subject": "Application for Further Review of Protest No. 4601-20-123529; Application of Section 301 Trade Remedy Duties on Certain Tilapia Fillets"
+    },
+    {
+      "rulingNumber": "H332948",
+      "date": "2025-08-25T00:00:00",
+      "subject": "Request for Further Review of Protest Number 1601-21-105798; Classification; Applicability of Section 301 Trade Remedies; Silica Gel."
+    },
+    {
+      "rulingNumber": "H345780",
+      "date": "2026-02-03T00:00:00",
+      "subject": "Application for Further Review of Protest No. 2704-23-168738; Classification of Sand and Cartridge Filter Systems from China"
+    },
+    {
+      "rulingNumber": "H335786",
+      "date": "2026-03-30T00:00:00",
+      "subject": "Application for Further Review of Protest No. 5301-23-109515; Tariff classification of folding paperboard cosmetic package"
+    },
+    {
+      "rulingNumber": "N318738",
+      "date": "2021-04-27T00:00:00",
+      "subject": "Classification, country of origin, and marking for Kool Baby Playpens made in China"
+    },
+    {
+      "rulingNumber": "N321291",
+      "date": "2021-09-16T00:00:00",
+      "subject": "Country of origin determination for women’s knit garments; 19CFR 102.21(c)(3)"
+    },
+    {
+      "rulingNumber": "N322690",
+      "date": "2021-11-24T00:00:00",
+      "subject": "The tariff classification and country of origin of a log rack cover from Cambodia"
+    },
+    {
+      "rulingNumber": "N326305",
+      "date": "2022-06-23T00:00:00",
+      "subject": "The tariff classification, country of origin and marking of an eye mask and pillowcase; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "N343157",
+      "date": "2024-11-01T00:00:00",
+      "subject": "Classification and country of origin determination for a hooded blanket from China; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "N345782",
+      "date": "2025-02-26T00:00:00",
+      "subject": "The tariff classification and country of origin of a backseat car organizer; 19 CFR 102.21 (c)(2)"
+    },
+    {
+      "rulingNumber": "N346508",
+      "date": "2025-03-17T00:00:00",
+      "subject": "Classification and country of origin determination for scarves; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "N347100",
+      "date": "2025-04-17T00:00:00",
+      "subject": "Classification and country of origin determination for a quilted outdoor blanket; 19 CFR 102.21(c)(4)"
+    },
+    {
+      "rulingNumber": "N347573",
+      "date": "2025-04-22T00:00:00",
+      "subject": "Classification and country of origin determination for a bag charm; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "N347514",
+      "date": "2025-05-02T00:00:00",
+      "subject": "The country of origin determination of a backseat car organizer; 19 CFR 102.21(c)(2)"
+    },
+    {
+      "rulingNumber": "N347636",
+      "date": "2025-05-05T00:00:00",
+      "subject": "Classification and country of origin determination for floor mats; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "N348140",
+      "date": "2025-05-07T00:00:00",
+      "subject": "The country of origin determination for pet bed; 19 CFR 102.21(c)(2)"
+    },
+    {
+      "rulingNumber": "N348027",
+      "date": "2025-05-16T00:00:00",
+      "subject": "The country of origin of a nonwoven mat"
+    },
+    {
+      "rulingNumber": "N348995",
+      "date": "2025-06-06T00:00:00",
+      "subject": "The tariff classification, country of origin, and marking of shoe accessory kits from China and Italy; 19 CFR 102.21(c)(2)"
+    },
+    {
+      "rulingNumber": "N349094",
+      "date": "2025-06-06T00:00:00",
+      "subject": "The tariff classification, country of origin determination, and HOPE eligibility for a pregnancy support belt; 19 CFR 102.21(c)(2)"
+    },
+    {
+      "rulingNumber": "N351920",
+      "date": "2025-08-25T00:00:00",
+      "subject": "The tariff classification, country of origin, and eligibility under the United States-Mexico-Canada Agreement (USMCA) for comforters and pillows; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "N353225",
+      "date": "2025-09-29T00:00:00",
+      "subject": "The tariff classification, country or origin, and marking of an unfinished Flexible Intermediate Bulk Container (FIBC) shell from China"
+    },
+    {
+      "rulingNumber": "N353658",
+      "date": "2025-09-30T00:00:00",
+      "subject": "Country of origin and marking determination of a face mask; 19 CFR 102.21(c)(5)"
+    },
+    {
+      "rulingNumber": "N353930",
+      "date": "2025-10-15T00:00:00",
+      "subject": "The tariff classification, country of origin and marking determination of pop-up tents; 19 CFR 102.21(c)(2); tariff shift"
+    },
+    {
+      "rulingNumber": "H301558",
+      "date": "2019-09-18T00:00:00",
+      "subject": "Binding ruling request on the tariff classification of certain transmitter modules"
+    },
+    {
+      "rulingNumber": "H301814",
+      "date": "2020-07-13T00:00:00",
+      "subject": "Request for Internal Advice on Tariff Classification of the SoftBank PEPPER Robot"
+    },
+    {
+      "rulingNumber": "H312651",
+      "date": "2020-11-23T00:00:00",
+      "subject": "Protest No. 3901-20-109677; classification of plate-fin air-cooled heat exchangers"
+    },
+    {
+      "rulingNumber": "H317418",
+      "date": "2025-05-13T00:00:00",
+      "subject": "Protest and Application for Further Review No 3501-20-100587; Classification of certain models of “heat guns”"
+    },
+    {
+      "rulingNumber": "H326279",
+      "date": "2025-06-05T00:00:00",
+      "subject": "Protest and Application for Further Review No 4501-21-103251; Classification of Educational Robot Kit Parts"
+    }
+  ]
+}

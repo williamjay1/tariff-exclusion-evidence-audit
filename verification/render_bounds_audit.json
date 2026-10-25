@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Checks page-coordinate bounds only; not a substitute for visual overlap inspection.",
+  "documents": [
+    {
+      "file": "Tariff_Evidence_Audit_20261023.pdf",
+      "pdf_sha256": "5b6fb9bb374fd748310b5e61623a1d4a54cf1f53e0f66f7bf71b960770d03067",
+      "pages": 23,
+      "text_outside_page": []
+    },
+    {
+      "file": "Tariff_Evidence_Audit_Supplement_20261023.pdf",
+      "pdf_sha256": "45075914dfa1a03c3d58049e7c09034420f4adc2d5531a4861ccc3d83255acf4",
+      "pages": 23,
+      "text_outside_page": []
+    }
+  ]
+}

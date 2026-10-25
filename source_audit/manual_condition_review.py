@@ -1,0 +1,240 @@
+"""AI source review, 2026-10-23. Explicit case/condition assignments, not a parser.
+
+The auditor has previously seen administrative outcomes. Neither blind annotation
+nor human/expert validation is claimed. Existing 208 units are audited rather than
+asserted to be a complete or atomic decomposition of every rule.
+"""
+
+# Every row assigns the actual product scope and each historical condition's
+# attribute after reading the visible facts and rule. The order is c1, c2, ... .
+CASES = {
+'H330938_1': ('MV-90 and MV-105 cable descriptions; aluminum conductor versus copper shield', 'conductor topology|rated voltage|conductor material|connector absence'),
+'H341677_1': ('handheld BAC breathalyzers', 'portability|wireless communication|gas monitoring'),
+'H317391_1': ('listed traditional dry vacuum models', 'bagless upright vacuum category|wet or dry operating mode|self-contained motor|motor power|collection tank volume'),
+'H323452_1': ('OptiShot golf simulator pads', 'mouse category|ADP connection/use|per-device value'),
+'H333110_1': ('smart audio devices with internal speakers', 'wireless communication|audio reception|wireless-speaker distribution'),
+'H319100_2': ('smart displays; separate from other products in same ruling', 'wireless communication|audio reception|wireless-speaker distribution'),
+'H311957_1': ('electric fireplace inserts', 'electric fireplace category|per-insert mass'),
+'H311151_1': ('zinc oxide desulfurizing preparations on support', 'supported catalyst category|active substance'),
+'H316154_1': ('Axopatch 200B, Multiclamp 700B and Axoclamp 900A', 'programmable DC load instrument|constant load capability|instrument mass'),
+'H322923_1': ('foldable household wagons', 'cart and no mechanical propulsion|wheel count|household-shopping class of use'),
+'H314080_1': ('seventeen upholstery fabric styles, Austen through Wilde', 'man-made micro-denier fiber|polyurethane treatment|fabric width|areal mass'),
+'H330005_1': ('four imported grilling tool sets', 'flatware set category|all relevant articles stainless steel|no precious-metal plated article|retail packaging'),
+'H316387_1': ('automotive control arm assembly', 'torque rod/arm or radius rod/arm category'),
+'H336040_1': ('Bold and Pro cabinet sets as imported without countertops', 'household furniture category|metal and high-pressure laminated bamboo|exclusion of listed furniture categories'),
+'H332948_1': ('Ultra Art Crystals flower-drying retail silica gel', 'synthetic silica gel|granule diameter|retail packaging|flower-drying class of use'),
+'H332948_2': ('Ultra Art Crystals evaluated against catalyst-support exclusion', 'synthetic silica gel|amorphous granules|catalyst-support class of use'),
+'H332948_3': ('cat-litter retail silica gel against flower-drying exclusion', 'synthetic silica gel|granule diameter|retail packaging|flower-drying class of use'),
+'H332948_4': ('cat-litter retail silica gel against catalyst-support exclusion', 'synthetic silica gel|amorphous granules|catalyst-support class of use'),
+'H318593_1': ('3-ton hydraulic floor jack; handle excluded from stated dimensions', 'hydraulic floor jack|steel composition scope|whole-article dimensions|article mass'),
+'H318593_2': ('same 3-ton hydraulic floor jack against 550 kg capacity rule', 'hydraulic vehicle jack|lifting capacity'),
+'H340899_1': ('three Prolux 2.0 residential/commercial backpack vacuums', 'bagless vacuum|upright category|self-contained motor|motor power|dust receptacle volume'),
+'H345780_1': ('swimming-pool sand and cartridge filter systems', 'filtering or purifying apparatus|waste-water-treatment class of use'),
+'H333371_1': ('polyurethane-coated work gloves; party and laboratory compositions differ', 'glove category|textile weight fraction|rubber or plastic coating|enhanced grip'),
+'H317208_1': ('steel wire shelving components, shelves and posts', 'base-metal fixture parts|not welded wire rack decking'),
+'H336964_1': ('SINAMICS DCM four-quadrant controller', 'regenerative speed drive|elevator motor control'),
+'H333673_1': ('RLSH assembly: rain, front-light, ambient-light and solar sensors', 'passive-IR apparatus/component scope|turning lights on and off'),
+'H327850_1': ('Furrion Chill FACW10ESSA-BL thermostat', 'HVAC thermostat|no internet connectivity|wall mounting'),
+'N303860': ('salad spinner model 63011', 'salad spinner|plastic material|not electrically powered'),
+'N304078': ('rubber tracks for construction machines', 'vulcanized rubber track|steel cords and cleats|construction-equipment use'),
+'N304707': ('bonded rubber/ferrous wheels for aerial work platforms and scissor lifts', 'goods-handling apparatus/parts scope|forklift or works-truck use'),
+'N304766': ('five cast-steel axle-support and engine/axle-mount parts for a telehandler', 'goods-handling apparatus/parts scope|forklift or works-truck use'),
+'N305670': ('WM-538 Monotrol transmission/throttle pedal assembly for forklift', 'goods-handling apparatus/parts scope|forklift or works-truck use'),
+'N306552': ('Lime SN-2.5, SH-2.5, SJ/SZ/SF-2.5 and SZ/SF/SJ-3.0 scooters', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N307161': ('850 W ADP power supply enclosure', 'physical incorporation into ADP machine|power output|exact enclosure dimensions'),
+'N307469': ('Kent two electric bicycle models', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N309167': ('three upholstered bar/counter stools', 'dining-chair category|wooden frame|not teak'),
+'N311039_33': ('four T92 relays; coil and contact ratings separately bound to each product', 'electromechanical relay|operating-voltage role|contact current'),
+'N312588': ('Enclosure 1 and Enclosure 2 for all-in-one computers, containing electronic subcomponents', 'part of heading-8471 machine|no heading-8541/8542 goods'),
+'N304781': ('SANHD3010A, SANWG3A028A, SANAD4483B switches', 'push-pull switch|rated voltage|motor-vehicle use'),
+'N307931': ('250 W single-wheel Surfwheel SU electric vehicle', 'skateboard definition|electric propulsion|motor power'),
+'N307830': ('five three-wheel electric vehicles', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N308085': ('Rubicon and Sedona Allco electric bicycles', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N309430': ('four DJ electric bicycle models', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N309775_knobs': ('1702844501 knob assembly and 1702191504 DT knob', 'knob category|injection-molded plastic'),
+'N309775_buttons': ('button pack and silicone keypad assembly', 'molded-button category and assembly scope'),
+'N310745': ('FM-002 disposable face mask', 'face mask|single use|textile fabric'),
+'N311044': ('disposable KN95 mask', 'face mask|single use|textile fabric'),
+'N310775': ('four upholstered bar/counter stools', 'dining-chair category|wooden frame|not teak'),
+'N311153': ('AM002 and AM001 masks', 'face mask|single use|textile fabric'),
+'N311074': ('Colt 750, Mule 750 and Colt ST 750 bicycles', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N310714': ('M2222 disposable shoe cover', 'disposable shoe/boot cover|man-made fiber fabric'),
+'N311558': ('Eagle 7 electric scooter', 'motorcycle definition|electric propulsion|motor power'),
+'N310804': ('eucalyptus and birch upholstered bar/counter stools', 'dining-chair category|wooden frame|not teak'),
+'N312309': ('two Savoy backless rubberwood stools', 'dining-chair category|wooden frame|not teak'),
+'N312147': ('Free Country face mask gaiter and bandana', 'face mask or particulate respirator|textile fabric'),
+'N312568': ('USB Solar Panel Power Source Generator item 49582', 'photovoltaic generator|incorporated statistical-note definition|output power'),
+'N312471': ('Hampton Middle Chair, Hampton Ottoman and San Lazzaro Chair', 'outdoor household seat|aluminum frame|polyethylene rattan wicker|textile-covered cushions'),
+'N313119': ('Rebar and Tek face gaiters', 'face mask or particulate respirator|textile fabric'),
+'N313188': ('39031/D30013158 and 38983/D30020119 lighting PCBAs', 'printed circuit board assembly|motor-vehicle lighting use'),
+'N314454': ('three Christmas face-mask styles', 'face mask or particulate respirator|textile fabric'),
+'N314745_self': ('Jetty 4.0, Seaside and Bonfire 500 self-propelled bicycles', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N314745_pedal': ('Rogue Wave and Bonfire 350 pedal-assist-only bicycles', 'motorcycle definition|electric propulsion|each vehicle motor power'),
+'N315526': ('LED light-up mask 11031727 variants', 'face mask|single use|textile fabric'),
+'N315824': ('Sleep N See Mask 10270 with face shield', 'face mask or particulate respirator|textile fabric'),
+'N316485': ('chair-component shipment; wood seat panel/deck among metal/plastic parts', 'chair parts|unfinished plywood|illustrative bodies/legs/arms'),
+'N318455': ('Bulldog Urb-e electric bicycle', 'motorcycle definition|electric propulsion|motor power'),
+'N318822': ('Tiger Jet Bike', 'motorcycle definition|electric propulsion|motor power'),
+'N319331': ('Ninebot GoKart Pro plus detachable S-Max drive unit', 'motorcycle definition and composite-object scope|electric propulsion|combined two-motor power'),
+'N325922': ('Tier 350 W stand-up scooter', 'motorcycle definition|electric propulsion|motor power'),
+'N327114': ('Segway GT1AP scooter with nominal and peak ratings', 'motorcycle definition|electric propulsion|power-rating basis'),
+'N329172': ('ASA-plastic sound/speaker-bar housing components for ATV roof', 'listed attachment categories|steel material'),
+'N332207': ('Emerge pedal-assist e-bike', 'motorcycle definition|electric propulsion|motor power'),
+'N336939': ('computer heat-sink assembly with lighted fans', 'part of heading-8471 machine|fan-hub/LED permission|no other heading-8541/8542 goods'),
+}
+
+# Non-direct assignments override an explicitly reviewed direct property relation.
+# tier, reason code, substantive explanation. Unknown is not evidence of absence.
+OVERRIDES = {}
+def override(case, n, tier, reason, explanation):
+    OVERRIDES[(case, f'c{n}')] = (tier, reason, explanation)
+
+for case in ['N306552','N307469','N307830','N308085','N309430','N311074','N311558','N314745_self','N314745_pedal','N318455','N318822','N319331','N325922','N327114','N332207']:
+    override(case,1,'interpretive','definition_required','The physical vehicle description does not itself settle the legal/commercial extension of motorcycle. Source dictionary/EN and self-propulsion mappings are retained separately; administrative eligibility is not an attribute.')
+for case in ['N309167','N310775','N310804','N312309']:
+    override(case,1,'interpretive','category_or_use_mapping','Upholstery and stool construction are observable, but whether a bar/counter stool belongs to the dining-chair class requires a use/category interpretation.')
+for case in ['N309167','N310775']:
+    override(case,3,'insufficient','public_source_attribute_absent','The inspected full ruling gives wood but does not identify its species; no statement excluding teak was located.')
+for case in ['N304707','N304766','N305670']:
+    override(case,1,'disputed','part_versus_machine_scope','A machine part is described, but whether it is a part of the goods-handling apparatus covered by this exclusion is a scope question, not a missing numerical field.')
+override('N304707',2,'interpretive','category_or_use_mapping','Aerial-platform/scissor-lift use is stated; equating it with the specified works-truck category is a domain mapping. The other two parts cases explicitly name fork-lift/works trucks.')
+for case in ['H332948_2','H332948_4']:
+    override(case,3,'insufficient','public_source_attribute_absent','Amorphous silica and adsorption do not establish the catalyst-support class. The full source supplies no demonstrated catalyst-support properties/use for these goods; absence of evidence is not a negative property.')
+for case,n,tier,reason,note in [
+('H330938_1',1,'interpretive','definition_required','Single aluminum core is not the complete definition of a monopolar conductor/system; the full source explains single-phase/single-energized-pole operation.'),
+('H330938_1',3,'interpretive','component_material_scope','Aluminum conducting core and copper concentric shield coexist. Applying other than copper to conductor rather than any material requires component binding.'),
+('H330938_1',4,'insufficient','excerpt_omission','Connector absence is absent from the frozen excerpt but explicitly attributed to submitted documentation in the full ruling.'),
+('H341677_1',2,'insufficient','excerpt_omission_and_definition','The excerpt gives cordless battery operation, not wireless communications. Full source explicitly denies Bluetooth/Wi-Fi transmission and network communication; the communications meaning of wireless is still an explicit mapping.'),
+('H317391_1',5,'interpretive','measurement_scope_mapping','Dust receptacle capacity is mapped to tank capacity. It is a natural domain equivalence, not identical attribute wording.'),
+('H323452_1',1,'interpretive','definition_required','A pad accepting golf-club inputs is not textually a mouse; the source introduces a cursor/handheld/button definition.'),
+('H323452_1',3,'insufficient','public_source_attribute_absent','No per-device transaction value above 70 dollars appears in the full ruling.'),
+('H333110_1',3,'insufficient','public_source_attribute_absent','Internal playback does not prove inability to forward audio to wireless speakers; the full source says no evidence, which is not an explicit absence.'),
+('H319100_2',3,'disputed','unsupported_party_claim','The party claims wireless-speaker distribution; the agency says no evidence was provided. Do not treat that disputed assertion or absence of proof as an independently established capability or incapability.'),
+('H311151_1',1,'interpretive','chemical_function_definition','Zinc oxide desulfurizing behavior and support composition require a catalyst-versus-adsorbent functional interpretation.'),
+('H322923_1',2,'insufficient','excerpt_omission','Full analysis explicitly states four wheels; frozen excerpt omits the number.'),
+('H322923_1',3,'interpretive','category_or_use_mapping','Household shopping and transporting personal goods are explicit in the full source; determining of-a-kind use remains an interpretation.'),
+('H314080_1',1,'disputed','definition_and_conflicting_sources','Party claims micro-denier fabric; laboratory fiber diameters and the cited general microdenier definition create a definitional and evidentiary conflict.'),
+('H314080_1',3,'insufficient','excerpt_omission_party_assertion','The width interval occurs in the Protestant description omitted from the excerpt, not as an independently reported laboratory width measurement.'),
+('H314080_1',4,'insufficient','excerpt_omission_party_assertion','Areal mass interval occurs in the omitted Protestant description; retain attribution rather than treating it as a laboratory finding.'),
+('H330005_1',1,'interpretive','definition_required','Grilling utensils versus flatware is a product-class interpretation.'),
+('H330005_1',2,'insufficient','object_and_public_source_gap','Some items are called stainless steel; the complete composition of every article in all four sets is not specified.'),
+('H330005_1',3,'insufficient','public_source_attribute_absent','No independent universal no-precious-metal-plating statement was located for all set articles.'),
+('H330005_1',4,'insufficient','public_source_attribute_absent','Set composition or a pictured set does not itself establish packaging put up for retail sale; explicit packaging evidence is absent.'),
+('H316387_1',1,'interpretive','definition_required','Control arm versus torque/radius rod depends on engineering function and the SAE/category interpretation.'),
+('H336040_1',1,'interpretive','category_or_use_mapping','Metal storage-cabinet facts do not alone settle household-furniture classification.'),
+('H336040_1',3,'interpretive','negative_category_inference','Storage cabinets are not expressly denied each listed excluded category; exclusion follows ordinary category disjointness rather than an explicit negative statement.'),
+('H332948_1',4,'interpretive','principal_use_interpretation','Packaging says flower drying. Treating that fact as sufficient for of-a-kind use is a stated policy, not a validated legal conclusion.'),
+('H332948_3',4,'disputed','competing_use_interpretations','Flower-drying instructions coexist with cat-litter packaging and marketing. Class/principal use does not follow from the mere presence of an alternative use.'),
+('H318593_1',2,'interpretive','mixed_material_scope','68.5 percent steel with substantial aluminum does not settle of-steel without a material-predominance interpretation.'),
+('H318593_1',3,'insufficient','measurement_scope_mismatch','Facts explicitly exclude the handle from 61 x 30.2 x 15.2 cm. The rule does not exclude it; restating dimensions later does not supply the missing whole-article bounds.'),
+('H340899_1',2,'interpretive','definition_required','Backpack construction and upright posture do not settle the commercial upright-vacuum category.'),
+('H340899_1',3,'interpretive','implicit_component_inference','Battery-operated vacuum implies a motor in ordinary understanding; the full source explicitly states self-contained electric motors.'),
+('H340899_1',4,'insufficient','excerpt_omission','Full analysis independently states motor power not exceeding 1500 W; frozen product excerpt omits it.'),
+('H345780_1',2,'interpretive','functional_use_scope','Swimming-pool water is filtered and returned to the pool. Whether this constitutes the waste-water-treatment class requires a waste-water/use definition; functioning as a water filter alone is insufficient.'),
+('H333371_1',2,'disputed','source_conflict','Party 48 percent textile and laboratory 76 percent textile conflict. Choosing the laboratory as authoritative is an explicit evidentiary-priority policy, not removal of the conflict.'),
+('H317208_1',1,'interpretive','part_and_material_scope','Shelving components are plausibly fixture parts; this is a parts/class mapping.'),
+('H317208_1',2,'insufficient','object_and_public_source_gap','Wire construction alone does not determine welded-wire rack decking; full holding repeats eligibility rather than supplying an independent fabrication fact.'),
+('H333673_1',1,'disputed','component_quantifier_scope','One component uses passive IR; the composite also uses other sensors. The rule does not expressly require every component to do so; neither forced all-components nor existential reading is silently adopted.'),
+('N303860',3,'interpretive','absence_inferred_from_mechanism','A mechanical handle is stated, but the absence of any electric drive is inferred rather than explicitly denied.'),
+('N304078',2,'interpretive','component_terminology_mapping','Steel drive lugs are mapped to cleats; both cords and lugs are described, but terminology equivalence is a domain interpretation.'),
+('N311039_33',2,'direct','discrete_role_robust_refutation','For products 1, 3 and 4 both explicit coil and contact voltages lie outside (60,250]. Thus at least one listed product fails under either rating-role interpretation; product 2 alone remains role-ambiguous.'),
+('N312588',1,'interpretive','incorporated_heading_definition','Computer use is described; heading 8471 membership is a tariff-definition mapping.'),
+('N312588',2,'disputed','incorporated_heading_definition','Diodes/transistors/integrated circuits are physical facts. Their heading-8541/8542 status requires incorporated classification definitions; full-source legal classification is not a new physical fact.'),
+('N307931',1,'interpretive','definition_required','The single-wheel Surfwheel vehicle versus skateboard is a category extension; not resolved by motor wattage.'),
+('N309775_buttons',1,'disputed','assembly_category_scope','Individual molded buttons, button pack, and silicone keypad assembly are not interchangeable object descriptions.'),
+('N312568',2,'insufficient','incorporated_definition_unavailable','The literal input refers to statistical note 9 without providing it. Ruling quotes that cross-reference but does not provide an independent full definition for the evidence input.'),
+('N312471',1,'interpretive','category_or_use_mapping','Outdoor seating is stated; household versus commercial scope remains a use-category inference.'),
+('N313188',2,'interpretive','principal_use_interpretation','Explicit motor-vehicle lighting applications support the use relation; translating to of-a-kind use is a scoped interpretation.'),
+('N316485',2,'insufficient','object_scope_and_public_source_gap','The excerpt mixes wood, metal and plastic components; individual-import context can be restored, but unfinished status of the wood parts is not independently stated.'),
+('N319331',3,'interpretive','composite_component_binding','Two 500 W motors power the cart; the S-Max is described as its detachable rear drive. Combining them as the relevant 1000 W article requires explicit composite-object binding.'),
+('N327114',3,'disputed','rating_basis_ambiguity','Nominal 1000 W and peak 3000 W are different rating types, not an uncertain interval. The literal ceiling does not name its basis; peak-only policy gives refute, nominal policy gives support.'),
+('N329172',1,'interpretive','category_scope_mapping','A trim/attachment description must be compared with the enumerated attachment categories; material refutation is independently direct.'),
+('N336939',1,'interpretive','incorporated_heading_definition','Computer use is physical; heading 8471 membership requires tariff interpretation.'),
+('N336939',3,'disputed','incorporated_definition_and_exception','LEDs are permitted, other heading-8541/8542 goods excluded. Complete assembly description does not prove absence; source negative heading assertion is classification-dependent, not a pure physical observation.'),
+]: override(case,n,tier,reason,note)
+
+# Role and logic notes preserve local ORs and exceptions inside historical units.
+LOGIC = {
+('H317391_1','c1'):('compound_conjunction','vacuum AND bagless AND upright'),
+('H317391_1','c2'):('local_disjunction','wet OR dry'),
+('H316154_1','c2'):('illustrated_capability','constant load; listed load types are examples'),
+('H322923_1','c1'):('compound_conjunction','cart AND NOT mechanically propelled'),
+('H322923_1','c2'):('finite_alternatives','wheel count IN {3,4}'),
+('H314080_1','c1'):('compound_conjunction','fabric AND man-made fiber AND micro-denier'),
+('H314080_1','c2'):('local_disjunction','impregnated OR coated OR covered OR laminated with polyurethane'),
+('H316387_1','c1'):('synonym_list','torque rod/arm; radius rod/arm'),
+('H336040_1','c2'):('compound_conjunction','metal AND high-pressure laminated bamboo'),
+('H336040_1','c3'):('negative_disjunction','NOT (ironing board OR infant/child furniture OR bed frame)'),
+('H333673_1','c1'):('unresolved_component_quantifier','whole apparatus versus one/all component sensors'),
+('H333371_1','c3'):('local_disjunction','rubber OR plastics'),
+('N304078','c2'):('compound_conjunction','steel cords AND steel cleats'),
+('N312588','c2'):('negative_disjunction','NOT (goods of 8541 OR goods of 8542)'),
+('N316485','c3'):('nonbinding_example','including bodies, legs and arms; not a mandatory list'),
+('N336939','c2'):('nonbinding_permission','whether or not fan hubs or LEDs'),
+('N336939','c3'):('nested_exception','NOT other goods of 8541/8542; LED permission retained'),
+('N329172','c1'):('category_disjunction','tire carrier OR roof rack OR fender liner OR side protective attachment'),
+}
+for k in ['N312147','N313119','N314454','N315824']:
+    LOGIC[(k,'c1')]=('category_disjunction','face mask OR particulate facepiece respirator; listed alternative categories, not simultaneous requirements')
+
+UNSAFE_CASES = {
+ 'H333673_1':'Whole-apparatus versus component quantifier unresolved.',
+ 'N312588':'Negative incorporated-heading scope needs definitions; do not flatten to physical component absence.',
+ 'N336939':'LED permission nested inside other-goods exclusion; not flat positive AND.',
+ 'N316485':'Illustrative list is not mandatory; mixed shipment and candidate wood-component scope unresolved.',
+ 'N319331':'Composite article and detachable component need explicit scope before universal aggregation.',
+ 'N309775_buttons':'Assembly versus constituent-button scope unresolved.',
+ 'N329172':'Alternative listed categories must not be forced into AND.',
+ 'N312147':'Category alternatives retained in a compound condition.',
+ 'N313119':'Category alternatives retained in a compound condition.',
+ 'N314454':'Category alternatives retained in a compound condition.',
+ 'N315824':'Category alternatives retained in a compound condition.',
+ 'H317391_1':'Wet/dry local OR and compound category retained; use condition-level interface or explicit formula.',
+ 'H316154_1':'Load types are examples/alternatives rather than mandatory conjunction.',
+ 'H314080_1':'Treatment-method OR and micro-denier compound retained.',
+ 'H336040_1':'Negative category disjunction retained; do not turn into positive mandatory properties.',
+}
+
+# Complete per-product discrete relay values; no rating hull is used.
+RELAY_OBJECTS = [
+ {'product':'3-1393211-9/T92P11A22-12','coil_voltage':12,'coil_kind':'AC','contact_voltage':277,'contact_kind':'AC','contact_A':30},
+ {'product':'1393212-7/T92S7D12-110','coil_voltage':110,'coil_kind':'DC','contact_voltage':277,'contact_kind':'AC','contact_A':40},
+ {'product':'7-1393211-2/T92P7D22-48','coil_voltage':48,'coil_kind':'DC','contact_voltage':277,'contact_kind':'AC','contact_A':40},
+ {'product':'6-1393211-3/T92P7A22-277','coil_voltage':48,'coil_kind':'DC','contact_voltage':277,'contact_kind':'AC','contact_A':40},
+]
+
+COMPONENTS = {
+('H330938_1','c1'):'conducting core within cable and connected monopolar system',
+('H330938_1','c2'):'explicit interconnection wiring rating; model-number tokens excluded',
+('H330938_1','c3'):'aluminum conducting core versus copper concentric neutral shield',
+('H330938_1','c4'):'cable ends as imported',
+('H317391_1','c3'):'self-contained electric motor',
+('H317391_1','c4'):'self-contained electric motor',
+('H317391_1','c5'):'dust receptacle mapped to tank',
+('H341677_1','c2'):'data communication subsystem, not battery supply',
+('H319100_2','c3'):'external wireless-speaker link, not built-in display speakers',
+('H333110_1','c3'):'external wireless-speaker link, not internal transducers',
+('H311151_1','c2'):'active ZnO rather than alumina support or silica modifier',
+('H314080_1','c1'):'textile fibers in each of 17 styles',
+('H314080_1','c2'):'polyurethane treatment on fabric side(s)',
+('H318593_1','c2'):'whole jack mixed-metal composition',
+('H318593_1','c3'):'enclosure dimensions explicitly excluding handle; complete jack bound absent',
+('H318593_2','c2'):'supported load, not jack own mass',
+('H340899_1','c3'):'self-contained motor in each backpack vacuum',
+('H340899_1','c4'):'motor, not battery storage or product model',
+('H340899_1','c5'):'0.64 L dust receptacle, not 1.9 L bin',
+('H333371_1','c2'):'textile fraction of total glove mass, not fiber-only denominator',
+('H333673_1','c1'):'four ancillary sensors separately; whole-device quantifier unresolved',
+('H333673_1','c2'):'front/ambient light sensor subsystem',
+('N304078','c2'):'steel drive lugs and woven steel cords inside rubber track',
+('N307161','c3'):'whole power-supply enclosure; axis labels explicit in exclusion',
+('N312588','c2'):'camera and power-supply electronic components inside two computer enclosures',
+('N312471','c2'):'seat/base/back/leg frame',
+('N312471','c3'):'PE wicker covering aluminum frame',
+('N312471','c4'):'removable seat/back cushions',
+('N316485','c2'):'candidate plywood seat deck/panels versus entire mixed-component shipment',
+('N319331','c3'):'two drive motors in detachable S-Max module attached to cart',
+('N327114','c3'):'same motor, separate nominal and peak ratings',
+('N336939','c2'):'permitted fan hubs and LEDs, not a required component list',
+('N336939','c3'):'other incorporated electronic articles; LEDs excepted',
+}

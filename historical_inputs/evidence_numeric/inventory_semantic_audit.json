@@ -1,0 +1,23 @@
+{
+  "rules": 397,
+  "frozen_marker_counts": {
+    "whole_code": 41,
+    "quantitative_marker": 162,
+    "number_outside_code": 198,
+    "negation_marker": 163,
+    "purpose_marker": 89
+  },
+  "proxy_disagreements": 38,
+  "true_measurable_or_count_conditions_among_disagreements": 13,
+  "nonmeasurement_numbers_among_disagreements": 24,
+  "component_inventory_at_least_without_numeral": 1,
+  "whole_code_classifications": {
+    "single statistical code": 41,
+    "dated statistical-code transition": 2
+  },
+  "unresolved_whole_codes": [],
+  "claim_boundary": "The original counts 162 quantitative markers, 198 outside-code digits, 163 negation markers, and 89 purpose markers describe surface features. They do not estimate prevalence of semantically quantified, negative or purpose requirements. This disagreement audit is not a population correction or precision/recall estimate.",
+  "measurement_definition": "A stated physical, monetary, temporal-duration or item-count magnitude; excludes tariff/CAS/material-grade/standard identifiers and statutory dates. Minimum named component inventories are recorded separately.",
+  "whole_code_boundary_note": "The frozen whole_code flag means exactly one standalone statistical code (41 records). Two additional code-only descriptions contain historical code replacements and dates and are not marked by that strict regex. They should not silently be counted as physical product descriptions; report 41 standalone codes plus 2 temporal code-only entries when using semantic scope categories.",
+  "data_product_scope": "A versioned machine-readable transcription of one official USTR index; not a complete historical legal ontology or an independently expert-coded corpus."
+}

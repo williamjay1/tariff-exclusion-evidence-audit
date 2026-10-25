@@ -1,0 +1,419 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-22T21:13:38.371140+00:00",
+  "zip_path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_Review_20261022T211303_431836Z.zip",
+  "zip_bytes": 19377549,
+  "zip_sha256": "147139aa9c89854cf0685ca43d82e89b4c33a38b03460b6961ca1769cdf8a02b",
+  "extracted_package_root": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\temp\\reviewer_zip_replay_20261022T211335_603760Z\\Tariff_Evidence_Audit_Review_20261022T211303_431836Z",
+  "command": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "scripts/verify_package.py",
+    "--root",
+    "."
+  ],
+  "working_directory": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\temp\\reviewer_zip_replay_20261022T211335_603760Z\\Tariff_Evidence_Audit_Review_20261022T211303_431836Z",
+  "exit_code": 0,
+  "actual_standalone_cli_executed": true,
+  "network_or_inference_used": false,
+  "full_verification_result": {
+    "status": "PASS",
+    "verification_scope": "Offline integrity, source provenance, declared-policy arithmetic, and saved-output score recount; no fresh model inference or expert legal validation.",
+    "integrity": {
+      "files_verified": 369,
+      "bytes_verified": 85674097
+    },
+    "sources": {
+      "official_sources": 67,
+      "condition_units": 208,
+      "cases": 73,
+      "source_span_checks": {
+        "continuous": 455,
+        "noncontinuous_entries": 2
+      },
+      "reference_tiers": {
+        "interpretive": 45,
+        "direct": 132,
+        "insufficient": 19,
+        "disputed": 12
+      },
+      "direct_attribute_restorations": [
+        "H322923_1:c2",
+        "H330938_1:c4",
+        "H340899_1:c3",
+        "H340899_1:c4"
+      ]
+    },
+    "inventory_and_policy": {
+      "inventory_rows": 397,
+      "product_descriptions": 354,
+      "coarse_groups": 1096,
+      "code_only_additional_product_groups_zero": 43,
+      "safe_conjunction_cases": 58,
+      "declared_policy_packages": [
+        {
+          "name": "strict_withhold",
+          "counts": {
+            "unknown": 45,
+            "support": 10,
+            "refute": 3
+          }
+        },
+        {
+          "name": "declared_technical_scope_lab_peak",
+          "counts": {
+            "support": 17,
+            "unknown": 33,
+            "refute": 8
+          }
+        },
+        {
+          "name": "declared_alternative_material_use_party_nominal",
+          "counts": {
+            "refute": 5,
+            "unknown": 34,
+            "support": 19
+          }
+        }
+      ],
+      "marginal_envelopes": {
+        "support": {
+          "necessarily_this_state": 10,
+          "possibly_this_state": 20
+        },
+        "refute": {
+          "necessarily_this_state": 3,
+          "possibly_this_state": 9
+        },
+        "unknown": {
+          "necessarily_this_state": 33,
+          "possibly_this_state": 45
+        }
+      }
+    },
+    "experimental_freezes": {
+      "controlled_inputs": 108,
+      "dependent_relations": 96,
+      "source_families": 12,
+      "source_recovery_endpoints": 8,
+      "frozen_input_hashes": "PASS",
+      "superseded_unpooled_pilot": 3
+    },
+    "functional_results": {
+      "mode": "saved_reply_recount_only",
+      "network_or_inference": false,
+      "reports": [
+        {
+          "analysis": "qwen14_qualification_cases_functional_analysis.json",
+          "counts": {
+            "direct": {
+              "n": 24,
+              "valid": 24,
+              "decision_correct": 24,
+              "unsupported_case_affirmations": 0,
+              "unsupported_case_refutations": 0,
+              "determinate_n": 16,
+              "determinate_errors": 0,
+              "refute_missing_decision_n": 1,
+              "refute_missing_decision_correct": 1
+            },
+            "checklist": {
+              "n": 24,
+              "valid": 24,
+              "decision_correct": 24,
+              "unsupported_case_affirmations": 0,
+              "unsupported_case_refutations": 0,
+              "determinate_n": 16,
+              "determinate_errors": 0,
+              "refute_missing_decision_n": 1,
+              "refute_missing_decision_correct": 1,
+              "condition_n": 27,
+              "complete_condition_records": 24,
+              "condition_correct": 27,
+              "aggregation_correct": 24,
+              "overall_aggregation_consistency_n": 24,
+              "overall_matches_predicted_aggregation": 24,
+              "unsupported_condition_affirmations": 0,
+              "unsupported_condition_refutations": 0,
+              "gap_tp": 9,
+              "gap_fp": 0,
+              "gap_fn": 0,
+              "request_tp": 7,
+              "request_fp": 0,
+              "request_fn": 1,
+              "request_exact": 23,
+              "refute_missing_n": 1,
+              "refute_missing_pass": 1,
+              "citation_n": 27,
+              "citation_pass": 27,
+              "determinate_citation_n": 18,
+              "determinate_citation_pass": 18,
+              "joint_citation_state_pass": 27
+            }
+          },
+          "analysis_sha256": "98380d6075b6c8afeba9841b9017afb90752d4babd40efc57639aa0d7c5a8432"
+        },
+        {
+          "analysis": "qwen14_controlled_cases_functional_analysis.json",
+          "counts": {
+            "direct": {
+              "n": 108,
+              "valid": 108,
+              "decision_correct": 98,
+              "unsupported_case_affirmations": 10,
+              "unsupported_case_refutations": 0,
+              "determinate_n": 94,
+              "determinate_errors": 10,
+              "refute_missing_decision_n": 11,
+              "refute_missing_decision_correct": 11
+            },
+            "checklist": {
+              "n": 108,
+              "valid": 108,
+              "decision_correct": 104,
+              "unsupported_case_affirmations": 3,
+              "unsupported_case_refutations": 1,
+              "determinate_n": 88,
+              "determinate_errors": 4,
+              "refute_missing_decision_n": 11,
+              "refute_missing_decision_correct": 11,
+              "condition_n": 216,
+              "complete_condition_records": 108,
+              "condition_correct": 211,
+              "aggregation_correct": 104,
+              "overall_aggregation_consistency_n": 108,
+              "overall_matches_predicted_aggregation": 108,
+              "unsupported_condition_affirmations": 3,
+              "unsupported_condition_refutations": 1,
+              "gap_tp": 31,
+              "gap_fp": 1,
+              "gap_fn": 4,
+              "request_tp": 20,
+              "request_fp": 0,
+              "request_fn": 4,
+              "request_exact": 104,
+              "refute_missing_n": 11,
+              "refute_missing_pass": 11,
+              "citation_n": 216,
+              "citation_pass": 213,
+              "determinate_citation_n": 181,
+              "determinate_citation_pass": 180,
+              "joint_citation_state_pass": 211
+            }
+          },
+          "analysis_sha256": "8eff95ac4bd9ac0ac6e4f50ebca912e380303d8c1c46a06cb86528fe6b960e2a"
+        },
+        {
+          "analysis": "qwen14_controlled_cases_functional_analysis_frozen_reference.json",
+          "counts": {
+            "direct": {
+              "n": 108,
+              "valid": 108,
+              "decision_correct": 98,
+              "unsupported_case_affirmations": 10,
+              "unsupported_case_refutations": 0,
+              "determinate_n": 94,
+              "determinate_errors": 10,
+              "refute_missing_decision_n": 12,
+              "refute_missing_decision_correct": 12
+            },
+            "checklist": {
+              "n": 108,
+              "valid": 108,
+              "decision_correct": 104,
+              "unsupported_case_affirmations": 3,
+              "unsupported_case_refutations": 1,
+              "determinate_n": 88,
+              "determinate_errors": 4,
+              "refute_missing_decision_n": 12,
+              "refute_missing_decision_correct": 12,
+              "condition_n": 216,
+              "complete_condition_records": 108,
+              "condition_correct": 212,
+              "aggregation_correct": 104,
+              "overall_aggregation_consistency_n": 108,
+              "overall_matches_predicted_aggregation": 108,
+              "unsupported_condition_affirmations": 3,
+              "unsupported_condition_refutations": 1,
+              "gap_tp": 32,
+              "gap_fp": 0,
+              "gap_fn": 4,
+              "request_tp": 20,
+              "request_fp": 0,
+              "request_fn": 4,
+              "request_exact": 104,
+              "refute_missing_n": 12,
+              "refute_missing_pass": 12,
+              "citation_n": 216,
+              "citation_pass": 214,
+              "determinate_citation_n": 180,
+              "determinate_citation_pass": 180,
+              "joint_citation_state_pass": 212
+            }
+          },
+          "analysis_sha256": "93dcac3be4f16566bb0ce4b2a0837cf01913d0bb0d06b25a19a805368a021969"
+        },
+        {
+          "analysis": "qwen14_controlled_cases_functional_analysis_excluding_frame_species.json",
+          "counts": {
+            "direct": {
+              "n": 99,
+              "valid": 99,
+              "decision_correct": 91,
+              "unsupported_case_affirmations": 8,
+              "unsupported_case_refutations": 0,
+              "determinate_n": 85,
+              "determinate_errors": 8,
+              "refute_missing_decision_n": 11,
+              "refute_missing_decision_correct": 11
+            },
+            "checklist": {
+              "n": 99,
+              "valid": 99,
+              "decision_correct": 97,
+              "unsupported_case_affirmations": 1,
+              "unsupported_case_refutations": 1,
+              "determinate_n": 79,
+              "determinate_errors": 2,
+              "refute_missing_decision_n": 11,
+              "refute_missing_decision_correct": 11,
+              "condition_n": 198,
+              "complete_condition_records": 99,
+              "condition_correct": 196,
+              "aggregation_correct": 97,
+              "overall_aggregation_consistency_n": 99,
+              "overall_matches_predicted_aggregation": 99,
+              "unsupported_condition_affirmations": 1,
+              "unsupported_condition_refutations": 1,
+              "gap_tp": 31,
+              "gap_fp": 0,
+              "gap_fn": 2,
+              "request_tp": 20,
+              "request_fp": 0,
+              "request_fn": 2,
+              "request_exact": 97,
+              "refute_missing_n": 11,
+              "refute_missing_pass": 11,
+              "citation_n": 198,
+              "citation_pass": 198,
+              "determinate_citation_n": 165,
+              "determinate_citation_pass": 165,
+              "joint_citation_state_pass": 196
+            }
+          },
+          "analysis_sha256": "21d6bd4137b373873fda7048858082908e85fded27fab2830e10c99de541b0e7"
+        },
+        {
+          "analysis": "qwen14_source_recovery_cases_functional_analysis.json",
+          "counts": {
+            "direct": {
+              "n": 8,
+              "valid": 8,
+              "decision_correct": 7,
+              "unsupported_case_affirmations": 0,
+              "unsupported_case_refutations": 0,
+              "determinate_n": 3,
+              "determinate_errors": 0,
+              "refute_missing_decision_n": 0,
+              "refute_missing_decision_correct": 0
+            },
+            "checklist": {
+              "n": 8,
+              "valid": 8,
+              "decision_correct": 6,
+              "unsupported_case_affirmations": 0,
+              "unsupported_case_refutations": 2,
+              "determinate_n": 5,
+              "determinate_errors": 2,
+              "refute_missing_decision_n": 0,
+              "refute_missing_decision_correct": 0,
+              "condition_n": 8,
+              "complete_condition_records": 8,
+              "condition_correct": 6,
+              "aggregation_correct": 6,
+              "overall_aggregation_consistency_n": 8,
+              "overall_matches_predicted_aggregation": 8,
+              "unsupported_condition_affirmations": 0,
+              "unsupported_condition_refutations": 2,
+              "gap_tp": 3,
+              "gap_fp": 0,
+              "gap_fn": 1,
+              "request_tp": 3,
+              "request_fp": 0,
+              "request_fn": 1,
+              "request_exact": 7,
+              "refute_missing_n": 0,
+              "refute_missing_pass": 0,
+              "citation_n": 8,
+              "citation_pass": 6,
+              "determinate_citation_n": 4,
+              "determinate_citation_pass": 3,
+              "joint_citation_state_pass": 6
+            }
+          },
+          "analysis_sha256": "39e778e0a929de3f36df78e0219978636d9804d7417d2b60550a50daad232564"
+        }
+      ]
+    },
+    "final_summary_and_restoration": {
+      "complete_final_summary_matches_analyses_and_raw_outputs": true,
+      "restoration_pairs_recount": {
+        "direct": {
+          "n": 4,
+          "success": 3
+        },
+        "checklist": {
+          "n": 4,
+          "success": 3
+        }
+      },
+      "isolated_conditions": 4,
+      "rulings": 3,
+      "unique_restored_sentences": 3
+    },
+    "deliverables": {
+      "editable_documents": [
+        "Tariff_Evidence_Audit_20261023.docx",
+        "Tariff_Evidence_Audit_Supplement_20261023.docx"
+      ],
+      "three_vector_and_1200dpi_figures": [
+        {
+          "file": "figure1_source_protocol.png",
+          "pixels": [
+            8645,
+            7228
+          ],
+          "dpi": [
+            1199.998,
+            1199.998
+          ]
+        },
+        {
+          "file": "figure2_source_audit.png",
+          "pixels": [
+            8645,
+            6850
+          ],
+          "dpi": [
+            1199.998,
+            1199.998
+          ]
+        },
+        {
+          "file": "figure3_controlled_diagnostics.png",
+          "pixels": [
+            8645,
+            8031
+          ],
+          "dpi": [
+            1199.998,
+            1199.998
+          ]
+        }
+      ],
+      "unchanged_legacy_archive_files": 315,
+      "legacy_archive_sha256": "c484e64fd5a3d066ecc8c6488c70592bc5c5c0ab122d40e6cbd36e799c90eee6"
+    }
+  },
+  "stdout_path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\temp\\reviewer_zip_replay_20261022T211335_603760Z\\portable_verify_stdout.json",
+  "scope": "Actual verification after a new extraction from the final delivery ZIP. This checks offline payload identity, sources, policy arithmetic and retained-output recount, not a model rerun or expert legal validity."
+}

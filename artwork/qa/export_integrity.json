@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "figure1_source_protocol",
+      "status": "PASS",
+      "svg_editable_text_nodes": 29,
+      "svg_raster_images": 0,
+      "pdf_fonts": [
+        {
+          "base": "DGIKYG+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 35576
+        },
+        {
+          "base": "FTYHQQ+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 25472
+        }
+      ],
+      "physical_size_mm": [
+        183.0,
+        153.0
+      ],
+      "png_pixels": [
+        8645,
+        7228
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "geometry_qa": "PASS",
+      "files": {
+        "figure1_source_protocol.svg": "d005d5105c17a938e6f24905d8c35c62601934ac34fc584d815d3fac3d47c116",
+        "figure1_source_protocol.pdf": "bff9f7ca72267fe5e511b1db0a9771b1df058511d506ff832d168a56c2dfb749",
+        "figure1_source_protocol.png": "426a1042d72e2d0f1cddd7d5fa8d35594f7cc43d9bf25402d7e38da9f39cd5f8"
+      }
+    },
+    {
+      "figure": "figure2_source_audit",
+      "status": "PASS",
+      "svg_editable_text_nodes": 39,
+      "svg_raster_images": 0,
+      "pdf_fonts": [
+        {
+          "base": "DZFXIY+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 43232
+        },
+        {
+          "base": "FSDOGX+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 29380
+        }
+      ],
+      "physical_size_mm": [
+        183.0,
+        145.0
+      ],
+      "png_pixels": [
+        8645,
+        6850
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "geometry_qa": "PASS",
+      "files": {
+        "figure2_source_audit.svg": "b0faeae6df25b53e284794a169908658b096c9f1c2cb523bf881b7ddb44b9b65",
+        "figure2_source_audit.pdf": "e386d2ba9d59d1d07243531a1209cd5e9758d1add62f16747ddf88d85b2c449d",
+        "figure2_source_audit.png": "261ed577a28a042dcf2f32bcce84320e7bb9ea41624225b7a5511712f73370d4"
+      }
+    },
+    {
+      "figure": "figure3_controlled_diagnostics",
+      "status": "PASS",
+      "svg_editable_text_nodes": 58,
+      "svg_raster_images": 0,
+      "pdf_fonts": [
+        {
+          "base": "GRVMTJ+ArialMT",
+          "type": "Type0",
+          "embedded_bytes": 46624
+        },
+        {
+          "base": "FRYRRZ+Arial-BoldMT",
+          "type": "Type0",
+          "embedded_bytes": 28104
+        }
+      ],
+      "physical_size_mm": [
+        183.0,
+        170.0
+      ],
+      "png_pixels": [
+        8645,
+        8031
+      ],
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "geometry_qa": "PASS",
+      "files": {
+        "figure3_controlled_diagnostics.svg": "096bdb60da14f9a5e06c76a17df0a23bc3d9efdfb707a4403e062ee9eb75fdaf",
+        "figure3_controlled_diagnostics.pdf": "a6e9903c22ceb93de6033be0e14b14611202071126e14753d7c25cf486c5112c",
+        "figure3_controlled_diagnostics.png": "c04ce375fd255d6408788c9bb80543a807e38b2bf85539b748322a9a2ddbf671"
+      }
+    }
+  ],
+  "raster_method": "Direct 1200dpi export at final canvas dimensions; no upsampling",
+  "vector_note": "Vector PDF/SVG have physical dimensions and scalable marks, not a fixed raster DPI.",
+  "style_source": "SciencePlots 2.2.2 nature style plus explicit Arial, colourblind-safe palette and final physical dimensions",
+  "visual_inspection_required": true
+}

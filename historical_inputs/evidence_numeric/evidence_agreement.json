@@ -1,0 +1,96 @@
+{
+  "n": 73,
+  "matching": 66,
+  "agreement": 0.9041095890410958,
+  "cohen_kappa": 0.8144517066085691,
+  "first_counts": {
+    "unknown": 45,
+    "support": 23,
+    "refute": 5
+  },
+  "second_counts": {
+    "unknown": 44,
+    "support": 25,
+    "refute": 4
+  },
+  "initial_confusion": {
+    "unknown->unknown": 41,
+    "support->support": 21,
+    "refute->refute": 4,
+    "unknown->support": 4,
+    "support->unknown": 2,
+    "refute->unknown": 1
+  },
+  "disagreements": [
+    {
+      "case_id": "H332948_3",
+      "first_state": "unknown",
+      "second_state": "support",
+      "second_rationale": "Synthetic granules/retail packaging and explicit flower-drying instructions, despite additional cat-litter use.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    },
+    {
+      "case_id": "H318593_1",
+      "first_state": "support",
+      "second_state": "unknown",
+      "second_rationale": "Numeric dimensions/mass satisfy; mixed steel/aluminum composition makes of-steel taxonomy interpretation-sensitive.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    },
+    {
+      "case_id": "H333673_1",
+      "first_state": "unknown",
+      "second_state": "support",
+      "second_rationale": "Front-light IR receiver and automatic low-beam control establish a passive IR/light-control branch; other active rain sensing does not negate it.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    },
+    {
+      "case_id": "N304766",
+      "first_state": "unknown",
+      "second_state": "support",
+      "second_rationale": "Installation-ready parts explicitly designed for telehandler fork-lifting machine.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    },
+    {
+      "case_id": "N305670",
+      "first_state": "unknown",
+      "second_state": "support",
+      "second_rationale": "Pedal assembly explicitly designed for forklifts/work trucks.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    },
+    {
+      "case_id": "N312588",
+      "first_state": "refute",
+      "second_state": "unknown",
+      "second_rationale": "Integrated circuits/diodes present but mapping subcomponents to excluded legal headings is external legal-taxonomy step.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    },
+    {
+      "case_id": "N309775_buttons",
+      "first_state": "support",
+      "second_state": "unknown",
+      "second_rationale": "Button pack satisfies; separate silicone switch pad is not unambiguously described as molded buttons.",
+      "resolution": "unknown",
+      "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+    }
+  ],
+  "final_counts": {
+    "unknown": 47,
+    "support": 21,
+    "refute": 5
+  },
+  "interpretation": "Reproducibility of two same-lineage AI readings of outcome-masked inputs, not independence from prior project knowledge or proof of legal validity.",
+  "human_expert_review": false,
+  "post_reconciliation_agreement_not_reported": true,
+  "third_pass_source_corrections": [
+    "H318593_1 handle-excluded dimensions remain unknown",
+    "N311039_33 discrete per-product coil/contact alternatives establish a numerical counterexample and change operational unknown to refute"
+  ],
+  "first_pass_sha256": "cea8e16fe0d8df2363bdc3c97a4442ec0513d920e58b509685ef703055c27f7b",
+  "second_pass_sha256": "d402461cea5e183a2fba773228201aae4ab5dd9b17d7e5b1f83953b9a8a4e0c4"
+}

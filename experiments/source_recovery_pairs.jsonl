@@ -1,0 +1,4 @@
+{"pair_id": "REC_H330938_1:c4", "family": "H330938_1:c4", "group": "H330938", "operation": "source_attribute_restoration", "left": "REC_H330938_1_c4_before", "right": "REC_H330938_1_c4_after", "expected_relation": "change"}
+{"pair_id": "REC_H322923_1:c2", "family": "H322923_1:c2", "group": "H322923", "operation": "source_attribute_restoration", "left": "REC_H322923_1_c2_before", "right": "REC_H322923_1_c2_after", "expected_relation": "change"}
+{"pair_id": "REC_H340899_1:c3", "family": "H340899_1:c3", "group": "H340899", "operation": "source_attribute_restoration", "left": "REC_H340899_1_c3_before", "right": "REC_H340899_1_c3_after", "expected_relation": "change"}
+{"pair_id": "REC_H340899_1:c4", "family": "H340899_1:c4", "group": "H340899", "operation": "source_attribute_restoration", "left": "REC_H340899_1_c4_before", "right": "REC_H340899_1_c4_after", "expected_relation": "change"}

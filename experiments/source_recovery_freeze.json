@@ -1,0 +1,24 @@
+{
+  "status": "frozen_before_inference",
+  "utc": "2026-10-22T19:35:27.975370+00:00",
+  "n_endpoints": 8,
+  "n_conditions": 4,
+  "n_rulings": 3,
+  "n_distinct_restored_sentences": 3,
+  "parent_approval": "Four admitted direct attributes only, evaluated as isolated conditions with full frozen facts and the single source-only addition.",
+  "data_agent_confirmation": "All four keys and strict U-to-S values independently rechecked against the cited official text; no expert labeling is claimed.",
+  "limits": [
+    "Restoration is increased explicit product-attribute availability, not correction of four historical reference errors.",
+    "The motor condition had historical support under an implicit component inference; its strict before-state is now unknown.",
+    "Source audit and condition selection are post hoc. No held-out legal generalization is claimed.",
+    "H340899 motor and power conditions share one restored sentence and one source, so the four pairs are dependent.",
+    "Exact citation-ID matching checks retrieval of the admitted source sentence, not expert legal entailment."
+  ],
+  "hashes": {
+    "source_audit\\condition_audit_long.jsonl": "163da1d36cd50e23d160ced52cd610b83633467bf66db67c1a6f98a186b5d851",
+    "source_audit\\source_audited_inputs.jsonl": "4e3ad84127130c7b9f48f64ccb0c543e2e539352573b4d3f6203212cedc29ce7",
+    "experiments\\source_recovery_cases.jsonl": "b9a916a8c55b7b853ad51e343b64e2246186c1e5e8eec4b5347f61a002ff4cb5",
+    "experiments\\source_recovery_pairs.jsonl": "9f8b3a23a4c5df9b28101508437f97319ff9c29c1bab1b5710e67db809ce867b",
+    "experiments\\source_recovery_source_snapshot.jsonl": "60b3d4872b26bd14c23eefa4027cde49e9945bd8c7140f02526d811d292229db"
+  }
+}

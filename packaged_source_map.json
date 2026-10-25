@@ -1,0 +1,475 @@
+{
+  "source_count": 67,
+  "sources": [
+    {
+      "ruling_id": "H330938",
+      "official_url": "https://rulings.cbp.gov/ruling/H330938",
+      "packaged_path": "public_sources/H330938.json",
+      "raw_sha256": "2a68f19a8e8ac99f67afd8e1ad5ce781a6732a259049da77bab6a42213118ae2",
+      "text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+    },
+    {
+      "ruling_id": "H341677",
+      "official_url": "https://rulings.cbp.gov/ruling/H341677",
+      "packaged_path": "public_sources/H341677.json",
+      "raw_sha256": "213ea655e8809db9b51afa4a686b29cc38a285a03ef27a38d407c10f5eccf1f3",
+      "text_sha256": "5867e6122dc25eba00bfc5269659ea89035bf0550e377233a8d6568ae3522982"
+    },
+    {
+      "ruling_id": "H317391",
+      "official_url": "https://rulings.cbp.gov/ruling/H317391",
+      "packaged_path": "public_sources/H317391.json",
+      "raw_sha256": "87d00c19247d315cdeb2b1bda1c8666fcd8cf1e287243d65c027d32f3881172a",
+      "text_sha256": "1903f919efc8bcc38330a40c8345633e9a1f82d9c3e89cc4a6020417ee4c4818"
+    },
+    {
+      "ruling_id": "H323452",
+      "official_url": "https://rulings.cbp.gov/ruling/H323452",
+      "packaged_path": "public_sources/H323452.json",
+      "raw_sha256": "35f6d7874046274cf7cb26ceae05f86fb93cd46042f9544ea7f74541b8951e20",
+      "text_sha256": "2bae9e2e6181dcc2b4de1328f6f8291c376990d825bf61366675411b7f3c7465"
+    },
+    {
+      "ruling_id": "H333110",
+      "official_url": "https://rulings.cbp.gov/ruling/H333110",
+      "packaged_path": "public_sources/H333110.json",
+      "raw_sha256": "65ca7eac187cab43a4afa207af500133a0e55f236b22ce01c9d4d06a90968530",
+      "text_sha256": "d8dba52a3a1c3fffe632d53b33b442b0c042c3825785457fd8dad87f579e09f3"
+    },
+    {
+      "ruling_id": "H319100",
+      "official_url": "https://rulings.cbp.gov/ruling/H319100",
+      "packaged_path": "public_sources/H319100.json",
+      "raw_sha256": "fa07c5e0e3f0fc258654d82d6bb6642a8b037e7247e7395d70496e6e8814e017",
+      "text_sha256": "8c32fc17ac02d18e06f397349c0b3a16a8a022ed4cc969203d08bc03db47fb3c"
+    },
+    {
+      "ruling_id": "H311957",
+      "official_url": "https://rulings.cbp.gov/ruling/H311957",
+      "packaged_path": "public_sources/H311957.json",
+      "raw_sha256": "dca58c34a14c5af6d20410afd9895b9338375683bbeb1b8f0e1a3fc9df8a8c51",
+      "text_sha256": "5f970160511518d0c2bda95f8ff4fa969f9cb4488a0b8e340d3ca4adf4d7814d"
+    },
+    {
+      "ruling_id": "H311151",
+      "official_url": "https://rulings.cbp.gov/ruling/H311151",
+      "packaged_path": "public_sources/H311151.json",
+      "raw_sha256": "0fc5b6f5db22bda4f209aec4c69f87302a34696682a68261806b58616cbef4c1",
+      "text_sha256": "5a4ed0e4cc5b76fedd5ab441b62620784557ddd07bb36e543c08ab57283916b8"
+    },
+    {
+      "ruling_id": "H316154",
+      "official_url": "https://rulings.cbp.gov/ruling/H316154",
+      "packaged_path": "public_sources/H316154.json",
+      "raw_sha256": "2ed299ee74234b4805a43eaba56e3bf52d5c6b50035b2c346a42a4024fc06767",
+      "text_sha256": "603cf1855fbe0c509703d660d578981748ddd18e9ced1c74176cf2ca64079aa3"
+    },
+    {
+      "ruling_id": "H322923",
+      "official_url": "https://rulings.cbp.gov/ruling/H322923",
+      "packaged_path": "public_sources/H322923.json",
+      "raw_sha256": "f484187ff6ad7f826cefae7e83e145be0d90a5df52f95126ce1689b1f19203bc",
+      "text_sha256": "6182604201d548a52501cb6f2bcf3fb361f6767dce4521bc579427256129b727"
+    },
+    {
+      "ruling_id": "H314080",
+      "official_url": "https://rulings.cbp.gov/ruling/H314080",
+      "packaged_path": "public_sources/H314080.json",
+      "raw_sha256": "6fad47d4ff6dccfecefc23842f951a4e4268f54bf32e812130fcce7c5699af73",
+      "text_sha256": "1f7ab2491c72605d1987058afd065b40c1947eb8234c2df7fdc23e5fb6287fc3"
+    },
+    {
+      "ruling_id": "H330005",
+      "official_url": "https://rulings.cbp.gov/ruling/H330005",
+      "packaged_path": "public_sources/H330005.json",
+      "raw_sha256": "45aac625c2103bfb390d78c73bfde5bdb22b9300a1c5627e6d42793aa7e2dcad",
+      "text_sha256": "eecef39fb148b0ba6fc3e107b25551c5b0710f617a95a18ab19c39c5ce76aadb"
+    },
+    {
+      "ruling_id": "H316387",
+      "official_url": "https://rulings.cbp.gov/ruling/H316387",
+      "packaged_path": "public_sources/H316387.json",
+      "raw_sha256": "82102e8d0066ebc84455ef5543f09ddb7aa86204b7206c4dd8905b60fd5de300",
+      "text_sha256": "2accfb64bffd79c15d93c27637f3df90fd6b4e0d0c35f1303ed97c8801de2428"
+    },
+    {
+      "ruling_id": "H336040",
+      "official_url": "https://rulings.cbp.gov/ruling/H336040",
+      "packaged_path": "public_sources/H336040.json",
+      "raw_sha256": "1363811d24c14d0fb9a3db608d790fcff01a93c25683f7654065a838bab50503",
+      "text_sha256": "31dfeb0f27cc35e11026f702982bb6eed68f34879d03faa6568258f69e92e26e"
+    },
+    {
+      "ruling_id": "H332948",
+      "official_url": "https://rulings.cbp.gov/ruling/H332948",
+      "packaged_path": "public_sources/H332948.json",
+      "raw_sha256": "b4b5319c39131fb7b60fdbd9c4cfef17e23c463024327f7aedc4c51d7c3e4d00",
+      "text_sha256": "de3062743d200d5383284677f685b4226e9e7d8cab19f8f3d8fb9b229eae72d7"
+    },
+    {
+      "ruling_id": "H318593",
+      "official_url": "https://rulings.cbp.gov/ruling/H318593",
+      "packaged_path": "public_sources/H318593.json",
+      "raw_sha256": "caab61f3ddff2bb8eb9a3a13aac71e67aed33c8fe52fa30b8f79d4478a5f730e",
+      "text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+    },
+    {
+      "ruling_id": "H340899",
+      "official_url": "https://rulings.cbp.gov/ruling/H340899",
+      "packaged_path": "public_sources/H340899.json",
+      "raw_sha256": "66dd9518658e7b7bc00102a510f2e8c7350aaaf1e00477ab2b2e2d242a3c1ef3",
+      "text_sha256": "b1e71b13b6bf9ad620cbef96fb36bb63103ff4025d41a76978eb017fc9a16f5d"
+    },
+    {
+      "ruling_id": "H345780",
+      "official_url": "https://rulings.cbp.gov/ruling/H345780",
+      "packaged_path": "public_sources/H345780.json",
+      "raw_sha256": "52512e5db053d3b79474ec36cc8607f32b6ca436b2f101778fc5465aaf210b83",
+      "text_sha256": "003d57f2bddac332a66b8112d4130fc2766b1c76859bb8189f9f58c2be06865e"
+    },
+    {
+      "ruling_id": "H333371",
+      "official_url": "https://rulings.cbp.gov/ruling/H333371",
+      "packaged_path": "public_sources/H333371.json",
+      "raw_sha256": "375178c0424ce95d8edc829bb36a0ef982da4ae8454e4069a46b31bfcfdafa6d",
+      "text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+    },
+    {
+      "ruling_id": "H317208",
+      "official_url": "https://rulings.cbp.gov/ruling/H317208",
+      "packaged_path": "public_sources/H317208.json",
+      "raw_sha256": "cf1ea0ac3b9c412765dfbc8374d4a53d3c6ab3596b97ecbc3eb6f651d624dee4",
+      "text_sha256": "64814c7fb09c08dc5bfca4a5c1650eb830965bd01bc873f1a022ea832227c8ab"
+    },
+    {
+      "ruling_id": "H336964",
+      "official_url": "https://rulings.cbp.gov/ruling/H336964",
+      "packaged_path": "public_sources/H336964.json",
+      "raw_sha256": "5b3e5454f33b504f0d15b4fb1529fd4b90e669b91151afbc62cb1553ea7e257f",
+      "text_sha256": "760332e577a3ada85f9b95499e5a5cd5fd258840eded598f14d2f7fd996265a1"
+    },
+    {
+      "ruling_id": "H333673",
+      "official_url": "https://rulings.cbp.gov/ruling/H333673",
+      "packaged_path": "public_sources/H333673.json",
+      "raw_sha256": "11f8d5e1e7cd7dc5377433fa02668b0cfea79de6ef4973ca4232e14f05d78342",
+      "text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+    },
+    {
+      "ruling_id": "H327850",
+      "official_url": "https://rulings.cbp.gov/ruling/H327850",
+      "packaged_path": "public_sources/H327850.json",
+      "raw_sha256": "a68269954fe6d76ec1e08df342dc67fff33a1f68640c9c9df8f0d9208e30f89d",
+      "text_sha256": "e6b55a2ed4d9cb94d31d99b12c24c8a9ef5c3e292c528e288c530ca5871932e2"
+    },
+    {
+      "ruling_id": "N303860",
+      "official_url": "https://rulings.cbp.gov/ruling/N303860",
+      "packaged_path": "public_sources/N303860.json",
+      "raw_sha256": "d9c45c1e9a9471704caf4d44e5c40d16c12d144c1f23c3ab688d92ea19151faa",
+      "text_sha256": "346d3f1d32125c8ef76fc22cc191febe0452282ab723b3ccabac435b62cedaf0"
+    },
+    {
+      "ruling_id": "N304078",
+      "official_url": "https://rulings.cbp.gov/ruling/N304078",
+      "packaged_path": "public_sources/N304078.json",
+      "raw_sha256": "0f2ea30e044cebf7f73981597f38b0fb40be7ba595b0da81f1e69383ff9b4fc9",
+      "text_sha256": "1c453f0cd342f7c62f6fd1d819275d944aff4d5276c95af74a97fe8c808cdc41"
+    },
+    {
+      "ruling_id": "N304707",
+      "official_url": "https://rulings.cbp.gov/ruling/N304707",
+      "packaged_path": "public_sources/N304707.json",
+      "raw_sha256": "d6fdbe0e354ada1aad23214149a5091403096eaf8af204c19832d56c47432234",
+      "text_sha256": "89b168c85ec546bac304a8b2e285b775f84e1974b42367a4ab07fe40f6eec364"
+    },
+    {
+      "ruling_id": "N304766",
+      "official_url": "https://rulings.cbp.gov/ruling/N304766",
+      "packaged_path": "public_sources/N304766.json",
+      "raw_sha256": "77001b05dd6858c566014eceabba54908a5054b1f587c8974777aa2eb3808935",
+      "text_sha256": "626f0b9bcc68e77819e5141d40b9c14e618eba9a2946b16b212507f6fbe77a97"
+    },
+    {
+      "ruling_id": "N305670",
+      "official_url": "https://rulings.cbp.gov/ruling/N305670",
+      "packaged_path": "public_sources/N305670.json",
+      "raw_sha256": "224996a2bc1b8d32e6171ebf60c696de1f95085d6aec87dd285a2b36f95fd4a3",
+      "text_sha256": "b6f1138c561f0ae8b3c3c6f258ccd322b8effba36830001d46bee4f3f922efe0"
+    },
+    {
+      "ruling_id": "N306552",
+      "official_url": "https://rulings.cbp.gov/ruling/N306552",
+      "packaged_path": "public_sources/N306552.json",
+      "raw_sha256": "0ff716781000ee49ffa2021e387e1899c50e5ab04a4f63ad3cea564b7cb491b0",
+      "text_sha256": "41d756f9477c686e41275901593bbbd90f45b82dd6ecc8df0e181419e7c6b947"
+    },
+    {
+      "ruling_id": "N307161",
+      "official_url": "https://rulings.cbp.gov/ruling/N307161",
+      "packaged_path": "public_sources/N307161.json",
+      "raw_sha256": "f5f267a443f56cc041bef23a79c6ab64e90f46d214ad922d6b4a8549cfe7af34",
+      "text_sha256": "947d0c9185bde6abb1408233552652941dce7ab7d0df81fe78e6071e5859f570"
+    },
+    {
+      "ruling_id": "N307469",
+      "official_url": "https://rulings.cbp.gov/ruling/N307469",
+      "packaged_path": "public_sources/N307469.json",
+      "raw_sha256": "739e56abd397c47177ad24f5e111d71329dc1e8943b95ce3b623f8f5d7c8c996",
+      "text_sha256": "e1ca433b2d83f59e0e5891a7345c67c6da593138775b9f08d0f6a9a9dda51e86"
+    },
+    {
+      "ruling_id": "N309167",
+      "official_url": "https://rulings.cbp.gov/ruling/N309167",
+      "packaged_path": "public_sources/N309167.json",
+      "raw_sha256": "7504ade33573bde128d4cbc58b96a9e5ee1f0bcf2aed30056cf0c3e4ca93565f",
+      "text_sha256": "358525fc3409ccbd5d2ddba69ec4f3f21f476654075322e2ad9f56b9eab9c96a"
+    },
+    {
+      "ruling_id": "N311039",
+      "official_url": "https://rulings.cbp.gov/ruling/N311039",
+      "packaged_path": "public_sources/N311039.json",
+      "raw_sha256": "1dde1401be1ab5b60ceac9788fce84146fd78f50eed64866ebbc11fae4b0687f",
+      "text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+    },
+    {
+      "ruling_id": "N312588",
+      "official_url": "https://rulings.cbp.gov/ruling/N312588",
+      "packaged_path": "public_sources/N312588.json",
+      "raw_sha256": "87a80f4390e4fdc1188e4946c0dfa0968f5a614da74b3253735a143633e1dc1d",
+      "text_sha256": "c8c955e0c388ef69d7385d5f80b9a58e942243b5a213a7a513579915f971234c"
+    },
+    {
+      "ruling_id": "N304781",
+      "official_url": "https://rulings.cbp.gov/ruling/N304781",
+      "packaged_path": "public_sources/N304781.json",
+      "raw_sha256": "7b1bd465af7600aff832e63e775b07fe359c3da1ac9e5937fc841646dd44b04d",
+      "text_sha256": "8b1cc0ad2dc7ab9145fd83d75b4e1fdca3c734abfa9747411ad5482646df392c"
+    },
+    {
+      "ruling_id": "N307931",
+      "official_url": "https://rulings.cbp.gov/ruling/N307931",
+      "packaged_path": "public_sources/N307931.json",
+      "raw_sha256": "f29d9620bd05ef1f054444e04a6095c851c6e084dd19bb763bdd8e1e9fd38059",
+      "text_sha256": "ac176f524e15e4eff575111be4e8741cd97b7bfefe69faa7f6cc9f0c69f5dc0b"
+    },
+    {
+      "ruling_id": "N307830",
+      "official_url": "https://rulings.cbp.gov/ruling/N307830",
+      "packaged_path": "public_sources/N307830.json",
+      "raw_sha256": "bb9ff35b830f63ba6a297ca26f7b6a8cd0fe4f4f7f908cd9d8cb154bb4040518",
+      "text_sha256": "ba22e4ce22ec032ece6c0fbfd866860151934786ca3035062e977bd9a40afe4f"
+    },
+    {
+      "ruling_id": "N308085",
+      "official_url": "https://rulings.cbp.gov/ruling/N308085",
+      "packaged_path": "public_sources/N308085.json",
+      "raw_sha256": "ed7e4a3d8a40b894a229f1b4c75caf03dbe1d615e3cb22b9c3560204f1b6b7f8",
+      "text_sha256": "31dcc691fbb842ea4770724ebf5ff075109d2a2980b9f3b8794ba29cac07ce2f"
+    },
+    {
+      "ruling_id": "N309430",
+      "official_url": "https://rulings.cbp.gov/ruling/N309430",
+      "packaged_path": "public_sources/N309430.json",
+      "raw_sha256": "ea2ca93774db5dcbcebac03b8eeba22924dba686bbed7e531895c16d15f3ce27",
+      "text_sha256": "1e430fa79ff3b4dc54206fbbe8cad0a510ebb9bff2e66213459147d5f8f5b272"
+    },
+    {
+      "ruling_id": "N309775",
+      "official_url": "https://rulings.cbp.gov/ruling/N309775",
+      "packaged_path": "public_sources/N309775.json",
+      "raw_sha256": "b33f089348b18d7a54b57b2dc60032456ae537e24c0426a6a9387f22450748bd",
+      "text_sha256": "0cdfb89836ac4279dbd3f3bcc7e319d63fa891f33d559b5e5ee1e502fe783234"
+    },
+    {
+      "ruling_id": "N310745",
+      "official_url": "https://rulings.cbp.gov/ruling/N310745",
+      "packaged_path": "public_sources/N310745.json",
+      "raw_sha256": "b0600fa8701ab496f42916ca84a425268ab6836fdec21b7a151c1eeaf141e996",
+      "text_sha256": "d27512d3a9d47f07fef95e413cf17e0ed026e92c1745f82e47f14efbf03ff57d"
+    },
+    {
+      "ruling_id": "N311044",
+      "official_url": "https://rulings.cbp.gov/ruling/N311044",
+      "packaged_path": "public_sources/N311044.json",
+      "raw_sha256": "50b9008306571238a7e33a827d6bfeadc72c766cf0ba43d842e2cbc0627091a0",
+      "text_sha256": "581c49e6cf04ac69e87ab45492e4c60d7a776c6dcb9729a0bd2235aa3d8cb03d"
+    },
+    {
+      "ruling_id": "N310775",
+      "official_url": "https://rulings.cbp.gov/ruling/N310775",
+      "packaged_path": "public_sources/N310775.json",
+      "raw_sha256": "bdebace2c8fb01cd778f1947e9ff853659d5f196bb757c24de56e3bc1ac28b26",
+      "text_sha256": "a9b17863e056efee8d122836bd5b8d74c99d89211c3e331295e84f2edd1f58f1"
+    },
+    {
+      "ruling_id": "N311153",
+      "official_url": "https://rulings.cbp.gov/ruling/N311153",
+      "packaged_path": "public_sources/N311153.json",
+      "raw_sha256": "d5da690db31dc54a468a29938b181efc50e42297fb66ad8f93487eb38ee89cd5",
+      "text_sha256": "e6929f91c70299610221d8285a1095d3edeea7b74fd5fb1663f8457a10e8ce66"
+    },
+    {
+      "ruling_id": "N311074",
+      "official_url": "https://rulings.cbp.gov/ruling/N311074",
+      "packaged_path": "public_sources/N311074.json",
+      "raw_sha256": "5b28885a7880499f684966401197769d9392a383d2f03b591882526104d2597d",
+      "text_sha256": "96ab45b95b3eb415530b575b07cac5bc6440584d564376f45ef8804ec82ac3ae"
+    },
+    {
+      "ruling_id": "N310714",
+      "official_url": "https://rulings.cbp.gov/ruling/N310714",
+      "packaged_path": "public_sources/N310714.json",
+      "raw_sha256": "a898ff780ba66fd883f4dfe6177f819bbf567c0e19d78044d4edbb2536cb3827",
+      "text_sha256": "618c6c2354f4a94752b1ad6a9584d72ad99986cd656924c9da1145d022a2f007"
+    },
+    {
+      "ruling_id": "N311558",
+      "official_url": "https://rulings.cbp.gov/ruling/N311558",
+      "packaged_path": "public_sources/N311558.json",
+      "raw_sha256": "1ef1706ffa5469a594d9e337c54a55b72760cf6c421533830d63013dd2ef6554",
+      "text_sha256": "c324ef869ed5e096eed9c8258342a4f5a623cf0979be2585e6b7c8f1ea01ff2a"
+    },
+    {
+      "ruling_id": "N310804",
+      "official_url": "https://rulings.cbp.gov/ruling/N310804",
+      "packaged_path": "public_sources/N310804.json",
+      "raw_sha256": "14fce0782baa7d6f053f8c1ce76595d755d5a479131f41236e7bfc5b0c668534",
+      "text_sha256": "a2602834727f5e00488230f698dc361dab5f21b4057c89aa2fad46900426167e"
+    },
+    {
+      "ruling_id": "N312309",
+      "official_url": "https://rulings.cbp.gov/ruling/N312309",
+      "packaged_path": "public_sources/N312309.json",
+      "raw_sha256": "3293718b3da44a8800e1d42e6fff601664922ea2bbe569756b8e4d04eb11ab60",
+      "text_sha256": "9e17fbf87c7704e056941e6d9f87687a8e95c3dda92cfb7e475525d30d07dddb"
+    },
+    {
+      "ruling_id": "N312147",
+      "official_url": "https://rulings.cbp.gov/ruling/N312147",
+      "packaged_path": "public_sources/N312147.json",
+      "raw_sha256": "9c71080d012f2fa53af21ece4e3fd464d58b0c3223d41c19f0861e4a925d96c6",
+      "text_sha256": "0db26070445babadad66f87bfc3060d3a92244bf4a8ad6e3031a3833889fb8e7"
+    },
+    {
+      "ruling_id": "N312568",
+      "official_url": "https://rulings.cbp.gov/ruling/N312568",
+      "packaged_path": "public_sources/N312568.json",
+      "raw_sha256": "358c4baef993430a61f44ff9208c79f7a5b7435f4e04a7440a17f36f90c89e68",
+      "text_sha256": "fd4c11d1660f119cae2708ab1fa48f33a059fd7dfb618eb13cf18616d22f8b93"
+    },
+    {
+      "ruling_id": "N312471",
+      "official_url": "https://rulings.cbp.gov/ruling/N312471",
+      "packaged_path": "public_sources/N312471.json",
+      "raw_sha256": "3e2fbad99918141039d6e1f89138f5f52d6ed4bfe717e894dcc092d09aa244e5",
+      "text_sha256": "c09955c4d92da4f160cbd3ebc44ec1a20da493629ba80238c9f4cdfa35ea545a"
+    },
+    {
+      "ruling_id": "N313119",
+      "official_url": "https://rulings.cbp.gov/ruling/N313119",
+      "packaged_path": "public_sources/N313119.json",
+      "raw_sha256": "c5a1758152cd15278fea0c34b963d43098f6330101c0b92d432cb6a208f09f71",
+      "text_sha256": "97e365dfb3bf316897cf815c9b3eddc98aa65f4c1fb4b2656200e3a1bcaa8064"
+    },
+    {
+      "ruling_id": "N313188",
+      "official_url": "https://rulings.cbp.gov/ruling/N313188",
+      "packaged_path": "public_sources/N313188.json",
+      "raw_sha256": "bd47de9eb324a248c14ddd46ba0a640ed454c9c987264e8de650963c700d2827",
+      "text_sha256": "acd3fb0e7643e3593ef6fc63d3a96cb7841ca9d806ebb2de0a839c761e67ee51"
+    },
+    {
+      "ruling_id": "N314454",
+      "official_url": "https://rulings.cbp.gov/ruling/N314454",
+      "packaged_path": "public_sources/N314454.json",
+      "raw_sha256": "10e61fd33ca33964b49db9735a61e1e5cbdfd76d71ed7ab4e07cf2400286645c",
+      "text_sha256": "ad53482ba647701561810036ac3e35ca0399781a8efc5ef4c9e8603cdff5aa74"
+    },
+    {
+      "ruling_id": "N314745",
+      "official_url": "https://rulings.cbp.gov/ruling/N314745",
+      "packaged_path": "public_sources/N314745.json",
+      "raw_sha256": "2b0841e734cde9d42e4342e13d961d28044e1931d1235a09e8f03405881f3c7d",
+      "text_sha256": "9ca552f3d3fa5b2457b3557fa1aa98caa7bd5eda23ba1c710f79266cef84620c"
+    },
+    {
+      "ruling_id": "N315526",
+      "official_url": "https://rulings.cbp.gov/ruling/N315526",
+      "packaged_path": "public_sources/N315526.json",
+      "raw_sha256": "19107a1d39cc056c366153e812f6459984c02e2eb54d4f6ddc7b41d9777c9665",
+      "text_sha256": "03d07c49dde4fdaa8b54619e91b31e395728665f60f91d6d085467bfa7d9050c"
+    },
+    {
+      "ruling_id": "N315824",
+      "official_url": "https://rulings.cbp.gov/ruling/N315824",
+      "packaged_path": "public_sources/N315824.json",
+      "raw_sha256": "fea3fac65df5e786ff3c3e410e17eff6002225de243a8a4c17048c073d76c06a",
+      "text_sha256": "672a895e145a3eed9339ad82cb72d07e11c2fa8ca35aca93478e5a3a4bc2b94f"
+    },
+    {
+      "ruling_id": "N316485",
+      "official_url": "https://rulings.cbp.gov/ruling/N316485",
+      "packaged_path": "public_sources/N316485.json",
+      "raw_sha256": "863ab7246ee820c274a9287989e185384dcb9b45d4a9600be8f468157e78d9b8",
+      "text_sha256": "9ef506884de44d1f88a0e7fcc21fe2dc098da4e5b2de178baeebfbb161cda8db"
+    },
+    {
+      "ruling_id": "N318455",
+      "official_url": "https://rulings.cbp.gov/ruling/N318455",
+      "packaged_path": "public_sources/N318455.json",
+      "raw_sha256": "cda7770f7432922af89224356a6acff4170c0d46dafc4ddb2711b3955ccbbb33",
+      "text_sha256": "0d6900cae974cd4dac1f9f9fdaf3564bfdd9d002f7a427d9898f87d122215ac9"
+    },
+    {
+      "ruling_id": "N318822",
+      "official_url": "https://rulings.cbp.gov/ruling/N318822",
+      "packaged_path": "public_sources/N318822.json",
+      "raw_sha256": "821343ff4d67c0f6cc2b8346b49a17bdb7cac47d878116f02eac9ac8c3e080cd",
+      "text_sha256": "a61a612b993c80247db97192f935cac098e27c3365b74508a3785642530e9914"
+    },
+    {
+      "ruling_id": "N319331",
+      "official_url": "https://rulings.cbp.gov/ruling/N319331",
+      "packaged_path": "public_sources/N319331.json",
+      "raw_sha256": "34273a834417010fdcb20a9742b5b11c87ba68976b69524c770bf7590433dedd",
+      "text_sha256": "61f61b1882142a6a432525ab4435d8c4067af30887bd6ba7d278916a964b386c"
+    },
+    {
+      "ruling_id": "N325922",
+      "official_url": "https://rulings.cbp.gov/ruling/N325922",
+      "packaged_path": "public_sources/N325922.json",
+      "raw_sha256": "5fbad6cbebf9166282c34a2e0139091244b6babd837424bdc852d9dd2211ab9f",
+      "text_sha256": "f588197b6d81523281af2640dd246a89400cee75eebd29943cc9844316d2fce1"
+    },
+    {
+      "ruling_id": "N327114",
+      "official_url": "https://rulings.cbp.gov/ruling/N327114",
+      "packaged_path": "public_sources/N327114.json",
+      "raw_sha256": "f6a2c34ce3cc31b0315015c626f89c2a9876f7b9c9c5ee88150574a62ff0d6e7",
+      "text_sha256": "8319db4f052a8113dec8ecaf3b6faeb94ddc1f9964370d87cde2af9279f6af8a"
+    },
+    {
+      "ruling_id": "N329172",
+      "official_url": "https://rulings.cbp.gov/ruling/N329172",
+      "packaged_path": "public_sources/N329172.json",
+      "raw_sha256": "3bb5cb1971681585d25977357ed738c23845c835a8c4ba26581b046e21443467",
+      "text_sha256": "687f41e11d8557d06d2dd469ad5da4cd8a6c8330906abef7723649817e1fc550"
+    },
+    {
+      "ruling_id": "N332207",
+      "official_url": "https://rulings.cbp.gov/ruling/N332207",
+      "packaged_path": "public_sources/N332207.json",
+      "raw_sha256": "d162abad80f5ee3e22f557f440bbc092bd1eeed806fa2087e50ee8782c99bbee",
+      "text_sha256": "94739c32719ca6361a09bf0dd72577366f8bbae925a73cfedacce068f26f3496"
+    },
+    {
+      "ruling_id": "N336939",
+      "official_url": "https://rulings.cbp.gov/ruling/N336939",
+      "packaged_path": "public_sources/N336939.json",
+      "raw_sha256": "c9a24931193924e48466b0d5a0e56f1f768f47400da918672d1267e7be048be3",
+      "text_sha256": "0e8e6d932dc0a7d53ad1fa33d9f233b0189ea6e259c69719a0c8df15b233fe80"
+    }
+  ],
+  "scope": "Byte-identical copied snapshots of official public sources; original raw files not changed."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-10-22T21:08:11.0778176Z",
+  "scope": [
+    "Main abstract",
+    "Main Sections 4 and 5",
+    "Main Discussion and Conclusion",
+    "AI disclosure",
+    "Supplement S4 including final results",
+    "Reference support strength using prior primary-source audit"
+  ],
+  "material_discrepancies": [],
+  "checked_claims": [
+    {
+      "claim": "Motor restoration failure",
+      "result": "Main 5.5 and S4 retain direct unknown-to-unknown and checklist refuted-to-refuted, with added supporting assertion cited by checklist; no inferred internal cause or general claim that the paragraph was ignored."
+    },
+    {
+      "claim": "Controlled first-condition restriction",
+      "result": "Main 4.2 and5.4 and S4.4 explicitly state first condition carries whole-input changes; no claim of general conjunctive integration."
+    },
+    {
+      "claim": "Frame-species erratum",
+      "result": "One companion state and seven admissible citation endpoints changed; fixed inputs and outputs preserved; original-reference and whole-family-exclusion sensitivities retained; strict refutation-with-unknown denominator11 versus broad pair-preservation denominator12 distinguished."
+    },
+    {
+      "claim": "Functional outcomes",
+      "result": "Controlled98/108 versus104/108, condition211/216, ID213/216, joint211/216, required requests20/24, linked84/96 versus90/96 match previously independently checked outputs. Restoration7/8 versus6/8 and3/4 pairs match raw-output audit."
+    },
+    {
+      "claim": "AI reference validity",
+      "result": "Abstract, method3.4, discussion7.3, AI disclosure and S4 distinguish AI-assisted source coding from independent expert legal validation."
+    },
+    {
+      "claim": "Main contribution",
+      "result": "Source-to-input evidence audit and inspectable evaluation resource remain the primary contribution; controlled interface improvement is bounded and the real-source reversal is retained."
+    },
+    {
+      "claim": "Citation support",
+      "result": "Closest-work and official-source claims remain within prior verified reading depth; customs classification separated from post-classification exclusion scope; TriBench-Ko marked preprint; no first semantic reasoning, abstention or perturbation-testing claim."
+    }
+  ],
+  "input_sha256": {
+    "manuscript_md": "6720871414729c08f0cff095e78de8f13031be784b93154d9a9defbd7515380c",
+    "supplement_md": "50abe6152f08b8fbed87cbe7362f62490cc2e10a9ecf2db10d9ad8c17c7e26ca"
+  },
+  "prior_audits": [
+    "literature/revised_content_readonly_review.json",
+    "literature/frozen_functional_error_audit.json",
+    "literature/source_recovery_output_audit.json",
+    "literature/verified_references.json"
+  ],
+  "changes": "No manuscript edits, new searches, inference or experiment reruns.",
+  "limit": "Bounded content integration audit by an AI agent, not legal expert validation, publication acceptance guarantee or page-layout certification."
+}

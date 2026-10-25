@@ -1,0 +1,11 @@
+{
+  "n": 24,
+  "conditions_n": 27,
+  "valid": 24,
+  "correct_decisions": 24,
+  "correct_conditions": null,
+  "unsupported_affirmations": 0,
+  "decisive_refutation_missing_passes": 1,
+  "passed": true,
+  "failed_ids": []
+}

@@ -1,0 +1,72 @@
+{
+  "scope": "ai-assisted source audit, frozen 23 October 2026",
+  "historical_unknown_cases": 47,
+  "conditions_in_those_cases": 137,
+  "strict_unknown_conditions": 67,
+  "strict_unknown_by_tier": {
+    "interpretive": 36,
+    "insufficient": 19,
+    "disputed": 12
+  },
+  "repaired_by_source_restoration": 4,
+  "settled_by_declared_interpretation_option": 17,
+  "both_operations_available": 1,
+  "no_declared_repair": 47,
+  "by_cause_group": {
+    "excerpt_omission": {
+      "cases": 5,
+      "conditions": 7,
+      "restoration_repairs": 4,
+      "option_repairs": 1,
+      "no_declared_repair": 3
+    },
+    "no_sufficient_attribute_in_public_source": {
+      "cases": 10,
+      "conditions": 12,
+      "restoration_repairs": 0,
+      "option_repairs": 0,
+      "no_declared_repair": 12
+    },
+    "definition_category_or_use": {
+      "cases": 36,
+      "conditions": 38,
+      "restoration_repairs": 0,
+      "option_repairs": 12,
+      "no_declared_repair": 26
+    },
+    "object_component_or_measurement_scope": {
+      "cases": 11,
+      "conditions": 12,
+      "restoration_repairs": 0,
+      "option_repairs": 3,
+      "no_declared_repair": 9
+    },
+    "source_or_interpretation_conflict": {
+      "cases": 5,
+      "conditions": 5,
+      "restoration_repairs": 0,
+      "option_repairs": 3,
+      "no_declared_repair": 2
+    }
+  },
+  "case_level": {
+    "safe_conjunction_unknown_cases": 40,
+    "logic_unresolved_unknown_cases": 7,
+    "technical_package_states": {
+      "support": 2,
+      "unknown": 33,
+      "refute": 5
+    },
+    "alternative_package_states": {
+      "refute": 2,
+      "unknown": 34,
+      "support": 4
+    }
+  },
+  "notes": [
+    "Cause groups overlap; their condition counts sum above 67 and are not a partition.",
+    "Restoration applies only to attributes that are directly described in the public ruling.",
+    "An option repair needs a declared policy; the option itself is not adjudicated.",
+    "No population rate, probability or legal authority is implied."
+  ]
+}

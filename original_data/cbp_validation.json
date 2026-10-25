@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "search_index_files": [
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_search_index_20261007T143403Z.json",
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_supplement_index_20261007T143907Z.json"
+  ],
+  "manifest_files": [
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_manifest_20261007T143403Z.json",
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_recovery_manifest_20261007T150232Z.json",
+    "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_supplement_manifest_20261007T143907Z.json"
+  ],
+  "search_query_checks": [
+    {
+      "query": "301 AND exclusion",
+      "total": 177,
+      "retrieved": 177,
+      "unique": 177,
+      "pass": true
+    },
+    {
+      "query": "301 AND exclusions",
+      "total": 1723,
+      "retrieved": 1723,
+      "unique": 1723,
+      "pass": true
+    },
+    {
+      "query": "301 AND exempt",
+      "total": 80,
+      "retrieved": 80,
+      "unique": 80,
+      "pass": true
+    },
+    {
+      "query": "301 AND exclude",
+      "total": 54,
+      "retrieved": 54,
+      "unique": 54,
+      "pass": true
+    },
+    {
+      "query": "exclusion",
+      "total": 392,
+      "retrieved": 392,
+      "unique": 392,
+      "pass": true
+    },
+    {
+      "query": "exclusions",
+      "total": 2104,
+      "retrieved": 2104,
+      "unique": 2104,
+      "pass": true
+    }
+  ],
+  "expected_unique_rulings": 2482,
+  "observed_records": 2482,
+  "unique_ids": 2482,
+  "missing_ids": [],
+  "extra_ids": [],
+  "errors": [],
+  "raw_responses_verified": 2531,
+  "raw_response_bytes": 25163602,
+  "collections": {
+    "hq": 363,
+    "ny": 2110,
+    "HQ": 5,
+    "NY": 4
+  },
+  "date_range": [
+    "2018-01-16",
+    "2026-09-16"
+  ],
+  "year_counts": {
+    "2018": 133,
+    "2019": 149,
+    "2020": 154,
+    "2021": 357,
+    "2022": 413,
+    "2023": 326,
+    "2024": 359,
+    "2025": 537,
+    "2026": 54
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "run": "20261007T150232Z",
+  "detail_requested": 2,
+  "detail_failed": [],
+  "dataset": "D:\\MLWork\\tariff_scope_20261007\\datasets\\cbp_recovery_20261007T150232Z.jsonl",
+  "responses": [
+    {
+      "url": "https://rulings.cbp.gov/api/ruling/H323646",
+      "retrieved_utc": "2026-10-07T15:02:34.200632+00:00",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T150232Z\\rulings\\H323646.json",
+      "status": 200,
+      "bytes": 9511,
+      "sha256": "13da40e803497a38547d1b4d6a63db939c8769d8614523c24530781f75325993",
+      "query": null
+    },
+    {
+      "url": "https://rulings.cbp.gov/api/ruling/N326929",
+      "retrieved_utc": "2026-10-07T15:02:35.029735+00:00",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T150232Z\\rulings\\N326929.json",
+      "status": 200,
+      "bytes": 5727,
+      "sha256": "73a76fa70ae8540d4d672407841b1967eda8cd9de6ed8dd3f1b15a7e00a9c4a2",
+      "query": null
+    }
+  ]
+}

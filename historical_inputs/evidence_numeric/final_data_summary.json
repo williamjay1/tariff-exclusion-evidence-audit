@@ -1,0 +1,935 @@
+{
+  "evidence": {
+    "initial_agreement": {
+      "n": 73,
+      "matching": 66,
+      "agreement": 0.9041095890410958,
+      "cohen_kappa": 0.8144517066085691,
+      "first_counts": {
+        "unknown": 45,
+        "support": 23,
+        "refute": 5
+      },
+      "second_counts": {
+        "unknown": 44,
+        "support": 25,
+        "refute": 4
+      },
+      "initial_confusion": {
+        "unknown->unknown": 41,
+        "support->support": 21,
+        "refute->refute": 4,
+        "unknown->support": 4,
+        "support->unknown": 2,
+        "refute->unknown": 1
+      },
+      "disagreements": [
+        {
+          "case_id": "H332948_3",
+          "first_state": "unknown",
+          "second_state": "support",
+          "second_rationale": "Synthetic granules/retail packaging and explicit flower-drying instructions, despite additional cat-litter use.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        },
+        {
+          "case_id": "H318593_1",
+          "first_state": "support",
+          "second_state": "unknown",
+          "second_rationale": "Numeric dimensions/mass satisfy; mixed steel/aluminum composition makes of-steel taxonomy interpretation-sensitive.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        },
+        {
+          "case_id": "H333673_1",
+          "first_state": "unknown",
+          "second_state": "support",
+          "second_rationale": "Front-light IR receiver and automatic low-beam control establish a passive IR/light-control branch; other active rain sensing does not negate it.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        },
+        {
+          "case_id": "N304766",
+          "first_state": "unknown",
+          "second_state": "support",
+          "second_rationale": "Installation-ready parts explicitly designed for telehandler fork-lifting machine.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        },
+        {
+          "case_id": "N305670",
+          "first_state": "unknown",
+          "second_state": "support",
+          "second_rationale": "Pedal assembly explicitly designed for forklifts/work trucks.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        },
+        {
+          "case_id": "N312588",
+          "first_state": "refute",
+          "second_state": "unknown",
+          "second_rationale": "Integrated circuits/diodes present but mapping subcomponents to excluded legal headings is external legal-taxonomy step.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        },
+        {
+          "case_id": "N309775_buttons",
+          "first_state": "support",
+          "second_state": "unknown",
+          "second_rationale": "Button pack satisfies; separate silicone switch pad is not unambiguously described as molded buttons.",
+          "resolution": "unknown",
+          "resolution_basis": "Unresolved category/use/incorporated-heading/multiple-product reading; no administrative disposition used to adjudicate."
+        }
+      ],
+      "final_counts": {
+        "unknown": 47,
+        "support": 21,
+        "refute": 5
+      },
+      "interpretation": "Reproducibility of two same-lineage AI readings of outcome-masked inputs, not independence from prior project knowledge or proof of legal validity.",
+      "human_expert_review": false,
+      "post_reconciliation_agreement_not_reported": true,
+      "third_pass_source_corrections": [
+        "H318593_1 handle-excluded dimensions remain unknown",
+        "N311039_33 discrete per-product coil/contact alternatives establish a numerical counterexample and change operational unknown to refute"
+      ],
+      "first_pass_sha256": "cea8e16fe0d8df2363bdc3c97a4442ec0513d920e58b509685ef703055c27f7b",
+      "second_pass_sha256": "d402461cea5e183a2fba773228201aae4ab5dd9b17d7e5b1f83953b9a8a4e0c4"
+    },
+    "final_counts": {
+      "unknown": 47,
+      "support": 21,
+      "refute": 5
+    },
+    "analysis_file": "evidence_target_analysis.json"
+  },
+  "numeric": {
+    "n_cases": 33,
+    "n_conditions": 43,
+    "reference_states": {
+      "pass": 23,
+      "unknown": 7,
+      "fail": 3
+    },
+    "engine_sha256": "d1baf202365a737751294db4003ed05660f2499d6135e06684410bf75741a568",
+    "reference_fields_sha256": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6",
+    "layer_results": {
+      "reference_rule_reference_fields": {
+        "states": {
+          "pass": 23,
+          "unknown": 7,
+          "fail": 3
+        },
+        "three_state_correct": 33,
+        "n": 33,
+        "confusion": {
+          "pass->pass": 23,
+          "unknown->unknown": 7,
+          "fail->fail": 3
+        }
+      },
+      "auto_rule_reference_fields": {
+        "states": {
+          "pass": 21,
+          "unknown": 10,
+          "fail": 2
+        },
+        "three_state_correct": 30,
+        "n": 33,
+        "confusion": {
+          "pass->pass": 21,
+          "unknown->unknown": 7,
+          "pass->unknown": 2,
+          "fail->fail": 2,
+          "fail->unknown": 1
+        }
+      },
+      "reference_rule_auto_fields": {
+        "states": {
+          "pass": 10,
+          "fail": 1,
+          "unknown": 22
+        },
+        "three_state_correct": 17,
+        "n": 33,
+        "confusion": {
+          "pass->pass": 10,
+          "pass->fail": 1,
+          "unknown->unknown": 7,
+          "pass->unknown": 12,
+          "fail->unknown": 3
+        }
+      },
+      "auto_rule_auto_fields": {
+        "states": {
+          "pass": 10,
+          "fail": 1,
+          "unknown": 22
+        },
+        "three_state_correct": 17,
+        "n": 33,
+        "confusion": {
+          "pass->pass": 10,
+          "pass->fail": 1,
+          "unknown->unknown": 7,
+          "pass->unknown": 12,
+          "fail->unknown": 3
+        }
+      }
+    },
+    "unknown_reasons": {
+      "reference_rule_reference_fields": {
+        "missing_or_binding_mismatch": 8,
+        "straddling_interval": 2
+      },
+      "auto_rule_reference_fields": {
+        "missing_or_binding_mismatch": 4,
+        "no_parsed_constraint": 3,
+        "unparsed_rule_quantity": 5,
+        "straddling_interval": 2
+      },
+      "reference_rule_auto_fields": {
+        "missing_or_binding_mismatch": 21,
+        "multiple_distinct_fields": 8
+      },
+      "auto_rule_auto_fields": {
+        "missing_or_binding_mismatch": 11,
+        "multiple_distinct_fields": 9,
+        "no_parsed_constraint": 3,
+        "unparsed_rule_quantity": 5
+      }
+    },
+    "design": "Actual frozen Decimal interval_state execution. Ordinary fields use frozen matching policy. For source-coded relay fields only, an explicit test-only binding adapter evaluates each product and its discrete rating alternatives, then aggregates all listed products; this is not functionality of the frozen extractor. Interventions never use administrative outcomes.",
+    "limitation": "Reference fields encode reviewed subject bindings and conservative hulls. This is a test-only diagnostic intervention, not a deployable extractor or evidence of full legal correctness.",
+    "unknown_reason_count_unit": "Constraint occurrences except unparsed rule/disjunction/no constraints, which count cases; categories can overlap."
+  },
+  "numeric_paired_differences": {
+    "metric": "Exact agreement with three-state source-coded numeric reference, not administrative accuracy or causal effect",
+    "n_cases": 33,
+    "n_linked_groups": 16,
+    "seed": 20261007,
+    "bootstrap_replicates": 2000,
+    "bootstrap_unit": "Original frozen benchmark linked groups, restricted to the 33 numerical cases; each sampled group contributes all its retained cases",
+    "statistic": "Pooled case-weighted paired difference within each bootstrap sample; no refitting; identical group draws for all contrasts",
+    "group_members": {
+      "G000": [
+        "H330938_1"
+      ],
+      "G007": [
+        "H323452_1"
+      ],
+      "G011": [
+        "H311957_1"
+      ],
+      "G015": [
+        "H316154_1"
+      ],
+      "G017": [
+        "H322923_1"
+      ],
+      "G018": [
+        "H314080_1"
+      ],
+      "G026": [
+        "H332948_1",
+        "H332948_3"
+      ],
+      "G028": [
+        "H318593_1",
+        "H318593_2"
+      ],
+      "G029": [
+        "H317391_1",
+        "H340899_1"
+      ],
+      "G031": [
+        "H333371_1"
+      ],
+      "G043": [
+        "N307161"
+      ],
+      "G047": [
+        "N311039_33"
+      ],
+      "G049": [
+        "N304781"
+      ],
+      "G067": [
+        "N312568"
+      ],
+      "G069": [
+        "N307931"
+      ],
+      "G084": [
+        "N306552",
+        "N307469",
+        "N307830",
+        "N308085",
+        "N309430",
+        "N311074",
+        "N311558",
+        "N314745_self",
+        "N314745_pedal",
+        "N318455",
+        "N318822",
+        "N319331",
+        "N325922",
+        "N327114",
+        "N332207"
+      ]
+    },
+    "largest_restricted_group": 15,
+    "resampled_case_count_range": [
+      16,
+      89
+    ],
+    "comparisons": {
+      "reference_fields_minus_automatic_fields_fixed_reference_rule": {
+        "comparison_A": "reference_rule_reference_fields",
+        "comparison_B": "reference_rule_auto_fields",
+        "A_agreement_count": 33,
+        "B_agreement_count": 17,
+        "n": 33,
+        "A_minus_B_agreement_rate": 0.48484848484848486,
+        "A_minus_B_percentage_points": 48.484848484848484,
+        "A_correct_B_incorrect": 16,
+        "A_incorrect_B_correct": 0,
+        "both_correct": 17,
+        "both_incorrect": 0,
+        "percentile_95_interval_rate": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "percentile_95_interval_percentage_points": [
+          33.33333333333333,
+          66.66666666666666
+        ],
+        "valid_resamples": 2000,
+        "requested_resamples": 2000,
+        "A_correct_B_incorrect_ids": [
+          "H317391_1",
+          "H311957_1",
+          "H316154_1",
+          "H332948_1",
+          "H332948_3",
+          "H318593_2",
+          "N306552",
+          "N307830",
+          "N309430",
+          "N314745_self",
+          "N314745_pedal",
+          "N319331",
+          "N325922",
+          "N307161",
+          "N311039_33",
+          "N304781"
+        ],
+        "A_incorrect_B_correct_ids": []
+      },
+      "reference_fields_minus_automatic_fields_fixed_automatic_rule": {
+        "comparison_A": "auto_rule_reference_fields",
+        "comparison_B": "auto_rule_auto_fields",
+        "A_agreement_count": 30,
+        "B_agreement_count": 17,
+        "n": 33,
+        "A_minus_B_agreement_rate": 0.3939393939393939,
+        "A_minus_B_percentage_points": 39.39393939393939,
+        "A_correct_B_incorrect": 13,
+        "A_incorrect_B_correct": 0,
+        "both_correct": 17,
+        "both_incorrect": 3,
+        "percentile_95_interval_rate": [
+          0.18735795454545456,
+          0.5
+        ],
+        "percentile_95_interval_percentage_points": [
+          18.735795454545457,
+          50.0
+        ],
+        "valid_resamples": 2000,
+        "requested_resamples": 2000,
+        "A_correct_B_incorrect_ids": [
+          "H317391_1",
+          "H311957_1",
+          "H316154_1",
+          "H318593_2",
+          "N306552",
+          "N307830",
+          "N309430",
+          "N314745_self",
+          "N314745_pedal",
+          "N319331",
+          "N325922",
+          "N311039_33",
+          "N304781"
+        ],
+        "A_incorrect_B_correct_ids": []
+      },
+      "reference_rule_minus_automatic_rule_fixed_reference_fields": {
+        "comparison_A": "reference_rule_reference_fields",
+        "comparison_B": "auto_rule_reference_fields",
+        "A_agreement_count": 33,
+        "B_agreement_count": 30,
+        "n": 33,
+        "A_minus_B_agreement_rate": 0.09090909090909091,
+        "A_minus_B_percentage_points": 9.090909090909092,
+        "A_correct_B_incorrect": 3,
+        "A_incorrect_B_correct": 0,
+        "both_correct": 30,
+        "both_incorrect": 0,
+        "percentile_95_interval_rate": [
+          0.0,
+          0.3333333333333333
+        ],
+        "percentile_95_interval_percentage_points": [
+          0.0,
+          33.33333333333333
+        ],
+        "valid_resamples": 2000,
+        "requested_resamples": 2000,
+        "A_correct_B_incorrect_ids": [
+          "H332948_1",
+          "H332948_3",
+          "N307161"
+        ],
+        "A_incorrect_B_correct_ids": []
+      },
+      "reference_rule_minus_automatic_rule_fixed_automatic_fields": {
+        "comparison_A": "reference_rule_auto_fields",
+        "comparison_B": "auto_rule_auto_fields",
+        "A_agreement_count": 17,
+        "B_agreement_count": 17,
+        "n": 33,
+        "A_minus_B_agreement_rate": 0.0,
+        "A_minus_B_percentage_points": 0.0,
+        "A_correct_B_incorrect": 0,
+        "A_incorrect_B_correct": 0,
+        "both_correct": 17,
+        "both_incorrect": 16,
+        "percentile_95_interval_rate": [
+          0.0,
+          0.0
+        ],
+        "percentile_95_interval_percentage_points": [
+          0.0,
+          0.0
+        ],
+        "valid_resamples": 2000,
+        "requested_resamples": 2000,
+        "A_correct_B_incorrect_ids": [],
+        "A_incorrect_B_correct_ids": []
+      },
+      "v2_minus_frozen_fully_automatic": {
+        "comparison_A": "v2",
+        "comparison_B": "auto_rule_auto_fields",
+        "A_agreement_count": 24,
+        "B_agreement_count": 17,
+        "n": 33,
+        "A_minus_B_agreement_rate": 0.21212121212121213,
+        "A_minus_B_percentage_points": 21.21212121212121,
+        "A_correct_B_incorrect": 7,
+        "A_incorrect_B_correct": 0,
+        "both_correct": 17,
+        "both_incorrect": 9,
+        "percentile_95_interval_rate": [
+          0.1,
+          0.35
+        ],
+        "percentile_95_interval_percentage_points": [
+          10.0,
+          35.0
+        ],
+        "valid_resamples": 2000,
+        "requested_resamples": 2000,
+        "A_correct_B_incorrect_ids": [
+          "H317391_1",
+          "H311957_1",
+          "H316154_1",
+          "H318593_2",
+          "N307830",
+          "N314745_self",
+          "N314745_pedal"
+        ],
+        "A_incorrect_B_correct_ids": []
+      }
+    },
+    "input_sha256": {
+      "datasets\\benchmark.jsonl": "8e33bb2381212c5a29b63ce1c9fdbcbb1a0ae6c3d228097c748529934589a3f9",
+      "revision_20261009\\evidence_numeric\\numeric_layer_predictions.jsonl": "437472c2478d489c909fb4992b0fb2e51b5bdea69b9f5cca7f8f251195245506",
+      "revision_20261009\\evidence_numeric\\real_numeric_v2_predictions.jsonl": "53ebce10bcb5698db3782d8b67425977fe58d99355eacf60dac2003f8a1fdd80",
+      "revision_20261009\\evidence_numeric\\numeric_reference_fields.jsonl": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6"
+    },
+    "limitations": "Conditional fixed-prediction summaries for 33 purposively selected numeric cases. Reference fields and the relay adapter provide test-only binding information. Reference/reference agreement is internal execution consistency. V2 was developed on inspected diagnostics. Intervals do not establish legal validity, deployment benefit, causality, reference-label validity, or independent generalization."
+  },
+  "numeric_v2": {
+    "version": "posthoc_v2_general_parser_repairs",
+    "frozen_engine_unchanged": true,
+    "v2_sha256": "57bb3860e13b0a16fc0c14ff3e2750f658a25f1c6bb23395e8ec8f92d91afeca",
+    "numeric_reference_sha256": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6",
+    "constructed_input_sha256": "17e8dd16daf35907a048d10fc2891b651be0cfa8999156b4e84c46141a3bec4a",
+    "real33": {
+      "n": 33,
+      "correct": 24,
+      "confusion": {
+        "pass->pass": 16,
+        "unknown->unknown": 7,
+        "pass->unknown": 7,
+        "fail->fail": 1,
+        "fail->unknown": 2
+      }
+    },
+    "constructed96": {
+      "n": 96,
+      "correct": 73,
+      "confusion": {
+        "pass->pass": 31,
+        "fail->fail": 27,
+        "unknown->unknown": 15,
+        "pass->unknown": 13,
+        "fail->unknown": 10
+      }
+    },
+    "constructed_by_mechanism": {
+      "comparative_facts": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 4,
+          "fail->fail": 2,
+          "unknown->unknown": 2
+        }
+      },
+      "component_binding": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 4,
+          "fail->fail": 4
+        }
+      },
+      "compound_units": {
+        "n": 8,
+        "correct": 0,
+        "confusion": {
+          "pass->unknown": 4,
+          "fail->unknown": 4
+        }
+      },
+      "conflicting_reports": {
+        "n": 8,
+        "correct": 6,
+        "confusion": {
+          "pass->pass": 1,
+          "unknown->unknown": 4,
+          "fail->fail": 1,
+          "pass->unknown": 1,
+          "fail->unknown": 1
+        }
+      },
+      "dimension_binding": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 4,
+          "fail->fail": 4
+        }
+      },
+      "disjunction": {
+        "n": 8,
+        "correct": 2,
+        "confusion": {
+          "pass->unknown": 4,
+          "fail->unknown": 2,
+          "unknown->unknown": 2
+        }
+      },
+      "identifier": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 4,
+          "fail->fail": 2,
+          "unknown->unknown": 2
+        }
+      },
+      "mass_capacity": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 4,
+          "fail->fail": 4
+        }
+      },
+      "measurement_uncertainty": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 2,
+          "unknown->unknown": 4,
+          "fail->fail": 2
+        }
+      },
+      "nested_exception": {
+        "n": 8,
+        "correct": 1,
+        "confusion": {
+          "pass->unknown": 4,
+          "fail->unknown": 3,
+          "unknown->unknown": 1
+        }
+      },
+      "two_sided_bounds": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "fail->fail": 4,
+          "pass->pass": 4
+        }
+      },
+      "unit_equivalence": {
+        "n": 8,
+        "correct": 8,
+        "confusion": {
+          "pass->pass": 4,
+          "fail->fail": 4
+        }
+      }
+    },
+    "real_changes": [
+      {
+        "case_id": "H317391_1",
+        "gold": "pass",
+        "frozen": "fail",
+        "v2": "pass"
+      },
+      {
+        "case_id": "H311957_1",
+        "gold": "pass",
+        "frozen": "unknown",
+        "v2": "pass"
+      },
+      {
+        "case_id": "H316154_1",
+        "gold": "pass",
+        "frozen": "unknown",
+        "v2": "pass"
+      },
+      {
+        "case_id": "H318593_2",
+        "gold": "fail",
+        "frozen": "unknown",
+        "v2": "fail"
+      },
+      {
+        "case_id": "N307830",
+        "gold": "pass",
+        "frozen": "unknown",
+        "v2": "pass"
+      },
+      {
+        "case_id": "N314745_self",
+        "gold": "pass",
+        "frozen": "unknown",
+        "v2": "pass"
+      },
+      {
+        "case_id": "N314745_pedal",
+        "gold": "pass",
+        "frozen": "unknown",
+        "v2": "pass"
+      }
+    ],
+    "claim_boundary": "A post hoc repair evaluated on the same already inspected diagnostic suite and restricted-text cases. No new held-out generalization, deployability or expert validity is inferred; unsupported compound units and logic remain limitations.",
+    "constructed_unique_inputs": {
+      "n": 88,
+      "correct": 66,
+      "confusion": {
+        "pass->pass": 28,
+        "fail->fail": 26,
+        "unknown->unknown": 12,
+        "pass->unknown": 13,
+        "fail->unknown": 9
+      }
+    },
+    "pair_results": {
+      "decisive_change": {
+        "pairs": 26,
+        "both_correct": 14,
+        "same_prediction": 12
+      },
+      "equivalence": {
+        "pairs": 20,
+        "both_correct": 18,
+        "same_prediction": 20
+      },
+      "same_state_control": {
+        "pairs": 2,
+        "both_correct": 2,
+        "same_prediction": 2
+      }
+    },
+    "development_history": {
+      "first_v2_real_correct": 23,
+      "first_v2_constructed_correct": 70,
+      "subsequent_general_bugfix": "The first post hoc run revealed that dropped approximate reports could falsely certify an exact competing reading. Unspecified approximations now remain unbounded unknown fields; explicitly stated plus/minus tolerances are represented as intervals. Initial summary retained. This additional repair was developed after inspecting these diagnostics, not independently validated."
+    }
+  },
+  "opportunities": {
+    "n_numeric_cases": 33,
+    "numeric_by_whole_scope_evidence": {
+      "pass->unknown": 18,
+      "pass->support": 5,
+      "unknown->unknown": 7,
+      "fail->refute": 3
+    },
+    "definite_numeric_violations": [
+      "H318593_2",
+      "N307161",
+      "N311039_33"
+    ],
+    "whole_scope_supported_with_numeric_conditions": [
+      "H317391_1",
+      "H311957_1",
+      "H316154_1",
+      "H332948_1",
+      "N304781"
+    ],
+    "correctable_native_affirmation_counts": {
+      "nli": 1,
+      "qwen": 3,
+      "qwen4": 1
+    },
+    "interpretation": "Only definite numeric violations justify a negative override on numeric evidence alone. Numeric passes do not establish absent nonnumeric criteria; this is an oracle-field opportunity diagnosis, not achieved auto-extraction performance."
+  },
+  "constructed_structure": {
+    "rows": 96,
+    "unique_model_inputs": 88,
+    "duplicate_extra_rows": 8,
+    "mechanisms": 12,
+    "pairs": 48,
+    "duplicate_groups": [
+      {
+        "case_ids": [
+          "D_identifier_1_a",
+          "D_conflicting_reports_1_a"
+        ],
+        "gold": "pass"
+      },
+      {
+        "case_ids": [
+          "D_conflicting_reports_1_b",
+          "D_conflicting_reports_3_b"
+        ],
+        "gold": "unknown"
+      },
+      {
+        "case_ids": [
+          "D_conflicting_reports_2_b",
+          "D_conflicting_reports_4_b"
+        ],
+        "gold": "unknown"
+      },
+      {
+        "case_ids": [
+          "D_two_sided_bounds_1_a",
+          "D_two_sided_bounds_3_b"
+        ],
+        "gold": "fail"
+      },
+      {
+        "case_ids": [
+          "D_dimension_binding_1_a",
+          "D_dimension_binding_2_a",
+          "D_dimension_binding_3_a"
+        ],
+        "gold": "pass"
+      },
+      {
+        "case_ids": [
+          "D_disjunction_1_b",
+          "D_disjunction_2_b"
+        ],
+        "gold": "fail"
+      },
+      {
+        "case_ids": [
+          "D_measurement_uncertainty_1_b",
+          "D_measurement_uncertainty_2_b"
+        ],
+        "gold": "unknown"
+      }
+    ],
+    "frozen_correct_on_unique_inputs": 47,
+    "v2_correct_on_unique_inputs": 66,
+    "statistical_unit_warning": "96 rows are 48 deliberately paired variants in 12 purposive mechanisms, with 88 unique inputs. They are not 96 independent sampled trials."
+  },
+  "inventory": {
+    "rules": 397,
+    "frozen_marker_counts": {
+      "whole_code": 41,
+      "quantitative_marker": 162,
+      "number_outside_code": 198,
+      "negation_marker": 163,
+      "purpose_marker": 89
+    },
+    "proxy_disagreements": 38,
+    "true_measurable_or_count_conditions_among_disagreements": 13,
+    "nonmeasurement_numbers_among_disagreements": 24,
+    "component_inventory_at_least_without_numeral": 1,
+    "whole_code_classifications": {
+      "single statistical code": 41,
+      "dated statistical-code transition": 2
+    },
+    "unresolved_whole_codes": [],
+    "claim_boundary": "The original counts 162 quantitative markers, 198 outside-code digits, 163 negation markers, and 89 purpose markers describe surface features. They do not estimate prevalence of semantically quantified, negative or purpose requirements. This disagreement audit is not a population correction or precision/recall estimate.",
+    "measurement_definition": "A stated physical, monetary, temporal-duration or item-count magnitude; excludes tariff/CAS/material-grade/standard identifiers and statutory dates. Minimum named component inventories are recorded separately.",
+    "whole_code_boundary_note": "The frozen whole_code flag means exactly one standalone statistical code (41 records). Two additional code-only descriptions contain historical code replacements and dates and are not marked by that strict regex. They should not silently be counted as physical product descriptions; report 41 standalone codes plus 2 temporal code-only entries when using semantic scope categories.",
+    "data_product_scope": "A versioned machine-readable transcription of one official USTR index; not a complete historical legal ontology or an independently expert-coded corpus."
+  },
+  "source_summary": {
+    "query_hit_occurrences": 4530,
+    "all_query_union": 2482,
+    "curated_records": 102,
+    "curated_unique_rulings": 92,
+    "unrepresented_rulings": 2390,
+    "retained_pairs": 86,
+    "retained_rulings": 77,
+    "samecode_pairs": 73,
+    "source_checks": {
+      "facts_match_curated": 86,
+      "rules_match_curated": 86,
+      "all_fact_quotes_exact_after_whitespace_normalization": 82,
+      "rule_quote_exact_after_whitespace_normalization": 86,
+      "reference_quote_exact_after_whitespace_normalization": 86,
+      "collection_correct": 86,
+      "outcomes_match_curated": 86,
+      "noncontiguous_fact_compositions": [
+        {
+          "case_id": "N309775_buttons",
+          "noncontiguous_composition_audit": {
+            "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+            "unmatched_nonwhitespace": "",
+            "all_content_characters_source_grounded": true,
+            "source_spans": [
+              [
+                428,
+                1079
+              ],
+              [
+                1738,
+                2219
+              ]
+            ],
+            "target_spans": [
+              [
+                0,
+                651
+              ],
+              [
+                651,
+                1132
+              ]
+            ],
+            "explanation": "Joins source paragraphs for first and fourth products, omitting the intervening knob products."
+          }
+        },
+        {
+          "case_id": "N314745_self",
+          "noncontiguous_composition_audit": {
+            "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+            "unmatched_nonwhitespace": "",
+            "all_content_characters_source_grounded": true,
+            "source_spans": [
+              [
+                1176,
+                1707
+              ],
+              [
+                2117,
+                2378
+              ]
+            ],
+            "target_spans": [
+              [
+                0,
+                531
+              ],
+              [
+                531,
+                792
+              ]
+            ],
+            "explanation": "Joins first, second and fourth product descriptions; third pedal-only product is omitted from this pair."
+          }
+        },
+        {
+          "case_id": "N314745_pedal",
+          "noncontiguous_composition_audit": {
+            "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+            "unmatched_nonwhitespace": "",
+            "all_content_characters_source_grounded": true,
+            "source_spans": [
+              [
+                1703,
+                2118
+              ],
+              [
+                2384,
+                2784
+              ]
+            ],
+            "target_spans": [
+              [
+                0,
+                415
+              ],
+              [
+                415,
+                815
+              ]
+            ],
+            "explanation": "Joins third and fifth product descriptions; fourth self-propelled product is omitted from this pair."
+          }
+        },
+        {
+          "case_id": "N316485",
+          "noncontiguous_composition_audit": {
+            "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+            "unmatched_nonwhitespace": "",
+            "all_content_characters_source_grounded": true,
+            "source_spans": [
+              [
+                580,
+                1376
+              ],
+              [
+                1560,
+                1726
+              ],
+              [
+                2046,
+                2104
+              ]
+            ],
+            "target_spans": [
+              [
+                0,
+                796
+              ],
+              [
+                796,
+                962
+              ],
+              [
+                962,
+                1020
+              ]
+            ],
+            "explanation": "Joins seat-component paragraphs, dimension sentence and final import-condition phrase; omits separate padding description and intervening prior-ruling history. The appended if-fragment is syntactically incomplete and the multi-product reference remains unknown."
+          }
+        }
+      ]
+    }
+  },
+  "claim_boundary": "All evidence and numerical reference labels are AI-assisted source-coded diagnostic references. No human or domain expert validation, prospective deployment or independent v2 test is claimed."
+}

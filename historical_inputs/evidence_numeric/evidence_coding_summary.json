@@ -1,0 +1,15 @@
+{
+  "n_cases": 73,
+  "n_conditions": 208,
+  "states": {
+    "unknown": 45,
+    "support": 23,
+    "refute": 5
+  },
+  "input_sha256": "914b7a48f3c547152605a44a2af4fb20767faeea18a85f1400f0e1e33c271e6a",
+  "all_spans_valid": true,
+  "coding_agent": "Codex / tariff_data",
+  "independence_limit": "Administrative outcomes and model predictions were excluded from this coding script and coding view. The coding agent had participated in the prior study and remembered some cases; this is outcome-masked coding, not a claim of uninformed human blinding.",
+  "second_pass_status": "pending independent AI read-only review",
+  "human_expert_review": false
+}

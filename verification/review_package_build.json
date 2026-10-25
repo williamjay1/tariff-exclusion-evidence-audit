@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "zip_path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_Review_20261023T075851_763930Z.zip",
+  "zip_bytes": 19481199,
+  "zip_sha256": "756e9d3dbe9672e3ac9c29edf77bb01ee34f25d571099888f3483c4385d80c0f",
+  "staging_path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\review_packages\\Tariff_Evidence_Audit_Review_20261023T075851_763930Z",
+  "payload_files": 377,
+  "scope": "Offline integrity/provenance and retained-response recount verified; no new inference or legal gold certification."
+}

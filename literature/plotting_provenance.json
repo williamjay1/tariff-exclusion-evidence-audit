@@ -1,0 +1,69 @@
+{
+  "checked_on": "2026-10-23",
+  "discovery_route": "agent-reach references/dev.md; gh search repos SciencePlots; gh api repos/garrettj403/SciencePlots/commits/HEAD",
+  "repository": "https://github.com/garrettj403/SciencePlots",
+  "commit": "b9b16959570bd2fbc9ff5118bacc423c3bddd592",
+  "installed_version": "2.2.2",
+  "license": "MIT",
+  "upstream_is_publisher_official": false,
+  "sources": {
+    "scienceplots_nature": {
+      "key": "scienceplots_nature",
+      "url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/src/scienceplots/styles/journals/nature.mplstyle",
+      "final_url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/src/scienceplots/styles/journals/nature.mplstyle",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\scienceplots_nature_20261022T193954Z.txt",
+      "bytes": 906,
+      "sha256": "1d39b7974b71da2b92349f7f95d2e17f94dc83b335a0e1c18dfab522b363b0e2",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    "scienceplots_license": {
+      "key": "scienceplots_license",
+      "url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/LICENSE",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\scienceplots_license_20261022T193954Z.txt",
+      "bytes": 1068,
+      "sha256": "9e5d935909270a14c3e9dc5ede0bcfc73a69fc3411f70ddd9e05065602a46cdb",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    "nature_building": {
+      "key": "nature_building",
+      "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "final_url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\nature_building_20261022T193954Z.html",
+      "bytes": 29934,
+      "sha256": "222727c80ed3b1795424d364ec771caf2464933d7acdb2bf97a900be46ed7c18",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    "nature_specifications": {
+      "key": "nature_specifications",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "final_url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\nature_specifications_20261022T193954Z.html",
+      "bytes": 28684,
+      "sha256": "c5695036b282db8bda05eb11cbe113d85c0d4d3a9c355cda2aab7e1e7e33e6d8",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    }
+  },
+  "verified_guidance": {
+    "double_column_width_mm": 183,
+    "single_column_width_mm": 89,
+    "max_height_mm": 170,
+    "ordinary_font_pt": [
+      5,
+      7
+    ],
+    "panel_label_pt": 8,
+    "preferred_fonts": [
+      "Arial",
+      "Helvetica"
+    ],
+    "text_editable_not_outlined": true,
+    "embedded_true_type": [
+      "2",
+      "42"
+    ],
+    "avoid_overlapping_text": true,
+    "accessible_colors": true
+  },
+  "project_boundary": "User requests >=900dpi; project1200dpi raster export must be direct rendering, not upsampling. Vector paths/text have no fixed raster DPI. Larger project fonts mean design-inspired, not exact Nature compliance."
+}

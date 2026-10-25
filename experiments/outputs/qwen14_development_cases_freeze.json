@@ -1,0 +1,12 @@
+{
+  "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\experiments\\development_cases.jsonl",
+  "sha256": "58c5e30cb74fb5533d428b50d690bb5e485b6ed2500f9613406c1270997615e2",
+  "case_ids": [
+    "DEV_S",
+    "DEV_R",
+    "DEV_U",
+    "DEV_RU"
+  ],
+  "protocol_sha256": "4f0e9cc7158125e7aa71e0c5134f96dacb13b735f4d5fbacd606d89801fbdf5e",
+  "model_sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0"
+}

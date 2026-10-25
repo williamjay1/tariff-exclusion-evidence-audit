@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "all_document_pages_viewed": true,
+  "total_pages": 43,
+  "page_counts": {
+    "main": 21,
+    "supplement": 22
+  },
+  "figures_viewed": [
+    "figure1_source_protocol",
+    "figure2_source_audit",
+    "figure3_controlled_diagnostics"
+  ],
+  "method": "Every page image of the current build was inspected. All 43 pages were scanned in 4-up contact sheets at 760 px page width; pages carrying displays and page boundaries were then inspected again at 1100 px width (main pages 1, 4, 5, 12, 13, 14, 17, 21; supplement pages 1, 4, 5, 9, 10, 13, 14, 17). Figure placements were adjusted after the first pass and the whole document was re-rendered and re-scanned.",
+  "layout_actions": [
+    "Figure 1 moved to the start of Section 3.2 to remove a 5.6 inch gap on page 5",
+    "Figure 2 moved to the end of Section 5.1 to remove a 3 inch gap",
+    "Figure 3 placed after the Table 4 notes so that page 13 keeps about 1.8 inches of trailing space instead of a half empty page",
+    "Table column widths set proportionally to content so that long text columns no longer collapse",
+    "Author line and affiliation markers reflowed on the title page"
+  ],
+  "checks": [
+    "No clipped text, overlapping lines or figure overflow observed on any page",
+    "All 4 main tables and 18 supplementary tables retain every row and repeated header",
+    "Three figures render at final size without text collision",
+    "Section headings are not stranded at page bottoms",
+    "Remaining trailing space on main pages 13 and 17 is under two inches"
+  ],
+  "current_docx_hashes": {
+    "Tariff_Evidence_Audit_20261023.docx": "fa96fafe3bf269a0f17f4bf171e492860d4641c48c977fc4fd979f51b6ebf2ed",
+    "Tariff_Evidence_Audit_Supplement_20261023.docx": "91de584eed9d4143d79e9e7b3282ab448a593bec04b5365480546113dc79620e"
+  },
+  "renderer": "Word compatible COM export to PDF, then Poppler page rasterization at 150 dpi. Page counts recorded in the per-document render_metadata.json.",
+  "boundary": "Visual and export checks do not establish semantic or legal validity."
+}

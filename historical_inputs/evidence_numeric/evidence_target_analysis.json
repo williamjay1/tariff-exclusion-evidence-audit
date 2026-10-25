@@ -1,0 +1,373 @@
+{
+  "n": 73,
+  "target_definition": "Frozen facts/literal-rule evidence support, not administrative eligibility",
+  "disposition_by_operational_evidence": {
+    "eligible->unknown": 26,
+    "ineligible->unknown": 21,
+    "eligible->support": 21,
+    "ineligible->refute": 5
+  },
+  "source_by_operational_evidence": {
+    "HQ->unknown": 19,
+    "HQ->support": 6,
+    "HQ->refute": 2,
+    "NY->support": 15,
+    "NY->unknown": 28,
+    "NY->refute": 3
+  },
+  "metrics_by_reference_policy": {
+    "first_AI_pass": {
+      "nli": {
+        "n": 73,
+        "correct": 31,
+        "accuracy": 0.4246575342465753,
+        "macro_recall": 0.3835748792270532,
+        "macro_f1": 0.33528059499661933,
+        "class_recall": {
+          "support": 0.21739130434782608,
+          "refute": 0.4,
+          "unknown": 0.5333333333333333
+        },
+        "class_f1": {
+          "support": 0.29411764705882354,
+          "refute": 0.16,
+          "unknown": 0.5517241379310345
+        },
+        "prediction_counts": {
+          "refute": 20,
+          "unknown": 42,
+          "support": 11
+        },
+        "confusion": {
+          "unknown->refute": 16,
+          "unknown->unknown": 24,
+          "support->unknown": 16,
+          "unknown->support": 5,
+          "support->support": 5,
+          "refute->refute": 2,
+          "refute->support": 1,
+          "refute->unknown": 2,
+          "support->refute": 2
+        }
+      },
+      "qwen": {
+        "n": 73,
+        "correct": 23,
+        "accuracy": 0.3150684931506849,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.15972222222222224,
+        "class_recall": {
+          "support": 1.0,
+          "refute": 0.0,
+          "unknown": 0.0
+        },
+        "class_f1": {
+          "support": 0.4791666666666667,
+          "refute": 0.0,
+          "unknown": 0.0
+        },
+        "prediction_counts": {
+          "support": 73
+        },
+        "confusion": {
+          "unknown->support": 45,
+          "support->support": 23,
+          "refute->support": 5
+        }
+      },
+      "qwen4": {
+        "n": 73,
+        "correct": 28,
+        "accuracy": 0.3835616438356164,
+        "macro_recall": 0.5268921095008051,
+        "macro_f1": 0.33820893948977443,
+        "class_recall": {
+          "support": 0.8695652173913043,
+          "refute": 0.6,
+          "unknown": 0.1111111111111111
+        },
+        "class_f1": {
+          "support": 0.625,
+          "refute": 0.1935483870967742,
+          "unknown": 0.19607843137254902
+        },
+        "prediction_counts": {
+          "refute": 26,
+          "support": 41,
+          "unknown": 6
+        },
+        "confusion": {
+          "unknown->refute": 20,
+          "unknown->support": 20,
+          "support->refute": 3,
+          "support->support": 20,
+          "refute->refute": 3,
+          "unknown->unknown": 5,
+          "refute->support": 1,
+          "refute->unknown": 1
+        }
+      },
+      "always_unknown_diagnostic": {
+        "n": 73,
+        "correct": 45,
+        "accuracy": 0.6164383561643836,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.2542372881355932,
+        "class_recall": {
+          "support": 0.0,
+          "refute": 0.0,
+          "unknown": 1.0
+        },
+        "class_f1": {
+          "support": 0.0,
+          "refute": 0.0,
+          "unknown": 0.7627118644067796
+        },
+        "prediction_counts": {
+          "unknown": 73
+        },
+        "confusion": {
+          "unknown->unknown": 45,
+          "support->unknown": 23,
+          "refute->unknown": 5
+        }
+      }
+    },
+    "second_AI_pass": {
+      "nli": {
+        "n": 73,
+        "correct": 30,
+        "accuracy": 0.410958904109589,
+        "macro_recall": 0.3375757575757576,
+        "macro_f1": 0.31718346253229973,
+        "class_recall": {
+          "support": 0.24,
+          "refute": 0.25,
+          "unknown": 0.5227272727272727
+        },
+        "class_f1": {
+          "support": 0.3333333333333333,
+          "refute": 0.08333333333333333,
+          "unknown": 0.5348837209302325
+        },
+        "prediction_counts": {
+          "refute": 20,
+          "unknown": 42,
+          "support": 11
+        },
+        "confusion": {
+          "unknown->refute": 17,
+          "unknown->unknown": 23,
+          "support->unknown": 17,
+          "unknown->support": 4,
+          "support->support": 6,
+          "refute->refute": 1,
+          "refute->support": 1,
+          "refute->unknown": 2,
+          "support->refute": 2
+        }
+      },
+      "qwen": {
+        "n": 73,
+        "correct": 25,
+        "accuracy": 0.3424657534246575,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.17006802721088435,
+        "class_recall": {
+          "support": 1.0,
+          "refute": 0.0,
+          "unknown": 0.0
+        },
+        "class_f1": {
+          "support": 0.5102040816326531,
+          "refute": 0.0,
+          "unknown": 0.0
+        },
+        "prediction_counts": {
+          "support": 73
+        },
+        "confusion": {
+          "unknown->support": 44,
+          "support->support": 25,
+          "refute->support": 4
+        }
+      },
+      "qwen4": {
+        "n": 73,
+        "correct": 28,
+        "accuracy": 0.3835616438356164,
+        "macro_recall": 0.5603030303030303,
+        "macro_f1": 0.3321212121212121,
+        "class_recall": {
+          "support": 0.84,
+          "refute": 0.75,
+          "unknown": 0.09090909090909091
+        },
+        "class_f1": {
+          "support": 0.6363636363636364,
+          "refute": 0.2,
+          "unknown": 0.16
+        },
+        "prediction_counts": {
+          "refute": 26,
+          "support": 41,
+          "unknown": 6
+        },
+        "confusion": {
+          "unknown->refute": 20,
+          "unknown->support": 20,
+          "support->refute": 3,
+          "support->support": 21,
+          "refute->refute": 3,
+          "unknown->unknown": 4,
+          "support->unknown": 1,
+          "refute->unknown": 1
+        }
+      },
+      "always_unknown_diagnostic": {
+        "n": 73,
+        "correct": 44,
+        "accuracy": 0.6027397260273972,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.25071225071225073,
+        "class_recall": {
+          "support": 0.0,
+          "refute": 0.0,
+          "unknown": 1.0
+        },
+        "class_f1": {
+          "support": 0.0,
+          "refute": 0.0,
+          "unknown": 0.7521367521367521
+        },
+        "prediction_counts": {
+          "unknown": 73
+        },
+        "confusion": {
+          "unknown->unknown": 44,
+          "support->unknown": 25,
+          "refute->unknown": 4
+        }
+      }
+    },
+    "conservative_operational": {
+      "nli": {
+        "n": 73,
+        "correct": 31,
+        "accuracy": 0.4246575342465753,
+        "macro_recall": 0.32333671057075314,
+        "macro_f1": 0.31809925093632957,
+        "class_recall": {
+          "support": 0.23809523809523808,
+          "refute": 0.2,
+          "unknown": 0.5319148936170213
+        },
+        "class_f1": {
+          "support": 0.3125,
+          "refute": 0.08,
+          "unknown": 0.5617977528089888
+        },
+        "prediction_counts": {
+          "refute": 20,
+          "unknown": 42,
+          "support": 11
+        },
+        "confusion": {
+          "unknown->refute": 17,
+          "unknown->unknown": 25,
+          "support->unknown": 14,
+          "unknown->support": 5,
+          "support->support": 5,
+          "refute->refute": 1,
+          "refute->support": 1,
+          "refute->unknown": 3,
+          "support->refute": 2
+        }
+      },
+      "qwen": {
+        "n": 73,
+        "correct": 21,
+        "accuracy": 0.2876712328767123,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.14893617021276595,
+        "class_recall": {
+          "support": 1.0,
+          "refute": 0.0,
+          "unknown": 0.0
+        },
+        "class_f1": {
+          "support": 0.44680851063829785,
+          "refute": 0.0,
+          "unknown": 0.0
+        },
+        "prediction_counts": {
+          "support": 73
+        },
+        "confusion": {
+          "unknown->support": 47,
+          "support->support": 21,
+          "refute->support": 5
+        }
+      },
+      "qwen4": {
+        "n": 73,
+        "correct": 27,
+        "accuracy": 0.3698630136986301,
+        "macro_recall": 0.537048294495103,
+        "macro_f1": 0.3317102860620816,
+        "class_recall": {
+          "support": 0.9047619047619048,
+          "refute": 0.6,
+          "unknown": 0.10638297872340426
+        },
+        "class_f1": {
+          "support": 0.6129032258064516,
+          "refute": 0.1935483870967742,
+          "unknown": 0.18867924528301888
+        },
+        "prediction_counts": {
+          "refute": 26,
+          "support": 41,
+          "unknown": 6
+        },
+        "confusion": {
+          "unknown->refute": 21,
+          "unknown->support": 21,
+          "support->refute": 2,
+          "support->support": 19,
+          "refute->refute": 3,
+          "unknown->unknown": 5,
+          "refute->support": 1,
+          "refute->unknown": 1
+        }
+      },
+      "always_unknown_diagnostic": {
+        "n": 73,
+        "correct": 47,
+        "accuracy": 0.6438356164383562,
+        "macro_recall": 0.3333333333333333,
+        "macro_f1": 0.2611111111111111,
+        "class_recall": {
+          "support": 0.0,
+          "refute": 0.0,
+          "unknown": 1.0
+        },
+        "class_f1": {
+          "support": 0.0,
+          "refute": 0.0,
+          "unknown": 0.7833333333333333
+        },
+        "prediction_counts": {
+          "unknown": 73
+        },
+        "confusion": {
+          "unknown->unknown": 47,
+          "support->unknown": 21,
+          "refute->unknown": 5
+        }
+      }
+    }
+  },
+  "uncertainty": "Small purposive corpus; report counts and coding-policy sensitivity. Agreement is not expert validity.",
+  "native_prediction_definition": "Argmax of the original three class probabilities (selective_prediction), mapped 1/support, 0/refute, -1/unknown. No binary collapse or numeric guard is used here."
+}

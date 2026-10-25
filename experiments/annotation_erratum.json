@@ -1,0 +1,132 @@
+{
+  "created_utc": "2026-10-22T19:41:45.906528+00:00",
+  "status": "pre-result reference erratum; no model input, prompt, raw output or original expected field modified",
+  "input_sha256": "c3f25781b765c60110e18b856b88bc78a757d540dc36596493ef1835914fbb8b",
+  "reason": "Oak and teak are kinds of wood. A fact that the target frame is made of oak or teak establishes the wooden-frame companion condition, even without the separately worded wood fact.",
+  "discovery": "The source-audit agent independently reread all 108 inputs and identified this issue without reading any formal model output. The parent then fixed this handling before reading formal results.",
+  "parent_decision": "Main case decisions and 96 linked case relationships remain unchanged. Main condition/citation evaluation uses this erratum, with original-reference and whole-family-exclusion sensitivity retained. No inference is rerun.",
+  "edits": [
+    {
+      "case_id": "CF10_base",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ],
+        [
+          "f2"
+        ],
+        [
+          "f1",
+          "f2"
+        ]
+      ]
+    },
+    {
+      "case_id": "CF10_irrelevant",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ],
+        [
+          "f2"
+        ],
+        [
+          "f1",
+          "f2"
+        ]
+      ]
+    },
+    {
+      "case_id": "CF10_changed",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ],
+        [
+          "f2"
+        ],
+        [
+          "f1",
+          "f2"
+        ]
+      ]
+    },
+    {
+      "case_id": "CF10_refute_missing",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ]
+      ]
+    },
+    {
+      "case_id": "CF10_binding_original",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ],
+        [
+          "f3"
+        ],
+        [
+          "f1",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "case_id": "CF10_binding_swapped",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ],
+        [
+          "f3"
+        ],
+        [
+          "f1",
+          "f3"
+        ]
+      ]
+    },
+    {
+      "case_id": "CF10_equivalent",
+      "condition_id": "c2",
+      "state": "supported",
+      "acceptable_evidence_sets": [
+        [
+          "f1"
+        ],
+        [
+          "f2"
+        ],
+        [
+          "f1",
+          "f2"
+        ]
+      ]
+    }
+  ],
+  "effect": "One condition state, CF10_refute_missing c2, changes unknown to supported. Seven c2 citation references allow equivalent target-frame facts. Requests and whole-input states are unchanged.",
+  "strict_refutation_with_other_unknown_denominator": 11,
+  "excluded_family_sensitivity": {
+    "family": "frame_species",
+    "unique_inputs": 99,
+    "conditions": 198,
+    "linked_relationships": 88
+  },
+  "independent_review_path": "../source_audit/controlled_interface_readonly_review.md",
+  "forbidden_alternatives": "Facts about Product B or unrelated properties do not enter any acceptable evidence set."
+}

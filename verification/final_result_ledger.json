@@ -1,0 +1,957 @@
+{
+  "source_audit": {
+    "cases": 73,
+    "conditions": 208,
+    "underlying_rulings": 67,
+    "historical_unknown_cases": 47,
+    "reference_tier_counts": {
+      "interpretive": 45,
+      "direct": 132,
+      "insufficient": 19,
+      "disputed": 12
+    },
+    "strict_excerpt_condition_counts": {
+      "unknown": 76,
+      "support": 125,
+      "refute": 5,
+      "not_applicable": 2
+    },
+    "strict_full_condition_counts": {
+      "unknown": 72,
+      "support": 129,
+      "refute": 5,
+      "not_applicable": 2
+    },
+    "safe_flat_conjunction_cases": 58,
+    "strict_case_excerpt_counts": {
+      "unknown": 45,
+      "logic_unresolved": 15,
+      "support": 10,
+      "refute": 3
+    },
+    "strict_case_full_counts": {
+      "unknown": 45,
+      "logic_unresolved": 15,
+      "support": 10,
+      "refute": 3
+    },
+    "condition_excerpt_to_full": {
+      "unknown -> unknown": 72,
+      "support -> support": 125,
+      "unknown -> support": 4,
+      "refute -> refute": 5,
+      "not_applicable -> not_applicable": 2
+    },
+    "historical_to_strict_excerpt_case": {
+      "unknown -> unknown": 40,
+      "support -> logic_unresolved": 6,
+      "support -> support": 10,
+      "unknown -> logic_unresolved": 7,
+      "refute -> logic_unresolved": 2,
+      "support -> unknown": 5,
+      "refute -> refute": 3
+    },
+    "unknown_reason_condition_counts": {
+      "definition_required": 21,
+      "component_material_scope": 1,
+      "excerpt_omission": 3,
+      "excerpt_omission_and_definition": 1,
+      "public_source_attribute_absent": 8,
+      "unsupported_party_claim": 1,
+      "chemical_function_definition": 1,
+      "category_or_use_mapping": 6,
+      "definition_and_conflicting_sources": 1,
+      "excerpt_omission_party_assertion": 2,
+      "object_and_public_source_gap": 2,
+      "competing_use_interpretations": 1,
+      "mixed_material_scope": 1,
+      "measurement_scope_mismatch": 1,
+      "implicit_component_inference": 1,
+      "functional_use_scope": 1,
+      "source_conflict": 1,
+      "part_and_material_scope": 1,
+      "component_quantifier_scope": 1,
+      "part_versus_machine_scope": 3,
+      "incorporated_heading_definition": 3,
+      "assembly_category_scope": 1,
+      "incorporated_definition_unavailable": 1,
+      "object_scope_and_public_source_gap": 1,
+      "composite_component_binding": 1,
+      "rating_basis_ambiguity": 1,
+      "incorporated_definition_and_exception": 1
+    },
+    "unknown_reason_case_counts": {
+      "chemical_function_definition": 1,
+      "definition_and_conflicting_sources": 1,
+      "excerpt_omission_party_assertion": 1,
+      "definition_required": 21,
+      "object_and_public_source_gap": 2,
+      "part_and_material_scope": 1,
+      "measurement_scope_mismatch": 1,
+      "mixed_material_scope": 1,
+      "unsupported_party_claim": 1,
+      "category_or_use_mapping": 6,
+      "excerpt_omission": 3,
+      "public_source_attribute_absent": 7,
+      "component_material_scope": 1,
+      "competing_use_interpretations": 1,
+      "source_conflict": 1,
+      "component_quantifier_scope": 1,
+      "implicit_component_inference": 1,
+      "excerpt_omission_and_definition": 1,
+      "functional_use_scope": 1,
+      "part_versus_machine_scope": 3,
+      "assembly_category_scope": 1,
+      "incorporated_definition_unavailable": 1,
+      "incorporated_heading_definition": 2,
+      "object_scope_and_public_source_gap": 1,
+      "composite_component_binding": 1,
+      "rating_basis_ambiguity": 1,
+      "incorporated_definition_and_exception": 1
+    },
+    "recovery_rows": 16,
+    "direct_recovery_rows": 4,
+    "source_locator_exceptions": [],
+    "noncontiguous_fact_quote_rows": [
+      "N314745_self:c1",
+      "N314745_pedal:c1"
+    ],
+    "direct_scorable_conditions": 130,
+    "nonbinding_conditions": 2,
+    "direct_restoration_cases": [
+      "H322923_1",
+      "H330938_1",
+      "H340899_1"
+    ],
+    "unknown_provenance_denominators": {
+      "cases": 47,
+      "conditions": "all strict-unknown conditions within those 47 historical-unknown cases; causes overlap; do not sum counts to 47"
+    },
+    "guardrails": [
+      "208 are historical condition units, not guaranteed atomic or complete.",
+      "AI auditors have prior administrative-outcome exposure.",
+      "No human/expert validation; interpretation options are policies, not legal truth.",
+      "Full-source public-text audit cannot establish facts absent from the public ruling.",
+      "2024 inventory is context, not the historical case sampling frame."
+    ],
+    "unknown_provenance_sets": {
+      "excerpt_omission": {
+        "case_ids": [
+          "H314080_1",
+          "H322923_1",
+          "H330938_1",
+          "H340899_1",
+          "H341677_1"
+        ],
+        "case_n": 5,
+        "condition_keys": [
+          "H330938_1:c4",
+          "H341677_1:c2",
+          "H322923_1:c2",
+          "H314080_1:c3",
+          "H314080_1:c4",
+          "H340899_1:c3",
+          "H340899_1:c4"
+        ],
+        "condition_n": 7,
+        "historically_unknown_condition_n": 6
+      },
+      "no_sufficient_attribute_in_public_source": {
+        "case_ids": [
+          "H317208_1",
+          "H319100_2",
+          "H323452_1",
+          "H330005_1",
+          "H332948_2",
+          "H332948_4",
+          "H333110_1",
+          "N309167",
+          "N310775",
+          "N316485"
+        ],
+        "case_n": 10,
+        "condition_keys": [
+          "H323452_1:c3",
+          "H333110_1:c3",
+          "H319100_2:c3",
+          "H330005_1:c2",
+          "H330005_1:c3",
+          "H330005_1:c4",
+          "H332948_2:c3",
+          "H332948_4:c3",
+          "H317208_1:c2",
+          "N309167:c3",
+          "N310775:c3",
+          "N316485:c2"
+        ],
+        "condition_n": 12,
+        "historically_unknown_condition_n": 12
+      },
+      "definition_category_or_use": {
+        "case_ids": [
+          "H311151_1",
+          "H314080_1",
+          "H316387_1",
+          "H317208_1",
+          "H318593_1",
+          "H322923_1",
+          "H323452_1",
+          "H330005_1",
+          "H330938_1",
+          "H332948_3",
+          "H340899_1",
+          "H345780_1",
+          "N304707",
+          "N306552",
+          "N307469",
+          "N307830",
+          "N307931",
+          "N308085",
+          "N309167",
+          "N309430",
+          "N310775",
+          "N310804",
+          "N311074",
+          "N311558",
+          "N312309",
+          "N312568",
+          "N312588",
+          "N314745_pedal",
+          "N314745_self",
+          "N318455",
+          "N318822",
+          "N319331",
+          "N325922",
+          "N327114",
+          "N332207",
+          "N336939"
+        ],
+        "case_n": 36,
+        "condition_keys": [
+          "H330938_1:c1",
+          "H323452_1:c1",
+          "H311151_1:c1",
+          "H322923_1:c3",
+          "H314080_1:c1",
+          "H330005_1:c1",
+          "H316387_1:c1",
+          "H332948_3:c4",
+          "H318593_1:c2",
+          "H340899_1:c2",
+          "H345780_1:c2",
+          "H317208_1:c1",
+          "N304707:c2",
+          "N306552:c1",
+          "N307469:c1",
+          "N309167:c1",
+          "N312588:c1",
+          "N312588:c2",
+          "N307931:c1",
+          "N307830:c1",
+          "N308085:c1",
+          "N309430:c1",
+          "N310775:c1",
+          "N311074:c1",
+          "N311558:c1",
+          "N310804:c1",
+          "N312309:c1",
+          "N312568:c2",
+          "N314745_self:c1",
+          "N314745_pedal:c1",
+          "N318455:c1",
+          "N318822:c1",
+          "N319331:c1",
+          "N325922:c1",
+          "N327114:c1",
+          "N332207:c1",
+          "N336939:c1",
+          "N336939:c3"
+        ],
+        "condition_n": 38,
+        "historically_unknown_condition_n": 33
+      },
+      "object_component_or_measurement_scope": {
+        "case_ids": [
+          "H317208_1",
+          "H318593_1",
+          "H330005_1",
+          "H330938_1",
+          "H333673_1",
+          "N304707",
+          "N304766",
+          "N305670",
+          "N309775_buttons",
+          "N316485",
+          "N319331"
+        ],
+        "case_n": 11,
+        "condition_keys": [
+          "H330938_1:c3",
+          "H330005_1:c2",
+          "H318593_1:c2",
+          "H318593_1:c3",
+          "H317208_1:c2",
+          "H333673_1:c1",
+          "N304707:c1",
+          "N304766:c1",
+          "N305670:c1",
+          "N309775_buttons:c1",
+          "N316485:c2",
+          "N319331:c3"
+        ],
+        "condition_n": 12,
+        "historically_unknown_condition_n": 10
+      },
+      "source_or_interpretation_conflict": {
+        "case_ids": [
+          "H314080_1",
+          "H319100_2",
+          "H332948_3",
+          "H333371_1",
+          "N327114"
+        ],
+        "case_n": 5,
+        "condition_keys": [
+          "H319100_2:c3",
+          "H314080_1:c1",
+          "H332948_3:c4",
+          "H333371_1:c2",
+          "N327114:c3"
+        ],
+        "condition_n": 5,
+        "historically_unknown_condition_n": 5
+      }
+    },
+    "historical_unknown_subset": {
+      "cases": 47,
+      "all_conditions": 137,
+      "historically_unknown_conditions": 59,
+      "strict_unknown_conditions": 67,
+      "note": "These sets overlap. A case can have omitted evidence and an unresolved definition simultaneously. Source recovery does not imply whole-case support."
+    },
+    "locator_verification": {
+      "rule_source_spans": 208,
+      "frozen_fact_spans": 228,
+      "continuous_fact_source_spans": 455,
+      "recovery_spans": 16
+    },
+    "historical_unknown_review_rulings": 44,
+    "historical_unknown_direct_restored_conditions": [
+      "H330938_1:c4",
+      "H322923_1:c2",
+      "H340899_1:c4"
+    ]
+  },
+  "independent_inventory_and_policy": {
+    "status": "PASS",
+    "inventory": 397,
+    "product_descriptions": 354,
+    "coarse_product_groups": 1096,
+    "coarse_group_spans_checked": 1096,
+    "code_only_zero_additional_product_groups": 43,
+    "safe_conjunction_cases": 58,
+    "marginal_envelopes": {
+      "support": {
+        "necessarily_this_state": 10,
+        "possibly_this_state": 20
+      },
+      "refute": {
+        "necessarily_this_state": 3,
+        "possibly_this_state": 9
+      },
+      "unknown": {
+        "necessarily_this_state": 33,
+        "possibly_this_state": 45
+      }
+    },
+    "joint_packages": [
+      {
+        "name": "strict_withhold",
+        "counts": {
+          "unknown": 45,
+          "support": 10,
+          "refute": 3
+        }
+      },
+      {
+        "name": "declared_technical_scope_lab_peak",
+        "counts": {
+          "support": 17,
+          "unknown": 33,
+          "refute": 8
+        }
+      },
+      {
+        "name": "declared_alternative_material_use_party_nominal",
+        "counts": {
+          "refute": 5,
+          "unknown": 34,
+          "support": 19
+        }
+      }
+    ],
+    "boundary": "Mechanical source spans and declared-policy recomputation; not expert semantic validation.",
+    "hashes": {
+      "inventory_audit\\inventory_structural_audit.jsonl": "ae9296d161053a6f2da4c8779b7d2204cdcceff16e4dddfe89dc25b76a2bf8e5",
+      "inventory_audit\\reviewed_condition_groups.jsonl": "c0e71917e02a17b36a4b3c91d6f06dd42093bdd7ec501ca69cb7d15310c5ee73",
+      "source_audit\\policy_sensitivity.json": "0002ab596a5998ec394873706e99f30c7b13aeec685519391a96c2f40342998a"
+    }
+  },
+  "functional_raw_recount": {
+    "status": "PASS",
+    "independent_raw_JSON_recount": true,
+    "whitelisted_prompt_inputs_equal": true,
+    "reports": [
+      {
+        "analysis": "qwen14_qualification_cases_functional_analysis.json",
+        "counts": {
+          "direct": {
+            "n": 24,
+            "valid": 24,
+            "decision_correct": 24,
+            "unsupported_case_affirmations": 0,
+            "unsupported_case_refutations": 0,
+            "determinate_n": 16,
+            "determinate_errors": 0,
+            "refute_missing_decision_n": 1,
+            "refute_missing_decision_correct": 1
+          },
+          "checklist": {
+            "n": 24,
+            "valid": 24,
+            "decision_correct": 24,
+            "unsupported_case_affirmations": 0,
+            "unsupported_case_refutations": 0,
+            "determinate_n": 16,
+            "determinate_errors": 0,
+            "refute_missing_decision_n": 1,
+            "refute_missing_decision_correct": 1,
+            "condition_n": 27,
+            "complete_condition_records": 24,
+            "condition_correct": 27,
+            "aggregation_correct": 24,
+            "overall_aggregation_consistency_n": 24,
+            "overall_matches_predicted_aggregation": 24,
+            "unsupported_condition_affirmations": 0,
+            "unsupported_condition_refutations": 0,
+            "gap_tp": 9,
+            "gap_fp": 0,
+            "gap_fn": 0,
+            "request_tp": 7,
+            "request_fp": 0,
+            "request_fn": 1,
+            "request_exact": 23,
+            "refute_missing_n": 1,
+            "refute_missing_pass": 1,
+            "citation_n": 27,
+            "citation_pass": 27,
+            "determinate_citation_n": 18,
+            "determinate_citation_pass": 18,
+            "joint_citation_state_pass": 27
+          }
+        },
+        "analysis_sha256": "98380d6075b6c8afeba9841b9017afb90752d4babd40efc57639aa0d7c5a8432"
+      },
+      {
+        "analysis": "qwen14_controlled_cases_functional_analysis.json",
+        "counts": {
+          "direct": {
+            "n": 108,
+            "valid": 108,
+            "decision_correct": 98,
+            "unsupported_case_affirmations": 10,
+            "unsupported_case_refutations": 0,
+            "determinate_n": 94,
+            "determinate_errors": 10,
+            "refute_missing_decision_n": 11,
+            "refute_missing_decision_correct": 11
+          },
+          "checklist": {
+            "n": 108,
+            "valid": 108,
+            "decision_correct": 104,
+            "unsupported_case_affirmations": 3,
+            "unsupported_case_refutations": 1,
+            "determinate_n": 88,
+            "determinate_errors": 4,
+            "refute_missing_decision_n": 11,
+            "refute_missing_decision_correct": 11,
+            "condition_n": 216,
+            "complete_condition_records": 108,
+            "condition_correct": 211,
+            "aggregation_correct": 104,
+            "overall_aggregation_consistency_n": 108,
+            "overall_matches_predicted_aggregation": 108,
+            "unsupported_condition_affirmations": 3,
+            "unsupported_condition_refutations": 1,
+            "gap_tp": 31,
+            "gap_fp": 1,
+            "gap_fn": 4,
+            "request_tp": 20,
+            "request_fp": 0,
+            "request_fn": 4,
+            "request_exact": 104,
+            "refute_missing_n": 11,
+            "refute_missing_pass": 11,
+            "citation_n": 216,
+            "citation_pass": 213,
+            "determinate_citation_n": 181,
+            "determinate_citation_pass": 180,
+            "joint_citation_state_pass": 211
+          }
+        },
+        "analysis_sha256": "8eff95ac4bd9ac0ac6e4f50ebca912e380303d8c1c46a06cb86528fe6b960e2a"
+      },
+      {
+        "analysis": "qwen14_controlled_cases_functional_analysis_frozen_reference.json",
+        "counts": {
+          "direct": {
+            "n": 108,
+            "valid": 108,
+            "decision_correct": 98,
+            "unsupported_case_affirmations": 10,
+            "unsupported_case_refutations": 0,
+            "determinate_n": 94,
+            "determinate_errors": 10,
+            "refute_missing_decision_n": 12,
+            "refute_missing_decision_correct": 12
+          },
+          "checklist": {
+            "n": 108,
+            "valid": 108,
+            "decision_correct": 104,
+            "unsupported_case_affirmations": 3,
+            "unsupported_case_refutations": 1,
+            "determinate_n": 88,
+            "determinate_errors": 4,
+            "refute_missing_decision_n": 12,
+            "refute_missing_decision_correct": 12,
+            "condition_n": 216,
+            "complete_condition_records": 108,
+            "condition_correct": 212,
+            "aggregation_correct": 104,
+            "overall_aggregation_consistency_n": 108,
+            "overall_matches_predicted_aggregation": 108,
+            "unsupported_condition_affirmations": 3,
+            "unsupported_condition_refutations": 1,
+            "gap_tp": 32,
+            "gap_fp": 0,
+            "gap_fn": 4,
+            "request_tp": 20,
+            "request_fp": 0,
+            "request_fn": 4,
+            "request_exact": 104,
+            "refute_missing_n": 12,
+            "refute_missing_pass": 12,
+            "citation_n": 216,
+            "citation_pass": 214,
+            "determinate_citation_n": 180,
+            "determinate_citation_pass": 180,
+            "joint_citation_state_pass": 212
+          }
+        },
+        "analysis_sha256": "93dcac3be4f16566bb0ce4b2a0837cf01913d0bb0d06b25a19a805368a021969"
+      },
+      {
+        "analysis": "qwen14_controlled_cases_functional_analysis_excluding_frame_species.json",
+        "counts": {
+          "direct": {
+            "n": 99,
+            "valid": 99,
+            "decision_correct": 91,
+            "unsupported_case_affirmations": 8,
+            "unsupported_case_refutations": 0,
+            "determinate_n": 85,
+            "determinate_errors": 8,
+            "refute_missing_decision_n": 11,
+            "refute_missing_decision_correct": 11
+          },
+          "checklist": {
+            "n": 99,
+            "valid": 99,
+            "decision_correct": 97,
+            "unsupported_case_affirmations": 1,
+            "unsupported_case_refutations": 1,
+            "determinate_n": 79,
+            "determinate_errors": 2,
+            "refute_missing_decision_n": 11,
+            "refute_missing_decision_correct": 11,
+            "condition_n": 198,
+            "complete_condition_records": 99,
+            "condition_correct": 196,
+            "aggregation_correct": 97,
+            "overall_aggregation_consistency_n": 99,
+            "overall_matches_predicted_aggregation": 99,
+            "unsupported_condition_affirmations": 1,
+            "unsupported_condition_refutations": 1,
+            "gap_tp": 31,
+            "gap_fp": 0,
+            "gap_fn": 2,
+            "request_tp": 20,
+            "request_fp": 0,
+            "request_fn": 2,
+            "request_exact": 97,
+            "refute_missing_n": 11,
+            "refute_missing_pass": 11,
+            "citation_n": 198,
+            "citation_pass": 198,
+            "determinate_citation_n": 165,
+            "determinate_citation_pass": 165,
+            "joint_citation_state_pass": 196
+          }
+        },
+        "analysis_sha256": "21d6bd4137b373873fda7048858082908e85fded27fab2830e10c99de541b0e7"
+      },
+      {
+        "analysis": "qwen14_source_recovery_cases_functional_analysis.json",
+        "counts": {
+          "direct": {
+            "n": 8,
+            "valid": 8,
+            "decision_correct": 7,
+            "unsupported_case_affirmations": 0,
+            "unsupported_case_refutations": 0,
+            "determinate_n": 3,
+            "determinate_errors": 0,
+            "refute_missing_decision_n": 0,
+            "refute_missing_decision_correct": 0
+          },
+          "checklist": {
+            "n": 8,
+            "valid": 8,
+            "decision_correct": 6,
+            "unsupported_case_affirmations": 0,
+            "unsupported_case_refutations": 2,
+            "determinate_n": 5,
+            "determinate_errors": 2,
+            "refute_missing_decision_n": 0,
+            "refute_missing_decision_correct": 0,
+            "condition_n": 8,
+            "complete_condition_records": 8,
+            "condition_correct": 6,
+            "aggregation_correct": 6,
+            "overall_aggregation_consistency_n": 8,
+            "overall_matches_predicted_aggregation": 8,
+            "unsupported_condition_affirmations": 0,
+            "unsupported_condition_refutations": 2,
+            "gap_tp": 3,
+            "gap_fp": 0,
+            "gap_fn": 1,
+            "request_tp": 3,
+            "request_fp": 0,
+            "request_fn": 1,
+            "request_exact": 7,
+            "refute_missing_n": 0,
+            "refute_missing_pass": 0,
+            "citation_n": 8,
+            "citation_pass": 6,
+            "determinate_citation_n": 4,
+            "determinate_citation_pass": 3,
+            "joint_citation_state_pass": 6
+          }
+        },
+        "analysis_sha256": "39e778e0a929de3f36df78e0219978636d9804d7417d2b60550a50daad232564"
+      }
+    ],
+    "boundary": "Checks retained response scoring and provenance; does not independently validate legal annotation."
+  },
+  "historical_recount": {
+    "scope": "Historical references, unchanged; not a new source audit or expert ground truth.",
+    "primary": {
+      "n": 73,
+      "source": {
+        "HQ": 27,
+        "NY": 46
+      },
+      "source_by_y": {
+        "HQ:y=0": 16,
+        "HQ:y=1": 11,
+        "NY:y=0": 10,
+        "NY:y=1": 36
+      },
+      "groups": 41
+    },
+    "exact_code": {
+      "n": 60,
+      "source": {
+        "HQ": 14,
+        "NY": 46
+      },
+      "source_by_y": {
+        "HQ:y=0": 5,
+        "HQ:y=1": 9,
+        "NY:y=0": 10,
+        "NY:y=1": 36
+      },
+      "groups": 31
+    },
+    "removed": {
+      "n": 13,
+      "source": {
+        "HQ": 13
+      },
+      "source_by_y": {
+        "HQ:y=0": 11,
+        "HQ:y=1": 2
+      },
+      "groups": 10
+    },
+    "removed_code_granularity": [
+      {
+        "case_id": "H341677_1",
+        "date": "2025-02-14",
+        "product_codes": [
+          "9027.10.20"
+        ],
+        "candidate_codes": [
+          "9027.10.2000"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H317391_1",
+        "date": "2022-10-13",
+        "product_codes": [
+          "8508.11.00"
+        ],
+        "candidate_codes": [
+          "8508.11.0000"
+        ],
+        "source": "HQ",
+        "administrative_y": 1
+      },
+      {
+        "case_id": "H323452_1",
+        "date": "2023-07-18",
+        "product_codes": [
+          "8471.60.90"
+        ],
+        "candidate_codes": [
+          "8471.60.9050"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H333110_1",
+        "date": "2024-04-22",
+        "product_codes": [
+          "8518.22.00"
+        ],
+        "candidate_codes": [
+          "8518.22.0000"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H319100_2",
+        "date": "2025-08-26",
+        "product_codes": [
+          "8517.62.00"
+        ],
+        "candidate_codes": [
+          "8517.62.0090"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H314080_1",
+        "date": "2022-09-08",
+        "product_codes": [
+          "5903.20.25"
+        ],
+        "candidate_codes": [
+          "5903.20.2500"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H316387_1",
+        "date": "2024-07-29",
+        "product_codes": [
+          "8708.80.65"
+        ],
+        "candidate_codes": [
+          "8708.80.6590"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H318593_1",
+        "date": "2023-03-21",
+        "product_codes": [
+          "8425.42.00"
+        ],
+        "candidate_codes": [
+          "8425.42.0000"
+        ],
+        "source": "HQ",
+        "administrative_y": 1
+      },
+      {
+        "case_id": "H318593_2",
+        "date": "2023-03-21",
+        "product_codes": [
+          "8425.42.00"
+        ],
+        "candidate_codes": [
+          "8425.42.0000"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H340899_1",
+        "date": "2025-04-10",
+        "product_codes": [
+          "8508.11.00"
+        ],
+        "candidate_codes": [
+          "8508.11.0000"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H345780_1",
+        "date": "2026-02-03",
+        "product_codes": [
+          "8421.21.00"
+        ],
+        "candidate_codes": [
+          "8421.21.0000"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H333371_1",
+        "date": "2024-08-27",
+        "product_codes": [
+          "6116.10.65"
+        ],
+        "candidate_codes": [
+          "6116.10.6500"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      },
+      {
+        "case_id": "H333673_1",
+        "date": "2024-05-14",
+        "product_codes": [
+          "8543.70.98"
+        ],
+        "candidate_codes": [
+          "8543.70.9860"
+        ],
+        "source": "HQ",
+        "administrative_y": 0
+      }
+    ],
+    "removed_code_boundary": "All 13 have eight-digit product codes against ten-digit candidate statistical codes. Exact-string filtering changes source and class composition; this is not an isolated test of historical code certainty. No new historical statistical-code adjudication is claimed.",
+    "old_states": {
+      "refute": 5,
+      "support": 21,
+      "unknown": 47
+    },
+    "old_y_by_z": {
+      "y=0:refute": 5,
+      "y=0:unknown": 21,
+      "y=1:support": 21,
+      "y=1:unknown": 26
+    },
+    "old_condition_records": 208,
+    "numeric": {
+      "n": 33,
+      "groups": 16,
+      "group_sizes": {
+        "G000": 1,
+        "G029": 2,
+        "G007": 1,
+        "G011": 1,
+        "G015": 1,
+        "G017": 1,
+        "G018": 1,
+        "G026": 2,
+        "G028": 2,
+        "G031": 1,
+        "G084": 15,
+        "G043": 1,
+        "G047": 1,
+        "G049": 1,
+        "G069": 1,
+        "G067": 1
+      },
+      "largest_group": "G084",
+      "largest_group_n": 15,
+      "largest_group_fraction": 0.45454545454545453,
+      "matches": {
+        "reference_rule_reference_fields": 33,
+        "auto_rule_reference_fields": 30,
+        "reference_rule_auto_fields": 17,
+        "auto_rule_auto_fields": 17
+      },
+      "state_normalization": "not_parsed -> unknown, as explicitly specified in the historical component evaluator",
+      "without_largest_group_n": 18,
+      "without_largest_group_matches": {
+        "reference_rule_reference_fields": 18,
+        "auto_rule_reference_fields": 15,
+        "reference_rule_auto_fields": 9,
+        "auto_rule_auto_fields": 9
+      },
+      "numeric_by_whole_evidence": {
+        "fail:refute": 3,
+        "pass:support": 5,
+        "pass:unknown": 18,
+        "unknown:unknown": 7
+      }
+    },
+    "guard_cost_example": {
+      "n": 73,
+      "false_grants": 5,
+      "false_denials": 10,
+      "referrals": 26,
+      "cg": 5,
+      "cd": 1,
+      "cr": 0.5,
+      "loss_guard": 0.6575342465753424,
+      "loss_review_all": 0.5,
+      "break_even_cr": 0.7446808510638298,
+      "interpretation": "Hypothetical administrative-disagreement costs; not measured legal error or savings."
+    },
+    "five_refuted_class": {
+      "one_case_recall_change": 0.2,
+      "one_case_macro_recall_change": 0.06666666666666667
+    },
+    "sources": [
+      {
+        "path": "D:\\MLWork\\tariff_scope_20261007\\datasets\\benchmark.jsonl",
+        "sha256": "8e33bb2381212c5a29b63ce1c9fdbcbb1a0ae6c3d228097c748529934589a3f9"
+      },
+      {
+        "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261009\\evidence_numeric\\evidence_operational_reference.jsonl",
+        "sha256": "26c385ace3791574481ffa42f86239823aaf524adec1bd83727f8eedbd8319a0"
+      },
+      {
+        "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261009\\evidence_numeric\\numeric_layer_predictions.jsonl",
+        "sha256": "437472c2478d489c909fb4992b0fb2e51b5bdea69b9f5cca7f8f251195245506"
+      }
+    ]
+  },
+  "main_display_locators": {
+    "source_layers": "\u00a75.1; Figure 2",
+    "unknown_causes": "\u00a75.2; Table 2",
+    "joint_policies": "\u00a75.3; Table 3",
+    "functional_counts": "\u00a75.4; Table 4; Figure 3",
+    "source_restoration_behavior": "\u00a75.5",
+    "legacy_context": "\u00a75.6; Supplement S5"
+  },
+  "status": "PASS",
+  "boundary": "Exact retained-source and response arithmetic; AI semantic coding remains inspectable and unvalidated by experts."
+}

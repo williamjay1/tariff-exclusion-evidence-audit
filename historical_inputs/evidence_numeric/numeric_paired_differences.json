@@ -1,0 +1,258 @@
+{
+  "metric": "Exact agreement with three-state source-coded numeric reference, not administrative accuracy or causal effect",
+  "n_cases": 33,
+  "n_linked_groups": 16,
+  "seed": 20261007,
+  "bootstrap_replicates": 2000,
+  "bootstrap_unit": "Original frozen benchmark linked groups, restricted to the 33 numerical cases; each sampled group contributes all its retained cases",
+  "statistic": "Pooled case-weighted paired difference within each bootstrap sample; no refitting; identical group draws for all contrasts",
+  "group_members": {
+    "G000": [
+      "H330938_1"
+    ],
+    "G007": [
+      "H323452_1"
+    ],
+    "G011": [
+      "H311957_1"
+    ],
+    "G015": [
+      "H316154_1"
+    ],
+    "G017": [
+      "H322923_1"
+    ],
+    "G018": [
+      "H314080_1"
+    ],
+    "G026": [
+      "H332948_1",
+      "H332948_3"
+    ],
+    "G028": [
+      "H318593_1",
+      "H318593_2"
+    ],
+    "G029": [
+      "H317391_1",
+      "H340899_1"
+    ],
+    "G031": [
+      "H333371_1"
+    ],
+    "G043": [
+      "N307161"
+    ],
+    "G047": [
+      "N311039_33"
+    ],
+    "G049": [
+      "N304781"
+    ],
+    "G067": [
+      "N312568"
+    ],
+    "G069": [
+      "N307931"
+    ],
+    "G084": [
+      "N306552",
+      "N307469",
+      "N307830",
+      "N308085",
+      "N309430",
+      "N311074",
+      "N311558",
+      "N314745_self",
+      "N314745_pedal",
+      "N318455",
+      "N318822",
+      "N319331",
+      "N325922",
+      "N327114",
+      "N332207"
+    ]
+  },
+  "largest_restricted_group": 15,
+  "resampled_case_count_range": [
+    16,
+    89
+  ],
+  "comparisons": {
+    "reference_fields_minus_automatic_fields_fixed_reference_rule": {
+      "comparison_A": "reference_rule_reference_fields",
+      "comparison_B": "reference_rule_auto_fields",
+      "A_agreement_count": 33,
+      "B_agreement_count": 17,
+      "n": 33,
+      "A_minus_B_agreement_rate": 0.48484848484848486,
+      "A_minus_B_percentage_points": 48.484848484848484,
+      "A_correct_B_incorrect": 16,
+      "A_incorrect_B_correct": 0,
+      "both_correct": 17,
+      "both_incorrect": 0,
+      "percentile_95_interval_rate": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "percentile_95_interval_percentage_points": [
+        33.33333333333333,
+        66.66666666666666
+      ],
+      "valid_resamples": 2000,
+      "requested_resamples": 2000,
+      "A_correct_B_incorrect_ids": [
+        "H317391_1",
+        "H311957_1",
+        "H316154_1",
+        "H332948_1",
+        "H332948_3",
+        "H318593_2",
+        "N306552",
+        "N307830",
+        "N309430",
+        "N314745_self",
+        "N314745_pedal",
+        "N319331",
+        "N325922",
+        "N307161",
+        "N311039_33",
+        "N304781"
+      ],
+      "A_incorrect_B_correct_ids": []
+    },
+    "reference_fields_minus_automatic_fields_fixed_automatic_rule": {
+      "comparison_A": "auto_rule_reference_fields",
+      "comparison_B": "auto_rule_auto_fields",
+      "A_agreement_count": 30,
+      "B_agreement_count": 17,
+      "n": 33,
+      "A_minus_B_agreement_rate": 0.3939393939393939,
+      "A_minus_B_percentage_points": 39.39393939393939,
+      "A_correct_B_incorrect": 13,
+      "A_incorrect_B_correct": 0,
+      "both_correct": 17,
+      "both_incorrect": 3,
+      "percentile_95_interval_rate": [
+        0.18735795454545456,
+        0.5
+      ],
+      "percentile_95_interval_percentage_points": [
+        18.735795454545457,
+        50.0
+      ],
+      "valid_resamples": 2000,
+      "requested_resamples": 2000,
+      "A_correct_B_incorrect_ids": [
+        "H317391_1",
+        "H311957_1",
+        "H316154_1",
+        "H318593_2",
+        "N306552",
+        "N307830",
+        "N309430",
+        "N314745_self",
+        "N314745_pedal",
+        "N319331",
+        "N325922",
+        "N311039_33",
+        "N304781"
+      ],
+      "A_incorrect_B_correct_ids": []
+    },
+    "reference_rule_minus_automatic_rule_fixed_reference_fields": {
+      "comparison_A": "reference_rule_reference_fields",
+      "comparison_B": "auto_rule_reference_fields",
+      "A_agreement_count": 33,
+      "B_agreement_count": 30,
+      "n": 33,
+      "A_minus_B_agreement_rate": 0.09090909090909091,
+      "A_minus_B_percentage_points": 9.090909090909092,
+      "A_correct_B_incorrect": 3,
+      "A_incorrect_B_correct": 0,
+      "both_correct": 30,
+      "both_incorrect": 0,
+      "percentile_95_interval_rate": [
+        0.0,
+        0.3333333333333333
+      ],
+      "percentile_95_interval_percentage_points": [
+        0.0,
+        33.33333333333333
+      ],
+      "valid_resamples": 2000,
+      "requested_resamples": 2000,
+      "A_correct_B_incorrect_ids": [
+        "H332948_1",
+        "H332948_3",
+        "N307161"
+      ],
+      "A_incorrect_B_correct_ids": []
+    },
+    "reference_rule_minus_automatic_rule_fixed_automatic_fields": {
+      "comparison_A": "reference_rule_auto_fields",
+      "comparison_B": "auto_rule_auto_fields",
+      "A_agreement_count": 17,
+      "B_agreement_count": 17,
+      "n": 33,
+      "A_minus_B_agreement_rate": 0.0,
+      "A_minus_B_percentage_points": 0.0,
+      "A_correct_B_incorrect": 0,
+      "A_incorrect_B_correct": 0,
+      "both_correct": 17,
+      "both_incorrect": 16,
+      "percentile_95_interval_rate": [
+        0.0,
+        0.0
+      ],
+      "percentile_95_interval_percentage_points": [
+        0.0,
+        0.0
+      ],
+      "valid_resamples": 2000,
+      "requested_resamples": 2000,
+      "A_correct_B_incorrect_ids": [],
+      "A_incorrect_B_correct_ids": []
+    },
+    "v2_minus_frozen_fully_automatic": {
+      "comparison_A": "v2",
+      "comparison_B": "auto_rule_auto_fields",
+      "A_agreement_count": 24,
+      "B_agreement_count": 17,
+      "n": 33,
+      "A_minus_B_agreement_rate": 0.21212121212121213,
+      "A_minus_B_percentage_points": 21.21212121212121,
+      "A_correct_B_incorrect": 7,
+      "A_incorrect_B_correct": 0,
+      "both_correct": 17,
+      "both_incorrect": 9,
+      "percentile_95_interval_rate": [
+        0.1,
+        0.35
+      ],
+      "percentile_95_interval_percentage_points": [
+        10.0,
+        35.0
+      ],
+      "valid_resamples": 2000,
+      "requested_resamples": 2000,
+      "A_correct_B_incorrect_ids": [
+        "H317391_1",
+        "H311957_1",
+        "H316154_1",
+        "H318593_2",
+        "N307830",
+        "N314745_self",
+        "N314745_pedal"
+      ],
+      "A_incorrect_B_correct_ids": []
+    }
+  },
+  "input_sha256": {
+    "datasets\\benchmark.jsonl": "8e33bb2381212c5a29b63ce1c9fdbcbb1a0ae6c3d228097c748529934589a3f9",
+    "revision_20261009\\evidence_numeric\\numeric_layer_predictions.jsonl": "437472c2478d489c909fb4992b0fb2e51b5bdea69b9f5cca7f8f251195245506",
+    "revision_20261009\\evidence_numeric\\real_numeric_v2_predictions.jsonl": "53ebce10bcb5698db3782d8b67425977fe58d99355eacf60dac2003f8a1fdd80",
+    "revision_20261009\\evidence_numeric\\numeric_reference_fields.jsonl": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6"
+  },
+  "limitations": "Conditional fixed-prediction summaries for 33 purposively selected numeric cases. Reference fields and the relay adapter provide test-only binding information. Reference/reference agreement is internal execution consistency. V2 was developed on inspected diagnostics. Intervals do not establish legal validity, deployment benefit, causality, reference-label validity, or independent generalization."
+}

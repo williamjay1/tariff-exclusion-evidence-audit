@@ -1,0 +1,213 @@
+{
+  "version": "posthoc_v2_general_parser_repairs",
+  "frozen_engine_unchanged": true,
+  "v2_sha256": "57bb3860e13b0a16fc0c14ff3e2750f658a25f1c6bb23395e8ec8f92d91afeca",
+  "numeric_reference_sha256": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6",
+  "constructed_input_sha256": "17e8dd16daf35907a048d10fc2891b651be0cfa8999156b4e84c46141a3bec4a",
+  "real33": {
+    "n": 33,
+    "correct": 24,
+    "confusion": {
+      "pass->pass": 16,
+      "unknown->unknown": 7,
+      "pass->unknown": 7,
+      "fail->fail": 1,
+      "fail->unknown": 2
+    }
+  },
+  "constructed96": {
+    "n": 96,
+    "correct": 73,
+    "confusion": {
+      "pass->pass": 31,
+      "fail->fail": 27,
+      "unknown->unknown": 15,
+      "pass->unknown": 13,
+      "fail->unknown": 10
+    }
+  },
+  "constructed_by_mechanism": {
+    "comparative_facts": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "component_binding": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "compound_units": {
+      "n": 8,
+      "correct": 0,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 4
+      }
+    },
+    "conflicting_reports": {
+      "n": 8,
+      "correct": 6,
+      "confusion": {
+        "pass->pass": 1,
+        "unknown->unknown": 4,
+        "fail->fail": 1,
+        "pass->unknown": 1,
+        "fail->unknown": 1
+      }
+    },
+    "dimension_binding": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "disjunction": {
+      "n": 8,
+      "correct": 2,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "identifier": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "mass_capacity": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "measurement_uncertainty": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 2,
+        "unknown->unknown": 4,
+        "fail->fail": 2
+      }
+    },
+    "nested_exception": {
+      "n": 8,
+      "correct": 1,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 3,
+        "unknown->unknown": 1
+      }
+    },
+    "two_sided_bounds": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "fail->fail": 4,
+        "pass->pass": 4
+      }
+    },
+    "unit_equivalence": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    }
+  },
+  "real_changes": [
+    {
+      "case_id": "H317391_1",
+      "gold": "pass",
+      "frozen": "fail",
+      "v2": "pass"
+    },
+    {
+      "case_id": "H311957_1",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "H316154_1",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "H318593_2",
+      "gold": "fail",
+      "frozen": "unknown",
+      "v2": "fail"
+    },
+    {
+      "case_id": "N307830",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "N314745_self",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "N314745_pedal",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    }
+  ],
+  "claim_boundary": "A post hoc repair evaluated on the same already inspected diagnostic suite and restricted-text cases. No new held-out generalization, deployability or expert validity is inferred; unsupported compound units and logic remain limitations.",
+  "constructed_unique_inputs": {
+    "n": 88,
+    "correct": 66,
+    "confusion": {
+      "pass->pass": 28,
+      "fail->fail": 26,
+      "unknown->unknown": 12,
+      "pass->unknown": 13,
+      "fail->unknown": 9
+    }
+  },
+  "pair_results": {
+    "decisive_change": {
+      "pairs": 26,
+      "both_correct": 14,
+      "same_prediction": 12
+    },
+    "equivalence": {
+      "pairs": 20,
+      "both_correct": 18,
+      "same_prediction": 20
+    },
+    "same_state_control": {
+      "pairs": 2,
+      "both_correct": 2,
+      "same_prediction": 2
+    }
+  },
+  "development_history": {
+    "first_v2_real_correct": 23,
+    "first_v2_constructed_correct": 70,
+    "subsequent_general_bugfix": "The first post hoc run revealed that dropped approximate reports could falsely certify an exact competing reading. Unspecified approximations now remain unbounded unknown fields; explicitly stated plus/minus tolerances are represented as intervals. Initial summary retained. This additional repair was developed after inspecting these diagnostics, not independently validated."
+  }
+}

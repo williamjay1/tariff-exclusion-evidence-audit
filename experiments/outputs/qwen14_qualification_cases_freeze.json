@@ -1,0 +1,32 @@
+{
+  "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\experiments\\qualification_cases.jsonl",
+  "sha256": "053af71173f011d1f306070ac5675a8653731847cd0da2665ec2372bdb66293d",
+  "case_ids": [
+    "Q_material_1",
+    "Q_material_2",
+    "Q_material_3",
+    "Q_shape_1",
+    "Q_shape_2",
+    "Q_shape_3",
+    "Q_strict_bound_1",
+    "Q_strict_bound_2",
+    "Q_strict_bound_3",
+    "Q_interval_1",
+    "Q_interval_2",
+    "Q_interval_3",
+    "Q_negation_1",
+    "Q_negation_2",
+    "Q_negation_3",
+    "Q_object_binding_1",
+    "Q_object_binding_2",
+    "Q_object_binding_3",
+    "Q_measurement_basis_1",
+    "Q_measurement_basis_2",
+    "Q_measurement_basis_3",
+    "Q_conjunction_1",
+    "Q_conjunction_2",
+    "Q_conjunction_3"
+  ],
+  "protocol_sha256": "4f0e9cc7158125e7aa71e0c5134f96dacb13b735f4d5fbacd606d89801fbdf5e",
+  "model_sha256": "500a8806e85ee9c83f3ae08420295592451379b4f8cf2d0f41c15dffeb6b81f0"
+}

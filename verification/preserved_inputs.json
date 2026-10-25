@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-22T19:24:38.9812807Z",
+  "policy": "Original attachment, manuscript and research input preservation; recheck before delivery",
+  "files": [
+    {
+      "path": "C:\\Users\\Administrator\\.codex\\attachments\\9b605d3a-1e8e-4418-9323-2f569c8a5ecf\\已粘贴的文本.txt",
+      "bytes": 39012,
+      "sha256": "8d1477d8a10402f5140feb3dc0e4c5527e8bc56d186fd60c1bc2c8b3e17b2d32"
+    },
+    {
+      "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261009\\nature_artwork_20261009\\manuscript\\tariff_exclusion_nature.md",
+      "bytes": 112835,
+      "sha256": "dea6d6925f588f1143bd41c6356487105e54310da0ac9eaa7b96fc071b502977"
+    },
+    {
+      "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261009\\manuscript\\Tariff_Exclusion_Manuscript_Nature_Artwork_20261009.docx",
+      "bytes": 2553660,
+      "sha256": "2c4b7ab647922c79a8c44a83235d5703e9a95133c9879b4b92c9cce75b575851"
+    },
+    {
+      "path": "D:\\MLWork\\tariff_scope_20261007\\datasets\\benchmark.jsonl",
+      "bytes": 154176,
+      "sha256": "8e33bb2381212c5a29b63ce1c9fdbcbb1a0ae6c3d228097c748529934589a3f9"
+    }
+  ]
+}

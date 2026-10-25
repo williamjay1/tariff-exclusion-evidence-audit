@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "n_unique_constructed_inputs": 108,
+  "n_linked_relations": 96,
+  "n_source_families": 12,
+  "n_source_groups": 12,
+  "state_counts": {
+    "supported": 48,
+    "unknown": 24,
+    "refuted": 36
+  },
+  "review": "Root agent read all 12 full source rules and the common construction template before formal inference. This is AI input review, not expert legal validation.",
+  "limits": [
+    "Every-granule quantification and frame-specific teak scope are supplied controlled interpretations, not adjudicated legal readings.",
+    "Two selected conditions do not represent the complete exclusion.",
+    "Restoration reverses deletion with a reused base endpoint; linked relations are not independent observations.",
+    "Both arms share the complete canonical clause and facts; the checklist adds a structured duplicate representation with condition IDs and requests richer output.",
+    "No exhaustive boundary, prospective importer, or independent legal-validity claim."
+  ],
+  "inputs": {
+    "controlled_cases.jsonl": "c3f25781b765c60110e18b856b88bc78a757d540dc36596493ef1835914fbb8b",
+    "constructed_pairs.jsonl": "7ba9a001f942f5344eea0d1334597fe4abb703e81422da2a17bc25a3f32dd7e8",
+    "constructed_source_spans.jsonl": "1a4b1eb4a9ee157a0dd612dbe0270d0944b83c1a42bedc013773189888ed1e58"
+  },
+  "superseded_input_history": "The original short-quote draft was replaced before any predictions were examined; three unexamined pilot outputs are preserved in controlled_freeze.json. Qualification was unchanged."
+}

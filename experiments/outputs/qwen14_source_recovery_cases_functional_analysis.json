@@ -1,0 +1,1034 @@
+{
+  "model": "qwen14",
+  "dataset": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\experiments\\source_recovery_cases.jsonl",
+  "hashes": {
+    "input": "b9a916a8c55b7b853ad51e343b64e2246186c1e5e8eec4b5347f61a002ff4cb5",
+    "direct": "e38e1f755f89822c9b176f141611a6062eadd13ecea63214d395e0372c65714e",
+    "checklist": "09ad53d74b93e7d59bf1480bb43a415f2a3ac7f0b116fd102709f6f19cb945e5"
+  },
+  "reports": {
+    "direct": {
+      "overall": {
+        "n": 8,
+        "groups": 3,
+        "valid": 8,
+        "decision_correct": 7,
+        "decision_accuracy": 0.875,
+        "prediction_counts": {
+          "unknown": 5,
+          "supported": 3
+        },
+        "unsupported_case_affirmations": 0,
+        "unsupported_case_refutations": 0,
+        "state_confusion_matrix": {
+          "supported": {
+            "supported": 3,
+            "refuted": 0,
+            "unknown": 1,
+            "invalid": 0
+          },
+          "refuted": {
+            "supported": 0,
+            "refuted": 0,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "unknown": {
+            "supported": 0,
+            "refuted": 0,
+            "unknown": 4,
+            "invalid": 0
+          }
+        },
+        "determinate_n": 3,
+        "determinate_errors": 0
+      },
+      "by_mechanism": {
+        "source_attribute_recovery": {
+          "n": 8,
+          "groups": 3,
+          "valid": 8,
+          "decision_correct": 7,
+          "decision_accuracy": 0.875,
+          "prediction_counts": {
+            "unknown": 5,
+            "supported": 3
+          },
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "state_confusion_matrix": {
+            "supported": {
+              "supported": 3,
+              "refuted": 0,
+              "unknown": 1,
+              "invalid": 0
+            },
+            "refuted": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "unknown": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 4,
+              "invalid": 0
+            }
+          },
+          "determinate_n": 3,
+          "determinate_errors": 0
+        }
+      },
+      "pairs": {
+        "n": 4,
+        "success": 3,
+        "by_operation": {
+          "source_attribute_restoration": {
+            "n": 4,
+            "success": 3
+          }
+        },
+        "records": [
+          {
+            "pair_id": "REC_H330938_1:c4",
+            "family": "H330938_1:c4",
+            "group": "H330938",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H330938_1_c4_before",
+            "right": "REC_H330938_1_c4_after",
+            "expected_relation": "change",
+            "both_correct": true,
+            "expected_relation_observed": true,
+            "success": true
+          },
+          {
+            "pair_id": "REC_H322923_1:c2",
+            "family": "H322923_1:c2",
+            "group": "H322923",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H322923_1_c2_before",
+            "right": "REC_H322923_1_c2_after",
+            "expected_relation": "change",
+            "both_correct": true,
+            "expected_relation_observed": true,
+            "success": true
+          },
+          {
+            "pair_id": "REC_H340899_1:c3",
+            "family": "H340899_1:c3",
+            "group": "H340899",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H340899_1_c3_before",
+            "right": "REC_H340899_1_c3_after",
+            "expected_relation": "change",
+            "both_correct": false,
+            "expected_relation_observed": false,
+            "success": false
+          },
+          {
+            "pair_id": "REC_H340899_1:c4",
+            "family": "H340899_1:c4",
+            "group": "H340899",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H340899_1_c4_before",
+            "right": "REC_H340899_1_c4_after",
+            "expected_relation": "change",
+            "both_correct": true,
+            "expected_relation_observed": true,
+            "success": true
+          }
+        ]
+      }
+    },
+    "checklist": {
+      "overall": {
+        "n": 8,
+        "groups": 3,
+        "valid": 8,
+        "decision_correct": 6,
+        "decision_accuracy": 0.75,
+        "prediction_counts": {
+          "unknown": 3,
+          "supported": 3,
+          "refuted": 2
+        },
+        "unsupported_case_affirmations": 0,
+        "unsupported_case_refutations": 2,
+        "state_confusion_matrix": {
+          "supported": {
+            "supported": 3,
+            "refuted": 1,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "refuted": {
+            "supported": 0,
+            "refuted": 0,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "unknown": {
+            "supported": 0,
+            "refuted": 1,
+            "unknown": 3,
+            "invalid": 0
+          }
+        },
+        "determinate_n": 5,
+        "determinate_errors": 2,
+        "complete_condition_records": 8,
+        "condition_n": 8,
+        "condition_correct": 6,
+        "condition_accuracy": 0.75,
+        "aggregation_correct": 6,
+        "aggregation_accuracy": 0.75,
+        "unsupported_condition_affirmations": 0,
+        "unsupported_condition_refutations": 2,
+        "gap_localization": {
+          "tp": 3,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.75
+        },
+        "requests": {
+          "tp": 3,
+          "unnecessary": 0,
+          "missing_necessary": 1,
+          "precision": 1.0,
+          "recall": 0.75,
+          "exact_case_sets": 7
+        },
+        "evidence_id_acceptable": {
+          "correct": 6,
+          "scored": 8,
+          "determinate_correct": 3,
+          "determinate_scored": 4,
+          "joint_state_and_evidence_correct": 6,
+          "definition": "Agreement with an acceptable fact-ID set; equivalent target-frame evidence is admitted under the pre-result erratum. This is not expert-validated legal entailment. Missing or invalid condition records count as failures."
+        },
+        "refutation_with_missing": {
+          "n": 0,
+          "correct_with_no_request": 0
+        }
+      },
+      "by_mechanism": {
+        "source_attribute_recovery": {
+          "n": 8,
+          "groups": 3,
+          "valid": 8,
+          "decision_correct": 6,
+          "decision_accuracy": 0.75,
+          "prediction_counts": {
+            "unknown": 3,
+            "supported": 3,
+            "refuted": 2
+          },
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 2,
+          "state_confusion_matrix": {
+            "supported": {
+              "supported": 3,
+              "refuted": 1,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "refuted": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "unknown": {
+              "supported": 0,
+              "refuted": 1,
+              "unknown": 3,
+              "invalid": 0
+            }
+          },
+          "determinate_n": 5,
+          "determinate_errors": 2,
+          "complete_condition_records": 8,
+          "condition_n": 8,
+          "condition_correct": 6,
+          "condition_accuracy": 0.75,
+          "aggregation_correct": 6,
+          "aggregation_accuracy": 0.75,
+          "unsupported_condition_affirmations": 0,
+          "unsupported_condition_refutations": 2,
+          "gap_localization": {
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.75
+          },
+          "requests": {
+            "tp": 3,
+            "unnecessary": 0,
+            "missing_necessary": 1,
+            "precision": 1.0,
+            "recall": 0.75,
+            "exact_case_sets": 7
+          },
+          "evidence_id_acceptable": {
+            "correct": 6,
+            "scored": 8,
+            "determinate_correct": 3,
+            "determinate_scored": 4,
+            "joint_state_and_evidence_correct": 6,
+            "definition": "Agreement with an acceptable fact-ID set; equivalent target-frame evidence is admitted under the pre-result erratum. This is not expert-validated legal entailment. Missing or invalid condition records count as failures."
+          },
+          "refutation_with_missing": {
+            "n": 0,
+            "correct_with_no_request": 0
+          }
+        }
+      },
+      "pairs": {
+        "n": 4,
+        "success": 3,
+        "by_operation": {
+          "source_attribute_restoration": {
+            "n": 4,
+            "success": 3
+          }
+        },
+        "records": [
+          {
+            "pair_id": "REC_H330938_1:c4",
+            "family": "H330938_1:c4",
+            "group": "H330938",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H330938_1_c4_before",
+            "right": "REC_H330938_1_c4_after",
+            "expected_relation": "change",
+            "both_correct": true,
+            "expected_relation_observed": true,
+            "success": true
+          },
+          {
+            "pair_id": "REC_H322923_1:c2",
+            "family": "H322923_1:c2",
+            "group": "H322923",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H322923_1_c2_before",
+            "right": "REC_H322923_1_c2_after",
+            "expected_relation": "change",
+            "both_correct": true,
+            "expected_relation_observed": true,
+            "success": true
+          },
+          {
+            "pair_id": "REC_H340899_1:c3",
+            "family": "H340899_1:c3",
+            "group": "H340899",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H340899_1_c3_before",
+            "right": "REC_H340899_1_c3_after",
+            "expected_relation": "change",
+            "both_correct": false,
+            "expected_relation_observed": false,
+            "success": false
+          },
+          {
+            "pair_id": "REC_H340899_1:c4",
+            "family": "H340899_1:c4",
+            "group": "H340899",
+            "operation": "source_attribute_restoration",
+            "left": "REC_H340899_1_c4_before",
+            "right": "REC_H340899_1_c4_after",
+            "expected_relation": "change",
+            "both_correct": true,
+            "expected_relation_observed": true,
+            "success": true
+          }
+        ]
+      }
+    }
+  },
+  "case_records": {
+    "direct": [
+      {
+        "case_id": "REC_H330938_1_c4_before",
+        "group": "H330938",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H330938_1_c4_after",
+        "group": "H330938",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H322923_1_c2_before",
+        "group": "H322923",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H322923_1_c2_after",
+        "group": "H322923",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H340899_1_c3_before",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H340899_1_c3_after",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 0,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H340899_1_c4_before",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "REC_H340899_1_c4_after",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      }
+    ],
+    "checklist": [
+      {
+        "case_id": "REC_H330938_1_c4_before",
+        "group": "H330938",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": 1,
+        "required_request_n": 1,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": "unknown",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 1,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 1,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 1,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 0,
+        "determinate_evidence_scored_n": 0,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H330938_1_c4_after",
+        "group": "H330938",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": 1,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": "supported",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 1,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H322923_1_c2_before",
+        "group": "H322923",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": 1,
+        "required_request_n": 1,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": "unknown",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 1,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 1,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 1,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 0,
+        "determinate_evidence_scored_n": 0,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H322923_1_c2_after",
+        "group": "H322923",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": 1,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": "supported",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 1,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H340899_1_c3_before",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": 1,
+        "required_request_n": 1,
+        "valid": true,
+        "decision": "refuted",
+        "decision_correct": 0,
+        "aggregated_decision": "refuted",
+        "aggregation_correct": 0,
+        "complete_condition_ids": true,
+        "condition_correct": 0,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 1,
+        "unsupported_case_refutation": 1,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 1,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 1,
+        "request_n": 0,
+        "request_set_correct": false,
+        "evidence_exact_n": 0,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 0,
+        "determinate_evidence_scored_n": 0,
+        "joint_state_and_evidence_correct": 0,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H340899_1_c3_after",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": 1,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "refuted",
+        "decision_correct": 0,
+        "aggregated_decision": "refuted",
+        "aggregation_correct": 0,
+        "complete_condition_ids": true,
+        "condition_correct": 0,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 1,
+        "unsupported_case_refutation": 1,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 0,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 0,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 0,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H340899_1_c4_before",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "before",
+        "gold": "unknown",
+        "condition_n": 1,
+        "required_request_n": 1,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": "unknown",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 1,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 1,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 1,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 0,
+        "determinate_evidence_scored_n": 0,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "REC_H340899_1_c4_after",
+        "group": "H340899",
+        "mechanism": "source_attribute_recovery",
+        "variant": "after",
+        "gold": "supported",
+        "condition_n": 1,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": "supported",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 1,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      }
+    ]
+  },
+  "reference_policy": "original frozen reference",
+  "excluded_family": null,
+  "effective_references": {
+    "REC_H330938_1_c4_before": {
+      "states": {
+        "c4": "unknown"
+      },
+      "decision": "unknown",
+      "requests": [
+        "c4"
+      ],
+      "evidence": {
+        "c4": []
+      }
+    },
+    "REC_H330938_1_c4_after": {
+      "states": {
+        "c4": "supported"
+      },
+      "decision": "supported",
+      "requests": [],
+      "evidence": {
+        "c4": [
+          "f2"
+        ]
+      }
+    },
+    "REC_H322923_1_c2_before": {
+      "states": {
+        "c2": "unknown"
+      },
+      "decision": "unknown",
+      "requests": [
+        "c2"
+      ],
+      "evidence": {
+        "c2": []
+      }
+    },
+    "REC_H322923_1_c2_after": {
+      "states": {
+        "c2": "supported"
+      },
+      "decision": "supported",
+      "requests": [],
+      "evidence": {
+        "c2": [
+          "f2"
+        ]
+      }
+    },
+    "REC_H340899_1_c3_before": {
+      "states": {
+        "c3": "unknown"
+      },
+      "decision": "unknown",
+      "requests": [
+        "c3"
+      ],
+      "evidence": {
+        "c3": []
+      }
+    },
+    "REC_H340899_1_c3_after": {
+      "states": {
+        "c3": "supported"
+      },
+      "decision": "supported",
+      "requests": [],
+      "evidence": {
+        "c3": [
+          "f2"
+        ]
+      }
+    },
+    "REC_H340899_1_c4_before": {
+      "states": {
+        "c4": "unknown"
+      },
+      "decision": "unknown",
+      "requests": [
+        "c4"
+      ],
+      "evidence": {
+        "c4": []
+      }
+    },
+    "REC_H340899_1_c4_after": {
+      "states": {
+        "c4": "supported"
+      },
+      "decision": "supported",
+      "requests": [],
+      "evidence": {
+        "c4": [
+          "f2"
+        ]
+      }
+    }
+  },
+  "paired_representations": {
+    "n": 8,
+    "source_families": 3,
+    "difference": -0.125,
+    "discordances": {
+      "same_correctness": 7,
+      "direct_only_correct": 1
+    },
+    "family_differences": {
+      "H330938": 0.0,
+      "H322923": 0.0,
+      "H340899": -0.25
+    },
+    "interval": null,
+    "meaning": "Exact counts in a deliberately selected diagnostic domain. No population CI. Clause semantics are shared; supplied structure and requested outputs differ, so this is not an isolated aggregation effect."
+  },
+  "reference_status": "AI-assisted text-evidence diagnostic reference; constructed cases are synthetic, not new observed adjudications."
+}

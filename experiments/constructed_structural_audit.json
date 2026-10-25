@@ -1,0 +1,491 @@
+{
+  "status": "PASS",
+  "inputs": 108,
+  "relations": 96,
+  "families": 12,
+  "checks": [
+    {
+      "pair_id": "CF01_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF01_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF02_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF03_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF04_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF05_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF06_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF07_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF08_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF09_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF10_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF11_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_deletion",
+      "operation": "deletion",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_restoration",
+      "operation": "restoration",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_irrelevant_addition",
+      "operation": "irrelevant_addition",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_decisive_attribute",
+      "operation": "decisive_attribute",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_refutation_preservation",
+      "operation": "refutation_preservation",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_object_binding_swap",
+      "operation": "object_binding_swap",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_semantic_equivalence",
+      "operation": "semantic_equivalence",
+      "pass": true
+    },
+    {
+      "pair_id": "CF12_wrong_object_only",
+      "operation": "wrong_object_only",
+      "pass": true
+    }
+  ],
+  "not_checked": "Source-clause interpretation, synthetic fact semantics and legal scope require independent source review; this script only checks construction invariants.",
+  "input_sha256": "ec31de7be7b6b11a3f01b119fbd4791ad0f3bc2d54d913bcdca6da55811fd5d9",
+  "pair_sha256": "7ba9a001f942f5344eea0d1334597fe4abb703e81422da2a17bc25a3f32dd7e8"
+}

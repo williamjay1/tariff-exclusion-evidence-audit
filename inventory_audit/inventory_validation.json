@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "rows": 397,
+  "unique_rule_ids": 397,
+  "actual_reviewed_field_records": 397,
+  "coarse_product_group_readings": 354,
+  "code_only_extra_product_groups_zero": 43,
+  "coarse_product_groups": 1096,
+  "validated_exact_source_spans": 3260,
+  "exactly_covered_index_rules": 16,
+  "all_covered_index_rules_have_coarse_groups": true,
+  "input_rule_sha256": "a332e4796138f2e22ff831d7e7c29d618dbc70133fe81886d75cd87e9f39166c",
+  "original_pdf_sha256": "1bd398bd7938cba7693776c32b65083983d0b4ae492f5a84c322697a5623abe0",
+  "literal_unit_anomaly": {
+    "index": 211,
+    "page": 12,
+    "pdf_text_quote": "Adjustable wire shelving units of steel, other than for household use, comprising vertical poles, foot caps or casters, clips and \nshelves, each when fully assembled measuring at least 35 cm or more but not more than 183 m in width, at least 35 cm but not \nmore than 77 cm in depth, and at least 137 cm but not more than 183 cm in height (described in statistical reporting number \n9403.20.0081 prior to July 1, 2022; described in statistical reporting number 9403.20.0082 effective July 1, 2022?)\n20(ttt)(iii)(18)\n8712.",
+    "correction_performed": false
+  },
+  "boundary": "Program validates provenance, counts and correspondence; no independent semantic/legal gold validation."
+}

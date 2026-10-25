@@ -1,0 +1,83 @@
+{
+  "retrieved_at_utc": "20261022T193954Z",
+  "scienceplots_commit": "b9b16959570bd2fbc9ff5118bacc423c3bddd592",
+  "scienceplots_installed_version": "2.2.2",
+  "items": [
+    {
+      "key": "hscodecomp",
+      "url": "https://aclanthology.org/2026.acl-long.937.pdf",
+      "final_url": "https://aclanthology.org/2026.acl-long.937.pdf",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\hscodecomp_20261022T193954Z.pdf",
+      "bytes": 13725326,
+      "sha256": "71a5a198742874c384f58837bd1eec16f5a61537e2e2d75bfb274e5e37a30302",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md",
+      "pages": 32,
+      "derived_text": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\literature\\extracted\\hscodecomp_20261022T193954Z.txt"
+    },
+    {
+      "key": "checklist",
+      "url": "https://aclanthology.org/2020.acl-main.442.pdf",
+      "final_url": "https://aclanthology.org/2020.acl-main.442.pdf",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\checklist_20261022T193954Z.pdf",
+      "bytes": 400832,
+      "sha256": "98d15d259acf15136feed5cd5d4921b60cf313704a629901d115fe910fdb00e1",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md",
+      "pages": 11,
+      "derived_text": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\literature\\extracted\\checklist_20261022T193954Z.txt"
+    },
+    {
+      "key": "hsgraphagent",
+      "url": "https://aclanthology.org/2026.acl-long.2072/",
+      "final_url": "https://aclanthology.org/2026.acl-long.2072/",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\hsgraphagent_20261022T193954Z.html",
+      "bytes": 45810,
+      "sha256": "a183e6081bc4e91f457fadc87adc0ba0b17e81e6915a1ba37c3b38b507106483",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    {
+      "key": "explainable_customs_kaist",
+      "url": "https://pure.kaist.ac.kr/en/publications/explainable-product-classification-for-customs/",
+      "final_url": "https://pure.kaist.ac.kr/en/publications/explainable-product-classification-for-customs/",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\explainable_customs_kaist_20261022T193954Z.html",
+      "bytes": 47041,
+      "sha256": "7e0bbb060566e9cc60e0290670967107fdfb8093ea047e255ba75440fd1909fb",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    {
+      "key": "scienceplots_nature",
+      "url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/src/scienceplots/styles/journals/nature.mplstyle",
+      "final_url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/src/scienceplots/styles/journals/nature.mplstyle",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\scienceplots_nature_20261022T193954Z.txt",
+      "bytes": 906,
+      "sha256": "1d39b7974b71da2b92349f7f95d2e17f94dc83b335a0e1c18dfab522b363b0e2",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    {
+      "key": "scienceplots_license",
+      "url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/garrettj403/SciencePlots/b9b16959570bd2fbc9ff5118bacc423c3bddd592/LICENSE",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\scienceplots_license_20261022T193954Z.txt",
+      "bytes": 1068,
+      "sha256": "9e5d935909270a14c3e9dc5ede0bcfc73a69fc3411f70ddd9e05065602a46cdb",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    {
+      "key": "nature_building",
+      "url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "final_url": "https://research-figure-guide.nature.com/figures/building-and-exporting-figure-panels/",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\nature_building_20261022T193954Z.html",
+      "bytes": 29934,
+      "sha256": "222727c80ed3b1795424d364ec771caf2464933d7acdb2bf97a900be46ed7c18",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    },
+    {
+      "key": "nature_specifications",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "final_url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\nature_specifications_20261022T193954Z.html",
+      "bytes": 28684,
+      "sha256": "c5695036b282db8bda05eb11cbe113d85c0d4d3a9c355cda2aab7e1e7e33e6d8",
+      "status": "Content checked: source and relevant sections read; reading depth in verified_references.json or plotting_provenance.md"
+    }
+  ]
+}

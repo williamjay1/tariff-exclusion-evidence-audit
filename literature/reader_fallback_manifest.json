@@ -1,0 +1,42 @@
+[
+  {
+    "name": "vita_2025_jina.md",
+    "url": "https://r.jina.ai/https://link.springer.com/article/10.1007/s10506-025-09465-7",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\vita_2025_jina.md",
+    "sha256": "e3db3a33840b2c9ed575e634056ea6a508aa98d20a8ea8e647bcdce2ae7a9603",
+    "bytes": 54843
+  },
+  {
+    "name": "ailaw_scope_20261023_jina.md",
+    "url": "https://r.jina.ai/https://link.springer.com/journal/10506/aims-and-scope",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\ailaw_scope_20261023_jina.md",
+    "sha256": "20f4d587a5c132ee65ca885719b156ea315119a2173b19b94e9f564ccf407e06",
+    "bytes": 3279
+  },
+  {
+    "name": "ailaw_guidelines_20261023_jina.md",
+    "url": "https://r.jina.ai/https://link.springer.com/journal/10506/submission-guidelines",
+    "error": "401 Client Error: Unauthorized for url: https://r.jina.ai/https://link.springer.com/journal/10506/submission-guidelines"
+  },
+  {
+    "name": "ailaw_home_20261023_jina.md",
+    "url": "https://r.jina.ai/https://link.springer.com/journal/10506",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\ailaw_home_20261023_jina.md",
+    "sha256": "45e15f4475e1483360893143288b6c52a71d058e55c09b135cb64910a996a7d1",
+    "bytes": 15463
+  },
+  {
+    "name": "gao_21_506_20261023_jina.md",
+    "url": "https://r.jina.ai/https://www.gao.gov/products/gao-21-506",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\gao_21_506_20261023_jina.md",
+    "sha256": "8cf6fcdc3ec00ab71f30095f4e0b2899ba08df4c01beb850445ad944b4195e76",
+    "bytes": 7451
+  },
+  {
+    "name": "vita_2025_nsf.pdf",
+    "url": "https://par.nsf.gov/servlets/purl/10649839",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\vita_2025_nsf.pdf",
+    "sha256": "55f00a7e9fb95f937be255647827c87095694bdb7880b15f97a5f86b33399aa5",
+    "bytes": 946535
+  }
+]

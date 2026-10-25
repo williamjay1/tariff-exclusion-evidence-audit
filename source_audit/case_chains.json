@@ -1,0 +1,2244 @@
+[
+  {
+    "case_id": "H330938_1",
+    "related_case_ids": [
+      "H330938_1"
+    ],
+    "explanation": "The omitted connector fact is explicit in the analysis and changes c4 from unknown to support. Monopolar topology and copper-shield scope remain interpretation-dependent. Therefore source restoration alone does not create a strict supported case.",
+    "source": {
+      "ruling_id": "H330938",
+      "official_url": "https://rulings.cbp.gov/ruling/H330938",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H330938.json",
+      "raw_sha256": "2a68f19a8e8ac99f67afd8e1ad5ce781a6732a259049da77bab6a42213118ae2",
+      "text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+    },
+    "cases": [
+      {
+        "case_id": "H330938_1",
+        "ruling_id": "H330938",
+        "original_case_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "safe_flat_conjunction": true,
+        "logic_unresolved": false,
+        "logic_note": "Conjunction of signed historical condition units at case level; this is not a completeness guarantee.",
+        "original_logical_structure": {
+          "op": "all",
+          "children": [
+            {
+              "op": "condition",
+              "ref": "c1"
+            },
+            {
+              "op": "condition",
+              "ref": "c2"
+            },
+            {
+              "op": "exclusion",
+              "source_condition": "c3",
+              "signed_literal": "other than of copper",
+              "evaluate": "source_coded_signed_condition"
+            },
+            {
+              "op": "exclusion",
+              "source_condition": "c4",
+              "signed_literal": "not fitted with connectors",
+              "evaluate": "source_coded_signed_condition"
+            }
+          ]
+        },
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "condition_keys": [
+          "H330938_1:c1",
+          "H330938_1:c2",
+          "H330938_1:c3",
+          "H330938_1:c4"
+        ],
+        "full_source_review_scope": "complete relevant factual and analytical source text checked",
+        "raw_sha256": "2a68f19a8e8ac99f67afd8e1ad5ce781a6732a259049da77bab6a42213118ae2",
+        "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+      }
+    ],
+    "conditions": [
+      {
+        "case_id": "H330938_1",
+        "condition_id": "c1",
+        "condition_key": "H330938_1:c1",
+        "ruling_id": "H330938",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "[M]onopolar conductors",
+        "rule_span": [
+          0,
+          22
+        ],
+        "rule_source_locator": {
+          "quote": "[M]onopolar conductors",
+          "requested_quote": "[M]onopolar conductors",
+          "raw_text_span": [
+            4445,
+            4467
+          ],
+          "paragraph_ids": [
+            "p023"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+        },
+        "object": {
+          "product_scope": "MV-90 and MV-105 cable descriptions; aluminum conductor versus copper shield",
+          "visible_product_description": "The subject merchandise is comprised of wire cables (identified as 35kV MV-90 AL TRXLPE 100% INS LLDPE and 35kV MV-105 AL TRXLPE 100% INS XLPE) for use in electrical power transmission",
+          "component": "conducting core within cable and connected monopolar system",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "conductor topology",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "single conducting aluminum core",
+            "frozen_span": [
+              209,
+              240
+            ],
+            "source_locator": {
+              "quote": "single conducting aluminum core",
+              "requested_quote": "single conducting aluminum core",
+              "raw_text_span": [
+                1221,
+                1252
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+            }
+          }
+        ],
+        "fact_quote": [
+          "single conducting aluminum core"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "interpretive",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "input_available": true,
+        "unknown_reason": "definition_required",
+        "inference_basis": "Single aluminum core is not the complete definition of a monopolar conductor/system; the full source explains single-phase/single-energized-pole operation.",
+        "recovered_fact_evidence": [
+          {
+            "case_id": "H330938_1",
+            "condition_id": "c1",
+            "condition_key": "H330938_1:c1",
+            "quote": "The subject merchandise consists of a single cable with an aluminum conducting core that functions within a monopolar system to transmit power via a single phase and a single energized pole.",
+            "requested_quote": "The subject merchandise consists of a single cable with an aluminum conducting core that functions within a monopolar system to transmit power via a single phase and a single energized pole.",
+            "raw_text_span": [
+              5464,
+              5654
+            ],
+            "paragraph_ids": [
+              "p024"
+            ],
+            "locator_status": "exact",
+            "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950",
+            "official_url": "https://rulings.cbp.gov/ruling/H330938",
+            "source_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H330938.json",
+            "raw_sha256": "2a68f19a8e8ac99f67afd8e1ad5ce781a6732a259049da77bab6a42213118ae2",
+            "section": "LAW AND ANALYSIS",
+            "admissibility": "definition_dependent_attribute",
+            "attribution": "agency technical description",
+            "strict_condition_state_after_restoration": "unknown",
+            "is_new_relative_to_excerpt": true,
+            "note": "Independent factual clause only; neither legal applicability sentence nor holding is inserted."
+          }
+        ],
+        "interpretation_options": [
+          {
+            "policy": "single_pole_system",
+            "state": "support",
+            "reason": "Map the full-source single phase/single energized pole description to monopolar.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          },
+          {
+            "policy": "no_domain_definition",
+            "state": "unknown",
+            "reason": "Do not equate one visible conducting core with monopolar-system scope.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          }
+        ],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H330938_1",
+        "condition_id": "c2",
+        "condition_key": "H330938_1:c2",
+        "ruling_id": "H330938",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "for a voltage exceeding 1,000 V",
+        "rule_span": [
+          23,
+          54
+        ],
+        "rule_source_locator": {
+          "quote": "for a voltage exceeding 1,000 V",
+          "requested_quote": "for a voltage exceeding 1,000 V",
+          "raw_text_span": [
+            3272,
+            3303
+          ],
+          "paragraph_ids": [
+            "p021"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+        },
+        "object": {
+          "product_scope": "MV-90 and MV-105 cable descriptions; aluminum conductor versus copper shield",
+          "visible_product_description": "The subject merchandise is comprised of wire cables (identified as 35kV MV-90 AL TRXLPE 100% INS LLDPE and 35kV MV-105 AL TRXLPE 100% INS XLPE) for use in electrical power transmission",
+          "component": "explicit interconnection wiring rating; model-number tokens excluded",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "rated voltage",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "constraint": {
+              "attribute": "voltage",
+              "dimension": "voltage",
+              "unit": "V",
+              "lower": "1000",
+              "lower_inclusive": false,
+              "upper": null,
+              "upper_inclusive": null,
+              "quote": "voltage exceeding 1,000 V",
+              "span": [
+                29,
+                54
+              ]
+            },
+            "reference_fields": [
+              {
+                "attribute": "voltage",
+                "dimension": "voltage",
+                "unit": "V",
+                "lower": "2000",
+                "upper": "2000",
+                "source_quotes": [
+                  {
+                    "quote": "2000V",
+                    "span": [
+                      804,
+                      809
+                    ]
+                  }
+                ],
+                "bound_interpretation": "The visible specification gives 2000 V. Encoded 35kV product names are not alternative measured fields."
+              }
+            ],
+            "source_coding_reason": "The visible specification gives 2000 V. Encoded 35kV product names are not alternative measured fields.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "2000V",
+            "frozen_span": [
+              804,
+              809
+            ],
+            "source_locator": {
+              "quote": "2000V",
+              "requested_quote": "2000V",
+              "raw_text_span": [
+                1819,
+                1824
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+            }
+          }
+        ],
+        "fact_quote": [
+          "2000V"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H330938_1",
+        "condition_id": "c3",
+        "condition_key": "H330938_1:c3",
+        "ruling_id": "H330938",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "other than of copper",
+        "rule_span": [
+          56,
+          76
+        ],
+        "rule_source_locator": {
+          "quote": "other than of copper",
+          "requested_quote": "other than of copper",
+          "raw_text_span": [
+            4501,
+            4521
+          ],
+          "paragraph_ids": [
+            "p023"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+        },
+        "object": {
+          "product_scope": "MV-90 and MV-105 cable descriptions; aluminum conductor versus copper shield",
+          "visible_product_description": "The subject merchandise is comprised of wire cables (identified as 35kV MV-90 AL TRXLPE 100% INS LLDPE and 35kV MV-105 AL TRXLPE 100% INS XLPE) for use in electrical power transmission",
+          "component": "aluminum conducting core versus copper concentric neutral shield",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "conductor material",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "single conducting aluminum core",
+            "frozen_span": [
+              209,
+              240
+            ],
+            "source_locator": {
+              "quote": "single conducting aluminum core",
+              "requested_quote": "single conducting aluminum core",
+              "raw_text_span": [
+                1221,
+                1252
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+            }
+          }
+        ],
+        "fact_quote": [
+          "single conducting aluminum core"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "interpretive",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "input_available": true,
+        "unknown_reason": "component_material_scope",
+        "inference_basis": "Aluminum conducting core and copper concentric shield coexist. Applying other than copper to conductor rather than any material requires component binding.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [
+          {
+            "policy": "conducting_core_only",
+            "state": "support",
+            "reason": "Apply material restriction to the aluminum conductor, not the copper protective shield.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          },
+          {
+            "policy": "all_materials",
+            "state": "refute",
+            "reason": "If any copper-bearing part counts, the explicitly described copper shield defeats the restriction.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          }
+        ],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H330938_1",
+        "condition_id": "c4",
+        "condition_key": "H330938_1:c4",
+        "ruling_id": "H330938",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "not fitted with connectors",
+        "rule_span": [
+          81,
+          107
+        ],
+        "rule_source_locator": {
+          "quote": "not fitted with connectors",
+          "requested_quote": "not fitted with connectors",
+          "raw_text_span": [
+            3077,
+            3103
+          ],
+          "paragraph_ids": [
+            "p021"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+        },
+        "object": {
+          "product_scope": "MV-90 and MV-105 cable descriptions; aluminum conductor versus copper shield",
+          "visible_product_description": "The subject merchandise is comprised of wire cables (identified as 35kV MV-90 AL TRXLPE 100% INS LLDPE and 35kV MV-105 AL TRXLPE 100% INS XLPE) for use in electrical power transmission",
+          "component": "cable ends as imported",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "connector absence",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [],
+        "fact_quote": [],
+        "original_state": "unknown",
+        "historical_operational_condition_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "insufficient",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "support",
+        "input_available": false,
+        "unknown_reason": "excerpt_omission",
+        "inference_basis": "Connector absence is absent from the frozen excerpt but explicitly attributed to submitted documentation in the full ruling.",
+        "recovered_fact_evidence": [
+          {
+            "case_id": "H330938_1",
+            "condition_id": "c4",
+            "condition_key": "H330938_1:c4",
+            "quote": "Lastly, the submitted documentation describes the subject cables as imported on reels at very long lengths without connectors.",
+            "requested_quote": "Lastly, the submitted documentation describes the subject cables as imported on reels at very long lengths without connectors.",
+            "raw_text_span": [
+              6855,
+              6981
+            ],
+            "paragraph_ids": [
+              "p025"
+            ],
+            "locator_status": "exact",
+            "source_text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950",
+            "official_url": "https://rulings.cbp.gov/ruling/H330938",
+            "source_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H330938.json",
+            "raw_sha256": "2a68f19a8e8ac99f67afd8e1ad5ce781a6732a259049da77bab6a42213118ae2",
+            "section": "LAW AND ANALYSIS",
+            "admissibility": "direct_attribute",
+            "attribution": "submitted documentation",
+            "strict_condition_state_after_restoration": "support",
+            "is_new_relative_to_excerpt": true,
+            "note": "Independent factual clause only; neither legal applicability sentence nor holding is inserted."
+          }
+        ],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      }
+    ]
+  },
+  {
+    "case_id": "H318593_1",
+    "related_case_ids": [
+      "H318593_1",
+      "H318593_2"
+    ],
+    "explanation": "The stated 61 x 30.2 x 15.2 cm excludes the handle, while the candidate ceiling does not. The full source does not establish the complete dimensions. The separate 550 kg rule in H318593_2 is decisively refuted by the stated 6000 lb load capacity (2721.55422 kg). Neither observation establishes overall legal eligibility.",
+    "source": {
+      "ruling_id": "H318593",
+      "official_url": "https://rulings.cbp.gov/ruling/H318593",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H318593.json",
+      "raw_sha256": "caab61f3ddff2bb8eb9a3a13aac71e67aed33c8fe52fa30b8f79d4478a5f730e",
+      "text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+    },
+    "cases": [
+      {
+        "case_id": "H318593_1",
+        "ruling_id": "H318593",
+        "original_case_state": "support",
+        "historical_operational_case_state": "unknown",
+        "safe_flat_conjunction": true,
+        "logic_unresolved": false,
+        "logic_note": "Conjunction of signed historical condition units at case level; this is not a completeness guarantee.",
+        "original_logical_structure": {
+          "op": "all",
+          "children": [
+            {
+              "op": "condition",
+              "ref": "c1"
+            },
+            {
+              "op": "condition",
+              "ref": "c2"
+            },
+            {
+              "op": "exclusion",
+              "source_condition": "c3",
+              "signed_literal": "not more than 81 cm by 41 cm by 25 cm",
+              "evaluate": "source_coded_signed_condition"
+            },
+            {
+              "op": "condition",
+              "ref": "c4"
+            }
+          ]
+        },
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "condition_keys": [
+          "H318593_1:c1",
+          "H318593_1:c2",
+          "H318593_1:c3",
+          "H318593_1:c4"
+        ],
+        "full_source_review_scope": "complete relevant factual and analytical source text checked",
+        "raw_sha256": "caab61f3ddff2bb8eb9a3a13aac71e67aed33c8fe52fa30b8f79d4478a5f730e",
+        "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+      },
+      {
+        "case_id": "H318593_2",
+        "ruling_id": "H318593",
+        "original_case_state": "refute",
+        "historical_operational_case_state": "refute",
+        "safe_flat_conjunction": true,
+        "logic_unresolved": false,
+        "logic_note": "Conjunction of signed historical condition units at case level; this is not a completeness guarantee.",
+        "original_logical_structure": {
+          "op": "all",
+          "children": [
+            {
+              "op": "condition",
+              "ref": "c1"
+            },
+            {
+              "op": "condition",
+              "ref": "c2"
+            }
+          ]
+        },
+        "strict_excerpt_state": "refute",
+        "strict_full_source_state": "refute",
+        "condition_keys": [
+          "H318593_2:c1",
+          "H318593_2:c2"
+        ],
+        "full_source_review_scope": "complete frozen facts and source span validation; targeted context for numeric/refuted cases",
+        "raw_sha256": "caab61f3ddff2bb8eb9a3a13aac71e67aed33c8fe52fa30b8f79d4478a5f730e",
+        "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+      }
+    ],
+    "conditions": [
+      {
+        "case_id": "H318593_1",
+        "condition_id": "c1",
+        "condition_key": "H318593_1:c1",
+        "ruling_id": "H318593",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "Hydraulic floor jacks",
+        "rule_span": [
+          0,
+          21
+        ],
+        "rule_source_locator": {
+          "quote": "Hydraulic floor jacks",
+          "requested_quote": "Hydraulic floor jacks",
+          "raw_text_span": [
+            4847,
+            4868
+          ],
+          "paragraph_ids": [
+            "p027"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+        },
+        "object": {
+          "product_scope": "3-ton hydraulic floor jack; handle excluded from stated dimensions",
+          "visible_product_description": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle)",
+          "component": "whole article or explicitly named property-bearing part in cited factual span",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "hydraulic floor jack",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "Arcan 3-ton Professional Grade Hybrid Service Jack",
+            "frozen_span": [
+              45,
+              95
+            ],
+            "source_locator": {
+              "quote": "Arcan 3-ton Professional Grade Hybrid Service Jack",
+              "requested_quote": "Arcan 3-ton Professional Grade Hybrid Service Jack",
+              "raw_text_span": [
+                1111,
+                1161
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+            }
+          }
+        ],
+        "fact_quote": [
+          "Arcan 3-ton Professional Grade Hybrid Service Jack"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H318593_1",
+        "condition_id": "c2",
+        "condition_key": "H318593_1:c2",
+        "ruling_id": "H318593",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "of steel",
+        "rule_span": [
+          22,
+          30
+        ],
+        "rule_source_locator": {
+          "quote": "of steel",
+          "requested_quote": "of steel",
+          "raw_text_span": [
+            1381,
+            1389
+          ],
+          "paragraph_ids": [
+            "p016"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+        },
+        "object": {
+          "product_scope": "3-ton hydraulic floor jack; handle excluded from stated dimensions",
+          "visible_product_description": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle)",
+          "component": "whole jack mixed-metal composition",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "steel composition scope",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "68.50% by weight of steel",
+            "frozen_span": [
+              295,
+              320
+            ],
+            "source_locator": {
+              "quote": "68.50% by weight of steel",
+              "requested_quote": "68.50% by weight of steel",
+              "raw_text_span": [
+                1364,
+                1389
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+            }
+          }
+        ],
+        "fact_quote": [
+          "68.50% by weight of steel"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "interpretive",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "input_available": true,
+        "unknown_reason": "mixed_material_scope",
+        "inference_basis": "68.5 percent steel with substantial aluminum does not settle of-steel without a material-predominance interpretation.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [
+          {
+            "policy": "predominant_base_metal",
+            "state": "support",
+            "reason": "Treat 68.5 percent steel as controlling despite aluminum parts.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          }
+        ],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H318593_1",
+        "condition_id": "c3",
+        "condition_key": "H318593_1:c3",
+        "ruling_id": "H318593",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "not more than 81 cm by 41 cm by 25 cm",
+        "rule_span": [
+          47,
+          84
+        ],
+        "rule_source_locator": {
+          "quote": "not more than 81 cm by 41 cm by 25 cm",
+          "requested_quote": "not more than 81 cm by 41 cm by 25 cm",
+          "raw_text_span": [
+            4894,
+            4931
+          ],
+          "paragraph_ids": [
+            "p027"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+        },
+        "object": {
+          "product_scope": "3-ton hydraulic floor jack; handle excluded from stated dimensions",
+          "visible_product_description": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle)",
+          "component": "enclosure dimensions explicitly excluding handle; complete jack bound absent",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "whole-article dimensions",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "constraint": {
+              "attribute": "length",
+              "dimension": "length",
+              "unit": "mm",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "810",
+              "upper_inclusive": true,
+              "quote": "not more than 81 cm by 41 cm by 25 cm",
+              "span": [
+                47,
+                84
+              ]
+            },
+            "reference_fields": [],
+            "source_coding_reason": "Independent AI audit identified that the reported dimensions explicitly exclude the handle while the rule does not establish that measurement scope. Complete-article dimension fields are unavailable; the corresponding numeric conditions remain unknown.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          },
+          {
+            "constraint": {
+              "attribute": "width",
+              "dimension": "length",
+              "unit": "mm",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "410",
+              "upper_inclusive": true,
+              "quote": "not more than 81 cm by 41 cm by 25 cm",
+              "span": [
+                47,
+                84
+              ]
+            },
+            "reference_fields": [],
+            "source_coding_reason": "Independent AI audit identified that the reported dimensions explicitly exclude the handle while the rule does not establish that measurement scope. Complete-article dimension fields are unavailable; the corresponding numeric conditions remain unknown.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          },
+          {
+            "constraint": {
+              "attribute": "height",
+              "dimension": "length",
+              "unit": "mm",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "250",
+              "upper_inclusive": true,
+              "quote": "not more than 81 cm by 41 cm by 25 cm",
+              "span": [
+                47,
+                84
+              ]
+            },
+            "reference_fields": [],
+            "source_coding_reason": "Independent AI audit identified that the reported dimensions explicitly exclude the handle while the rule does not establish that measurement scope. Complete-article dimension fields are unavailable; the corresponding numeric conditions remain unknown.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "61 centimeters (cm) by 30.2 cm by 15.2 cm",
+            "frozen_span": [
+              131,
+              172
+            ],
+            "source_locator": {
+              "quote": "61 centimeters (cm) by 30.2 cm by 15.2 cm",
+              "requested_quote": "61 centimeters (cm) by 30.2 cm by 15.2 cm",
+              "raw_text_span": [
+                1198,
+                1239
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+            }
+          }
+        ],
+        "fact_quote": [
+          "61 centimeters (cm) by 30.2 cm by 15.2 cm"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "insufficient",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "input_available": true,
+        "unknown_reason": "measurement_scope_mismatch",
+        "inference_basis": "Facts explicitly exclude the handle from 61 x 30.2 x 15.2 cm. The rule does not exclude it; restating dimensions later does not supply the missing whole-article bounds.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H318593_1",
+        "condition_id": "c4",
+        "condition_key": "H318593_1:c4",
+        "ruling_id": "H318593",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "weighing not more than 52 kg",
+        "rule_span": [
+          86,
+          114
+        ],
+        "rule_source_locator": {
+          "quote": "weighing not more than 52 kg",
+          "requested_quote": "weighing not more than 52 kg",
+          "raw_text_span": [
+            4933,
+            4961
+          ],
+          "paragraph_ids": [
+            "p027"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+        },
+        "object": {
+          "product_scope": "3-ton hydraulic floor jack; handle excluded from stated dimensions",
+          "visible_product_description": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle)",
+          "component": "whole article or explicitly named property-bearing part in cited factual span",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "article mass",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "constraint": {
+              "attribute": "weight",
+              "dimension": "mass",
+              "unit": "g",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "52000",
+              "upper_inclusive": true,
+              "quote": "weighing not more than 52 kg",
+              "span": [
+                86,
+                114
+              ]
+            },
+            "reference_fields": [
+              {
+                "attribute": "weight",
+                "dimension": "mass",
+                "unit": "g",
+                "lower": "26400",
+                "upper": "26400",
+                "source_quotes": [
+                  {
+                    "quote": "weighs 26.4 kilograms (kg)",
+                    "span": [
+                      199,
+                      225
+                    ]
+                  }
+                ],
+                "bound_interpretation": "Own mass is separate from lifting capacity."
+              }
+            ],
+            "source_coding_reason": "Own mass is separate from lifting capacity.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "weighs 26.4 kilograms (kg)",
+            "frozen_span": [
+              199,
+              225
+            ],
+            "source_locator": {
+              "quote": "weighs 26.4 kilograms (kg)",
+              "requested_quote": "weighs 26.4 kilograms (kg)",
+              "raw_text_span": [
+                1267,
+                1293
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+            }
+          }
+        ],
+        "fact_quote": [
+          "weighs 26.4 kilograms (kg)"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H318593_2",
+        "condition_id": "c1",
+        "condition_key": "H318593_2:c1",
+        "ruling_id": "H318593",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "Hydraulic jacks of a kind for raising vehicles",
+        "rule_span": [
+          0,
+          46
+        ],
+        "rule_source_locator": {
+          "quote": "Hydraulic jacks of a kind for raising vehicles",
+          "requested_quote": "Hydraulic jacks of a kind for raising vehicles",
+          "raw_text_span": [
+            5051,
+            5097
+          ],
+          "paragraph_ids": [
+            "p028"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+        },
+        "object": {
+          "product_scope": "same 3-ton hydraulic floor jack against 550 kg capacity rule",
+          "visible_product_description": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle)",
+          "component": "whole article or explicitly named property-bearing part in cited factual span",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "hydraulic vehicle jack",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "Arcan 3-ton Professional Grade Hybrid Service Jack",
+            "frozen_span": [
+              45,
+              95
+            ],
+            "source_locator": {
+              "quote": "Arcan 3-ton Professional Grade Hybrid Service Jack",
+              "requested_quote": "Arcan 3-ton Professional Grade Hybrid Service Jack",
+              "raw_text_span": [
+                1111,
+                1161
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+            }
+          }
+        ],
+        "fact_quote": [
+          "Arcan 3-ton Professional Grade Hybrid Service Jack"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "refute",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H318593_2",
+        "condition_id": "c2",
+        "condition_key": "H318593_2:c2",
+        "ruling_id": "H318593",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "lifting capacity of not more than 550 kg",
+        "rule_span": [
+          55,
+          95
+        ],
+        "rule_source_locator": {
+          "quote": "lifting capacity of not more than 550 kg",
+          "requested_quote": "lifting capacity of not more than 550 kg",
+          "raw_text_span": [
+            5106,
+            5146
+          ],
+          "paragraph_ids": [
+            "p028"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+        },
+        "object": {
+          "product_scope": "same 3-ton hydraulic floor jack against 550 kg capacity rule",
+          "visible_product_description": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle)",
+          "component": "supported load, not jack own mass",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "lifting capacity",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "constraint": {
+              "attribute": "mass_capacity",
+              "dimension": "mass",
+              "unit": "g",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "550000",
+              "upper_inclusive": true,
+              "quote": "lifting capacity of not more than 550 kg",
+              "span": [
+                55,
+                95
+              ]
+            },
+            "reference_fields": [
+              {
+                "attribute": "mass_capacity",
+                "dimension": "mass",
+                "unit": "g",
+                "lower": "2721554.22",
+                "upper": "2721554.22",
+                "source_quotes": [
+                  {
+                    "quote": "lifting capacity of 6,000 pounds",
+                    "span": [
+                      236,
+                      268
+                    ]
+                  }
+                ],
+                "bound_interpretation": "Exact international avoirdupois conversion: 6000 x 453.59237 g; own mass is irrelevant."
+              }
+            ],
+            "source_coding_reason": "Exact international avoirdupois conversion: 6000 x 453.59237 g; own mass is irrelevant.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "lifting capacity of 6,000 pounds",
+            "frozen_span": [
+              236,
+              268
+            ],
+            "source_locator": {
+              "quote": "lifting capacity of 6,000 pounds",
+              "requested_quote": "lifting capacity of 6,000 pounds",
+              "raw_text_span": [
+                1304,
+                1336
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "e26f0b68fd0f4fea55603e1caccbf0340866327d3b3311ad6d3b5cee04ebe099"
+            }
+          }
+        ],
+        "fact_quote": [
+          "lifting capacity of 6,000 pounds"
+        ],
+        "original_state": "refute",
+        "historical_operational_condition_state": "refute",
+        "historical_operational_case_state": "refute",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "refute",
+        "strict_full_source_state": "refute",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      }
+    ]
+  },
+  {
+    "case_id": "N311039_33",
+    "related_case_ids": [
+      "N311039_33"
+    ],
+    "explanation": "The rule is (60,250] V with contacts >=10 A. Bind 12/277, 110/277, 48/277, 48/277 V to four products as coil/contact alternatives, not a pooled interval. Products 1, 3 and 4 fail either rating-role interpretation; product 2 alone is unresolved. Under all-listed-products quantification the voltage condition is refuted. Contact ratings 30/40/40/40 A satisfy their independent threshold.",
+    "source": {
+      "ruling_id": "N311039",
+      "official_url": "https://rulings.cbp.gov/ruling/N311039",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\N311039.json",
+      "raw_sha256": "1dde1401be1ab5b60ceac9788fce84146fd78f50eed64866ebbc11fae4b0687f",
+      "text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+    },
+    "cases": [
+      {
+        "case_id": "N311039_33",
+        "ruling_id": "N311039",
+        "original_case_state": "unknown",
+        "historical_operational_case_state": "refute",
+        "safe_flat_conjunction": true,
+        "logic_unresolved": false,
+        "logic_note": "Conjunction of signed historical condition units at case level; this is not a completeness guarantee.",
+        "original_logical_structure": {
+          "op": "all",
+          "children": [
+            {
+              "op": "condition",
+              "ref": "c1"
+            },
+            {
+              "op": "condition",
+              "ref": "c2"
+            },
+            {
+              "op": "any_or_illustrative_list",
+              "source_condition": "c3",
+              "literal": "with contacts rated at 10 A or more",
+              "evaluate": "source_coded_whole_clause",
+              "no_flattening": true
+            }
+          ]
+        },
+        "strict_excerpt_state": "refute",
+        "strict_full_source_state": "refute",
+        "condition_keys": [
+          "N311039_33:c1",
+          "N311039_33:c2",
+          "N311039_33:c3"
+        ],
+        "full_source_review_scope": "complete frozen facts and source span validation; targeted context for numeric/refuted cases",
+        "raw_sha256": "1dde1401be1ab5b60ceac9788fce84146fd78f50eed64866ebbc11fae4b0687f",
+        "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+      }
+    ],
+    "conditions": [
+      {
+        "case_id": "N311039_33",
+        "condition_id": "c1",
+        "condition_key": "N311039_33:c1",
+        "ruling_id": "N311039",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "Electromechanical relays",
+        "rule_span": [
+          0,
+          24
+        ],
+        "rule_source_locator": {
+          "quote": "Electromechanical relays",
+          "requested_quote": "Electromechanical relays",
+          "raw_text_span": [
+            5572,
+            5596
+          ],
+          "paragraph_ids": [
+            "p026"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+        },
+        "object": {
+          "product_scope": "four T92 relays; coil and contact ratings separately bound to each product",
+          "visible_product_description": "There are four items under consideration that are described as Potter & Brumfield T92 Power Relays",
+          "component": "coil and contact separately",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "electromechanical relay",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "electromechanical power relay",
+            "frozen_span": [
+              386,
+              415
+            ],
+            "source_locator": {
+              "quote": "electromechanical power relay",
+              "requested_quote": "electromechanical power relay",
+              "raw_text_span": [
+                1003,
+                1032
+              ],
+              "paragraph_ids": [
+                "p014"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+            }
+          }
+        ],
+        "fact_quote": [
+          "electromechanical power relay"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "refute",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "N311039_33",
+        "condition_id": "c2",
+        "condition_key": "N311039_33:c2",
+        "ruling_id": "N311039",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "for a voltage exceeding 60 V but not over 250 V",
+        "rule_span": [
+          26,
+          73
+        ],
+        "rule_source_locator": {
+          "quote": "for a voltage exceeding 60 V but not over 250 V",
+          "requested_quote": "for a voltage exceeding 60 V but not over 250 V",
+          "raw_text_span": [
+            5598,
+            5645
+          ],
+          "paragraph_ids": [
+            "p026"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+        },
+        "object": {
+          "product_scope": "four T92 relays; coil and contact ratings separately bound to each product",
+          "visible_product_description": "There are four items under consideration that are described as Potter & Brumfield T92 Power Relays",
+          "component": "coil and contact separately",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "operating-voltage role",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "objects": [
+              {
+                "product": "3-1393211-9/T92P11A22-12",
+                "coil_voltage": 12,
+                "coil_kind": "AC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 30
+              },
+              {
+                "product": "1393212-7/T92S7D12-110",
+                "coil_voltage": 110,
+                "coil_kind": "DC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 40
+              },
+              {
+                "product": "7-1393211-2/T92P7D22-48",
+                "coil_voltage": 48,
+                "coil_kind": "DC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 40
+              },
+              {
+                "product": "6-1393211-3/T92P7A22-277",
+                "coil_voltage": 48,
+                "coil_kind": "DC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 40
+              }
+            ],
+            "unit": "V",
+            "rule_interval": {
+              "lower": 60,
+              "lower_inclusive": false,
+              "upper": 250,
+              "upper_inclusive": true
+            },
+            "scope": "each product; alternative coil/contact voltage roles remain discrete, not an interval",
+            "aggregation": "all four listed products must satisfy; products 1, 3, 4 violate voltage under both roles; product 2 role-ambiguous"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "coil voltage rating of 12 VAC",
+            "frozen_span": [
+              425,
+              454
+            ],
+            "source_locator": {
+              "quote": "coil voltage rating of 12 VAC",
+              "requested_quote": "coil voltage rating of 12 VAC",
+              "raw_text_span": [
+                1042,
+                1071
+              ],
+              "paragraph_ids": [
+                "p014"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+            }
+          },
+          {
+            "frozen_quote": "contact voltage rating of 277 VAC",
+            "frozen_span": [
+              461,
+              494
+            ],
+            "source_locator": {
+              "quote": "contact voltage rating of 277 VAC",
+              "requested_quote": "contact voltage rating of 277 VAC",
+              "raw_text_span": [
+                1078,
+                1111
+              ],
+              "paragraph_ids": [
+                "p014"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+            }
+          }
+        ],
+        "fact_quote": [
+          "coil voltage rating of 12 VAC",
+          "contact voltage rating of 277 VAC"
+        ],
+        "original_state": "unknown",
+        "historical_operational_condition_state": "refute",
+        "historical_operational_case_state": "refute",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "refute",
+        "strict_full_source_state": "refute",
+        "input_available": true,
+        "unknown_reason": "discrete_role_robust_refutation",
+        "inference_basis": "For products 1, 3 and 4 both explicit coil and contact voltages lie outside (60,250]. Thus at least one listed product fails under either rating-role interpretation; product 2 alone remains role-ambiguous.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "N311039_33",
+        "condition_id": "c3",
+        "condition_key": "N311039_33:c3",
+        "ruling_id": "N311039",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "with contacts rated at 10 A or more",
+        "rule_span": [
+          75,
+          110
+        ],
+        "rule_source_locator": {
+          "quote": "with contacts rated at 10 A or more",
+          "requested_quote": "with contacts rated at 10 A or more",
+          "raw_text_span": [
+            5647,
+            5682
+          ],
+          "paragraph_ids": [
+            "p026"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+        },
+        "object": {
+          "product_scope": "four T92 relays; coil and contact ratings separately bound to each product",
+          "visible_product_description": "There are four items under consideration that are described as Potter & Brumfield T92 Power Relays",
+          "component": "coil and contact separately",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "contact current",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "objects": [
+              {
+                "product": "3-1393211-9/T92P11A22-12",
+                "coil_voltage": 12,
+                "coil_kind": "AC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 30
+              },
+              {
+                "product": "1393212-7/T92S7D12-110",
+                "coil_voltage": 110,
+                "coil_kind": "DC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 40
+              },
+              {
+                "product": "7-1393211-2/T92P7D22-48",
+                "coil_voltage": 48,
+                "coil_kind": "DC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 40
+              },
+              {
+                "product": "6-1393211-3/T92P7A22-277",
+                "coil_voltage": 48,
+                "coil_kind": "DC",
+                "contact_voltage": 277,
+                "contact_kind": "AC",
+                "contact_A": 40
+              }
+            ],
+            "unit": "A",
+            "rule_interval": {
+              "lower": 10,
+              "lower_inclusive": true,
+              "upper": null
+            },
+            "scope": "each product; alternative coil/contact voltage roles remain discrete, not an interval",
+            "aggregation": "all four listed products must satisfy; products 1, 3, 4 violate voltage under both roles; product 2 role-ambiguous"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "rated at 30 A",
+            "frozen_span": [
+              504,
+              517
+            ],
+            "source_locator": {
+              "quote": "rated at 30 A",
+              "requested_quote": "rated at 30 A",
+              "raw_text_span": [
+                1121,
+                1134
+              ],
+              "paragraph_ids": [
+                "p014"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+            }
+          },
+          {
+            "frozen_quote": "at 40 A",
+            "frozen_span": [
+              836,
+              843
+            ],
+            "source_locator": {
+              "quote": "at 40 A",
+              "requested_quote": "at 40 A",
+              "raw_text_span": [
+                1456,
+                1463
+              ],
+              "paragraph_ids": [
+                "p015"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "751862d594d49088275b846ecfbf47b23a87f0ad7a40a69a59e0e6201d1aa081"
+            }
+          }
+        ],
+        "fact_quote": [
+          "rated at 30 A",
+          "at 40 A"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "refute",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      }
+    ]
+  },
+  {
+    "case_id": "H333371_1",
+    "related_case_ids": [
+      "H333371_1"
+    ],
+    "explanation": "The party supplies 48 percent textile, whereas a reported CBP laboratory result is about 76 percent. Both passages are visible. No text-recovery operation resolves the conflict; laboratory priority and party priority deliberately produce different optional states.",
+    "source": {
+      "ruling_id": "H333371",
+      "official_url": "https://rulings.cbp.gov/ruling/H333371",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H333371.json",
+      "raw_sha256": "375178c0424ce95d8edc829bb36a0ef982da4ae8454e4069a46b31bfcfdafa6d",
+      "text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+    },
+    "cases": [
+      {
+        "case_id": "H333371_1",
+        "ruling_id": "H333371",
+        "original_case_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "safe_flat_conjunction": true,
+        "logic_unresolved": false,
+        "logic_note": "Conjunction of signed historical condition units at case level; this is not a completeness guarantee.",
+        "original_logical_structure": {
+          "op": "all",
+          "children": [
+            {
+              "op": "condition",
+              "ref": "c1"
+            },
+            {
+              "op": "condition",
+              "ref": "c2"
+            },
+            {
+              "op": "any_or_illustrative_list",
+              "source_condition": "c3",
+              "literal": "coated with rubber or plastics",
+              "evaluate": "source_coded_whole_clause",
+              "no_flattening": true
+            },
+            {
+              "op": "condition",
+              "ref": "c4"
+            }
+          ]
+        },
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "condition_keys": [
+          "H333371_1:c1",
+          "H333371_1:c2",
+          "H333371_1:c3",
+          "H333371_1:c4"
+        ],
+        "full_source_review_scope": "complete relevant factual and analytical source text checked",
+        "raw_sha256": "375178c0424ce95d8edc829bb36a0ef982da4ae8454e4069a46b31bfcfdafa6d",
+        "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+      }
+    ],
+    "conditions": [
+      {
+        "case_id": "H333371_1",
+        "condition_id": "c1",
+        "condition_key": "H333371_1:c1",
+        "ruling_id": "H333371",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "Gloves",
+        "rule_span": [
+          0,
+          6
+        ],
+        "rule_source_locator": {
+          "quote": "Gloves",
+          "requested_quote": "Gloves",
+          "raw_text_span": [
+            529,
+            535
+          ],
+          "paragraph_ids": [
+            "p013"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+        },
+        "object": {
+          "product_scope": "polyurethane-coated work gloves; party and laboratory compositions differ",
+          "visible_product_description": "The subject merchandise consists of “Tool Bench Hardware Touch Screen + Work Gloves (Item 300002).” The gloves are comprised of knit polyester fabric coated in polyurethane",
+          "component": "whole article or explicitly named property-bearing part in cited factual span",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "glove category",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "Work Gloves",
+            "frozen_span": [
+              72,
+              83
+            ],
+            "source_locator": {
+              "quote": "Work Gloves",
+              "requested_quote": "Work Gloves",
+              "raw_text_span": [
+                524,
+                535
+              ],
+              "paragraph_ids": [
+                "p013"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+            }
+          }
+        ],
+        "fact_quote": [
+          "Work Gloves"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H333371_1",
+        "condition_id": "c2",
+        "condition_key": "H333371_1:c2",
+        "ruling_id": "H333371",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "containing less than 50 percent by weight of textile fibers",
+        "rule_span": [
+          8,
+          67
+        ],
+        "rule_source_locator": {
+          "quote": "containing less than 50 percent by weight of textile fibers",
+          "requested_quote": "containing less than 50 percent by weight of textile fibers",
+          "raw_text_span": [
+            6162,
+            6221
+          ],
+          "paragraph_ids": [
+            "p036"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+        },
+        "object": {
+          "product_scope": "polyurethane-coated work gloves; party and laboratory compositions differ",
+          "visible_product_description": "The subject merchandise consists of “Tool Bench Hardware Touch Screen + Work Gloves (Item 300002).” The gloves are comprised of knit polyester fabric coated in polyurethane",
+          "component": "textile fraction of total glove mass, not fiber-only denominator",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "textile weight fraction",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [
+          {
+            "constraint": {
+              "attribute": "percentage",
+              "dimension": "fraction",
+              "unit": "%",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "50",
+              "upper_inclusive": false,
+              "quote": "containing less than 50 percent by weight of textile fibers",
+              "span": [
+                8,
+                67
+              ]
+            },
+            "reference_fields": [
+              {
+                "attribute": "percentage",
+                "dimension": "fraction",
+                "unit": "%",
+                "lower": "48",
+                "upper": "76",
+                "source_quotes": [
+                  {
+                    "quote": "48% polyester",
+                    "span": [
+                      436,
+                      449
+                    ]
+                  },
+                  {
+                    "quote": "approximately 76% textile",
+                    "span": [
+                      903,
+                      928
+                    ]
+                  }
+                ],
+                "bound_interpretation": "Two source claims straddle the threshold. The hull is only a witness to conflict, not a fabricated continuous measurement; the approximate report has no tolerance, preserving unknown."
+              }
+            ],
+            "source_coding_reason": "Two source claims straddle the threshold. The hull is only a witness to conflict, not a fabricated continuous measurement; the approximate report has no tolerance, preserving unknown.",
+            "status": "previous test-only AI source fields, independently re-read here; no expert gold"
+          }
+        ],
+        "fact_evidence": [
+          {
+            "frozen_quote": "48% polyester",
+            "frozen_span": [
+              436,
+              449
+            ],
+            "source_locator": {
+              "quote": "48% polyester",
+              "requested_quote": "48% polyester",
+              "raw_text_span": [
+                1457,
+                1470
+              ],
+              "paragraph_ids": [
+                "p017"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+            }
+          },
+          {
+            "frozen_quote": "approximately 76% textile",
+            "frozen_span": [
+              903,
+              928
+            ],
+            "source_locator": {
+              "quote": "approximately 76% textile",
+              "requested_quote": "approximately 76% textile",
+              "raw_text_span": [
+                1929,
+                1954
+              ],
+              "paragraph_ids": [
+                "p018"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+            }
+          }
+        ],
+        "fact_quote": [
+          "48% polyester",
+          "approximately 76% textile"
+        ],
+        "original_state": "unknown",
+        "historical_operational_condition_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "disputed",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "input_available": true,
+        "unknown_reason": "source_conflict",
+        "inference_basis": "Party 48 percent textile and laboratory 76 percent textile conflict. Choosing the laboratory as authoritative is an explicit evidentiary-priority policy, not removal of the conflict.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [
+          {
+            "policy": "laboratory_priority",
+            "state": "refute",
+            "reason": "Accept laboratory 76 percent textile over the party 48 percent assertion.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          },
+          {
+            "policy": "party_priority",
+            "state": "support",
+            "reason": "Accept party 48 percent textile; disputed by laboratory measurement.",
+            "required_context": "full_public_source_or_declared_definition_policy"
+          }
+        ],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H333371_1",
+        "condition_id": "c3",
+        "condition_key": "H333371_1:c3",
+        "ruling_id": "H333371",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "coated with rubber or plastics",
+        "rule_span": [
+          69,
+          99
+        ],
+        "rule_source_locator": {
+          "quote": "coated with rubber or plastics",
+          "requested_quote": "coated with rubber or plastics",
+          "raw_text_span": [
+            6223,
+            6253
+          ],
+          "paragraph_ids": [
+            "p036"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+        },
+        "object": {
+          "product_scope": "polyurethane-coated work gloves; party and laboratory compositions differ",
+          "visible_product_description": "The subject merchandise consists of “Tool Bench Hardware Touch Screen + Work Gloves (Item 300002).” The gloves are comprised of knit polyester fabric coated in polyurethane",
+          "component": "whole article or explicitly named property-bearing part in cited factual span",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "rubber or plastic coating",
+        "logical_role": "local_disjunction",
+        "logical_formula_note": "rubber OR plastics",
+        "compound": true,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "knit polyester fabric coated in polyurethane",
+            "frozen_span": [
+              128,
+              172
+            ],
+            "source_locator": {
+              "quote": "knit polyester fabric coated in polyurethane",
+              "requested_quote": "knit polyester fabric coated in polyurethane",
+              "raw_text_span": [
+                1144,
+                1188
+              ],
+              "paragraph_ids": [
+                "p017"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+            }
+          }
+        ],
+        "fact_quote": [
+          "knit polyester fabric coated in polyurethane"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H333371_1",
+        "condition_id": "c4",
+        "condition_key": "H333371_1:c4",
+        "ruling_id": "H333371",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "designed for enhanced grip",
+        "rule_span": [
+          100,
+          126
+        ],
+        "rule_source_locator": {
+          "quote": "designed for enhanced grip",
+          "requested_quote": "designed for enhanced grip",
+          "raw_text_span": [
+            1601,
+            1627
+          ],
+          "paragraph_ids": [
+            "p017"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+        },
+        "object": {
+          "product_scope": "polyurethane-coated work gloves; party and laboratory compositions differ",
+          "visible_product_description": "The subject merchandise consists of “Tool Bench Hardware Touch Screen + Work Gloves (Item 300002).” The gloves are comprised of knit polyester fabric coated in polyurethane",
+          "component": "whole article or explicitly named property-bearing part in cited factual span",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "enhanced grip",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "gloves are designed for enhanced grip",
+            "frozen_span": [
+              568,
+              605
+            ],
+            "source_locator": {
+              "quote": "gloves are designed for enhanced grip",
+              "requested_quote": "gloves are designed for enhanced grip",
+              "raw_text_span": [
+                1590,
+                1627
+              ],
+              "paragraph_ids": [
+                "p017"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "b2c12b8e005e6b587c23437160444f5c318a93a14d900791d81c49c9e131d7c4"
+            }
+          }
+        ],
+        "fact_quote": [
+          "gloves are designed for enhanced grip"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      }
+    ]
+  },
+  {
+    "case_id": "H333673_1",
+    "related_case_ids": [
+      "H333673_1"
+    ],
+    "explanation": "The full source identifies only the front-light sensor as using passive infrared for light switching. The assembly also contains other sensors. Whether using passive infrared applies existentially to a component or universally to an apparatus is not encoded as a mandatory all-components rule. Preserve unresolved logic.",
+    "source": {
+      "ruling_id": "H333673",
+      "official_url": "https://rulings.cbp.gov/ruling/H333673",
+      "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H333673.json",
+      "raw_sha256": "11f8d5e1e7cd7dc5377433fa02668b0cfea79de6ef4973ca4232e14f05d78342",
+      "text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+    },
+    "cases": [
+      {
+        "case_id": "H333673_1",
+        "ruling_id": "H333673",
+        "original_case_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "safe_flat_conjunction": false,
+        "logic_unresolved": true,
+        "logic_note": "Whole-apparatus versus component quantifier unresolved.",
+        "original_logical_structure": {
+          "op": "all",
+          "children": [
+            {
+              "op": "condition",
+              "ref": "c1"
+            },
+            {
+              "op": "condition",
+              "ref": "c2"
+            }
+          ]
+        },
+        "strict_excerpt_state": "logic_unresolved",
+        "strict_full_source_state": "logic_unresolved",
+        "condition_keys": [
+          "H333673_1:c1",
+          "H333673_1:c2"
+        ],
+        "full_source_review_scope": "complete relevant factual and analytical source text checked",
+        "raw_sha256": "11f8d5e1e7cd7dc5377433fa02668b0cfea79de6ef4973ca4232e14f05d78342",
+        "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+      }
+    ],
+    "conditions": [
+      {
+        "case_id": "H333673_1",
+        "condition_id": "c1",
+        "condition_key": "H333673_1:c1",
+        "ruling_id": "H333673",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "Apparatus using passive infrared detection sensors",
+        "rule_span": [
+          0,
+          50
+        ],
+        "rule_source_locator": {
+          "quote": "Apparatus using passive infrared detection sensors",
+          "requested_quote": "Apparatus using passive infrared detection sensors",
+          "raw_text_span": [
+            7180,
+            7230
+          ],
+          "paragraph_ids": [
+            "p033"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+        },
+        "object": {
+          "product_scope": "RLSH assembly: rain, front-light, ambient-light and solar sensors",
+          "visible_product_description": "The subject merchandise is a rain-light-solar-humidity (RLSH) sensor from China",
+          "component": "four ancillary sensors separately; whole-device quantifier unresolved",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "passive-IR apparatus/component scope",
+        "logical_role": "unresolved_component_quantifier",
+        "logical_formula_note": "whole apparatus versus one/all component sensors",
+        "compound": true,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "infrared emitter and receiver diode",
+            "frozen_span": [
+              448,
+              483
+            ],
+            "source_locator": {
+              "quote": "infrared emitter and receiver diode",
+              "requested_quote": "infrared emitter and receiver diode",
+              "raw_text_span": [
+                1262,
+                1297
+              ],
+              "paragraph_ids": [
+                "p016"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+            }
+          },
+          {
+            "frozen_quote": "front light sensor uses infrared receiver diodes",
+            "frozen_span": [
+              1961,
+              2009
+            ],
+            "source_locator": {
+              "quote": "front light sensor uses infrared receiver diodes",
+              "requested_quote": "front light sensor uses infrared receiver diodes",
+              "raw_text_span": [
+                2778,
+                2826
+              ],
+              "paragraph_ids": [
+                "p017"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+            }
+          }
+        ],
+        "fact_quote": [
+          "infrared emitter and receiver diode",
+          "front light sensor uses infrared receiver diodes"
+        ],
+        "original_state": "unknown",
+        "historical_operational_condition_state": "unknown",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "disputed",
+        "strict_excerpt_state": "unknown",
+        "strict_full_source_state": "unknown",
+        "input_available": true,
+        "unknown_reason": "component_quantifier_scope",
+        "inference_basis": "One component uses passive IR; the composite also uses other sensors. The rule does not expressly require every component to do so; neither forced all-components nor existential reading is silently adopted.",
+        "recovered_fact_evidence": [
+          {
+            "case_id": "H333673_1",
+            "condition_id": "c1",
+            "condition_key": "H333673_1:c1",
+            "quote": "Out of the four ancillary sensors, only the front light sensor uses passive infrared detection to turn lights (i.e., the vehicle’s low beams) on and off.",
+            "requested_quote": "Out of the four ancillary sensors, only the front light sensor uses passive infrared detection to turn lights (i.e., the vehicle’s low beams) on and off.",
+            "raw_text_span": [
+              12120,
+              12273
+            ],
+            "paragraph_ids": [
+              "p046"
+            ],
+            "locator_status": "exact",
+            "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85",
+            "official_url": "https://rulings.cbp.gov/ruling/H333673",
+            "source_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H333673.json",
+            "raw_sha256": "11f8d5e1e7cd7dc5377433fa02668b0cfea79de6ef4973ca4232e14f05d78342",
+            "section": "LAW AND ANALYSIS",
+            "admissibility": "component_quantifier_unresolved",
+            "attribution": "agency component description",
+            "strict_condition_state_after_restoration": "unknown",
+            "is_new_relative_to_excerpt": true,
+            "note": "Independent factual clause only; neither legal applicability sentence nor holding is inserted."
+          }
+        ],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      },
+      {
+        "case_id": "H333673_1",
+        "condition_id": "c2",
+        "condition_key": "H333673_1:c2",
+        "ruling_id": "H333673",
+        "scope_source": "actual candidate exclusion quotation in the individual ruling; not substituted by 2024 inventory",
+        "rule_quote": "designed for turning lights on and off",
+        "rule_span": [
+          51,
+          89
+        ],
+        "rule_source_locator": {
+          "quote": "designed for turning lights on and off",
+          "requested_quote": "designed for turning lights on and off",
+          "raw_text_span": [
+            5009,
+            5047
+          ],
+          "paragraph_ids": [
+            "p022"
+          ],
+          "locator_status": "exact",
+          "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+        },
+        "object": {
+          "product_scope": "RLSH assembly: rain, front-light, ambient-light and solar sensors",
+          "visible_product_description": "The subject merchandise is a rain-light-solar-humidity (RLSH) sensor from China",
+          "component": "front/ambient light sensor subsystem",
+          "quantifier": "all listed products in this pair unless explicitly marked unresolved; no inference to other products in ruling"
+        },
+        "attribute": "turning lights on and off",
+        "logical_role": "required_condition",
+        "logical_formula_note": "signed literal condition; negative wording is not negated again",
+        "compound": false,
+        "numeric_unit_scope": [],
+        "fact_evidence": [
+          {
+            "frozen_quote": "automatically control the vehicle’s low beams and instrument lighting",
+            "frozen_span": [
+              2193,
+              2262
+            ],
+            "source_locator": {
+              "quote": "automatically control the vehicle’s low beams and instrument lighting",
+              "requested_quote": "automatically control the vehicle’s low beams and instrument lighting",
+              "raw_text_span": [
+                3010,
+                3079
+              ],
+              "paragraph_ids": [
+                "p017"
+              ],
+              "locator_status": "exact",
+              "source_text_sha256": "d3fb44ef526779374555ce77783d48692e5d49f458d3725f2e3d06c8d7f76e85"
+            }
+          }
+        ],
+        "fact_quote": [
+          "automatically control the vehicle’s low beams and instrument lighting"
+        ],
+        "original_state": "support",
+        "historical_operational_condition_state": "support",
+        "historical_operational_case_state": "unknown",
+        "reference_tier": "direct",
+        "strict_excerpt_state": "support",
+        "strict_full_source_state": "support",
+        "input_available": true,
+        "unknown_reason": null,
+        "inference_basis": "The stated product property is explicitly supported/refuted by the cited factual span; ordinary unit conversion, set membership or bound comparison is allowed.",
+        "recovered_fact_evidence": [],
+        "interpretation_options": [],
+        "review_method": "AI reread of this rule, complete frozen facts and cited spans; for all historical-unknown cases, relevant facts and analysis throughout official full ruling also examined. Not an outcome-blind audit.",
+        "expert_validated": false,
+        "administrative_y_used_as_criterion": false
+      }
+    ]
+  }
+]

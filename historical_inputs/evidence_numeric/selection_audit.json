@@ -1,0 +1,479 @@
+{
+  "snapshot_date": "2026-10-07",
+  "source": "Official CBP CROSS saved responses",
+  "endpoint": "https://rulings.cbp.gov/api/search",
+  "parameters": {
+    "fromDate": "2018-01-01",
+    "toDate": "2026-10-07",
+    "pageSize": 100,
+    "sortBy": "DATE_ASC"
+  },
+  "queries": [
+    {
+      "query": "301 AND exclusion",
+      "pages": [
+        {
+          "page": 1,
+          "n": 100,
+          "reported_total": 177
+        },
+        {
+          "page": 2,
+          "n": 77,
+          "reported_total": 177
+        }
+      ],
+      "reported_total": 177,
+      "retrieved": 177,
+      "unique": 177
+    },
+    {
+      "query": "301 AND exclusions",
+      "pages": [
+        {
+          "page": 1,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 2,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 3,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 4,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 5,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 6,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 7,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 8,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 9,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 10,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 11,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 12,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 13,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 14,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 15,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 16,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 17,
+          "n": 100,
+          "reported_total": 1723
+        },
+        {
+          "page": 18,
+          "n": 23,
+          "reported_total": 1723
+        }
+      ],
+      "reported_total": 1723,
+      "retrieved": 1723,
+      "unique": 1723
+    },
+    {
+      "query": "301 AND exempt",
+      "pages": [
+        {
+          "page": 1,
+          "n": 80,
+          "reported_total": 80
+        }
+      ],
+      "reported_total": 80,
+      "retrieved": 80,
+      "unique": 80
+    },
+    {
+      "query": "301 AND exclude",
+      "pages": [
+        {
+          "page": 1,
+          "n": 54,
+          "reported_total": 54
+        }
+      ],
+      "reported_total": 54,
+      "retrieved": 54,
+      "unique": 54
+    },
+    {
+      "query": "exclusion",
+      "pages": [
+        {
+          "page": 1,
+          "n": 100,
+          "reported_total": 392
+        },
+        {
+          "page": 2,
+          "n": 100,
+          "reported_total": 392
+        },
+        {
+          "page": 3,
+          "n": 100,
+          "reported_total": 392
+        },
+        {
+          "page": 4,
+          "n": 92,
+          "reported_total": 392
+        }
+      ],
+      "reported_total": 392,
+      "retrieved": 392,
+      "unique": 392
+    },
+    {
+      "query": "exclusions",
+      "pages": [
+        {
+          "page": 1,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 2,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 3,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 4,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 5,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 6,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 7,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 8,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 9,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 10,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 11,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 12,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 13,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 14,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 15,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 16,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 17,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 18,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 19,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 20,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 21,
+          "n": 100,
+          "reported_total": 2104
+        },
+        {
+          "page": 22,
+          "n": 4,
+          "reported_total": 2104
+        }
+      ],
+      "reported_total": 2104,
+      "retrieved": 2104,
+      "unique": 2104
+    }
+  ],
+  "query_hit_occurrences": 4530,
+  "first_query_union": 1914,
+  "broad_query_union": 2393,
+  "all_query_union": 2482,
+  "explicit_seed_ids_outside_query_union": [],
+  "first_detail_requests": 1916,
+  "supplemental_new_details": 566,
+  "retried_detail_ids": [
+    "H323646",
+    "N326929"
+  ],
+  "final_unique_official_records": 2482,
+  "curated_records": 102,
+  "curated_unique_rulings": 92,
+  "unrepresented_rulings": 2390,
+  "retained_pairs": 86,
+  "retained_rulings": 77,
+  "curated_exclusions": {
+    "outside_product_description_task": 5,
+    "no_binary_reference": 6,
+    "missing_full_candidate_rule": 4,
+    "documented_source_conflict": 1
+  },
+  "samecode_pairs": 73,
+  "source_checks": {
+    "facts_match_curated": 86,
+    "rules_match_curated": 86,
+    "all_fact_quotes_exact_after_whitespace_normalization": 82,
+    "rule_quote_exact_after_whitespace_normalization": 86,
+    "reference_quote_exact_after_whitespace_normalization": 86,
+    "collection_correct": 86,
+    "outcomes_match_curated": 86,
+    "noncontiguous_fact_compositions": [
+      {
+        "case_id": "N309775_buttons",
+        "noncontiguous_composition_audit": {
+          "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+          "unmatched_nonwhitespace": "",
+          "all_content_characters_source_grounded": true,
+          "source_spans": [
+            [
+              428,
+              1079
+            ],
+            [
+              1738,
+              2219
+            ]
+          ],
+          "target_spans": [
+            [
+              0,
+              651
+            ],
+            [
+              651,
+              1132
+            ]
+          ],
+          "explanation": "Joins source paragraphs for first and fourth products, omitting the intervening knob products."
+        }
+      },
+      {
+        "case_id": "N314745_self",
+        "noncontiguous_composition_audit": {
+          "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+          "unmatched_nonwhitespace": "",
+          "all_content_characters_source_grounded": true,
+          "source_spans": [
+            [
+              1176,
+              1707
+            ],
+            [
+              2117,
+              2378
+            ]
+          ],
+          "target_spans": [
+            [
+              0,
+              531
+            ],
+            [
+              531,
+              792
+            ]
+          ],
+          "explanation": "Joins first, second and fourth product descriptions; third pedal-only product is omitted from this pair."
+        }
+      },
+      {
+        "case_id": "N314745_pedal",
+        "noncontiguous_composition_audit": {
+          "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+          "unmatched_nonwhitespace": "",
+          "all_content_characters_source_grounded": true,
+          "source_spans": [
+            [
+              1703,
+              2118
+            ],
+            [
+              2384,
+              2784
+            ]
+          ],
+          "target_spans": [
+            [
+              0,
+              415
+            ],
+            [
+              415,
+              815
+            ]
+          ],
+          "explanation": "Joins third and fifth product descriptions; fourth self-propelled product is omitted from this pair."
+        }
+      },
+      {
+        "case_id": "N316485",
+        "noncontiguous_composition_audit": {
+          "method": "Ordered exact character matching of whitespace-normalized official text; unmatched joining whitespace allowed.",
+          "unmatched_nonwhitespace": "",
+          "all_content_characters_source_grounded": true,
+          "source_spans": [
+            [
+              580,
+              1376
+            ],
+            [
+              1560,
+              1726
+            ],
+            [
+              2046,
+              2104
+            ]
+          ],
+          "target_spans": [
+            [
+              0,
+              796
+            ],
+            [
+              796,
+              962
+            ],
+            [
+              962,
+              1020
+            ]
+          ],
+          "explanation": "Joins seat-component paragraphs, dimension sentence and final import-condition phrase; omits separate padding description and intervening prior-ruling history. The appended if-fragment is syntactically incomplete and the multi-product reference remains unknown."
+        }
+      }
+    ]
+  },
+  "not_identified": [
+    "Number of records read manually or by an AI before curation",
+    "Complete record-level reasons for the 2390 unrepresented rulings",
+    "Recall of relevant product-specific exclusions across CROSS",
+    "Any human or expert annotation agreement"
+  ],
+  "interpretation": "The 2482-to-102 transition is an AI-assisted purposive curation step with incomplete precuration decision logging, not a documented exhaustive systematic screening. The later 102-to-86 exclusions and retrieval coverage are reproducible.",
+  "data_statement": {
+    "language": "English",
+    "jurisdiction": "United States customs rulings, China Section 301 product-exclusion scope",
+    "population": "A purposively curated official-ruling corpus; not a random sample of import transactions, all exclusions, or compliance users",
+    "source_type": "HQ review/dispute rulings and NY prospective classification letters differ in administrative selection and drafting",
+    "labels": "Published administrative dispositions, extracted and organized with AI assistance; separate outcome-masked evidence states are AI-assisted diagnostic references",
+    "fact_limit": "Model inputs omit later legal analysis and may omit facts or definitions essential to the administrative disposition",
+    "intended_use": "Retrospective restricted-text decision-support evaluation, diagnostic failure analysis and reproducibility research",
+    "not_validated_for": "Live customs advice, autonomous legal decisions, new jurisdictions or deployment prevalence estimates",
+    "human_experts": 0,
+    "raw_source_immutability": "Original response files remain unmodified; this revision writes only separate derived audit products"
+  }
+}

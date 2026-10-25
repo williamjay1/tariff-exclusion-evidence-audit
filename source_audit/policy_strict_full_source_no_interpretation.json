@@ -1,0 +1,379 @@
+{
+  "name": "strict_full_source_no_interpretation",
+  "context": "full_source",
+  "warning": "Interpretation sensitivity only. These choices are neither legal truth nor independent validation. Administrative labels are not read by this evaluator.",
+  "changes": [],
+  "cases": [
+    {
+      "case_id": "H330938_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H341677_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H317391_1",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "H323452_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H333110_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H319100_2",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H311957_1",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H311151_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H316154_1",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "H322923_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H314080_1",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "H330005_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H316387_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H336040_1",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "H332948_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H332948_2",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H332948_3",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H332948_4",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H318593_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H318593_2",
+      "state": "refute",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H340899_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H345780_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H333371_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H317208_1",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H336964_1",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "H333673_1",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "H327850_1",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N303860",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N304078",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N304707",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N304766",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N305670",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N306552",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N307161",
+      "state": "refute",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N307469",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N309167",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N311039_33",
+      "state": "refute",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N312588",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N304781",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N307931",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N307830",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N308085",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N309430",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N309775_knobs",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N309775_buttons",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N310745",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N311044",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N310775",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N311153",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N311074",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N310714",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N311558",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N310804",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N312309",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N312147",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N312568",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N312471",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N313119",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N313188",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N314454",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N314745_self",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N314745_pedal",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N315526",
+      "state": "support",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N315824",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N316485",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N318455",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N318822",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N319331",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N325922",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N327114",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N329172",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    },
+    {
+      "case_id": "N332207",
+      "state": "unknown",
+      "safe_flat_conjunction": true
+    },
+    {
+      "case_id": "N336939",
+      "state": "logic_unresolved",
+      "safe_flat_conjunction": false
+    }
+  ],
+  "counts": {
+    "unknown": 45,
+    "logic_unresolved": 15,
+    "support": 10,
+    "refute": 3
+  }
+}

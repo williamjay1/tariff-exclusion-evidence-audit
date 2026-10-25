@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "inventory": 397,
+  "product_descriptions": 354,
+  "coarse_product_groups": 1096,
+  "coarse_group_spans_checked": 1096,
+  "code_only_zero_additional_product_groups": 43,
+  "safe_conjunction_cases": 58,
+  "marginal_envelopes": {
+    "support": {
+      "necessarily_this_state": 10,
+      "possibly_this_state": 20
+    },
+    "refute": {
+      "necessarily_this_state": 3,
+      "possibly_this_state": 9
+    },
+    "unknown": {
+      "necessarily_this_state": 33,
+      "possibly_this_state": 45
+    }
+  },
+  "joint_packages": [
+    {
+      "name": "strict_withhold",
+      "counts": {
+        "unknown": 45,
+        "support": 10,
+        "refute": 3
+      }
+    },
+    {
+      "name": "declared_technical_scope_lab_peak",
+      "counts": {
+        "support": 17,
+        "unknown": 33,
+        "refute": 8
+      }
+    },
+    {
+      "name": "declared_alternative_material_use_party_nominal",
+      "counts": {
+        "refute": 5,
+        "unknown": 34,
+        "support": 19
+      }
+    }
+  ],
+  "boundary": "Mechanical source spans and declared-policy recomputation; not expert semantic validation.",
+  "hashes": {
+    "inventory_audit\\inventory_structural_audit.jsonl": "ae9296d161053a6f2da4c8779b7d2204cdcceff16e4dddfe89dc25b76a2bf8e5",
+    "inventory_audit\\reviewed_condition_groups.jsonl": "c0e71917e02a17b36a4b3c91d6f06dd42093bdd7ec501ca69cb7d15310c5ee73",
+    "source_audit\\policy_sensitivity.json": "0002ab596a5998ec394873706e99f30c7b13aeec685519391a96c2f40342998a"
+  }
+}

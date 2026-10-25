@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "main_words": 9732,
+  "supplement_words": 10613,
+  "main_sha256": "6720871414729c08f0cff095e78de8f13031be784b93154d9a9defbd7515380c",
+  "supplement_sha256": "50abe6152f08b8fbed87cbe7362f62490cc2e10a9ecf2db10d9ad8c17c7e26ca",
+  "functional_table_captions": 5,
+  "sources": {
+    "abstract.md": "0cd105af8016bed7c57d1a968753737e5a841bcb46fbaab996135d7b5c24130b",
+    "cases_and_discussion.md": "e37dc65e6245c72adcbeee21a363dac99fc279dba6454749200bf92604276089",
+    "front_matter_and_methods.md": "1ec7e5d10401d0c659a8995006818ca87b57b9ff0c04587297c8cc5fa65851fd",
+    "functional_results.md": "17c3d672ab5d03a6085843e51f4653ac7e669d08a9c7006045d637493ed30275",
+    "historical_main.md": "f9e3974383e46a28ed040d974735c64ab1a06fa459f3383d01cf40dd321094df",
+    "references_verified.md": "6f69604b4441e964d6c4e2b511a837902f9dc99cdaaf9f3d27ac625cd31907a9",
+    "source_results.md": "2f0a8cd734eea87f88d81c34722fa02131ba77df044545946a0b52581ea1fe15",
+    "supplement_functional.md": "bddcf7f9d2456a7eb1e64d3bc609e204adfb581c4da6f32c13ca769b68670dba",
+    "supplement_inventory.md": "45f21818e06d2e899e265aa1f10c46d793a9ceaa7242790f7e5aad6e2d8405a7",
+    "supplement_legacy.md": "90ca362b4b6fb86c50bfa62d89614c28759648799d79a29915a4d48144dea87b",
+    "supplement_overview.md": "a878ad411725f492c1637f2d7d61bfd08bdd53cbde806648079bb27284817728",
+    "supplement_source_audit.md": "c2d87a545b95b620e7156baa922efa6cda04118fa5c9ddc5fd8e43480c1824c8"
+  }
+}

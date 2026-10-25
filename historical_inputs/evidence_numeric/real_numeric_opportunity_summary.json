@@ -1,0 +1,27 @@
+{
+  "n_numeric_cases": 33,
+  "numeric_by_whole_scope_evidence": {
+    "pass->unknown": 18,
+    "pass->support": 5,
+    "unknown->unknown": 7,
+    "fail->refute": 3
+  },
+  "definite_numeric_violations": [
+    "H318593_2",
+    "N307161",
+    "N311039_33"
+  ],
+  "whole_scope_supported_with_numeric_conditions": [
+    "H317391_1",
+    "H311957_1",
+    "H316154_1",
+    "H332948_1",
+    "N304781"
+  ],
+  "correctable_native_affirmation_counts": {
+    "nli": 1,
+    "qwen": 3,
+    "qwen4": 1
+  },
+  "interpretation": "Only definite numeric violations justify a negative override on numeric evidence alone. Numeric passes do not establish absent nonnumeric criteria; this is an oracle-field opportunity diagnosis, not achieved auto-extraction performance."
+}

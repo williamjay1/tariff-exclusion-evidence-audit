@@ -1,0 +1,422 @@
+{
+  "reference": "Prior AI-assisted diagnostic evidence states; pending new source re-audit. No expert gold assumed.",
+  "input_hashes": {
+    "reference": "26c385ace3791574481ffa42f86239823aaf524adec1bd83727f8eedbd8319a0",
+    "qwen4": "5488e71589b1432b262aec0af9ace8fa1feae393483e47d231141d329fc3a787",
+    "numeric": "ec25de66aa220c089318629e17f0574bf7e1ef18af63cc29b342a33c972e28ad",
+    "benchmark": "8e33bb2381212c5a29b63ce1c9fdbcbb1a0ae6c3d228097c748529934589a3f9"
+  },
+  "n_refuted": 5,
+  "raw_correct": 3,
+  "old_guard_correct": 1,
+  "lost_raw_refutations": [
+    "H318593_2",
+    "N307161"
+  ],
+  "records": [
+    {
+      "case_id": "H336040_1",
+      "old_reference": "refute",
+      "raw_native": 0,
+      "old_guard_native": 0,
+      "numeric_state": "not_parsed",
+      "raw_refutation_lost": false,
+      "refuted_conditions": [
+        {
+          "condition_id": "c2",
+          "rule_quote": "of metal and high-pressure laminated bamboo",
+          "rule_span": [
+            20,
+            63
+          ],
+          "evidence_state": "refute",
+          "fact_evidence": [
+            {
+              "quote": "are unfinished because they are imported without their countertops.",
+              "span": [
+                2800,
+                2867
+              ]
+            }
+          ],
+          "rationale": "The goods as imported lack countertops; the only future bamboo component is attached after importation.",
+          "coding_status": "AI_source_coded_diagnostic_reference"
+        }
+      ],
+      "numeric_trace": {
+        "state": "not_parsed",
+        "trace": [],
+        "n_constraints": 0,
+        "unparsed_quantities": [],
+        "unsupported_disjunction": false,
+        "case_id": "H336040_1",
+        "seconds": 0.00041480001527816057
+      },
+      "facts": "The products at issue are metal modular cabinet sets that are manufactured in and imported from China. The subject merchandise was described in HQ H313152, as follows:\u0002 Item 1, the “Bold Series,” is a group of unequipped, locking, modular, shelved, metal storage lockers and cabinets that are available in different paint finishes. First, a floor standing, 2-door shelved locker whose dimensions are 42” in width, 18” in depth, and 72” in height. Second, a floor standing, 2-door shelved locker whose dimensions are 30” in width, 18” in depth, and 72” in height. Third, a floor standing, 2-door pair of shelved lockers whose combined dimensions are 84” in width, 18” in depth, and 77.25” in height. Fourth, a floor standing, 2-door base cabinet whose dimensions are 24” in width, 16” in depth, and 35.25” in height. Fifth, a floor standing, 5-drawer project workstation and locker component whose overall dimensions are 62” in width, 18” in depth, and 35.” in height. The workstation contains four casters, two that are lockable. Sixth, a floor standing, multi-level rolling tool drawer whose dimensions are 20.75” in width, 16” in depth, and 33” in height. The tool drawer contains four casters. Seventh, a wall mounted 2-door cabinet whose dimensions are 36” in width, 12” in depth, and 19.5” in height. Eighth, a wall mounted 2-door cabinet whose dimensions are 24” in width, 12” in depth, and 18” in height. Item 2, the “Pro Series,” is a group of unequipped, locking, modular, shelved, metal storage lockers and cabinets that are available in different paint finishes. First, a floor standing, 2-door, shelved multi-use locker whose dimensions are 36” in width, 24” in depth, and 80” in height. Second, a floor standing, 5-drawer tool cabinet whose dimensions are 28” in width, 22” in depth, and 32.25” in height. Third, a floor standing, multi-functional cabinet whose dimensions are 28” in width, 22” in depth, and 35.5” in height. Fourth, a floor standing, 2-door base cabinet whose dimensions are 28” in width, 22” in depth, and 32.25” in height. Fifth, a floor standing mobile locker on casters whose dimensions are 28” in width, 22” in depth, and 65” in height. Sixth, a floor standing sink-cabinet whose dimensions are 28” in width, 22” in depth, and 38.75” in height. The sink-cabinet is equipped with a sink and faucet. Seventh, a floor standing, single-door, adjustable-shelf locker whose dimensions are 15” in width, 24” in depth, and 80” in height. Eighth, a wall mounted single-shelf cabinet whose dimensions are 28” in width, 14” in depth, and 22” in height. In your email correspondence with this office on January 22, 2024, you indicated that the scope of your request involves the products that were examined and classified in HQ H313152, except for the fact that the products “are unfinished because they are imported without their countertops.” After importation, certain subunits of the metal cabinet series will have countertops attached. The countertops are of either stainless steel or bamboo.",
+      "rule_text": "Household furniture of metal and high-pressure laminated bamboo (other than ironing boards, furniture for infants or children or bed frames) (described in statistical reporting number 9403.20.0050)",
+      "policy_diagnosis": "The old implementation maps every numeric unknown to referral regardless of the model sign. This is a trust policy, not conjunctive three-valued aggregation."
+    },
+    {
+      "case_id": "H318593_2",
+      "old_reference": "refute",
+      "raw_native": 0,
+      "old_guard_native": -1,
+      "numeric_state": "unknown",
+      "raw_refutation_lost": true,
+      "refuted_conditions": [
+        {
+          "condition_id": "c2",
+          "rule_quote": "lifting capacity of not more than 550 kg",
+          "rule_span": [
+            55,
+            95
+          ],
+          "evidence_state": "refute",
+          "fact_evidence": [
+            {
+              "quote": "lifting capacity of 6,000 pounds",
+              "span": [
+                236,
+                268
+              ]
+            }
+          ],
+          "rationale": "6000 international avoirdupois pounds = 2721.55422 kg; this exceeds 550 kg.",
+          "coding_status": "AI_source_coded_diagnostic_reference"
+        }
+      ],
+      "numeric_trace": {
+        "state": "unknown",
+        "trace": [
+          {
+            "constraint": {
+              "attribute": "mass_capacity",
+              "dimension": "mass",
+              "unit": "g",
+              "lower": null,
+              "lower_inclusive": null,
+              "upper": "550000.0",
+              "upper_inclusive": true,
+              "quote": "not more than 550 kg",
+              "span": [
+                75,
+                95
+              ]
+            },
+            "candidates": [],
+            "state": "unknown"
+          }
+        ],
+        "n_constraints": 1,
+        "unparsed_quantities": [],
+        "unsupported_disjunction": false,
+        "case_id": "H318593_2",
+        "seconds": 0.00023609999334439635
+      },
+      "facts": "The subject merchandise is described as the “Arcan 3-ton Professional Grade Hybrid Service Jack (Costco Item 996603).” It measures 61 centimeters (cm) by 30.2 cm by 15.2 cm (exclusive of handle). It weighs 26.4 kilograms (kg) and has a lifting capacity of 6,000 pounds. The jack is comprised of 68.50% by weight of steel, 31% by weight of aluminum, and .5% rubber and plastic.",
+      "rule_text": "Hydraulic jacks of a kind for raising vehicles, with a lifting capacity of not more than 550 kg (described in statistical reporting number 8425.42.0000)",
+      "policy_diagnosis": "The old implementation maps every numeric unknown to referral regardless of the model sign. This is a trust policy, not conjunctive three-valued aggregation."
+    },
+    {
+      "case_id": "N307161",
+      "old_reference": "refute",
+      "raw_native": 0,
+      "old_guard_native": -1,
+      "numeric_state": "unknown",
+      "raw_refutation_lost": true,
+      "refuted_conditions": [
+        {
+          "condition_id": "c3",
+          "rule_quote": "measuring 148mm in length, 43 mm in width and 335 mm in height",
+          "rule_span": [
+            174,
+            236
+          ],
+          "evidence_state": "refute",
+          "fact_evidence": [
+            {
+              "quote": "measuring 140 mm by 150 mm by 86 mm",
+              "span": [
+                160,
+                195
+              ]
+            }
+          ],
+          "rationale": "No permutation of the three actual enclosure dimensions equals the specified dimensions.",
+          "coding_status": "AI_source_coded_diagnostic_reference"
+        }
+      ],
+      "numeric_trace": {
+        "state": "unknown",
+        "trace": [
+          {
+            "constraint": {
+              "attribute": "power",
+              "dimension": "power",
+              "unit": "W",
+              "lower": "500.0",
+              "lower_inclusive": false,
+              "upper": null,
+              "upper_inclusive": null,
+              "quote": "exceeding 500 W",
+              "span": [
+                157,
+                172
+              ]
+            },
+            "candidates": [
+              {
+                "attribute": "power",
+                "dimension": "power",
+                "unit": "W",
+                "lower": "850.0",
+                "upper": "850.0",
+                "quote": "850 Watts",
+                "span": [
+                  461,
+                  470
+                ]
+              }
+            ],
+            "state": "pass"
+          }
+        ],
+        "n_constraints": 1,
+        "unparsed_quantities": [
+          "148mm",
+          "43 mm",
+          "335 mm"
+        ],
+        "unsupported_disjunction": false,
+        "case_id": "N307161",
+        "seconds": 0.00027790002059191465
+      },
+      "facts": "The merchandise under consideration is identified as a Power Supply for a Personal Computer, Model No. HP1-F850GD-F14C, which is described as a steel enclosure measuring 140 mm by 150 mm by 86 mm containing rectifying apparatus and having multiple output cable harnesses for connecting to various components within an automatic data processing machine. The subject switching power supply is intended to be installed internally and has a maximum power output of 850 Watts.",
+      "rule_text": "“Power supplies suitable for physical incorporation into automatic data processing (ADP) machines or units thereof of heading 8471, each with a power output exceeding 500 W, measuring 148mm in length, 43 mm in width and 335 mm in height (described in statistical reporting number 8504.40.6018).”",
+      "policy_diagnosis": "The old implementation maps every numeric unknown to referral regardless of the model sign. This is a trust policy, not conjunctive three-valued aggregation."
+    },
+    {
+      "case_id": "N311039_33",
+      "old_reference": "refute",
+      "raw_native": 1,
+      "old_guard_native": -1,
+      "numeric_state": "unknown",
+      "raw_refutation_lost": false,
+      "refuted_conditions": [
+        {
+          "condition_id": "c2",
+          "rule_quote": "for a voltage exceeding 60 V but not over 250 V",
+          "rule_span": [
+            26,
+            73
+          ],
+          "evidence_state": "refute",
+          "fact_evidence": [
+            {
+              "quote": "coil voltage rating of 12 VAC",
+              "span": [
+                425,
+                454
+              ]
+            },
+            {
+              "quote": "contact voltage rating of 277 VAC",
+              "span": [
+                461,
+                494
+              ]
+            }
+          ],
+          "rationale": "For the first relay, both 12 V coil and 277 V contact ratings violate (60,250] V; further listed relays likewise violate both alternatives. Do not replace these discrete, per-product alternatives by a continuous hull.",
+          "coding_status": "AI_source_coded_diagnostic_reference"
+        }
+      ],
+      "numeric_trace": {
+        "state": "unknown",
+        "trace": [
+          {
+            "constraint": {
+              "attribute": "voltage",
+              "dimension": "voltage",
+              "unit": "V",
+              "lower": "60.0",
+              "lower_inclusive": false,
+              "upper": "250.0",
+              "upper_inclusive": true,
+              "quote": "exceeding 60 V but not over 250 V",
+              "span": [
+                40,
+                73
+              ]
+            },
+            "candidates": [],
+            "state": "unknown"
+          },
+          {
+            "constraint": {
+              "attribute": "current",
+              "dimension": "current",
+              "unit": "A",
+              "lower": "10.0",
+              "lower_inclusive": true,
+              "upper": null,
+              "upper_inclusive": null,
+              "quote": "10 A or more",
+              "span": [
+                98,
+                110
+              ]
+            },
+            "candidates": [
+              {
+                "attribute": "current",
+                "dimension": "current",
+                "unit": "A",
+                "lower": "11.0",
+                "upper": "11.0",
+                "quote": "11A",
+                "span": [
+                  364,
+                  367
+                ]
+              },
+              {
+                "attribute": "current",
+                "dimension": "current",
+                "unit": "A",
+                "lower": "30.0",
+                "upper": "30.0",
+                "quote": "30 A",
+                "span": [
+                  513,
+                  517
+                ]
+              },
+              {
+                "attribute": "current",
+                "dimension": "current",
+                "unit": "A",
+                "lower": "40.0",
+                "upper": "40.0",
+                "quote": "40 A",
+                "span": [
+                  839,
+                  843
+                ]
+              },
+              {
+                "attribute": "current",
+                "dimension": "current",
+                "unit": "A",
+                "lower": "40.0",
+                "upper": "40.0",
+                "quote": "40 A",
+                "span": [
+                  1188,
+                  1192
+                ]
+              },
+              {
+                "attribute": "current",
+                "dimension": "current",
+                "unit": "A",
+                "lower": "7.0",
+                "upper": "7.0",
+                "quote": "7A",
+                "span": [
+                  1383,
+                  1385
+                ]
+              },
+              {
+                "attribute": "current",
+                "dimension": "current",
+                "unit": "A",
+                "lower": "40.0",
+                "upper": "40.0",
+                "quote": "40 A",
+                "span": [
+                  1516,
+                  1520
+                ]
+              }
+            ],
+            "state": "unknown"
+          }
+        ],
+        "n_constraints": 2,
+        "unparsed_quantities": [],
+        "unsupported_disjunction": false,
+        "case_id": "N311039_33",
+        "seconds": 0.0021318999934010208
+      },
+      "facts": "There are four items under consideration that are described as Potter & Brumfield T92 Power Relays. Each of the power relays are labelled as standard type relays and are said to be used in various applications such as HVAC power control, industrial controls, and with residential/commercial appliances. The first relay is identified as Part Number 3-1393211-9/T92P11A22-12, which is an electromechanical power relay having a coil voltage rating of 12 VAC and a contact voltage rating of 277 VAC that are rated at 30 A. The relay is panel mount type having quick connect terminals measuring 35 mm by width, 52 mm by length, and 26 mm by height. The second relay is identified as Part Number 1393212-7/T92S7D12-110, which is an electromechanical power relay having a coil voltage rating of 110 VDC and a contact voltage rating of 277 VAC at 40 A. The relay is a printed circuit board mount type having through-hole connect terminals measuring 35 mm by width, 52 mm by length, and 31 mm by height. The third relay is identified as Part Number 7-1393211-2/T92P7D22-48 which is an electromechanical power relay having a coil voltage rating of 48 VDC and a contact voltage rating of 277 VAC at 40 A. The relay is a panel mount type having quick connect terminals measuring 35 mm by width, 52 mm by length, and 26 mm by height. The fourth relay is identified as Part Number 6-1393211-3/T92P7A22-277 which is an electromechanical power relay having a coil voltage rating of 48 VDC and a contact voltage rating of 277 VAC at 40 A. The relay is a panel mount type having quick connect terminals measuring 35 mm by width, 52 mm by length, and 26 mm by height.",
+      "rule_text": "Electromechanical relays, for a voltage exceeding 60 V but not over 250 V, with contacts rated at 10 A or more (described in statistical reporting number 8536.49.0075).",
+      "policy_diagnosis": "The old implementation maps every numeric unknown to referral regardless of the model sign. This is a trust policy, not conjunctive three-valued aggregation."
+    },
+    {
+      "case_id": "N329172",
+      "old_reference": "refute",
+      "raw_native": -1,
+      "old_guard_native": -1,
+      "numeric_state": "not_parsed",
+      "raw_refutation_lost": false,
+      "refuted_conditions": [
+        {
+          "condition_id": "c1",
+          "rule_quote": "Tire carrier attachments, roof racks, fender liners, side protective attachments",
+          "rule_span": [
+            0,
+            80
+          ],
+          "evidence_state": "refute",
+          "fact_evidence": [
+            {
+              "quote": "components that are used to make a sound/speaker bar housing",
+              "span": [
+                37,
+                97
+              ]
+            }
+          ],
+          "rationale": "A speaker-bar housing does not have any of the listed carrier/protective functions in the described use.",
+          "coding_status": "AI_source_coded_diagnostic_reference"
+        },
+        {
+          "condition_id": "c2",
+          "rule_quote": "the foregoing of steel",
+          "rule_span": [
+            82,
+            104
+          ],
+          "evidence_state": "refute",
+          "fact_evidence": [
+            {
+              "quote": "made of acrylonitrile styrene acrylate (ASA) plastic",
+              "span": [
+                437,
+                489
+              ]
+            }
+          ],
+          "rationale": "The visible facts explicitly conflict with this condition.",
+          "coding_status": "AI_source_coded_diagnostic_reference"
+        }
+      ],
+      "numeric_trace": {
+        "state": "not_parsed",
+        "trace": [],
+        "n_constraints": 0,
+        "unparsed_quantities": [],
+        "unsupported_disjunction": false,
+        "case_id": "N329172",
+        "seconds": 7.250002818182111e-05
+      },
+      "facts": "The articles under consideration are components that are used to make a sound/speaker bar housing designed to be used in All Terrain Vehicles (ATVs) and the like. As an assembled unit, they are bolted to the underside of the roof of the vehicle. You state that they hold four (4) speakers, a light, and a head unit when assembled. In the additional information provided to this office upon request, you confirmed that the components are made of acrylonitrile styrene acrylate (ASA) plastic. The components are imported with no electronics in them until after they arrive in the United States.",
+      "rule_text": "Tire carrier attachments, roof racks, fender liners, side protective attachments, the foregoing of steel (described in statistical reporting number 8708.29.5060 prior to January 27, 2022; described in statistical reporting number 8708.29.5160 effective January 27, 2022).",
+      "policy_diagnosis": "The old implementation maps every numeric unknown to referral regardless of the model sign. This is a trust policy, not conjunctive three-valued aggregation."
+    }
+  ],
+  "logic_rule": "A verified refutation of any mandatory conjunct dominates unrelated missing conditions. An unsupported model-negative may instead be referred under an explicit trust policy.",
+  "proposed_diagnostic": "Measure whether independent condition evidence verifies each old lost negative; do not preserve arbitrary model negatives by definition."
+}

@@ -1,0 +1,143 @@
+{
+  "n": 96,
+  "correct": 54,
+  "by_mechanism": {
+    "comparative_facts": {
+      "n": 8,
+      "correct": 4,
+      "confusion": {
+        "pass->unknown": 2,
+        "fail->unknown": 2,
+        "unknown->unknown": 2,
+        "pass->pass": 2
+      }
+    },
+    "component_binding": {
+      "n": 8,
+      "correct": 0,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 4
+      }
+    },
+    "compound_units": {
+      "n": 8,
+      "correct": 0,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 4
+      }
+    },
+    "conflicting_reports": {
+      "n": 8,
+      "correct": 6,
+      "confusion": {
+        "pass->pass": 1,
+        "unknown->unknown": 4,
+        "fail->fail": 1,
+        "pass->unknown": 1,
+        "fail->unknown": 1
+      }
+    },
+    "dimension_binding": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "disjunction": {
+      "n": 8,
+      "correct": 2,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "identifier": {
+      "n": 8,
+      "correct": 4,
+      "confusion": {
+        "pass->pass": 2,
+        "pass->unknown": 2,
+        "fail->fail": 1,
+        "fail->unknown": 1,
+        "unknown->unknown": 1,
+        "unknown->fail": 1
+      }
+    },
+    "mass_capacity": {
+      "n": 8,
+      "correct": 5,
+      "confusion": {
+        "pass->unknown": 2,
+        "pass->pass": 2,
+        "fail->unknown": 1,
+        "fail->fail": 3
+      }
+    },
+    "measurement_uncertainty": {
+      "n": 8,
+      "correct": 6,
+      "confusion": {
+        "pass->unknown": 1,
+        "unknown->unknown": 4,
+        "fail->unknown": 1,
+        "pass->pass": 1,
+        "fail->fail": 1
+      }
+    },
+    "nested_exception": {
+      "n": 8,
+      "correct": 5,
+      "confusion": {
+        "pass->fail": 2,
+        "fail->fail": 3,
+        "pass->pass": 2,
+        "unknown->fail": 1
+      }
+    },
+    "two_sided_bounds": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "fail->fail": 4,
+        "pass->pass": 4
+      }
+    },
+    "unit_equivalence": {
+      "n": 8,
+      "correct": 6,
+      "confusion": {
+        "pass->pass": 3,
+        "fail->fail": 3,
+        "fail->unknown": 1,
+        "pass->unknown": 1
+      }
+    }
+  },
+  "pair_results": {
+    "decisive_change": {
+      "pairs": 26,
+      "both_correct": 10,
+      "predictions_same": 14,
+      "interpretation": "For decisive changes both_correct is required, not mere output change."
+    },
+    "equivalence": {
+      "pairs": 20,
+      "both_correct": 5,
+      "predictions_same": 11,
+      "interpretation": "For equivalence, same predictions is invariance but can be consistently wrong; both_correct is stronger."
+    },
+    "same_state_control": {
+      "pairs": 2,
+      "both_correct": 2,
+      "predictions_same": 2,
+      "interpretation": "For decisive changes both_correct is required, not mere output change."
+    }
+  },
+  "reference_sha256": "17e8dd16daf35907a048d10fc2891b651be0cfa8999156b4e84c46141a3bec4a",
+  "status": "constructed diagnostic only; results are not real-ruling performance"
+}

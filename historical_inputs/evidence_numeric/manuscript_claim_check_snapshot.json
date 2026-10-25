@@ -1,0 +1,85 @@
+{
+  "draft_snapshot_sha256": {
+    "task_methods.md": "1d45742af1654557d8872cea075036c687d019edae8d53ff34e5d2db8060f0f6",
+    "results_core.md": "3e468a956a4f9034bc6d3ff5ce49240191d92117f7a13afff506707e052d64eb",
+    "discussion_conclusion.md": "71fc825c9e8864b3f5a40ede1ee39d2b2db65f57c526041e9e945d25993425cb"
+  },
+  "first_pass_n": 73,
+  "conditions": 208,
+  "first_case_keys": [
+    "case_id",
+    "visible_input_sha256",
+    "conditions",
+    "logical_structure",
+    "aggregate_evidence_state",
+    "administrative_label_visible_during_coding",
+    "reference_status",
+    "scope"
+  ],
+  "condition_key_union": [
+    "coding_status",
+    "condition_id",
+    "evidence_state",
+    "fact_evidence",
+    "rationale",
+    "rule_quote",
+    "rule_span"
+  ],
+  "condition_key_intersection": [
+    "coding_status",
+    "condition_id",
+    "evidence_state",
+    "fact_evidence",
+    "rationale",
+    "rule_quote",
+    "rule_span"
+  ],
+  "second_pass_n": 73,
+  "second_record_keys": [
+    "case_id",
+    "state",
+    "reason"
+  ],
+  "operational_counts": {
+    "unknown": 47,
+    "support": 21,
+    "refute": 5
+  },
+  "numeric_cases": 33,
+  "numeric_condition_count": 43,
+  "numeric_record_keys": [
+    "case_id",
+    "opportunity_id",
+    "constraint",
+    "reference_fields",
+    "evidence_quotes",
+    "source_coding_reason",
+    "expected_numeric_state",
+    "reference_status",
+    "decisive_role"
+  ],
+  "whole_code_inventory": {
+    "rules": 397,
+    "frozen_marker_counts": {
+      "whole_code": 41,
+      "quantitative_marker": 162,
+      "number_outside_code": 198,
+      "negation_marker": 163,
+      "purpose_marker": 89
+    },
+    "proxy_disagreements": 38,
+    "true_measurable_or_count_conditions_among_disagreements": 13,
+    "nonmeasurement_numbers_among_disagreements": 24,
+    "component_inventory_at_least_without_numeral": 1,
+    "whole_code_classifications": {
+      "single statistical code": 41,
+      "dated statistical-code transition": 2
+    },
+    "unresolved_whole_codes": [],
+    "claim_boundary": "The original counts 162 quantitative markers, 198 outside-code digits, 163 negation markers, and 89 purpose markers describe surface features. They do not estimate prevalence of semantically quantified, negative or purpose requirements. This disagreement audit is not a population correction or precision/recall estimate.",
+    "measurement_definition": "A stated physical, monetary, temporal-duration or item-count magnitude; excludes tariff/CAS/material-grade/standard identifiers and statutory dates. Minimum named component inventories are recorded separately.",
+    "whole_code_boundary_note": "The frozen whole_code flag means exactly one standalone statistical code (41 records). Two additional code-only descriptions contain historical code replacements and dates and are not marked by that strict regex. They should not silently be counted as physical product descriptions; report 41 standalone codes plus 2 temporal code-only entries when using semantic scope categories.",
+    "data_product_scope": "A versioned machine-readable transcription of one official USTR index; not a complete historical legal ontology or an independently expert-coded corpus."
+  },
+  "review_scope": "Evidence/numeric/selection claims only. New neural experiments and other agents\u2019 output are outside this audit; placeholders are not treated as defects."
+}

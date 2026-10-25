@@ -1,0 +1,372 @@
+{
+  "reviewer": "root AI assistant, separate outcome-hidden-input pass",
+  "limitations": "Same model lineage; previously exposed to original study and selected cases. Not genuinely blind or independent human legal review.",
+  "records": [
+    {
+      "case_id": "H330938_1",
+      "state": "unknown",
+      "reason": "Connector status absent; aluminum conductor and voltage are described."
+    },
+    {
+      "case_id": "H341677_1",
+      "state": "unknown",
+      "reason": "Cord-free battery operation does not unambiguously establish wireless-enabled capability under the candidate wording."
+    },
+    {
+      "case_id": "H317391_1",
+      "state": "supported",
+      "reason": "Bagless upright dry-mode cleaner, self-contained motor <=1500W and capacity <=4L explicitly stated; model identifiers are not measurements."
+    },
+    {
+      "case_id": "H323452_1",
+      "state": "unknown",
+      "reason": "Golf simulator pad is described; status as a mouse and value over70 are not established by visible facts."
+    },
+    {
+      "case_id": "H333110_1",
+      "state": "unknown",
+      "reason": "Receiving audio internally is explicit; forwarding/distribution to wireless speakers is not established or expressly ruled out."
+    },
+    {
+      "case_id": "H319100_2",
+      "state": "unknown",
+      "reason": "Display receives/presents audio; forwarding audio to wireless speakers not established."
+    },
+    {
+      "case_id": "H311957_1",
+      "state": "supported",
+      "reason": "Electric fireplace inserts explicitly weigh less than21kg."
+    },
+    {
+      "case_id": "H311151_1",
+      "state": "unknown",
+      "reason": "Invoice calls a catalyst but function describes adsorbent; catalyst classification needs interpretation beyond unambiguous visible evidence."
+    },
+    {
+      "case_id": "H316154_1",
+      "state": "supported",
+      "reason": "Programmed DC constant current/voltage load function and4.3-5.1kg explicit."
+    },
+    {
+      "case_id": "H322923_1",
+      "state": "unknown",
+      "reason": "Nonmechanical household wagon described; three/four-wheel count not explicit."
+    },
+    {
+      "case_id": "H314080_1",
+      "state": "unknown",
+      "reason": "No micro-denier status, width or areal mass supplied."
+    },
+    {
+      "case_id": "H330005_1",
+      "state": "unknown",
+      "reason": "Steel tools described, but stainless-steel/no-precious-plating/retail-sale conditions not all explicitly established."
+    },
+    {
+      "case_id": "H316387_1",
+      "state": "unknown",
+      "reason": "Fore-and-aft suspension function stated, but equivalence of ball-jointed control arms to torque/radius rods requires taxonomy interpretation."
+    },
+    {
+      "case_id": "H336040_1",
+      "state": "refuted",
+      "reason": "Explicitly imported without countertops; no laminated bamboo in imported articles."
+    },
+    {
+      "case_id": "H332948_1",
+      "state": "supported",
+      "reason": "Synthetic silica granules0.25-0.6mm retail-packed with explicit flower-drying use."
+    },
+    {
+      "case_id": "H332948_2",
+      "state": "unknown",
+      "reason": "No catalyst-support-kind evidence; drying use does not by itself contradict that technical capability."
+    },
+    {
+      "case_id": "H332948_3",
+      "state": "supported",
+      "reason": "Synthetic granules/retail packaging and explicit flower-drying instructions, despite additional cat-litter use."
+    },
+    {
+      "case_id": "H332948_4",
+      "state": "unknown",
+      "reason": "Catalyst-support-kind capability not established or expressly negated."
+    },
+    {
+      "case_id": "H318593_1",
+      "state": "unknown",
+      "reason": "Numeric dimensions/mass satisfy; mixed steel/aluminum composition makes of-steel taxonomy interpretation-sensitive."
+    },
+    {
+      "case_id": "H318593_2",
+      "state": "refuted",
+      "reason": "Lifting capacity6000lb exceeds550kg; self-mass26.4kg is not relevant quantity."
+    },
+    {
+      "case_id": "H340899_1",
+      "state": "unknown",
+      "reason": "Motor power missing; backpack/upright terminology also interpretation-sensitive."
+    },
+    {
+      "case_id": "H345780_1",
+      "state": "unknown",
+      "reason": "Pool-water filtering stated; status as wastewater-treatment kind not established by direct source evidence."
+    },
+    {
+      "case_id": "H333371_1",
+      "state": "unknown",
+      "reason": "Importer48%polyester and lab76%textile conflict; the visible text lacks an explicit resolution policy for the threshold."
+    },
+    {
+      "case_id": "H317208_1",
+      "state": "unknown",
+      "reason": "Mixed steel/wire shelving parts; welded-wire-rack exclusion not fully resolved."
+    },
+    {
+      "case_id": "H336964_1",
+      "state": "supported",
+      "reason": "Regenerative speed drive explicitly controls elevator motors."
+    },
+    {
+      "case_id": "H333673_1",
+      "state": "supported",
+      "reason": "Front-light IR receiver and automatic low-beam control establish a passive IR/light-control branch; other active rain sensing does not negate it."
+    },
+    {
+      "case_id": "H327850_1",
+      "state": "supported",
+      "reason": "HVAC wall mounting and no internet/wireless functionality explicit."
+    },
+    {
+      "case_id": "N303860",
+      "state": "supported",
+      "reason": "Plastic salad spinner driven through lid handle mechanical mechanism."
+    },
+    {
+      "case_id": "N304078",
+      "state": "supported",
+      "reason": "Vulcanized rubber tracks with steel cords/drive lugs for construction machines."
+    },
+    {
+      "case_id": "N304707",
+      "state": "unknown",
+      "reason": "Aerial-platform/scissor-lift wheel stated; inclusion under goods-handling works-truck scope requires interpretation."
+    },
+    {
+      "case_id": "N304766",
+      "state": "supported",
+      "reason": "Installation-ready parts explicitly designed for telehandler fork-lifting machine."
+    },
+    {
+      "case_id": "N305670",
+      "state": "supported",
+      "reason": "Pedal assembly explicitly designed for forklifts/work trucks."
+    },
+    {
+      "case_id": "N306552",
+      "state": "unknown",
+      "reason": "Electric scooters with250-300W motors; motorcycle category requires legal taxonomy."
+    },
+    {
+      "case_id": "N307161",
+      "state": "refuted",
+      "reason": "Declared140x150x86mm cannot satisfy148x43x335mm exact dimensions."
+    },
+    {
+      "case_id": "N307469",
+      "state": "unknown",
+      "reason": "Bicycle motors250W satisfy numeric condition, motorcycle taxonomy unresolved."
+    },
+    {
+      "case_id": "N309167",
+      "state": "unknown",
+      "reason": "Upholstered wooden bar/counter stools; dining status and non-teak not established."
+    },
+    {
+      "case_id": "N311039_33",
+      "state": "unknown",
+      "reason": "Coil and contact ratings describe different voltage roles; correct role for the rule is not independently established."
+    },
+    {
+      "case_id": "N312588",
+      "state": "unknown",
+      "reason": "Integrated circuits/diodes present but mapping subcomponents to excluded legal headings is external legal-taxonomy step."
+    },
+    {
+      "case_id": "N304781",
+      "state": "supported",
+      "reason": "Push-pull12V switches specifically designed for motor-vehicle functions."
+    },
+    {
+      "case_id": "N307931",
+      "state": "unknown",
+      "reason": "One-wheel electric vehicle250W; skateboard category needs interpretation."
+    },
+    {
+      "case_id": "N307830",
+      "state": "unknown",
+      "reason": "Three-wheel electric vehicles all below1000W; motorcycle category not explicit."
+    },
+    {
+      "case_id": "N308085",
+      "state": "unknown",
+      "reason": "500W bicycles; motorcycle taxonomy unresolved."
+    },
+    {
+      "case_id": "N309430",
+      "state": "unknown",
+      "reason": "500W bicycles; motorcycle taxonomy unresolved."
+    },
+    {
+      "case_id": "N309775_knobs",
+      "state": "supported",
+      "reason": "Injection molded plastic operating knobs explicitly described."
+    },
+    {
+      "case_id": "N309775_buttons",
+      "state": "unknown",
+      "reason": "Button pack satisfies; separate silicone switch pad is not unambiguously described as molded buttons."
+    },
+    {
+      "case_id": "N310745",
+      "state": "supported",
+      "reason": "Disposable nonwoven polypropylene face mask."
+    },
+    {
+      "case_id": "N311044",
+      "state": "supported",
+      "reason": "Disposable four-layer nonwoven polypropylene mask."
+    },
+    {
+      "case_id": "N310775",
+      "state": "unknown",
+      "reason": "Wooden upholstered bar/counter stools; dining/non-teak not established."
+    },
+    {
+      "case_id": "N311153",
+      "state": "supported",
+      "reason": "Disposable masks of nonwoven manmade-fiber textile."
+    },
+    {
+      "case_id": "N311074",
+      "state": "unknown",
+      "reason": "750W pedal-assisted electric bikes; motorcycle taxonomy unresolved."
+    },
+    {
+      "case_id": "N310714",
+      "state": "supported",
+      "reason": "Disposable shoe cover is explicitly made of spunbonded nonwoven polypropylene with CPE lamination; these satisfy the stated material and use conditions."
+    },
+    {
+      "case_id": "N311558",
+      "state": "unknown",
+      "reason": "The 1000 W rating meets the numerical ceiling, but whether the described scooter belongs to the motorcycle category is not established by the visible input."
+    },
+    {
+      "case_id": "N310804",
+      "state": "unknown",
+      "reason": "Wood species and upholstery are stated, but bar/counter use does not establish the dining-chair category in the candidate description."
+    },
+    {
+      "case_id": "N312309",
+      "state": "unknown",
+      "reason": "Rubberwood and upholstery are stated; application of the dining-chair category to a backless bar/counter stool remains unresolved."
+    },
+    {
+      "case_id": "N312147",
+      "state": "supported",
+      "reason": "The polyester/spandex coverings explicitly cover the face; the candidate wording does not require single use."
+    },
+    {
+      "case_id": "N312568",
+      "state": "unknown",
+      "reason": "Panel type and 1.5 W output are stated, but the incorporated Chapter 85 statistical-note definition is not available in the model input."
+    },
+    {
+      "case_id": "N312471",
+      "state": "supported",
+      "reason": "Aluminum frame, polyethylene rattan, textile cushions, outdoor use, and chair/ottoman character are explicitly described."
+    },
+    {
+      "case_id": "N313119",
+      "state": "supported",
+      "reason": "The polyester/spandex gaiter is explicitly described as a protective face mask under the broad candidate wording."
+    },
+    {
+      "case_id": "N313188",
+      "state": "supported",
+      "reason": "The described populated circuit boards regulate or control vehicle LED lighting, matching the stated object and function."
+    },
+    {
+      "case_id": "N314454",
+      "state": "supported",
+      "reason": "Reusable textile face masks satisfy the broad face-mask wording, which does not restrict reuse or decorative design."
+    },
+    {
+      "case_id": "N314745_self",
+      "state": "unknown",
+      "reason": "Motor ratings and throttle propulsion are given, but the legal motorcycle-category mapping for these bicycles is not established."
+    },
+    {
+      "case_id": "N314745_pedal",
+      "state": "unknown",
+      "reason": "Pedal-assisted propulsion and ratings are stated, but whether the rule requires independent propulsion and how the motorcycle category applies remain unresolved."
+    },
+    {
+      "case_id": "N315526",
+      "state": "supported",
+      "reason": "The product is explicitly a disposable textile face mask; attached LED lights are not excluded by the candidate wording."
+    },
+    {
+      "case_id": "N315824",
+      "state": "supported",
+      "reason": "The disposable textile mask retains the stated face-mask character despite the integrated non-removable plastic shield."
+    },
+    {
+      "case_id": "N316485",
+      "state": "unknown",
+      "reason": "The imported combination includes plywood, metal frames and foam; the plywood finishing state and scope of the mixed parts are not established."
+    },
+    {
+      "case_id": "N318455",
+      "state": "unknown",
+      "reason": "The 750 W rating and low-speed independent propulsion are given; the legal motorcycle-category mapping is unresolved."
+    },
+    {
+      "case_id": "N318822",
+      "state": "unknown",
+      "reason": "The 350 W motor and full self-propulsion are stated, but these do not independently establish motorcycle classification."
+    },
+    {
+      "case_id": "N319331",
+      "state": "unknown",
+      "reason": "The go-kart and detachable hoverboard raise unresolved vehicle-category and rated-power aggregation questions."
+    },
+    {
+      "case_id": "N325922",
+      "state": "unknown",
+      "reason": "The stand-up scooter has a 350 W motor; membership in the legal motorcycle category is not established by the supplied text."
+    },
+    {
+      "case_id": "N327114",
+      "state": "unknown",
+      "reason": "Nominal 1000 W and peak 3000 W describe different rating roles; the rule does not specify which governs, and vehicle-category mapping is unresolved."
+    },
+    {
+      "case_id": "N329172",
+      "state": "refuted",
+      "reason": "The described housings are ASA plastic, contradicting the steel material requirement independently of other category questions."
+    },
+    {
+      "case_id": "N332207",
+      "state": "unknown",
+      "reason": "The 250 W rating is stated, but propulsion depends on pedal initiation and the legal motorcycle-category mapping remains unresolved."
+    },
+    {
+      "case_id": "N336939",
+      "state": "unknown",
+      "reason": "The assembly description does not explicitly establish absence of every semiconductor device disallowed by the rule; absence should not be inferred from an incomplete component list."
+    }
+  ],
+  "frozen_before_comparison": true
+}

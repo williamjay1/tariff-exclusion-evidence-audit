@@ -1,0 +1,343 @@
+{
+  "cases": 73,
+  "conditions": 208,
+  "underlying_rulings": 67,
+  "historical_unknown_cases": 47,
+  "reference_tier_counts": {
+    "interpretive": 45,
+    "direct": 132,
+    "insufficient": 19,
+    "disputed": 12
+  },
+  "strict_excerpt_condition_counts": {
+    "unknown": 76,
+    "support": 125,
+    "refute": 5,
+    "not_applicable": 2
+  },
+  "strict_full_condition_counts": {
+    "unknown": 72,
+    "support": 129,
+    "refute": 5,
+    "not_applicable": 2
+  },
+  "safe_flat_conjunction_cases": 58,
+  "strict_case_excerpt_counts": {
+    "unknown": 45,
+    "logic_unresolved": 15,
+    "support": 10,
+    "refute": 3
+  },
+  "strict_case_full_counts": {
+    "unknown": 45,
+    "logic_unresolved": 15,
+    "support": 10,
+    "refute": 3
+  },
+  "condition_excerpt_to_full": {
+    "unknown -> unknown": 72,
+    "support -> support": 125,
+    "unknown -> support": 4,
+    "refute -> refute": 5,
+    "not_applicable -> not_applicable": 2
+  },
+  "historical_to_strict_excerpt_case": {
+    "unknown -> unknown": 40,
+    "support -> logic_unresolved": 6,
+    "support -> support": 10,
+    "unknown -> logic_unresolved": 7,
+    "refute -> logic_unresolved": 2,
+    "support -> unknown": 5,
+    "refute -> refute": 3
+  },
+  "unknown_reason_condition_counts": {
+    "definition_required": 21,
+    "component_material_scope": 1,
+    "excerpt_omission": 3,
+    "excerpt_omission_and_definition": 1,
+    "public_source_attribute_absent": 8,
+    "unsupported_party_claim": 1,
+    "chemical_function_definition": 1,
+    "category_or_use_mapping": 6,
+    "definition_and_conflicting_sources": 1,
+    "excerpt_omission_party_assertion": 2,
+    "object_and_public_source_gap": 2,
+    "competing_use_interpretations": 1,
+    "mixed_material_scope": 1,
+    "measurement_scope_mismatch": 1,
+    "implicit_component_inference": 1,
+    "functional_use_scope": 1,
+    "source_conflict": 1,
+    "part_and_material_scope": 1,
+    "component_quantifier_scope": 1,
+    "part_versus_machine_scope": 3,
+    "incorporated_heading_definition": 3,
+    "assembly_category_scope": 1,
+    "incorporated_definition_unavailable": 1,
+    "object_scope_and_public_source_gap": 1,
+    "composite_component_binding": 1,
+    "rating_basis_ambiguity": 1,
+    "incorporated_definition_and_exception": 1
+  },
+  "unknown_reason_case_counts": {
+    "chemical_function_definition": 1,
+    "definition_and_conflicting_sources": 1,
+    "excerpt_omission_party_assertion": 1,
+    "definition_required": 21,
+    "object_and_public_source_gap": 2,
+    "part_and_material_scope": 1,
+    "measurement_scope_mismatch": 1,
+    "mixed_material_scope": 1,
+    "unsupported_party_claim": 1,
+    "category_or_use_mapping": 6,
+    "excerpt_omission": 3,
+    "public_source_attribute_absent": 7,
+    "component_material_scope": 1,
+    "competing_use_interpretations": 1,
+    "source_conflict": 1,
+    "component_quantifier_scope": 1,
+    "implicit_component_inference": 1,
+    "excerpt_omission_and_definition": 1,
+    "functional_use_scope": 1,
+    "part_versus_machine_scope": 3,
+    "assembly_category_scope": 1,
+    "incorporated_definition_unavailable": 1,
+    "incorporated_heading_definition": 2,
+    "object_scope_and_public_source_gap": 1,
+    "composite_component_binding": 1,
+    "rating_basis_ambiguity": 1,
+    "incorporated_definition_and_exception": 1
+  },
+  "recovery_rows": 16,
+  "direct_recovery_rows": 4,
+  "source_locator_exceptions": [],
+  "noncontiguous_fact_quote_rows": [
+    "N314745_self:c1",
+    "N314745_pedal:c1"
+  ],
+  "direct_scorable_conditions": 130,
+  "nonbinding_conditions": 2,
+  "direct_restoration_cases": [
+    "H322923_1",
+    "H330938_1",
+    "H340899_1"
+  ],
+  "unknown_provenance_denominators": {
+    "cases": 47,
+    "conditions": "all strict-unknown conditions within those 47 historical-unknown cases; causes overlap; do not sum counts to 47"
+  },
+  "guardrails": [
+    "208 are historical condition units, not guaranteed atomic or complete.",
+    "AI auditors have prior administrative-outcome exposure.",
+    "No human/expert validation; interpretation options are policies, not legal truth.",
+    "Full-source public-text audit cannot establish facts absent from the public ruling.",
+    "2024 inventory is context, not the historical case sampling frame."
+  ],
+  "unknown_provenance_sets": {
+    "excerpt_omission": {
+      "case_ids": [
+        "H314080_1",
+        "H322923_1",
+        "H330938_1",
+        "H340899_1",
+        "H341677_1"
+      ],
+      "case_n": 5,
+      "condition_keys": [
+        "H330938_1:c4",
+        "H341677_1:c2",
+        "H322923_1:c2",
+        "H314080_1:c3",
+        "H314080_1:c4",
+        "H340899_1:c3",
+        "H340899_1:c4"
+      ],
+      "condition_n": 7,
+      "historically_unknown_condition_n": 6
+    },
+    "no_sufficient_attribute_in_public_source": {
+      "case_ids": [
+        "H317208_1",
+        "H319100_2",
+        "H323452_1",
+        "H330005_1",
+        "H332948_2",
+        "H332948_4",
+        "H333110_1",
+        "N309167",
+        "N310775",
+        "N316485"
+      ],
+      "case_n": 10,
+      "condition_keys": [
+        "H323452_1:c3",
+        "H333110_1:c3",
+        "H319100_2:c3",
+        "H330005_1:c2",
+        "H330005_1:c3",
+        "H330005_1:c4",
+        "H332948_2:c3",
+        "H332948_4:c3",
+        "H317208_1:c2",
+        "N309167:c3",
+        "N310775:c3",
+        "N316485:c2"
+      ],
+      "condition_n": 12,
+      "historically_unknown_condition_n": 12
+    },
+    "definition_category_or_use": {
+      "case_ids": [
+        "H311151_1",
+        "H314080_1",
+        "H316387_1",
+        "H317208_1",
+        "H318593_1",
+        "H322923_1",
+        "H323452_1",
+        "H330005_1",
+        "H330938_1",
+        "H332948_3",
+        "H340899_1",
+        "H345780_1",
+        "N304707",
+        "N306552",
+        "N307469",
+        "N307830",
+        "N307931",
+        "N308085",
+        "N309167",
+        "N309430",
+        "N310775",
+        "N310804",
+        "N311074",
+        "N311558",
+        "N312309",
+        "N312568",
+        "N312588",
+        "N314745_pedal",
+        "N314745_self",
+        "N318455",
+        "N318822",
+        "N319331",
+        "N325922",
+        "N327114",
+        "N332207",
+        "N336939"
+      ],
+      "case_n": 36,
+      "condition_keys": [
+        "H330938_1:c1",
+        "H323452_1:c1",
+        "H311151_1:c1",
+        "H322923_1:c3",
+        "H314080_1:c1",
+        "H330005_1:c1",
+        "H316387_1:c1",
+        "H332948_3:c4",
+        "H318593_1:c2",
+        "H340899_1:c2",
+        "H345780_1:c2",
+        "H317208_1:c1",
+        "N304707:c2",
+        "N306552:c1",
+        "N307469:c1",
+        "N309167:c1",
+        "N312588:c1",
+        "N312588:c2",
+        "N307931:c1",
+        "N307830:c1",
+        "N308085:c1",
+        "N309430:c1",
+        "N310775:c1",
+        "N311074:c1",
+        "N311558:c1",
+        "N310804:c1",
+        "N312309:c1",
+        "N312568:c2",
+        "N314745_self:c1",
+        "N314745_pedal:c1",
+        "N318455:c1",
+        "N318822:c1",
+        "N319331:c1",
+        "N325922:c1",
+        "N327114:c1",
+        "N332207:c1",
+        "N336939:c1",
+        "N336939:c3"
+      ],
+      "condition_n": 38,
+      "historically_unknown_condition_n": 33
+    },
+    "object_component_or_measurement_scope": {
+      "case_ids": [
+        "H317208_1",
+        "H318593_1",
+        "H330005_1",
+        "H330938_1",
+        "H333673_1",
+        "N304707",
+        "N304766",
+        "N305670",
+        "N309775_buttons",
+        "N316485",
+        "N319331"
+      ],
+      "case_n": 11,
+      "condition_keys": [
+        "H330938_1:c3",
+        "H330005_1:c2",
+        "H318593_1:c2",
+        "H318593_1:c3",
+        "H317208_1:c2",
+        "H333673_1:c1",
+        "N304707:c1",
+        "N304766:c1",
+        "N305670:c1",
+        "N309775_buttons:c1",
+        "N316485:c2",
+        "N319331:c3"
+      ],
+      "condition_n": 12,
+      "historically_unknown_condition_n": 10
+    },
+    "source_or_interpretation_conflict": {
+      "case_ids": [
+        "H314080_1",
+        "H319100_2",
+        "H332948_3",
+        "H333371_1",
+        "N327114"
+      ],
+      "case_n": 5,
+      "condition_keys": [
+        "H319100_2:c3",
+        "H314080_1:c1",
+        "H332948_3:c4",
+        "H333371_1:c2",
+        "N327114:c3"
+      ],
+      "condition_n": 5,
+      "historically_unknown_condition_n": 5
+    }
+  },
+  "historical_unknown_subset": {
+    "cases": 47,
+    "all_conditions": 137,
+    "historically_unknown_conditions": 59,
+    "strict_unknown_conditions": 67,
+    "note": "These sets overlap. A case can have omitted evidence and an unresolved definition simultaneously. Source recovery does not imply whole-case support."
+  },
+  "locator_verification": {
+    "rule_source_spans": 208,
+    "frozen_fact_spans": 228,
+    "continuous_fact_source_spans": 455,
+    "recovery_spans": 16
+  },
+  "historical_unknown_review_rulings": 44,
+  "historical_unknown_direct_restored_conditions": [
+    "H330938_1:c4",
+    "H322923_1:c2",
+    "H340899_1:c4"
+  ]
+}

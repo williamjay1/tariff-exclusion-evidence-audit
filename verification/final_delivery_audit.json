@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "stage": "Revised evidence-audit manuscript and reproducibility delivery",
+  "critique_items_closed": 42,
+  "original_input_hashes_unchanged": true,
+  "main_tables": 4,
+  "main_figures": 3,
+  "supplement_tables": 18,
+  "word_content_matches": true,
+  "all_pages_and_figures_visually_reviewed": true,
+  "files": {
+    "manuscript.md": "5cb1dad08835378a1c6acbb737496f481ae75a6736cf299b2d84a39bbfdc45ee",
+    "supplement.md": "2938c15ba6274f82b1ed84303f2d1aba20daf091bb8731b8600a0dce2ebb1ced"
+  },
+  "limits": "Not a guarantee of acceptance, legal correctness, representative generalization or measured operational savings."
+}

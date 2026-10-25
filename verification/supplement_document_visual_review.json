@@ -1,0 +1,492 @@
+{
+  "status": "PASS",
+  "review_stage": "final_render_after_layout_repair",
+  "reviewed_at_utc": "2026-10-22T21:11:37.172361+00:00",
+  "reviewer": "review_package subagent",
+  "review_method": "Every rendered page was visually opened using tools.view_image(detail=original); text extraction was not used as a substitute.",
+  "source_docx": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_Supplement_20261023.docx",
+  "source_docx_sha256": "c99dbbc80997321c48ecfcb7a95e4f2139d1408058a026e5e1e02152fb920a93",
+  "render_directory": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\verification\\rendered\\Tariff_Evidence_Audit_Supplement_20261023",
+  "expected_page_count": 23,
+  "actual_page_count": 23,
+  "all_document_pages_viewed": true,
+  "all_18_tables_visually_reviewed": true,
+  "content_clipping_or_overlap_found": false,
+  "final_visual_approval": true,
+  "issues": [
+    {
+      "id": "SI-LAYOUT-01",
+      "severity": "minor",
+      "pages": [
+        2,
+        3
+      ],
+      "table": "Table S2.1",
+      "problem": "Caption and column header occur on page 2 without a body row.",
+      "requested_fix": "Keep every header-cell paragraph with the following paragraph/first data row; preserve repeated headers.",
+      "status": "RESOLVED",
+      "resolution": "Verified visually in final rendered pages after the parent applied the caption-recognition and header keep-with-next rules."
+    },
+    {
+      "id": "SI-LAYOUT-02",
+      "severity": "minor",
+      "pages": [
+        10,
+        11
+      ],
+      "table": "Table S4.1",
+      "problem": "Caption and column header occur on page 10 without a body row.",
+      "requested_fix": "Apply the same table-header keep-with-next rule.",
+      "status": "RESOLVED",
+      "resolution": "Verified visually in final rendered pages after the parent applied the caption-recognition and header keep-with-next rules."
+    },
+    {
+      "id": "SI-LAYOUT-03",
+      "severity": "minor",
+      "pages": [
+        20,
+        21
+      ],
+      "table": "Table S5.7",
+      "problem": "Caption and column header occur on page 20 without a body row.",
+      "requested_fix": "Apply the same table-header keep-with-next rule.",
+      "status": "RESOLVED",
+      "resolution": "Verified visually in final rendered pages after the parent applied the caption-recognition and header keep-with-next rules."
+    },
+    {
+      "id": "SI-LAYOUT-04",
+      "severity": "minor",
+      "pages": [
+        2
+      ],
+      "table": null,
+      "problem": "Explanatory prose starting “Table S2.1 lists” has been mistaken for a caption and made entirely bold.",
+      "requested_fix": "Restrict caption recognition to actual standalone table captions.",
+      "status": "RESOLVED",
+      "resolution": "Verified visually in final rendered pages after the parent applied the caption-recognition and header keep-with-next rules."
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "file": "page-01.png",
+      "image_sha256": "a81b067c09873cc41e3543bf8ee118c900df11e6df97f268fe219148998ac739",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S1"
+      ],
+      "observation": "Title, S1 overview and complete resource table are clear; no clipping or overlap.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "a81b067c09873cc41e3543bf8ee118c900df11e6df97f268fe219148998ac739",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 2,
+      "file": "page-02.png",
+      "image_sha256": "cddbb85b37522e603275b2700244f8a450d57d7680664296a51edf3681a5d17d",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Former orphan caption/header has moved with its table to page 3. The explanatory “Table S2.1 lists” paragraph now uses ordinary body weight; all source-method text remains complete.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "a3d70c19951310a52da43509493c94f6fcd3bf873b7dba0cc8ec89a43764373b",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 3,
+      "file": "page-03.png",
+      "image_sha256": "1bdf3a071d8911c2895eb79c28ded9a7894e08ca3342fd6b91b4659f6cc59696",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S2.1"
+      ],
+      "observation": "Table S2.1 now begins at page top with caption, header and all six body rows together; source-locator text and tier opening are intact.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "aeb3d70b34f47dc6c6063c643f4ab98fc14057d3fbd67a243e514a42da5fde7d",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 4,
+      "file": "page-04.png",
+      "image_sha256": "48b4cf1709cb7a0ff24eef10e5053b624c2f0bf83fe8f102ba27de2c83746d1a",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S2.2"
+      ],
+      "observation": "Complete five-row cause table, restored-source discussion and boundary caveats remain legible after the flow change.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "bc35c97c1df6052a2323ccbde06a825b64347a168042bef1e119cd90e30f06a2",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 5,
+      "file": "page-05.png",
+      "image_sha256": "8da791a3ad338f9c13dfd8ac35ede1913f3ca7145b6f1c796cdc309a388d7f3e",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S2.3"
+      ],
+      "observation": "Three policy rows and case-chain evidence are readable; ordinary paragraph continuation is intact.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "8da791a3ad338f9c13dfd8ac35ede1913f3ca7145b6f1c796cdc309a388d7f3e",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 6,
+      "file": "page-06.png",
+      "image_sha256": "8ff43ebc02916061578b3129870faed07c9d674bb405d9b24910576d15b6b4f7",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Remainder of case-chain evidence, source boundary and inventory opening are clear.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "8ff43ebc02916061578b3129870faed07c9d674bb405d9b24910576d15b6b4f7",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 7,
+      "file": "page-07.png",
+      "image_sha256": "c5e148bef5fffb94ae7b60bc32dfdf5778db9e8c557a8ab9ee4a687f510d0234",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Inventory inclusion, object scope and ambiguity discussion are readable without page-edge clipping.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "c5e148bef5fffb94ae7b60bc32dfdf5778db9e8c557a8ab9ee4a687f510d0234",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 8,
+      "file": "page-08.png",
+      "image_sha256": "324131790e9729e27f4ea160f5695ef6713920372bcca34d07072763ee4c957c",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Coverage interpretation and qualification protocol are clear; headings retain following text.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "324131790e9729e27f4ea160f5695ef6713920372bcca34d07072763ee4c957c",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 9,
+      "file": "page-09.png",
+      "image_sha256": "b387a70f751924f81b418314a6c3241d7691d8b171ab9cc73ceac7f94f6ef303",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Qualification, inference configuration and prompt-introduction text are legible and complete.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "b387a70f751924f81b418314a6c3241d7691d8b171ab9cc73ceac7f94f6ef303",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 10,
+      "file": "page-10.png",
+      "image_sha256": "119d0a305eda920852dfe5e00e6e0382041677e98f4b605934169b1d9f5f2cdc",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Full direct/checklist instruction text and controlled-input description remain readable; Table S4.1 caption/header no longer stands alone here.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "00d506b553444290924b417888b7a1897e6e999687b2f44e854bc2cd579881a1",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 11,
+      "file": "page-11.png",
+      "image_sha256": "f7e2a8147bedb13847cdffbb70cc3e72de582287d5a029924ba0bd72c31e77cc",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S4.1"
+      ],
+      "observation": "Table S4.1 begins with caption/header and all 12 source-family rows on the same page; endpoint and scoring policy text follows without overlap.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "5a1fb4799750dc47250cd58358780a05cebbc6c0602767d18f1aa640f543f4a4",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 12,
+      "file": "page-12.png",
+      "image_sha256": "b8d41527cad008887cd6c4b01fdfa9dd90e8264449a5f30b721d66a9d754ca94",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S4.2 first part"
+      ],
+      "observation": "Reference correction and source-restoration method are intact. Table S4.2 begins with three full body rows after its header, without stranded headers or cropped rows.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "b19162f53df3fc3689c7ab2ab7532b5147e6c75763b341298a87e20fe6b6fb6a",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 13,
+      "file": "page-13.png",
+      "image_sha256": "68dc0416e6eeb122742edc0726ec226470d15f339ee1c4ebae86dde599dfa8ab",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S4.2 continuation",
+        "Table S4.3",
+        "Table S4.4 first part"
+      ],
+      "observation": "Restoration table repeats its header with the final row. Full controlled-results table and first three linked-relationship rows remain clearly separated and readable.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "b1b1166d65a444f956c3c01503aa4356bb26356583f5b18c4fb1fab51f95b6b6",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 14,
+      "file": "page-14.png",
+      "image_sha256": "4eee0463d40e7cc8a6f27c8f144b9aca30b2d47868a59293522642e46c85d2f6",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S4.4 continuation",
+        "Table S4.5 first part"
+      ],
+      "observation": "Relationship table repeats its header with the remaining five rows; four individual restoration transitions are intact. Computation table contains header plus five complete rows.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "0afcd325794d030c13743b12d79ccce3e6599f7cfeb0038b52397368908c8e58",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 15,
+      "file": "page-15.png",
+      "image_sha256": "a9628757f2f9f994f55493f92a1877176f3ffd18420ff60a60c2741a50c86d12",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S4.5 continuation"
+      ],
+      "observation": "Repeated computation-table header accompanies its final checklist row; reproducibility limits and historical-experiment opening remain complete.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "68d685385371e439574232624c430e479d269d56fa1b38d9b4c531f4612c5506",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 16,
+      "file": "page-16.png",
+      "image_sha256": "c94ab6c2e1d36ec72f97767e89d23dbf2346785b7cd461e611bc8c5e122b7129",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Historical prediction, AI-coding lineage, interface-failure and numeric-intervention text remain intact with readable headings and no detached caption.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "6c651a7e6dacbaef205cda5971a957ca5a416c5a15c3776bad1006e1aacf52d1",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 17,
+      "file": "page-17.png",
+      "image_sha256": "661d3d53b6d1df1a806a742b8d23e3490a7a2ed843a7b5654d708338315019ea",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S5.1"
+      ],
+      "observation": "Historical numeric-intervention table now fits all four rows on one page; guard-policy discussion and hypothetical cost assumptions are clear.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "bc42e6019d787f6f04ba54cd888ba4fa5d9b42a1059de9f83813aed253d22035",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 18,
+      "file": "page-18.png",
+      "image_sha256": "49948165593b528df44e5b506b10a3e8bdf69e6e8b1067f8b8b331db932510d4",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S5.2",
+        "Table S5.3 first part"
+      ],
+      "observation": "Entire 15-row fold-composition table fits under its caption/header; test-unit table starts with header plus six complete rows, with no collision or crop.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "2334998f779a3828f69b50d36d0829746ee9f94f399f3683bf4f11feb7943419",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 19,
+      "file": "page-19.png",
+      "image_sha256": "cc6cc26ee63fcaf6feba954f0ad7c87272d568c3d7f3a1b102e64b6c502ecdbb",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S5.3 continuation",
+        "Table S5.4",
+        "Table S5.5 first part"
+      ],
+      "observation": "Repeated test-unit header retains its final two rows. Entire native-loss grid and first three guard-loss rows fit cleanly; notes remain complete.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "4ec802d0d7d18bb7871b72be366e268df388b03fd2ed89393b83c5f4ff64e1e3",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 20,
+      "file": "page-20.png",
+      "image_sha256": "dd33e400c230081d11550b8fded1d8d2e72f7b381ff1b4877305be7adff1de39",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S5.5 continuation",
+        "Table S5.6"
+      ],
+      "observation": "Guard-loss table repeats its header and retains all remaining nine rows. Source-stratified table and notes are intact; former isolated Table S5.7 header is absent.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "70f3d55349e3315ec6335eb4f9edad40662bc2197e8f1f7e0883593135a7632d",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 21,
+      "file": "page-21.png",
+      "image_sha256": "b8251a7417d503d58b278bc96de9421e6ea5b1fbe55fc70880c08833d66abdb1",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S5.7",
+        "Table S5.8 first part"
+      ],
+      "observation": "Table S5.7 now begins with caption/header and all eight contrast rows together. Inference-integrity table follows with nine complete rows; no text or border overlap.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "681e617f7c89a335082c9fc907e8202a9c802bee0bb5d80b0e265ce28a744b43",
+      "identical_to_initial_viewed_page": false,
+      "view_evidence": "Final changed page opened again with tools.view_image(detail=original)."
+    },
+    {
+      "page": 22,
+      "file": "page-22.png",
+      "image_sha256": "b22cdf06b6096944c57e8d6b145f449a8b20d4eb34531fff818518da6e5123a5",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [
+        "Table S5.8 continuation",
+        "Table S5.9"
+      ],
+      "observation": "Final inference-integrity row and all 16 AI-coding-version comparison rows are complete; limits and contextual notes are readable.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "b22cdf06b6096944c57e8d6b145f449a8b20d4eb34531fff818518da6e5123a5",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    },
+    {
+      "page": 23,
+      "file": "page-23.png",
+      "image_sha256": "3d3c79ce631765788668082e4c53803ebe9eb6d7464e13a7b551d790554b65bf",
+      "viewed_with": "tools.view_image(detail=original)",
+      "status": "PASS",
+      "tables": [],
+      "observation": "Final caveat paragraph is complete and legible. Large remaining white space reflects a short final continuation, not lost content.",
+      "clipping_observed": false,
+      "text_overlap_observed": false,
+      "table_row_loss_observed": false,
+      "initial_image_sha256": "3d3c79ce631765788668082e4c53803ebe9eb6d7464e13a7b551d790554b65bf",
+      "identical_to_initial_viewed_page": true,
+      "view_evidence": "Actual initial visual inspection retained because final PNG SHA256 is identical."
+    }
+  ],
+  "next_action": "Final visual layout approval is complete for this DOCX digest. Package build remains subject to the parent final delivery gate.",
+  "changed_pages_reopened": [
+    2,
+    3,
+    4,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "unchanged_pages_with_identical_sha256": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    22,
+    23
+  ],
+  "final_page_count_change": 0,
+  "initial_review": {
+    "status": "REPAIR_REQUIRED",
+    "source_docx_sha256": "5c25d8692d256c04b25e50a8767d55a904967845ff61d40fb8560934383d1017",
+    "page_count": 23,
+    "all_pages_actually_viewed": true,
+    "issues_count": 4,
+    "note": "Initial observations and image digests are retained in each page record; the four minor layout issues are resolved in the final version."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-07T15:01:06.746230+00:00",
+  "n_rules": 60,
+  "n_distinct_rules": 60,
+  "gold_sha256": "55c9dd4f3636a2c9adfc74efcd87bfd507933149de06fcc32cb10115113af804",
+  "gold_path": "D:\\MLWork\\tariff_scope_20261007\\datasets\\numeric_rule_gold.jsonl",
+  "source": "USTR Index of Exclusions for Possible Extension, dated 2024-01-17",
+  "independent_source_extraction": "pdfplumber table geometry, independently checked against primary parser",
+  "claims_boundary": "Synthetic, one numeric predicate per actual rule; other conditions assumed satisfied. Not 60 new real-world cases; not full eligibility validation.",
+  "human_expert_review": false,
+  "selected_before_access_to_model_results": true,
+  "unit_normalization": {
+    "KW": "kW",
+    "liters": "L",
+    "cc": "cm3"
+  },
+  "null_semantics": "No stated lower or upper bound; inclusive field is also null. Physical positivity is a domain restriction on generated inputs, not an inferred legal bound.",
+  "two_bound": 28,
+  "upper_only": 29,
+  "lower_only": 3,
+  "exclusions": [
+    "20(ttt)(iii)(179) has a source-text 183 m upper width next to cm dimensions; exclude rather than silently repair it.",
+    "Ambiguous width-or-length disjunctions and unqualified range endpoint semantics excluded."
+  ]
+}

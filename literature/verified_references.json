@@ -1,0 +1,293 @@
+{
+  "verified_on": "2026-10-23",
+  "scope": "Six closest legal-AI texts, four directly relevant customs/behavioral-testing references, and official task/data/model/software/venue sources; per-reference reading depth is explicit. Not a systematic literature census.",
+  "references": [
+    {
+      "key": "koreeda2021contractnli",
+      "authors": [
+        "Yuta Koreeda",
+        "Christopher D. Manning"
+      ],
+      "title": "ContractNLI: A Dataset for Document-level Natural Language Inference for Contracts",
+      "year": 2021,
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2021",
+      "pages": "1907–1919",
+      "doi": "10.18653/v1/2021.findings-emnlp.164",
+      "url": "https://aclanthology.org/2021.findings-emnlp.164/",
+      "fulltext_url": "https://aclanthology.org/2021.findings-emnlp.164.pdf",
+      "status": "published conference findings",
+      "reviewed": "Main task/data, experimental and error-analysis sections; Appendix A.1.1 annotation details",
+      "supports": "Three-way contract NLI with evidence spans; exception/definition difficulty; oracle evidence comparison; not all lawyer-labeled"
+    },
+    {
+      "key": "holzenberger2023connecting",
+      "authors": [
+        "Nils Holzenberger",
+        "Benjamin Van Durme"
+      ],
+      "title": "Connecting Symbolic Statutory Reasoning with Legal Information Extraction",
+      "year": 2023,
+      "venue": "Proceedings of the Natural Legal Language Processing Workshop 2023",
+      "pages": "113–131",
+      "doi": "10.18653/v1/2023.nllp-1.12",
+      "url": "https://aclanthology.org/2023.nllp-1.12/",
+      "fulltext_url": "https://aclanthology.org/2023.nllp-1.12.pdf",
+      "status": "published workshop paper",
+      "reviewed": "Main data/representation, extraction, reasoning experiments and error analysis; relevant annotation appendices",
+      "supports": "Span-anchored entity/event extraction into Prolog; predicted/partial-gold/empty KB; representation and closed-world ambiguity; four case revisions"
+    },
+    {
+      "key": "medvedeva2023right",
+      "authors": [
+        "Masha Medvedeva",
+        "Pauline McBride"
+      ],
+      "title": "Legal Judgment Prediction: If You Are Going to Do It, Do It Right",
+      "year": 2023,
+      "venue": "Proceedings of the Natural Legal Language Processing Workshop 2023",
+      "pages": "73–84",
+      "doi": "10.18653/v1/2023.nllp-1.9",
+      "url": "https://aclanthology.org/2023.nllp-1.9/",
+      "fulltext_url": "https://aclanthology.org/2023.nllp-1.9.pdf",
+      "status": "published workshop paper",
+      "reviewed": "Main review methodology, data suitability, user/task alignment and recommendations",
+      "supports": "Retrospective judgment facts are not prospective available inputs; task-appropriate legal prediction evaluation"
+    },
+    {
+      "key": "goganikhiabani2025vita",
+      "authors": [
+        "Sina Gogani-Khiabani",
+        "Ashutosh Trivedi",
+        "Shin Ping Chyi",
+        "Saeid Tizpaz-Niari"
+      ],
+      "title": "Performance of LLMs on VITA test: potential for AI-assisted tax returns for low income taxpayers",
+      "year": 2025,
+      "venue": "Artificial Intelligence and Law",
+      "volume": null,
+      "pages": null,
+      "published_online": "2025-07-08",
+      "doi": "10.1007/s10506-025-09465-7",
+      "url": "https://link.springer.com/article/10.1007/s10506-025-09465-7",
+      "fulltext_url": "https://par.nsf.gov/servlets/purl/10649839",
+      "status": "published journal article; online publication metadata retained",
+      "reviewed": "Publisher full text via Jina and NSF public PDF; §§2–4 and6",
+      "supports": "130 IRS VITA questions with260 answer-preserving variants; six models; tax-expert answer construction; numerical answer difficulty; perturbation results do not prove absence of memorization"
+    },
+    {
+      "key": "roychoudhury2026clause",
+      "authors": [
+        "Manan Roy Choudhury",
+        "Adithya Chandramouli",
+        "Mannan Anand",
+        "Vivek Gupta"
+      ],
+      "title": "Better Call CLAUSE: A Discrepancy Benchmark for Auditing LLMs Legal Reasoning Capabilities",
+      "year": 2026,
+      "venue": "Findings of the Association for Computational Linguistics: EACL 2026",
+      "pages": "5776–5818",
+      "doi": "10.18653/v1/2026.findings-eacl.305",
+      "url": "https://aclanthology.org/2026.findings-eacl.305/",
+      "fulltext_url": "https://aclanthology.org/2026.findings-eacl.305.pdf",
+      "status": "published conference findings",
+      "reviewed": "§§2–5, limitations and Appendix A.3 human/legal-expert validation; not every prompt in43-page appendix",
+      "supports": "Controlled legal/in-text perturbations, omission/terminology/structural risks, span/explanation/citation evaluation; licensed practitioner reviewed about100 documents rather than entire corpus"
+    },
+    {
+      "key": "lee2026tribenchko",
+      "authors": [
+        "Haesung Lee",
+        "Gyubin Choi",
+        "Eun-Ju Lee",
+        "So-Min Lee",
+        "Youkang Ko",
+        "Dogyoon Lim",
+        "Sung-Kyoung Jang",
+        "Yohan Jo"
+      ],
+      "title": "TriBench-Ko: Evaluating LLM Risks in Judicial Workflows",
+      "year": 2026,
+      "venue": "arXiv",
+      "version": "2605.03792v1",
+      "submitted": "2026-05-05",
+      "doi": "10.48550/arXiv.2605.03792",
+      "url": "https://arxiv.org/abs/2605.03792",
+      "fulltext_url": "https://arxiv.org/pdf/2605.03792",
+      "status": "preprint; no peer-reviewed venue asserted",
+      "reviewed": "Main task-risk taxonomy, source construction, annotation and evaluation protocol/results",
+      "supports": "Real-decision-derived task-risk benchmark; three-attorney review including input completeness; differentiated omission, statutory application and overreach risks"
+    },
+    {
+      "key": "lan2026hscodecomp",
+      "authors": [
+        "Tian Lan",
+        "Yiqian Yang",
+        "Qianghuai Jia",
+        "Li Zhu",
+        "Hui Jiang",
+        "Hang Zhu",
+        "Weihua Luo",
+        "Longyue Wang"
+      ],
+      "title": "HSCodeComp: A Realistic and Expert-level Agent Benchmark for Hierarchical Rule Application",
+      "year": 2026,
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "pages": "20458–20489",
+      "doi": "10.18653/v1/2026.acl-long.937",
+      "url": "https://aclanthology.org/2026.acl-long.937/",
+      "fulltext_url": "https://aclanthology.org/2026.acl-long.937.pdf",
+      "status": "published conference paper",
+      "reviewed": "Official PDF §§3–4 task, data construction, annotation and evaluation; surrounding introduction; not entire32-page appendix",
+      "supports": "Real e-commerce multimodal inputs; US classification rules and CROSS knowledge; target ten-digit code; expert annotation; distinction from supplied-code Section301 scope evaluation"
+    },
+    {
+      "key": "lee2024explainable",
+      "authors": [
+        "Eunji Lee",
+        "Sihyeon Kim",
+        "Sundong Kim",
+        "Soyeon Jung",
+        "Heeja Kim",
+        "Meeyoung Cha"
+      ],
+      "title": "Explainable Product Classification for Customs",
+      "year": 2024,
+      "venue": "ACM Transactions on Intelligent Systems and Technology",
+      "volume": "15",
+      "issue": "2",
+      "article_number": "25",
+      "pages": "1–24",
+      "doi": "10.1145/3635158",
+      "url": "https://doi.org/10.1145/3635158",
+      "metadata_source": "https://pure.kaist.ac.kr/en/publications/explainable-product-classification-for-customs/",
+      "status": "published journal article",
+      "reviewed": "Author institution metadata and abstract; publisher full text not obtained in this revision",
+      "supports": "Six-digit customs classification support, explainable output and customs-expert user study; no claim that all methods or limitations were full-text checked"
+    },
+    {
+      "key": "xia2026hsgraphagent",
+      "authors": [
+        "Qiang Xia",
+        "Zijian Zhang",
+        "Ao Wang",
+        "Wenhan Wang",
+        "Xiangyu Wang",
+        "Jian Li"
+      ],
+      "title": "HSGraphAgent: Knowledge-Graph-Guided Large Language Models for Harmonized System Code Classification",
+      "year": 2026,
+      "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "pages": "44761–44773",
+      "doi": "10.18653/v1/2026.acl-long.2072",
+      "url": "https://aclanthology.org/2026.acl-long.2072/",
+      "fulltext_url": "https://aclanthology.org/2026.acl-long.2072.pdf",
+      "status": "published conference paper",
+      "reviewed": "Official metadata and abstract only; no full-text methodological exclusion claim",
+      "supports": "Knowledge-graph and regulatory-exclusion-constrained four/six-digit classification; classification exclusion not automatically additional-duty exemption"
+    },
+    {
+      "key": "ribeiro2020checklist",
+      "authors": [
+        "Marco Tulio Ribeiro",
+        "Tongshuang Wu",
+        "Carlos Guestrin",
+        "Sameer Singh"
+      ],
+      "title": "Beyond Accuracy: Behavioral Testing of NLP Models with CheckList",
+      "year": 2020,
+      "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "pages": "4902–4912",
+      "doi": "10.18653/v1/2020.acl-main.442",
+      "url": "https://aclanthology.org/2020.acl-main.442/",
+      "fulltext_url": "https://aclanthology.org/2020.acl-main.442.pdf",
+      "status": "published conference paper",
+      "reviewed": "Official full text §§1–2: capability matrix, minimum functionality, invariance and directional tests",
+      "supports": "Behavioral input-output relations and task-specific controlled tests; our source audits are an application and provenance extension, not invention of perturbation testing"
+    }
+  ],
+  "official_task_and_venue_sources": [
+    {
+      "key": "ustr2018exclusions",
+      "organization": "Office of the United States Trade Representative",
+      "year": 2018,
+      "title": "Notice of Product Exclusions: China’s Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+      "url": "https://ustr.gov/sites/default/files/enforcement/301Investigations/12.21.18_Notice_of_Product_Exclusions.pdf",
+      "locator": "PDF pp.1,4–6",
+      "supports": "Published code and product description control exclusion scope; all qualifying importers, not just requester; timing and implementation separate"
+    },
+    {
+      "key": "gao2021exclusions",
+      "organization": "U.S. Government Accountability Office",
+      "year": 2021,
+      "report_number": "GAO-21-506",
+      "title": "U.S.-China Trade: USTR Should Fully Document Internal Procedures for Making Tariff Exclusion and Extension Decisions",
+      "url": "https://www.gao.gov/products/gao-21-506",
+      "supports": "About53,000 exclusion requests2018–2020; request-grant process, not applicability transaction volume; recommendations now closed implemented"
+    },
+    {
+      "key": "ailaw2026scope",
+      "organization": "Springer Nature",
+      "url": "https://link.springer.com/journal/10506/aims-and-scope",
+      "supports": "Legal AI evaluation/auditing, datasets and original technical/empirical/formal insight within scope"
+    },
+    {
+      "key": "ailaw2026index",
+      "organization": "Springer Nature",
+      "url": "https://link.springer.com/journal/10506",
+      "supports": "Publisher index list explicitly contains SCIE and Social Science Citation Index"
+    },
+    {
+      "key": "ailaw2026guidelines",
+      "organization": "Springer Nature",
+      "url": "https://link.springer.com/journal/10506/submission-guidelines",
+      "supports": "Double-anonymous, editable sources, data availability, actual substantive LLM-use disclosure"
+    },
+    {
+      "key": "ustr2024index",
+      "organization": "Office of the United States Trade Representative",
+      "year": 2024,
+      "title": "Index of Exclusions for Possible Extension",
+      "version_date": "2024-01-17",
+      "url": "https://ustr.gov/sites/default/files/Updated%20Index%20of%20Exclusions%20for%20Extension%201.17.24.pdf",
+      "locator": "23-page PDF, dated footer; individual note identifiers",
+      "supports": "Frozen inventory source and literal scope wording only; not a current effective-exclusion list or all historical versions"
+    },
+    {
+      "key": "cbp_cross",
+      "organization": "U.S. Customs and Border Protection",
+      "year": null,
+      "title": "Customs Rulings Online Search System (CROSS)",
+      "resource_type": "Public database",
+      "url": "https://rulings.cbp.gov/",
+      "metadata_source": "https://catalog.data.gov/dataset/cbp-customs-rulings-online-search-system-cross",
+      "accessed": "2026-10-23",
+      "supports": "Official public searchable rulings, HQ/NY collections, modification and revocation links",
+      "access_note": "Current database landing page returned HTTP 403 to web reader; official DHS Data.gov entry read, source rulings independently retained and verified. Catalog modified date is not a terminal date for rulings."
+    },
+    {
+      "key": "qwen2025qwen3_14b",
+      "organization": "Qwen Team",
+      "year": 2025,
+      "title": "Qwen3-14B",
+      "resource_type": "Model and model card",
+      "url": "https://huggingface.co/Qwen/Qwen3-14B",
+      "official_gguf_url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF",
+      "accessed": "2026-10-23",
+      "repository_created_at": "2025-04-27T03:42:45.000Z",
+      "license": "Apache-2.0",
+      "supports": "Checkpoint identity, official GGUF provenance and non-thinking mode interface; deterministic temperature zero is our experimental setting, not the recommended sampling setting"
+    },
+    {
+      "key": "ggml2026llamacpp",
+      "organization": "ggml-org",
+      "year": 2026,
+      "title": "llama.cpp",
+      "resource_type": "Computer software",
+      "version": "b11516",
+      "published_at": "2026-10-09T07:02:29Z",
+      "status": "Pre-release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11516",
+      "supports": "Exact inference-runtime build provenance; does not independently validate numerical or legal outputs"
+    }
+  ]
+}

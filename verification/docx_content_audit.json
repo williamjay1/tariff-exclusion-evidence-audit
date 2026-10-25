@@ -1,0 +1,44 @@
+[
+  {
+    "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\manuscript\\manuscript.md",
+    "source_sha256": "5cb1dad08835378a1c6acbb737496f481ae75a6736cf299b2d84a39bbfdc45ee",
+    "output": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_20261023.docx",
+    "sha256": "fa96fafe3bf269a0f17f4bf171e492860d4641c48c977fc4fd979f51b6ebf2ed",
+    "paragraphs_exact": true,
+    "table_cells_exact": true,
+    "tables": 4,
+    "cells": 124,
+    "figures": 3,
+    "native_svg": [
+      {
+        "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\artwork\\figures\\figure1_source_protocol.svg",
+        "sha256": "d005d5105c17a938e6f24905d8c35c62601934ac34fc584d815d3fac3d47c116",
+        "part": "word/media/evidence_audit_1.svg"
+      },
+      {
+        "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\artwork\\figures\\figure2_source_audit.svg",
+        "sha256": "b0faeae6df25b53e284794a169908658b096c9f1c2cb523bf881b7ddb44b9b65",
+        "part": "word/media/evidence_audit_2.svg"
+      },
+      {
+        "path": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\artwork\\figures\\figure3_controlled_diagnostics.svg",
+        "sha256": "096bdb60da14f9a5e06c76a17df0a23bc3d9efdfb707a4403e062ee9eb75fdaf",
+        "part": "word/media/evidence_audit_3.svg"
+      }
+    ],
+    "render_required": true
+  },
+  {
+    "source": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\manuscript\\supplement.md",
+    "source_sha256": "2938c15ba6274f82b1ed84303f2d1aba20daf091bb8731b8600a0dce2ebb1ced",
+    "output": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\deliverables\\Tariff_Evidence_Audit_Supplement_20261023.docx",
+    "sha256": "91de584eed9d4143d79e9e7b3282ab448a593bec04b5365480546113dc79620e",
+    "paragraphs_exact": true,
+    "table_cells_exact": true,
+    "tables": 18,
+    "cells": 738,
+    "figures": 0,
+    "native_svg": [],
+    "render_required": true
+  }
+]

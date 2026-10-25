@@ -1,0 +1,11 @@
+{
+  "n": 4,
+  "conditions_n": 5,
+  "valid": 4,
+  "correct_decisions": 4,
+  "correct_conditions": null,
+  "unsupported_affirmations": 0,
+  "decisive_refutation_missing_passes": 1,
+  "passed": true,
+  "failed_ids": []
+}

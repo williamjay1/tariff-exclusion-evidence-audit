@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Cite this versioned reproducibility package. Add the Zenodo DOI after deposition."
+type: software
+title: "Tariff exclusion evidence audit: source to input protocol for tariff exclusion decisions"
+version: 1.0.0
+date-released: "2026-10-25"
+repository-code: "https://github.com/williamjay1/tariff-exclusion-evidence-audit"
+url: "https://github.com/williamjay1/tariff-exclusion-evidence-audit"
+license: MIT
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+    orcid: "https://orcid.org/0009-0004-8821-4018"
+    affiliation: "Shanghai International Studies University"
+abstract: "Retained source records, constructed diagnostic inputs, saved model replies, verification scripts and manuscript sources for an audit of how public tariff exclusion rulings become model inputs. The package separates input selection, interpretation and interface behaviour, and recomputes every reported count from frozen artifacts. Coding was produced with AI assistance and has no independent expert validation."
+keywords:
+  - legal AI evaluation
+  - evidence audit
+  - tariff exclusions
+  - customs rulings
+  - reproducibility
+  - source provenance

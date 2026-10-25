@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-22T19:13:28.553977+00:00",
+  "status": "frozen_before_inference",
+  "threshold": {
+    "qualification_cases": 24,
+    "minimum_decisions_correct": 23,
+    "minimum_condition_accuracy": 0.95,
+    "maximum_invalid": 0,
+    "maximum_unsupported_affirmations": 0,
+    "decisive_refutation_with_missing_must_pass": true
+  },
+  "model_order": [
+    "qwen14",
+    "granite8"
+  ],
+  "selection_policy": "First fixed model meeting every qualification criterion; if neither meets them, development changes and requalification are explicitly logged, not hidden.",
+  "semantics": "Textual evidence only. Unknown means input insufficiency, not administrative ineligibility.",
+  "task_limit": "Conjunctive checklist supplied. Does not measure automatic condition extraction or nested legal interpretation.",
+  "qualification_cases.jsonl_sha256": "053af71173f011d1f306070ac5675a8653731847cd0da2665ec2372bdb66293d",
+  "development_cases.jsonl_sha256": "58c5e30cb74fb5533d428b50d690bb5e485b6ed2500f9613406c1270997615e2"
+}

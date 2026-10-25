@@ -1,0 +1,190 @@
+{
+  "version": "posthoc_v2_general_parser_repairs",
+  "frozen_engine_unchanged": true,
+  "v2_sha256": "6c2206a780b75d2fad8641ab5f08e54ecb6e0710950a87d005387d6df70488e9",
+  "numeric_reference_sha256": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6",
+  "constructed_input_sha256": "17e8dd16daf35907a048d10fc2891b651be0cfa8999156b4e84c46141a3bec4a",
+  "real33": {
+    "n": 33,
+    "correct": 23,
+    "confusion": {
+      "pass->pass": 16,
+      "unknown->unknown": 6,
+      "pass->unknown": 7,
+      "fail->fail": 1,
+      "unknown->pass": 1,
+      "fail->unknown": 2
+    }
+  },
+  "constructed96": {
+    "n": 96,
+    "correct": 70,
+    "confusion": {
+      "pass->pass": 31,
+      "fail->fail": 26,
+      "unknown->unknown": 13,
+      "pass->unknown": 13,
+      "fail->unknown": 11,
+      "unknown->pass": 2
+    }
+  },
+  "constructed_by_mechanism": {
+    "comparative_facts": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "component_binding": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "compound_units": {
+      "n": 8,
+      "correct": 0,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 4
+      }
+    },
+    "conflicting_reports": {
+      "n": 8,
+      "correct": 6,
+      "confusion": {
+        "pass->pass": 1,
+        "unknown->unknown": 4,
+        "fail->fail": 1,
+        "pass->unknown": 1,
+        "fail->unknown": 1
+      }
+    },
+    "dimension_binding": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "disjunction": {
+      "n": 8,
+      "correct": 2,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "identifier": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 2,
+        "unknown->unknown": 2
+      }
+    },
+    "mass_capacity": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    },
+    "measurement_uncertainty": {
+      "n": 8,
+      "correct": 5,
+      "confusion": {
+        "pass->pass": 2,
+        "unknown->pass": 2,
+        "fail->unknown": 1,
+        "unknown->unknown": 2,
+        "fail->fail": 1
+      }
+    },
+    "nested_exception": {
+      "n": 8,
+      "correct": 1,
+      "confusion": {
+        "pass->unknown": 4,
+        "fail->unknown": 3,
+        "unknown->unknown": 1
+      }
+    },
+    "two_sided_bounds": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "fail->fail": 4,
+        "pass->pass": 4
+      }
+    },
+    "unit_equivalence": {
+      "n": 8,
+      "correct": 8,
+      "confusion": {
+        "pass->pass": 4,
+        "fail->fail": 4
+      }
+    }
+  },
+  "real_changes": [
+    {
+      "case_id": "H317391_1",
+      "gold": "pass",
+      "frozen": "fail",
+      "v2": "pass"
+    },
+    {
+      "case_id": "H311957_1",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "H316154_1",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "H318593_2",
+      "gold": "fail",
+      "frozen": "unknown",
+      "v2": "fail"
+    },
+    {
+      "case_id": "H333371_1",
+      "gold": "unknown",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "N307830",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "N314745_self",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    },
+    {
+      "case_id": "N314745_pedal",
+      "gold": "pass",
+      "frozen": "unknown",
+      "v2": "pass"
+    }
+  ],
+  "claim_boundary": "A post hoc repair evaluated on the same already inspected diagnostic suite and restricted-text cases. No new held-out generalization, deployability or expert validity is inferred; unsupported compound units and logic remain limitations."
+}

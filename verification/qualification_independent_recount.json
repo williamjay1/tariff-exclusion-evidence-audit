@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "independent_raw_JSON_recount": true,
+  "whitelisted_prompt_inputs_equal": true,
+  "reports": [
+    {
+      "analysis": "qwen14_qualification_cases_functional_analysis.json",
+      "counts": {
+        "direct": {
+          "n": 24,
+          "valid": 24,
+          "decision_correct": 24,
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "determinate_n": 16,
+          "determinate_errors": 0
+        },
+        "checklist": {
+          "n": 24,
+          "valid": 24,
+          "decision_correct": 24,
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "determinate_n": 16,
+          "determinate_errors": 0,
+          "condition_n": 27,
+          "complete_condition_records": 24,
+          "condition_correct": 27,
+          "aggregation_correct": 24,
+          "unsupported_condition_affirmations": 0,
+          "unsupported_condition_refutations": 0,
+          "gap_tp": 9,
+          "gap_fp": 0,
+          "gap_fn": 0,
+          "request_tp": 7,
+          "request_fp": 0,
+          "request_fn": 1,
+          "request_exact": 23,
+          "refute_missing_n": 1,
+          "refute_missing_pass": 1,
+          "citation_n": 27,
+          "citation_pass": 27,
+          "determinate_citation_n": 18,
+          "determinate_citation_pass": 18,
+          "joint_citation_state_pass": 27
+        }
+      },
+      "analysis_sha256": "98380d6075b6c8afeba9841b9017afb90752d4babd40efc57639aa0d7c5a8432"
+    }
+  ],
+  "boundary": "Checks retained response scoring and provenance; does not independently validate legal annotation."
+}

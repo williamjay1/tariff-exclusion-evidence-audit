@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-22T19:59:42.877735+00:00",
+  "status": "PASS",
+  "fixture_only": true,
+  "not_model_results": true,
+  "checks": [
+    "Perfect synthetic fixture gives 108/108 case,216/216 condition,36 gaps,24 required requests.",
+    "Always-unknown fixture earns zero successful linked relationships; stability alone cannot pass.",
+    "Always-supported fixture yields 60 unsupported whole-input affirmations.",
+    "Direct condition and request endpoints remain NA even for invalid output.",
+    "Missing condition/citation remains in the reference denominator instead of disappearing.",
+    "Erratum retains all whole-input states and admits only target-frame alternatives, never Product B evidence.",
+    "All formal prompts omit outcome/provenance metadata; clause semantics contain every supplied condition in both interfaces.",
+    "Bootstrap uses observed n and difference, not the last resampled group collection."
+  ]
+}

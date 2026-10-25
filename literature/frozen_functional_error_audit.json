@@ -1,0 +1,397 @@
+{
+  "counts": {
+    "conditions": 216,
+    "condition_errors": 5,
+    "evidence_errors": 3,
+    "missing_requests": 4,
+    "unnecessary_requests": 0
+  },
+  "errors": [
+    {
+      "case_id": "CF01_other_only",
+      "conditions": [
+        {
+          "id": "c1",
+          "requirement": "Product A must not be fitted with connectors."
+        },
+        {
+          "id": "c2",
+          "requirement": "Product A must be for a voltage exceeding 1000 V."
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": "Product B is not fitted with connectors."
+        },
+        {
+          "id": "f2",
+          "text": "Product A is rated for 2000 V."
+        }
+      ],
+      "expected": {
+        "states": {
+          "c1": "unknown",
+          "c2": "supported"
+        },
+        "evidence": {
+          "c1": [],
+          "c2": [
+            "f2"
+          ]
+        },
+        "decision": "unknown",
+        "requests": [
+          "c1"
+        ]
+      },
+      "checklist": {
+        "conditions": [
+          {
+            "id": "c1",
+            "state": "refuted",
+            "evidence": []
+          },
+          {
+            "id": "c2",
+            "state": "supported",
+            "evidence": [
+              "f2"
+            ]
+          }
+        ],
+        "decision": "refuted",
+        "requests": []
+      },
+      "direct": {
+        "decision": "supported"
+      },
+      "condition_errors": [
+        {
+          "condition": "c1",
+          "expected": "unknown",
+          "predicted": "refuted"
+        }
+      ],
+      "evidence_errors": [],
+      "missing_requests": [
+        "c1"
+      ],
+      "unnecessary_requests": []
+    },
+    {
+      "case_id": "CF09_deleted",
+      "conditions": [
+        {
+          "id": "c1",
+          "requirement": "Product A must not be electrically powered."
+        },
+        {
+          "id": "c2",
+          "requirement": "Product A must be made of plastic."
+        }
+      ],
+      "facts": [
+        {
+          "id": "f2",
+          "text": "Product A is a salad spinner made of plastic."
+        }
+      ],
+      "expected": {
+        "states": {
+          "c1": "unknown",
+          "c2": "supported"
+        },
+        "evidence": {
+          "c1": [],
+          "c2": [
+            "f2"
+          ]
+        },
+        "decision": "unknown",
+        "requests": [
+          "c1"
+        ]
+      },
+      "checklist": {
+        "conditions": [
+          {
+            "id": "c1",
+            "state": "supported",
+            "evidence": []
+          },
+          {
+            "id": "c2",
+            "state": "supported",
+            "evidence": [
+              "f2"
+            ]
+          }
+        ],
+        "decision": "supported",
+        "requests": []
+      },
+      "direct": {
+        "decision": "unknown"
+      },
+      "condition_errors": [
+        {
+          "condition": "c1",
+          "expected": "unknown",
+          "predicted": "supported"
+        }
+      ],
+      "evidence_errors": [],
+      "missing_requests": [
+        "c1"
+      ],
+      "unnecessary_requests": []
+    },
+    {
+      "case_id": "CF10_deleted",
+      "conditions": [
+        {
+          "id": "c1",
+          "requirement": "The frame of Product A must not be made of teak."
+        },
+        {
+          "id": "c2",
+          "requirement": "Product A must have a wooden frame."
+        }
+      ],
+      "facts": [
+        {
+          "id": "f2",
+          "text": "Product A is an upholstered dining chair with a wooden frame."
+        }
+      ],
+      "expected": {
+        "states": {
+          "c1": "unknown",
+          "c2": "supported"
+        },
+        "evidence": {
+          "c1": [],
+          "c2": [
+            "f2"
+          ]
+        },
+        "decision": "unknown",
+        "requests": [
+          "c1"
+        ]
+      },
+      "checklist": {
+        "conditions": [
+          {
+            "id": "c1",
+            "state": "supported",
+            "evidence": [
+              "f2"
+            ]
+          },
+          {
+            "id": "c2",
+            "state": "supported",
+            "evidence": [
+              "f2"
+            ]
+          }
+        ],
+        "decision": "supported",
+        "requests": []
+      },
+      "direct": {
+        "decision": "supported"
+      },
+      "condition_errors": [
+        {
+          "condition": "c1",
+          "expected": "unknown",
+          "predicted": "supported"
+        }
+      ],
+      "evidence_errors": [
+        {
+          "condition": "c1",
+          "allowed": [
+            []
+          ],
+          "predicted": [
+            "f2"
+          ]
+        }
+      ],
+      "missing_requests": [
+        "c1"
+      ],
+      "unnecessary_requests": []
+    },
+    {
+      "case_id": "CF10_refute_missing",
+      "conditions": [
+        {
+          "id": "c1",
+          "requirement": "The frame of Product A must not be made of teak."
+        },
+        {
+          "id": "c2",
+          "requirement": "Product A must have a wooden frame."
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": "The frame of Product A is made of teak."
+        }
+      ],
+      "expected": {
+        "states": {
+          "c1": "refuted",
+          "c2": "supported"
+        },
+        "evidence": {
+          "c1": [
+            "f1"
+          ],
+          "c2": []
+        },
+        "decision": "refuted",
+        "requests": [],
+        "evidence_allowed_sets": {
+          "c2": [
+            [
+              "f1"
+            ]
+          ]
+        }
+      },
+      "checklist": {
+        "conditions": [
+          {
+            "id": "c1",
+            "state": "refuted",
+            "evidence": [
+              "f1"
+            ]
+          },
+          {
+            "id": "c2",
+            "state": "unknown",
+            "evidence": []
+          }
+        ],
+        "decision": "refuted",
+        "requests": []
+      },
+      "direct": {
+        "decision": "refuted"
+      },
+      "condition_errors": [
+        {
+          "condition": "c2",
+          "expected": "supported",
+          "predicted": "unknown"
+        }
+      ],
+      "evidence_errors": [
+        {
+          "condition": "c2",
+          "allowed": [
+            [
+              "f1"
+            ]
+          ],
+          "predicted": []
+        }
+      ],
+      "missing_requests": [],
+      "unnecessary_requests": []
+    },
+    {
+      "case_id": "CF10_other_only",
+      "conditions": [
+        {
+          "id": "c1",
+          "requirement": "The frame of Product A must not be made of teak."
+        },
+        {
+          "id": "c2",
+          "requirement": "Product A must have a wooden frame."
+        }
+      ],
+      "facts": [
+        {
+          "id": "f1",
+          "text": "The frame of Product B is made of oak, not teak."
+        },
+        {
+          "id": "f2",
+          "text": "Product A is an upholstered dining chair with a wooden frame."
+        }
+      ],
+      "expected": {
+        "states": {
+          "c1": "unknown",
+          "c2": "supported"
+        },
+        "evidence": {
+          "c1": [],
+          "c2": [
+            "f2"
+          ]
+        },
+        "decision": "unknown",
+        "requests": [
+          "c1"
+        ]
+      },
+      "checklist": {
+        "conditions": [
+          {
+            "id": "c1",
+            "state": "supported",
+            "evidence": [
+              "f2"
+            ]
+          },
+          {
+            "id": "c2",
+            "state": "supported",
+            "evidence": [
+              "f2"
+            ]
+          }
+        ],
+        "decision": "supported",
+        "requests": []
+      },
+      "direct": {
+        "decision": "supported"
+      },
+      "condition_errors": [
+        {
+          "condition": "c1",
+          "expected": "unknown",
+          "predicted": "supported"
+        }
+      ],
+      "evidence_errors": [
+        {
+          "condition": "c1",
+          "allowed": [
+            []
+          ],
+          "predicted": [
+            "f2"
+          ]
+        }
+      ],
+      "missing_requests": [
+        "c1"
+      ],
+      "unnecessary_requests": []
+    }
+  ],
+  "reference": "pre-result semantic erratum"
+}

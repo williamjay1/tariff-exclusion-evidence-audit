@@ -1,0 +1,84 @@
+[
+  {
+    "name": "contractnli_2021.pdf",
+    "url": "https://aclanthology.org/2021.findings-emnlp.164.pdf",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\contractnli_2021.pdf",
+    "bytes": 1118938,
+    "sha256": "a60bfb31fb5d9b5aa7697715380e241a47704049913f0b8dd3c48401fd2bccd3",
+    "status": "downloaded",
+    "pages": 13,
+    "extracted": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\literature\\extracted\\contractnli_2021.txt"
+  },
+  {
+    "name": "holzenberger_vandurme_2023.pdf",
+    "url": "https://aclanthology.org/2023.nllp-1.12.pdf",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\holzenberger_vandurme_2023.pdf",
+    "bytes": 384606,
+    "sha256": "779763e6cc6cf29391a88e4cfe501c5814a28708932a0ec579ed2d4dc2e0b16e",
+    "status": "downloaded",
+    "pages": 19,
+    "extracted": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\literature\\extracted\\holzenberger_vandurme_2023.txt"
+  },
+  {
+    "name": "medvedeva_mcbride_2023.pdf",
+    "url": "https://aclanthology.org/2023.nllp-1.9.pdf",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\medvedeva_mcbride_2023.pdf",
+    "bytes": 164406,
+    "sha256": "30522a4c88c02bc528328a318d03e2ba28521ccec2d0b4ea12029f86928934bc",
+    "status": "downloaded",
+    "pages": 12,
+    "extracted": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\literature\\extracted\\medvedeva_mcbride_2023.txt"
+  },
+  {
+    "name": "vita_2025.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/s10506-025-09465-7.pdf",
+    "error": "not PDF: https://link.springer.com/content/pdf/10.1007/s10506-025-09465-7.pdf"
+  },
+  {
+    "name": "vita_2025.html",
+    "url": "https://link.springer.com/article/10.1007/s10506-025-09465-7",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\vita_2025.html",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "status": "downloaded"
+  },
+  {
+    "name": "ailaw_scope_20261023.html",
+    "url": "https://link.springer.com/journal/10506/aims-and-scope",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\ailaw_scope_20261023.html",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "status": "downloaded"
+  },
+  {
+    "name": "ailaw_guidelines_20261023.html",
+    "url": "https://link.springer.com/journal/10506/submission-guidelines",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\ailaw_guidelines_20261023.html",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "status": "downloaded"
+  },
+  {
+    "name": "ailaw_home_20261023.html",
+    "url": "https://link.springer.com/journal/10506",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\ailaw_home_20261023.html",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "status": "downloaded"
+  },
+  {
+    "name": "gao_21_506_20261023.html",
+    "url": "https://www.gao.gov/products/gao-21-506",
+    "error": "403 Client Error: Forbidden for url: https://www.gao.gov/products/gao-21-506"
+  },
+  {
+    "name": "ustr_20181221_notice.pdf",
+    "url": "https://ustr.gov/sites/default/files/enforcement/301Investigations/12.21.18_Notice_of_Product_Exclusions.pdf",
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\ustr_20181221_notice.pdf",
+    "bytes": 114302,
+    "sha256": "b40163a5e545a03bf1746c88e609a9a9ec235fb53fab66c9847f08b0df08b824",
+    "status": "downloaded",
+    "pages": 9,
+    "extracted": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\literature\\extracted\\ustr_20181221_notice.txt"
+  }
+]

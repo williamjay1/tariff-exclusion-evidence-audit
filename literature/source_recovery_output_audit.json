@@ -1,0 +1,225 @@
+{
+  "scope": "Completed source recovery only; hashes and raw JSON independently verified; no inference rerun.",
+  "summary": {
+    "direct": {
+      "n": 8,
+      "correct": 7,
+      "unsupported_refutations": 0,
+      "unsupported_affirmations": 0,
+      "pair_success": 3
+    },
+    "checklist": {
+      "n": 8,
+      "correct": 6,
+      "unsupported_refutations": 2,
+      "unsupported_affirmations": 0,
+      "pair_success": 3
+    }
+  },
+  "pairs": [
+    {
+      "pair": "REC_H330938_1:c4",
+      "source_condition": "H330938_1:c4",
+      "rule": "Isolated required condition: The subject cables must not be fitted with connectors.",
+      "restored_assertion": "Lastly, the submitted documentation describes the subject cables as imported on reels at very long lengths without connectors.",
+      "reference": [
+        "unknown",
+        "supported"
+      ],
+      "direct": [
+        {
+          "decision": "unknown"
+        },
+        {
+          "decision": "supported"
+        }
+      ],
+      "direct_success": true,
+      "checklist": [
+        {
+          "conditions": [
+            {
+              "id": "c4",
+              "state": "unknown",
+              "evidence": []
+            }
+          ],
+          "decision": "unknown",
+          "requests": [
+            "c4"
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "id": "c4",
+              "state": "supported",
+              "evidence": [
+                "f2"
+              ]
+            }
+          ],
+          "decision": "supported",
+          "requests": []
+        }
+      ],
+      "checklist_success": true
+    },
+    {
+      "pair": "REC_H322923_1:c2",
+      "source_condition": "H322923_1:c2",
+      "rule": "Isolated required condition: Each subject wagon must have three or four wheels.",
+      "restored_assertion": "The subject wagons are fitted with four wheels, for use in household shopping and transporting personal goods, and are not mechanically propelled.",
+      "reference": [
+        "unknown",
+        "supported"
+      ],
+      "direct": [
+        {
+          "decision": "unknown"
+        },
+        {
+          "decision": "supported"
+        }
+      ],
+      "direct_success": true,
+      "checklist": [
+        {
+          "conditions": [
+            {
+              "id": "c2",
+              "state": "unknown",
+              "evidence": []
+            }
+          ],
+          "decision": "unknown",
+          "requests": [
+            "c2"
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "id": "c2",
+              "state": "supported",
+              "evidence": [
+                "f2"
+              ]
+            }
+          ],
+          "decision": "supported",
+          "requests": []
+        }
+      ],
+      "checklist_success": true
+    },
+    {
+      "pair": "REC_H340899_1:c3",
+      "source_condition": "H340899_1:c3",
+      "rule": "Isolated required condition: Each subject vacuum cleaner must have a self-contained electric motor.",
+      "restored_assertion": "Specifically, they are bagless vacuum cleaners with self-contained electric motors of a power not   exceeding 1,500 W and have a dust receptacle capacity not exceeding 1 liter.",
+      "reference": [
+        "unknown",
+        "supported"
+      ],
+      "direct": [
+        {
+          "decision": "unknown"
+        },
+        {
+          "decision": "unknown"
+        }
+      ],
+      "direct_success": false,
+      "checklist": [
+        {
+          "conditions": [
+            {
+              "id": "c3",
+              "state": "refuted",
+              "evidence": [
+                "f1"
+              ]
+            }
+          ],
+          "decision": "refuted",
+          "requests": []
+        },
+        {
+          "conditions": [
+            {
+              "id": "c3",
+              "state": "refuted",
+              "evidence": [
+                "f1",
+                "f2"
+              ]
+            }
+          ],
+          "decision": "refuted",
+          "requests": []
+        }
+      ],
+      "checklist_success": false
+    },
+    {
+      "pair": "REC_H340899_1:c4",
+      "source_condition": "H340899_1:c4",
+      "rule": "Isolated required condition: Each subject vacuum cleaner must have motor power not exceeding 1500 W.",
+      "restored_assertion": "Specifically, they are bagless vacuum cleaners with self-contained electric motors of a power not   exceeding 1,500 W and have a dust receptacle capacity not exceeding 1 liter.",
+      "reference": [
+        "unknown",
+        "supported"
+      ],
+      "direct": [
+        {
+          "decision": "unknown"
+        },
+        {
+          "decision": "supported"
+        }
+      ],
+      "direct_success": true,
+      "checklist": [
+        {
+          "conditions": [
+            {
+              "id": "c4",
+              "state": "unknown",
+              "evidence": []
+            }
+          ],
+          "decision": "unknown",
+          "requests": [
+            "c4"
+          ]
+        },
+        {
+          "conditions": [
+            {
+              "id": "c4",
+              "state": "supported",
+              "evidence": [
+                "f2"
+              ]
+            }
+          ],
+          "decision": "supported",
+          "requests": []
+        }
+      ],
+      "checklist_success": true
+    }
+  ],
+  "verified_output_sha256": {
+    "direct": "e38e1f755f89822c9b176f141611a6062eadd13ecea63214d395e0372c65714e",
+    "checklist": "09ad53d74b93e7d59bf1480bb43a415f2a3ac7f0b116fd102709f6f19cb945e5"
+  },
+  "motor_before_facts": [
+    {
+      "id": "f1",
+      "text": "The “Prolux 2.0 Cordless Bagless Upright Backpack Vacuum with 1 Hour Lithium Ion Battery,” is a rechargeable battery-powered vacuum that is worn as a backpack and intended for use in residential settings. It is imported with a flexible extension hose, adjustable wand, various nozzles for use on different surfaces, an adapter for the various nozzles, a vacuum filter, two lithium-ion batteries capable of handling a 30 minute charge, and a charger. Its bin volume is 1.9 L, and its dust receptacle capacity is 0.64 L. The “Lightweight Prolux 2.0 Bagless Upright Backpack Vacuum w/ 5 Year Warranty” is similar to the battery-powered version previously described. It is imported with the same attachments, including a few more nozzles, and its bin volume and dust receptacle capacity are identical to the battery-powered version. The only relevant difference is that it requires a corded electrical connection to function. The “Prolux 2.0 Commercial Bagless Upright Backpack Vacuum with Deluxe 1 ½ Inch Tool Kit,” is similar to the battery-powered and corded residential backpack vacuums already described, however, it is imported with a longer, industrial extension power cord and a nozzle specifically designed for commercial use. Besides those differences, it is imported with similar attachments and possesses the same bin volume and dust receptacle capacity as the other vacuums subject to this IA."
+    }
+  ],
+  "interpretation_limit": "Responses contain labels and fact IDs but no explanation. The cause of unchanged motor outputs is not identifiable from these records. The model receives only one isolated supplied condition; no whole-exclusion or legal disposition is evaluated."
+}

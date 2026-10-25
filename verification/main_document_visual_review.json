@@ -1,0 +1,368 @@
+{
+  "status": "PASS",
+  "stage": "Final main-document visual QA",
+  "review_date": "2026-10-23",
+  "docx": "D:/MLWork/tariff_scope_20261007/revision_20261023/deliverables/Tariff_Evidence_Audit_20261023.docx",
+  "docx_sha256": "e4a1e10339023c320eab9d40edc4aad485b7b38ec91156b388e9faaabb5f9f8b",
+  "initial_docx_sha256": "e6181fb9e0f3e6a8f037ab4838558f06436492b6aa9504618982213e1787810f",
+  "render_directory": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023",
+  "render_metadata": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/render_metadata.json",
+  "page_count": 23,
+  "pages_reviewed": 23,
+  "initial_individually_viewed_page_count": 23,
+  "final_changed_pages_individually_rechecked": [
+    12,
+    13,
+    14
+  ],
+  "final_unchanged_pages_linked_by_sha_count": 20,
+  "individual_page_view_events": 26,
+  "method": "Each of the 23 initial full-page PNGs was actually displayed and visually inspected using tools.view_image. After the layout-only rebuild, the three changed pages were individually displayed and inspected again. Current PNG hashes and retained initial hashes were independently compared; the other 20 images are byte-identical. No contact sheet or extracted text was substituted for page viewing.",
+  "scope": [
+    "Figure 1–3 readability and caption association",
+    "Table/body clipping or overlap",
+    "Table continuation and repeated headings",
+    "Heading/prose and paragraph continuity",
+    "Unexpected blank pages"
+  ],
+  "material_issue_count": 0,
+  "material_issues": [],
+  "final_required_repairs": [],
+  "resolved_issue": {
+    "location": "Initial page 12, Table 3",
+    "description": "Title/header-only table fragment at the foot of page 12",
+    "final_resolution": "Table 3 caption, header and all three rows now appear together on page 13; visually confirmed."
+  },
+  "minor_layout_notes": [
+    {
+      "pages": [
+        5,
+        10,
+        15
+      ],
+      "description": "Lower-page whitespace keeps the following figure and complete caption together; no missing content or repair required."
+    },
+    {
+      "pages": [
+        23
+      ],
+      "description": "The final reference page has normal trailing whitespace; it is not a blank page."
+    }
+  ],
+  "figure_checks": [
+    {
+      "figure": 1,
+      "page": 6,
+      "status": "PASS"
+    },
+    {
+      "figure": 2,
+      "page": 11,
+      "status": "PASS"
+    },
+    {
+      "figure": 3,
+      "page": 16,
+      "status": "PASS"
+    }
+  ],
+  "table_checks": [
+    {
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "status": "PASS"
+    },
+    {
+      "table": 2,
+      "pages": [
+        12
+      ],
+      "status": "PASS"
+    },
+    {
+      "table": 3,
+      "pages": [
+        13
+      ],
+      "status": "PASS"
+    },
+    {
+      "table": 4,
+      "pages": [
+        13,
+        14
+      ],
+      "status": "PASS",
+      "note": "Header and first row start together; continued page repeats column headers."
+    }
+  ],
+  "identity_evidence": [
+    "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/initial_render_image_hashes.json",
+    "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/render_layout_diff.json"
+  ],
+  "all_current_image_hashes_verified": true,
+  "limitation": "This is a visual delivery check, not a new numerical, citation or legal-validity audit. No manuscript, Word document or rendering script was modified by this reviewer.",
+  "pages": [
+    {
+      "page": 1,
+      "status": "PASS",
+      "observation": "Title, abstract, keywords and introduction are fully visible; paragraph continuation to page 2 is natural; no clipping or overlap.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-01.png",
+      "image_sha256": "13d829ea70316a6881f32dbf6ff81ffd1e80573f0600db5115dc098226d8f812",
+      "initial_image_sha256": "13d829ea70316a6881f32dbf6ff81ffd1e80573f0600db5115dc098226d8f812",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 2,
+      "status": "PASS",
+      "observation": "Introduction continuation and section 2/2.1 headings flow normally with readable body text; no clipping, orphan heading or blank region requiring repair.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-02.png",
+      "image_sha256": "1f8d7577af4b243493a42a12ceb222645673476dacc0030ecdf2cf91dc6545da",
+      "initial_image_sha256": "1f8d7577af4b243493a42a12ceb222645673476dacc0030ecdf2cf91dc6545da",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 3,
+      "status": "PASS",
+      "observation": "Related-work paragraphs and section 2.2 heading are fully visible, including lower-page text; no overlap or content truncation.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-03.png",
+      "image_sha256": "d02a90442b7bf1ca8bffb599d22a17d8b7cf612a191c24a220ab3911395d2d1c",
+      "initial_image_sha256": "d02a90442b7bf1ca8bffb599d22a17d8b7cf612a191c24a220ab3911395d2d1c",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 4,
+      "status": "PASS",
+      "observation": "Table 1 is intact on one page, with readable three-column rows and unobstructed top/bottom rules. Body text continues normally.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-04.png",
+      "image_sha256": "6d6a469b655d703f97e674fbb85e4c7a796c35eff811eb9cfccdeaf33264ba33",
+      "initial_image_sha256": "6d6a469b655d703f97e674fbb85e4c7a796c35eff811eb9cfccdeaf33264ba33",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 5,
+      "status": "PASS",
+      "observation": "Section 3.2 introduction is readable. Lower-page whitespace accommodates the intact figure-and-caption block on page 6; not an empty page or missing text.",
+      "minor_layout_note": "Substantial lower whitespace; no content loss and no repair required.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-05.png",
+      "image_sha256": "a61b176803437fec1e3edcfded2fbde6f806523fddcb1088d4022a3c5f147b4a",
+      "initial_image_sha256": "a61b176803437fec1e3edcfded2fbde6f806523fddcb1088d4022a3c5f147b4a",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 6,
+      "status": "PASS",
+      "observation": "Figure 1 panels a–c, boxes, arrows and labels are legible and nonoverlapping. Full caption is on the same page, separated from the continuing prose.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-06.png",
+      "image_sha256": "35ad1dfa2294cb45be1c11092d8503eced808db3da71dcf8b68875f61dd29e7c",
+      "initial_image_sha256": "35ad1dfa2294cb45be1c11092d8503eced808db3da71dcf8b68875f61dd29e7c",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 7,
+      "status": "PASS",
+      "observation": "Sections 3.3 and 3.4 headings stay with substantive text. Reference-layer and AI-annotation paragraphs are complete and do not collide.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-07.png",
+      "image_sha256": "505476c04ba61f15f150bcde423eee01dbcda7ebb8222a9518ca6fd49cf72eb1",
+      "initial_image_sha256": "505476c04ba61f15f150bcde423eee01dbcda7ebb8222a9518ca6fd49cf72eb1",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 8,
+      "status": "PASS",
+      "observation": "Historical-reference continuation, section 4 heading and sections 4.1–4.2 are readable with correct paragraph sequence; no clipping.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-08.png",
+      "image_sha256": "d8cdf52562ca76ab303073b0343049420ff4562ba1d7deada83f4655b1063d01",
+      "initial_image_sha256": "d8cdf52562ca76ab303073b0343049420ff4562ba1d7deada83f4655b1063d01",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 9,
+      "status": "PASS",
+      "observation": "Controlled-design, correction and restoration paragraphs are fully visible; section 4.3 starts with sufficient following text, and its last paragraph continues naturally.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-09.png",
+      "image_sha256": "ab120313a787d56622b6b1ddded188a8c81f11059ae97e035248fbf06cb64501",
+      "initial_image_sha256": "ab120313a787d56622b6b1ddded188a8c81f11059ae97e035248fbf06cb64501",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 10,
+      "status": "PASS",
+      "observation": "End of methods and start of results are intact. Lower whitespace precedes the full Figure 2 block on page 11, with no lost paragraph.",
+      "minor_layout_note": "Lower whitespace from figure placement; no repair required.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-10.png",
+      "image_sha256": "78449225ed67cd59ee8351269b81276d7a2edcffb7e5b9d917a746c389e42801",
+      "initial_image_sha256": "78449225ed67cd59ee8351269b81276d7a2edcffb7e5b9d917a746c389e42801",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 11,
+      "status": "PASS",
+      "observation": "Figure 2 panels a and b have legible labels, counts, axes and separate annotation text. Bars do not obscure labels. Caption is complete on the figure page.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-11.png",
+      "image_sha256": "b7a04d1733eab2ce74495218f2388fcfc2597cac27faec8c0ec22d737327f05e",
+      "initial_image_sha256": "b7a04d1733eab2ce74495218f2388fcfc2597cac27faec8c0ec22d737327f05e",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 12,
+      "status": "PASS",
+      "observation": "Table 2 remains intact and readable; section 5.3 flows cleanly to the bottom. Table 3 no longer leaves an isolated title/header on this page.",
+      "initial_observation": "Table 2 is clear and intact. Section 5.3 continues below it. Table 3 caption and header begin at the bottom; continuation must be read with page 13.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-12.png",
+      "image_sha256": "188275767646fd73341ea56cfb2c8af375e3cf83e9093f97bf9e88fd80a1352b",
+      "initial_image_sha256": "927158e505d75091df53f27fef509707842d7db8f0ca32b96b087fe3703a719d",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": true,
+      "final_visual_evidence": "Final image individually viewed with tools.view_image"
+    },
+    {
+      "page": 13,
+      "status": "PASS",
+      "observation": "Table 3 is now complete on one page, with its caption, header and all three rows together. Table 4 begins with its title, header and first data row; no isolated header or overlap.",
+      "initial_observation": "Table 3 repeats its column headers and displays all three data rows clearly. The short header-only start on page 12 is a minor pagination imperfection, not missing or ambiguous content. Table 4 begins with its caption, header and two rows.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-13.png",
+      "image_sha256": "e97c6edd0b108ac5c0fa0f3db12a92380e0d8aee98e33be9f26a105b92fbaa90",
+      "initial_image_sha256": "3b77bb413e5ca7a20eea33caa27dbc94c4311af85a51fb3ac98cafc08c8bb8d1",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": true,
+      "final_visual_evidence": "Final image individually viewed with tools.view_image"
+    },
+    {
+      "page": 14,
+      "status": "PASS",
+      "observation": "Table 4 continues with repeated column headers and all remaining rows readable; its final rule and the following explanatory paragraphs are clearly separated. No crop or overlap.",
+      "initial_observation": "Table 4 continuation repeats the headers; all remaining endpoint rows and counts fit without overlap. Explanatory paragraphs follow with clear spacing.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-14.png",
+      "image_sha256": "666c88b644c019b3d4adccc56f970231ac98beb9b403980b60cf8ee23b1f9012",
+      "initial_image_sha256": "a06e89e4571d4b8b93ad122dd870a03518d0cc6ce3deaed4f039c057fb4c019b",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": true,
+      "final_visual_evidence": "Final image individually viewed with tools.view_image"
+    },
+    {
+      "page": 15,
+      "status": "PASS",
+      "observation": "Figure 3 lead-in paragraph is intact. Large lower whitespace keeps Figure 3 with its caption on the next page; there is no blank page or omitted text.",
+      "minor_layout_note": "Large lower whitespace before Figure 3; no repair required for content readability.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-15.png",
+      "image_sha256": "d30ea5e4c6242e822632460077525f804e54b71766c66dee84b20c7b7a253251",
+      "initial_image_sha256": "d30ea5e4c6242e822632460077525f804e54b71766c66dee84b20c7b7a253251",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 16,
+      "status": "PASS",
+      "observation": "Figure 3 panels a–c are readable: bars, markers, labels and count columns remain separate; its complete caption is on the same page. The paragraph below continues naturally on page 17.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-16.png",
+      "image_sha256": "7dcb22e3d280031904525d0bff65dea406b025261ee97faeb6d2ed5f3080e5fa",
+      "initial_image_sha256": "7dcb22e3d280031904525d0bff65dea406b025261ee97faeb6d2ed5f3080e5fa",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 17,
+      "status": "PASS",
+      "observation": "The preceding paragraph continues correctly; sections 5.5 and 5.6 have readable headings and body text. No clipping or overlap; the final paragraph continues onto page 18.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-17.png",
+      "image_sha256": "489bbea4def23686c236d1543c7b610778e2e3c29709ae831aa22749c67d5e55",
+      "initial_image_sha256": "489bbea4def23686c236d1543c7b610778e2e3c29709ae831aa22749c67d5e55",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 18,
+      "status": "PASS",
+      "observation": "Historical-results continuation and the section 6 case chains are fully legible. Subsections 6.1–6.3 have adequate separation and accompanying text; no cropping or overlap.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-18.png",
+      "image_sha256": "e46408cfe33b1035cf97ffddc1977c23fb99172c5d7b2a76a04c824562a4c1f0",
+      "initial_image_sha256": "e46408cfe33b1035cf97ffddc1977c23fb99172c5d7b2a76a04c824562a4c1f0",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 19,
+      "status": "PASS",
+      "observation": "Relay-case continuation, glove and sensor case chains, and the start of discussion are readable and correctly separated. No cropping or overlap; section 7.1 has accompanying text before the page break.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-19.png",
+      "image_sha256": "e1928a4db2f622a6713b97ed86395ef60b2bac026248785b3ed9d5ccabd0501c",
+      "initial_image_sha256": "e1928a4db2f622a6713b97ed86395ef60b2bac026248785b3ed9d5ccabd0501c",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 20,
+      "status": "PASS",
+      "observation": "Discussion subsections 7.1–7.3 flow naturally with legible headings and paragraphs. The last paragraph continues normally on page 21; no overlap or clipping.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-20.png",
+      "image_sha256": "77c9177448ce00f26d7eac3ae2cef2001dd90841056e3ac97e3f0a45e317faa4",
+      "initial_image_sha256": "77c9177448ce00f26d7eac3ae2cef2001dd90841056e3ac97e3f0a45e317faa4",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 21,
+      "status": "PASS",
+      "observation": "Discussion continuation, conclusion, data/code availability and AI disclosure are fully visible with clear paragraph separation. No clipped lines or empty page.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-21.png",
+      "image_sha256": "6c3856ff10df3d7bcea5d43d9da4ffc8f1c432b87a5bdc555899373d672f1b54",
+      "initial_image_sha256": "6c3856ff10df3d7bcea5d43d9da4ffc8f1c432b87a5bdc555899373d672f1b54",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 22,
+      "status": "PASS",
+      "observation": "Reference entries and DOI strings are legible and stay within the text area; the references heading is correctly placed. No overlap, clipping or unexpected blank area.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-22.png",
+      "image_sha256": "c8c7e7a6bd632efdf630b06270600c23dfb12c06bab40e01cf654dd8f4024702",
+      "initial_image_sha256": "c8c7e7a6bd632efdf630b06270600c23dfb12c06bab40e01cf654dd8f4024702",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    },
+    {
+      "page": 23,
+      "status": "PASS",
+      "observation": "The final two reference entries are complete and readable. The remaining whitespace is the normal end of the document, not an empty page or missing content.",
+      "image": "D:/MLWork/tariff_scope_20261007/revision_20261023/verification/rendered/Tariff_Evidence_Audit_20261023/page-23.png",
+      "image_sha256": "eb5d47cfe4e6fa37b47a6e439750b48fc141cb69a850aea9e3ad2df678c99f1d",
+      "initial_image_sha256": "eb5d47cfe4e6fa37b47a6e439750b48fc141cb69a850aea9e3ad2df678c99f1d",
+      "initial_individual_visual_review": true,
+      "final_revision_individual_visual_review": false,
+      "final_visual_evidence": "Initial image individually viewed with tools.view_image; final image is byte-identical"
+    }
+  ]
+}

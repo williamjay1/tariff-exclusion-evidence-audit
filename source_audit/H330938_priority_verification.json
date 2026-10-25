@@ -1,0 +1,19 @@
+{
+  "status": "MATERIAL_SOURCE_ERROR_CONFIRMED",
+  "source": {
+    "ruling_id": "H330938",
+    "official_url": "https://rulings.cbp.gov/ruling/H330938",
+    "raw_path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\cbp\\20261007T143403Z\\rulings\\H330938.json",
+    "raw_sha256": "2a68f19a8e8ac99f67afd8e1ad5ce781a6732a259049da77bab6a42213118ae2",
+    "text_sha256": "9eb7f897bbb54bff73c3a8068c584ee5df83d8f611c6292c55ea46e7a8b6f950"
+  },
+  "quote": "Lastly, the submitted documentation describes the subject cables as imported on reels at very long lengths without connectors.",
+  "raw_text_span": [
+    6855,
+    6981
+  ],
+  "old_input_contains_quote": false,
+  "correct_scope": "The restricted factual excerpt omits connector status; the full official ruling explicitly attributes absence of connectors to submitted documentation.",
+  "correction": "Delete the claim that the full analysis offers no connector-specific factual statement.",
+  "boundary": "Restoring this direct attribute does not independently validate the monopolar technical/legal classification; keep that inference in an interpretive layer."
+}

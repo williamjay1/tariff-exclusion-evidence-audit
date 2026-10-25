@@ -1,0 +1,100 @@
+{
+  "n_cases": 33,
+  "n_conditions": 43,
+  "reference_states": {
+    "pass": 23,
+    "unknown": 7,
+    "fail": 3
+  },
+  "engine_sha256": "d1baf202365a737751294db4003ed05660f2499d6135e06684410bf75741a568",
+  "reference_fields_sha256": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6",
+  "layer_results": {
+    "reference_rule_reference_fields": {
+      "states": {
+        "pass": 23,
+        "unknown": 7,
+        "fail": 3
+      },
+      "three_state_correct": 33,
+      "n": 33,
+      "confusion": {
+        "pass->pass": 23,
+        "unknown->unknown": 7,
+        "fail->fail": 3
+      }
+    },
+    "auto_rule_reference_fields": {
+      "states": {
+        "pass": 21,
+        "unknown": 10,
+        "fail": 2
+      },
+      "three_state_correct": 30,
+      "n": 33,
+      "confusion": {
+        "pass->pass": 21,
+        "unknown->unknown": 7,
+        "pass->unknown": 2,
+        "fail->fail": 2,
+        "fail->unknown": 1
+      }
+    },
+    "reference_rule_auto_fields": {
+      "states": {
+        "pass": 10,
+        "fail": 1,
+        "unknown": 22
+      },
+      "three_state_correct": 17,
+      "n": 33,
+      "confusion": {
+        "pass->pass": 10,
+        "pass->fail": 1,
+        "unknown->unknown": 7,
+        "pass->unknown": 12,
+        "fail->unknown": 3
+      }
+    },
+    "auto_rule_auto_fields": {
+      "states": {
+        "pass": 10,
+        "fail": 1,
+        "unknown": 22
+      },
+      "three_state_correct": 17,
+      "n": 33,
+      "confusion": {
+        "pass->pass": 10,
+        "pass->fail": 1,
+        "unknown->unknown": 7,
+        "pass->unknown": 12,
+        "fail->unknown": 3
+      }
+    }
+  },
+  "unknown_reasons": {
+    "reference_rule_reference_fields": {
+      "missing_or_binding_mismatch": 8,
+      "straddling_interval": 2
+    },
+    "auto_rule_reference_fields": {
+      "missing_or_binding_mismatch": 4,
+      "no_parsed_constraint": 3,
+      "unparsed_rule_quantity": 5,
+      "straddling_interval": 2
+    },
+    "reference_rule_auto_fields": {
+      "missing_or_binding_mismatch": 21,
+      "multiple_distinct_fields": 8
+    },
+    "auto_rule_auto_fields": {
+      "missing_or_binding_mismatch": 11,
+      "multiple_distinct_fields": 9,
+      "no_parsed_constraint": 3,
+      "unparsed_rule_quantity": 5
+    }
+  },
+  "design": "Actual frozen Decimal interval_state execution. Ordinary fields use frozen matching policy. For source-coded relay fields only, an explicit test-only binding adapter evaluates each product and its discrete rating alternatives, then aggregates all listed products; this is not functionality of the frozen extractor. Interventions never use administrative outcomes.",
+  "limitation": "Reference fields encode reviewed subject bindings and conservative hulls. This is a test-only diagnostic intervention, not a deployable extractor or evidence of full legal correctness.",
+  "unknown_reason_count_unit": "Constraint occurrences except unparsed rule/disjunction/no constraints, which count cases; categories can overlap."
+}

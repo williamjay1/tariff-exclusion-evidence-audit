@@ -1,0 +1,24 @@
+{
+  "opportunities": 43,
+  "cases": 33,
+  "expected_states": {
+    "pass": 28,
+    "unknown": 10,
+    "fail": 5
+  },
+  "sha256": "85675a17300559c6830ddb8471611a65f1933767a9eb55e2f53efaf4fe0b49e6",
+  "source": "73 outcome-masked visible inputs; no administrative labels, parser output or model predictions read",
+  "status": "source-coded test-only reference, AI authored; no expert annotation",
+  "known_semantic_assumptions": [
+    "ordered dimension correspondence for power-supply test fields; aggregate failure invariant to axis permutation",
+    "inclusive simple to-ranges",
+    "ordinary granule-size diameter interpretation",
+    "sum of two stated 500 W motors",
+    "rating ambiguity remains unknown",
+    "multiple product values collapsed only when interval threshold semantics preserve the state"
+  ],
+  "independent_ai_audit_erratum": [
+    "H318593_1 dimensions exclude the handle. Three initially supported dimension conditions changed to unknown before final reporting; the source-coded fields are unavailable for the unqualified whole-article measurement. The qualitative operational case remains unknown.",
+    "N311039_33: collapsing different products and rating alternatives into a continuous hull obscured definite violations. Per-product discrete alternatives replace the hull; products 1, 3 and 4 violate both candidate voltage interpretations, so the all-products claim is refuted. This is a source-based third AI review correction, not the initial two-pass agreement."
+  ]
+}

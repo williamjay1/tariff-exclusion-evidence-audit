@@ -1,0 +1,68 @@
+{
+  "retrieved_utc": "20261022T195034Z",
+  "free_bytes_before": {
+    "D": 202891141120,
+    "E": 162895831040,
+    "F": 2897202020352
+  },
+  "raw_immutable": true,
+  "sources": [
+    {
+      "key": "qwen14_modelcard",
+      "url": "https://huggingface.co/Qwen/Qwen3-14B/raw/main/README.md",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\qwen14_modelcard_20261022T195034Z.md",
+      "bytes": 16670,
+      "sha256": "7ef503e68996a4e32007fedc7d8e198846e9b1f36620d38a79b89934100b1250",
+      "http_status": 200
+    },
+    {
+      "key": "qwen14_gguf_modelcard",
+      "url": "https://huggingface.co/Qwen/Qwen3-14B-GGUF/raw/main/README.md",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\qwen14_gguf_modelcard_20261022T195034Z.md",
+      "bytes": 7497,
+      "sha256": "3e0df8a0e59bc900f7bcbc943b3163830abec87a19d2bca94651868362def947",
+      "http_status": 200
+    },
+    {
+      "key": "qwen14_repository_metadata",
+      "url": "https://huggingface.co/api/models/Qwen/Qwen3-14B",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\qwen14_repository_metadata_20261022T195034Z.json",
+      "bytes": 9502,
+      "sha256": "055792c2dd926f3dd77249efa8e167158f66cc56e8cfb27decb10624d3257432",
+      "http_status": 200
+    },
+    {
+      "key": "llamacpp_b11516_release",
+      "url": "https://api.github.com/repos/ggml-org/llama.cpp/releases/tags/b11516",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\llamacpp_b11516_release_20261022T195034Z.json",
+      "bytes": 69465,
+      "sha256": "9efc1cc77173d1e6af8a601c2b0971296b859af8b5c77ba1c73c00bf696b323d",
+      "http_status": 200
+    },
+    {
+      "key": "cbp_cross_official_catalog",
+      "url": "https://catalog.data.gov/dataset/cbp-customs-rulings-online-search-system-cross",
+      "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\revision_20261023_literature_v1\\cbp_cross_official_catalog_20261022T195034Z.html",
+      "bytes": 120761,
+      "sha256": "bc4ae09485825c37a13104a46d7a1c0dbc1ea2d957abb16b4f979c68be0a6b6a",
+      "http_status": 200
+    }
+  ],
+  "verified_metadata": {
+    "model_repository_created_at": "2025-04-27T03:42:45.000Z",
+    "model_revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "software_tag": "b11516",
+    "software_published_at": "2026-10-09T07:02:29Z",
+    "software_prerelease": true
+  },
+  "existing_immutable_ustr_index": {
+    "path": "F:\\AcademicData\\tariff_scope_20261007\\raw\\statutes\\ustr_index_20240117_20261007.pdf",
+    "sha256": "1bd398bd7938cba7693776c32b65083983d0b4ae492f5a84c322697a5623abe0",
+    "url": "https://ustr.gov/sites/default/files/Updated%20Index%20of%20Exclusions%20for%20Extension%201.17.24.pdf",
+    "title_from_pdf_footer": "Index of Exclusions for Possible Extension",
+    "version_from_pdf_footer": "1/17/24",
+    "pages": 23,
+    "verified_online_again": "2026-10-23",
+    "redownloaded": false
+  }
+}

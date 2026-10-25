@@ -1,0 +1,13 @@
+{
+  "n": 8,
+  "conditions_n": 8,
+  "valid": 8,
+  "correct_decisions": 7,
+  "correct_conditions": null,
+  "unsupported_affirmations": 0,
+  "decisive_refutation_missing_passes": 0,
+  "passed": true,
+  "failed_ids": [
+    "REC_H340899_1_c3_after"
+  ]
+}

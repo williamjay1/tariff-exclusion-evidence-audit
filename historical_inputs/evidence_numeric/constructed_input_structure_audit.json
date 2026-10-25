@@ -1,0 +1,62 @@
+{
+  "rows": 96,
+  "unique_model_inputs": 88,
+  "duplicate_extra_rows": 8,
+  "mechanisms": 12,
+  "pairs": 48,
+  "duplicate_groups": [
+    {
+      "case_ids": [
+        "D_identifier_1_a",
+        "D_conflicting_reports_1_a"
+      ],
+      "gold": "pass"
+    },
+    {
+      "case_ids": [
+        "D_conflicting_reports_1_b",
+        "D_conflicting_reports_3_b"
+      ],
+      "gold": "unknown"
+    },
+    {
+      "case_ids": [
+        "D_conflicting_reports_2_b",
+        "D_conflicting_reports_4_b"
+      ],
+      "gold": "unknown"
+    },
+    {
+      "case_ids": [
+        "D_two_sided_bounds_1_a",
+        "D_two_sided_bounds_3_b"
+      ],
+      "gold": "fail"
+    },
+    {
+      "case_ids": [
+        "D_dimension_binding_1_a",
+        "D_dimension_binding_2_a",
+        "D_dimension_binding_3_a"
+      ],
+      "gold": "pass"
+    },
+    {
+      "case_ids": [
+        "D_disjunction_1_b",
+        "D_disjunction_2_b"
+      ],
+      "gold": "fail"
+    },
+    {
+      "case_ids": [
+        "D_measurement_uncertainty_1_b",
+        "D_measurement_uncertainty_2_b"
+      ],
+      "gold": "unknown"
+    }
+  ],
+  "frozen_correct_on_unique_inputs": 47,
+  "v2_correct_on_unique_inputs": 66,
+  "statistical_unit_warning": "96 rows are 48 deliberately paired variants in 12 purposive mechanisms, with 88 unique inputs. They are not 96 independent sampled trials."
+}

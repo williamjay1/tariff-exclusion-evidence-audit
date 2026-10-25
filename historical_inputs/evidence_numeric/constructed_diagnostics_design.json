@@ -1,0 +1,33 @@
+{
+  "n": 96,
+  "families": {
+    "identifier": 8,
+    "component_binding": 8,
+    "mass_capacity": 8,
+    "comparative_facts": 8,
+    "conflicting_reports": 8,
+    "unit_equivalence": 8,
+    "compound_units": 8,
+    "two_sided_bounds": 8,
+    "dimension_binding": 8,
+    "disjunction": 8,
+    "nested_exception": 8,
+    "measurement_uncertainty": 8
+  },
+  "gold": {
+    "pass": 44,
+    "fail": 37,
+    "unknown": 15
+  },
+  "pair_types": {
+    "equivalence": 40,
+    "decisive_change": 52,
+    "same_state_control": 4
+  },
+  "sha256": "17e8dd16daf35907a048d10fc2891b651be0cfa8999156b4e84c46141a3bec4a",
+  "design": "12 purposive failure mechanisms x 4 pairs x 2 variants; authored independently of engine outputs; not a random sample of statutory language",
+  "status": "constructed AI-authored diagnostic references; independent AI review required; no human expert validation",
+  "label_semantics": "pass=all admissible values satisfy rule; fail=all admissible values violate rule; unknown=missing, ambiguous, or straddling evidence",
+  "scope": "Only stated predicates; nonnumeric product-category criteria assumed satisfied. No administrative labels.",
+  "design_erratum": "After the first frozen-engine diagnostic run, the 8 component-binding rules were changed from The motor power must not exceed 1,000 W. to Motor power not exceeding 1,000 W. to remove a known unsupported-grammar confound. Facts and reference states were unchanged; initial design and predictions are retained. This is disclosed post-run design repair, not a pre-run claim."
+}

@@ -1,0 +1,18 @@
+{
+  "rows": 397,
+  "product_descriptions_with_coarse_groups": 354,
+  "code_only_with_no_extra_product_groups": 43,
+  "total_product_groups": 1096,
+  "representation_count_distribution": {
+    "2": 96,
+    "1": 32,
+    "3": 109,
+    "4": 65,
+    "5": 34,
+    "7": 7,
+    "6": 11
+  },
+  "atomic_counts_asserted": false,
+  "independent_expert_validation": false,
+  "scope": "Counts concern explicit coarse source representation; no claim of intrinsic complexity or legal gold."
+}

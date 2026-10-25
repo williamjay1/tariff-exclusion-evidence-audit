@@ -1,0 +1,111 @@
+{
+  "primary": {
+    "n": 73,
+    "source": {
+      "HQ": 27,
+      "NY": 46
+    },
+    "source_by_y": {
+      "HQ:y=0": 16,
+      "HQ:y=1": 11,
+      "NY:y=0": 10,
+      "NY:y=1": 36
+    },
+    "groups": 41
+  },
+  "exact_code": {
+    "n": 60,
+    "source": {
+      "HQ": 14,
+      "NY": 46
+    },
+    "source_by_y": {
+      "HQ:y=0": 5,
+      "HQ:y=1": 9,
+      "NY:y=0": 10,
+      "NY:y=1": 36
+    },
+    "groups": 31
+  },
+  "removed": {
+    "n": 13,
+    "source": {
+      "HQ": 13
+    },
+    "source_by_y": {
+      "HQ:y=0": 11,
+      "HQ:y=1": 2
+    },
+    "groups": 10
+  },
+  "old_states": {
+    "refute": 5,
+    "support": 21,
+    "unknown": 47
+  },
+  "old_y_by_z": {
+    "y=0:refute": 5,
+    "y=0:unknown": 21,
+    "y=1:support": 21,
+    "y=1:unknown": 26
+  },
+  "old_condition_records": 208,
+  "numeric": {
+    "n": 33,
+    "groups": 16,
+    "group_sizes": {
+      "G000": 1,
+      "G029": 2,
+      "G007": 1,
+      "G011": 1,
+      "G015": 1,
+      "G017": 1,
+      "G018": 1,
+      "G026": 2,
+      "G028": 2,
+      "G031": 1,
+      "G084": 15,
+      "G043": 1,
+      "G047": 1,
+      "G049": 1,
+      "G069": 1,
+      "G067": 1
+    },
+    "largest_group": "G084",
+    "largest_group_n": 15,
+    "largest_group_fraction": 0.45454545454545453,
+    "matches": {
+      "reference_rule_reference_fields": 33,
+      "auto_rule_reference_fields": 30,
+      "reference_rule_auto_fields": 17,
+      "auto_rule_auto_fields": 17
+    },
+    "state_normalization": "not_parsed -> unknown, as explicitly specified in the historical component evaluator",
+    "without_largest_group_n": 18,
+    "without_largest_group_matches": {
+      "reference_rule_reference_fields": 18,
+      "auto_rule_reference_fields": 15,
+      "reference_rule_auto_fields": 9,
+      "auto_rule_auto_fields": 9
+    },
+    "numeric_by_whole_evidence": {
+      "fail:refute": 3,
+      "pass:support": 5,
+      "pass:unknown": 18,
+      "unknown:unknown": 7
+    }
+  },
+  "guard_cost_example": {
+    "n": 73,
+    "false_grants": 5,
+    "false_denials": 10,
+    "referrals": 26,
+    "cg": 5,
+    "cd": 1,
+    "cr": 0.5,
+    "loss_guard": 0.6575342465753424,
+    "loss_review_all": 0.5,
+    "break_even_cr": 0.7446808510638298,
+    "interpretation": "Hypothetical administrative-disagreement costs; not measured legal error or savings."
+  }
+}

@@ -1,0 +1,2 @@
+* -text
+# Frozen bytes keep their SHA-256 across Windows and Linux checkouts.

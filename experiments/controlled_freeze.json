@@ -1,0 +1,44 @@
+{
+  "status": "frozen_before_formal_inference",
+  "utc": "2026-10-22T19:32:49.068486+00:00",
+  "n_unique_inputs": 108,
+  "n_source_families": 12,
+  "n_dependent_relationships": 96,
+  "input_sha256": "c3f25781b765c60110e18b856b88bc78a757d540dc36596493ef1835914fbb8b",
+  "hashes": {
+    "constructed_pairs.jsonl": "7ba9a001f942f5344eea0d1334597fe4abb703e81422da2a17bc25a3f32dd7e8",
+    "constructed_source_spans.jsonl": "1a4b1eb4a9ee157a0dd612dbe0270d0944b83c1a42bedc013773189888ed1e58",
+    "protocol.py": "4f0e9cc7158125e7aa71e0c5134f96dacb13b735f4d5fbacd606d89801fbdf5e",
+    "run_evidence_audit.py": "33ed2dc77f78012d84089242ac362a83564a4a4884764e56366463b8b41631e6",
+    "qualification_manifest.json": "c4a51dc6323a98a9a1b5d7d49b18835b47cf107ecade7177f39fe3cd90857bbd"
+  },
+  "change_reason": "Parent identified semantic information asymmetry before any formal predictions were examined. The direct clause previously lacked the explicit every-granule and frame-scope interpretation supplied to the checklist. Both arms now receive exactly the same complete two-condition controlled clause; checklist adds only the structured duplicate condition representation and IDs.",
+  "approval": "Parent requested this precise pre-outcome correction after reviewing all twelve source clauses and the full draft; all facts, expected states, pair links, qualification prompts and thresholds remain fixed.",
+  "superseded_input_sha256": "ec31de7be7b6b11a3f01b119fbd4791ad0f3bc2d54d913bcdca6da55811fd5d9",
+  "superseded_pilot_preserved": [
+    {
+      "path": "outputs\\qwen14_constructed_cases_direct.jsonl",
+      "sha256": "a61ed8d690898724b3da79b9ee409d2de82897eaf9f290c1247adf9e74d4e9ff",
+      "jsonl_lines": 3
+    },
+    {
+      "path": "outputs\\qwen14_constructed_cases_freeze.json",
+      "sha256": "1b8f86cb3ebcada0047cde46e12fd75625694b3829a8e74205caf1d61fa4edec",
+      "jsonl_lines": null
+    }
+  ],
+  "scope": [
+    "Synthetic, source-anchored two-condition excerpts, not complete legal exclusions.",
+    "Every-granule quantification and frame-species scope are supplied controlled interpretations, not verified legal interpretations.",
+    "Restoration reuses base endpoints. The 96 relationships are not 96 independent cases.",
+    "Direct condition/evidence/request metrics are NA. Both arms share semantic clause content; condition representation and requested output differ.",
+    "No model/prompt selection used the superseded pilot or the formal outcomes."
+  ],
+  "qualification_model": "qwen14",
+  "qualification_decisions": {
+    "direct": "24/24",
+    "checklist": "24/24"
+  },
+  "qualification_condition_accuracy": "27/27",
+  "qualification_limit": "One unknown qualification item omitted its necessary request. This was not among the frozen qualification thresholds and remains a reported error."
+}

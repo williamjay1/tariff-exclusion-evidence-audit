@@ -1,0 +1,84 @@
+{
+  "independent_rows": 397,
+  "root_rows": 397,
+  "independent_aliases": 429,
+  "unique_aliases": 429,
+  "root_aliases": 429,
+  "dual_alias_rows": 32,
+  "whole_code": 41,
+  "unique_hts": 337,
+  "empty_nonheader_rows": [],
+  "differences": [],
+  "page_table_row_counts": [
+    [
+      20
+    ],
+    [
+      22
+    ],
+    [
+      22
+    ],
+    [
+      22
+    ],
+    [
+      19
+    ],
+    [
+      19
+    ],
+    [
+      17
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      17
+    ],
+    [
+      18
+    ],
+    [
+      16
+    ],
+    [
+      17
+    ],
+    [
+      20
+    ],
+    [
+      17
+    ],
+    [
+      19
+    ],
+    [
+      16
+    ],
+    [
+      18
+    ],
+    [
+      18
+    ],
+    [
+      20
+    ],
+    [
+      23
+    ],
+    [
+      22
+    ],
+    [
+      5
+    ]
+  ],
+  "source": "F:\\AcademicData\\tariff_scope_20261007\\raw\\statutes\\ustr_index_20240117_20261007.pdf"
+}

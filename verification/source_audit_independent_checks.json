@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": {
+    "continuous_source_spans": 455,
+    "noncontiguous_evidence_entries": 2
+  },
+  "cases": 73,
+  "condition_units": 208,
+  "sources": 67,
+  "raw_sources_hash_match": true,
+  "reference_tiers": {
+    "interpretive": 45,
+    "direct": 132,
+    "insufficient": 19,
+    "disputed": 12
+  },
+  "direct_recovered_conditions": [
+    "H330938_1:c4",
+    "H322923_1:c2",
+    "H340899_1:c3",
+    "H340899_1:c4"
+  ],
+  "unresolved_source_locators": [],
+  "limit": "Exact span matches and recomputation establish provenance and internal consistency, not independent legal validity.",
+  "input_hashes": {
+    "condition_audit_long.jsonl": "163da1d36cd50e23d160ced52cd610b83633467bf66db67c1a6f98a186b5d851",
+    "case_audit.jsonl": "2ef227443176963ab61532f8c5fb8f075d5d3218c90f18b0c9246b7dcff6ffbd",
+    "source_audit_summary.json": "54fb5622dc4356bafa56603d3a1f711bb2e49ade2ee677850622d317c37b3ab4"
+  }
+}

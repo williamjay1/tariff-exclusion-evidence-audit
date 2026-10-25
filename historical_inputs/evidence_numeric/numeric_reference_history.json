@@ -1,0 +1,10 @@
+{
+  "v1": {
+    "sha256": "e5a9bb70d39976667b0311a3fa23e855c0df297eb2adc71b15640e23d863f2f3",
+    "recovery": "Byte-identical reconstruction of original saved source-coded fields from recorded code and original SHA-256, verified against pre-audit hash."
+  },
+  "v2": {
+    "sha256": "03e71823e044593f326f853bb40ae81d08189b208111c889eff492bbc036502b",
+    "change": "Handle-excluded jack dimensions changed from pass to unavailable/unknown."
+  }
+}

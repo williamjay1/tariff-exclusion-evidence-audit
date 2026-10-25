@@ -1,0 +1,11 @@
+{
+  "status": "draft_for_independent_input_audit_before_freeze",
+  "n_unique_inputs": 108,
+  "n_families": 12,
+  "n_source_groups": 12,
+  "n_linked_relationships": 96,
+  "reused_endpoints": "Restoration reverses deletion using the same base endpoint; pair results are dependent.",
+  "source_benchmark_sha256": "8e33bb2381212c5a29b63ce1c9fdbcbb1a0ae6c3d228097c748529934589a3f9",
+  "input_sha256": "ec31de7be7b6b11a3f01b119fbd4791ad0f3bc2d54d913bcdca6da55811fd5d9",
+  "pairs_sha256": "7ba9a001f942f5344eea0d1334597fe4abb703e81422da2a17bc25a3f32dd7e8"
+}

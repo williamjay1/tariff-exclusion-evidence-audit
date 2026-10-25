@@ -1,0 +1,692 @@
+{
+  "model": "qwen14",
+  "dataset": "D:\\MLWork\\tariff_scope_20261007\\revision_20261023\\experiments\\development_cases.jsonl",
+  "hashes": {
+    "input": "58c5e30cb74fb5533d428b50d690bb5e485b6ed2500f9613406c1270997615e2",
+    "direct": "c7f6f8daf7595a1d11fdd0e633b1c52ad369859e13b33fadb97914a86bd43620",
+    "checklist": "33b39680d78b3b9d656876acadc553605e153d3187a541dc999f909ec68205ab"
+  },
+  "reports": {
+    "direct": {
+      "overall": {
+        "n": 4,
+        "groups": 4,
+        "valid": 4,
+        "decision_correct": 4,
+        "decision_accuracy": 1.0,
+        "prediction_counts": {
+          "supported": 1,
+          "refuted": 2,
+          "unknown": 1
+        },
+        "unsupported_case_affirmations": 0,
+        "unsupported_case_refutations": 0,
+        "state_confusion_matrix": {
+          "supported": {
+            "supported": 1,
+            "refuted": 0,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "refuted": {
+            "supported": 0,
+            "refuted": 2,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "unknown": {
+            "supported": 0,
+            "refuted": 0,
+            "unknown": 1,
+            "invalid": 0
+          }
+        },
+        "determinate_n": 3,
+        "determinate_errors": 0
+      },
+      "by_mechanism": {
+        "decisive_refutation_with_missing": {
+          "n": 1,
+          "groups": 1,
+          "valid": 1,
+          "decision_correct": 1,
+          "decision_accuracy": 1.0,
+          "prediction_counts": {
+            "refuted": 1
+          },
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "state_confusion_matrix": {
+            "supported": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "refuted": {
+              "supported": 0,
+              "refuted": 1,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "unknown": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            }
+          },
+          "determinate_n": 1,
+          "determinate_errors": 0
+        },
+        "direct_attribute": {
+          "n": 3,
+          "groups": 3,
+          "valid": 3,
+          "decision_correct": 3,
+          "decision_accuracy": 1.0,
+          "prediction_counts": {
+            "supported": 1,
+            "refuted": 1,
+            "unknown": 1
+          },
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "state_confusion_matrix": {
+            "supported": {
+              "supported": 1,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "refuted": {
+              "supported": 0,
+              "refuted": 1,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "unknown": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 1,
+              "invalid": 0
+            }
+          },
+          "determinate_n": 2,
+          "determinate_errors": 0
+        }
+      }
+    },
+    "checklist": {
+      "overall": {
+        "n": 4,
+        "groups": 4,
+        "valid": 4,
+        "decision_correct": 4,
+        "decision_accuracy": 1.0,
+        "prediction_counts": {
+          "supported": 1,
+          "refuted": 2,
+          "unknown": 1
+        },
+        "unsupported_case_affirmations": 0,
+        "unsupported_case_refutations": 0,
+        "state_confusion_matrix": {
+          "supported": {
+            "supported": 1,
+            "refuted": 0,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "refuted": {
+            "supported": 0,
+            "refuted": 2,
+            "unknown": 0,
+            "invalid": 0
+          },
+          "unknown": {
+            "supported": 0,
+            "refuted": 0,
+            "unknown": 1,
+            "invalid": 0
+          }
+        },
+        "determinate_n": 3,
+        "determinate_errors": 0,
+        "complete_condition_records": 4,
+        "condition_n": 5,
+        "condition_correct": 5,
+        "condition_accuracy": 1.0,
+        "aggregation_correct": 4,
+        "aggregation_accuracy": 1.0,
+        "unsupported_condition_affirmations": 0,
+        "unsupported_condition_refutations": 0,
+        "gap_localization": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "requests": {
+          "tp": 1,
+          "unnecessary": 0,
+          "missing_necessary": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "exact_case_sets": 4
+        },
+        "evidence_id_acceptable": {
+          "correct": 5,
+          "scored": 5,
+          "determinate_correct": 3,
+          "determinate_scored": 3,
+          "joint_state_and_evidence_correct": 5,
+          "definition": "Agreement with an acceptable fact-ID set; equivalent target-frame evidence is admitted under the pre-result erratum. This is not expert-validated legal entailment. Missing or invalid condition records count as failures."
+        },
+        "refutation_with_missing": {
+          "n": 1,
+          "correct_with_no_request": 1
+        }
+      },
+      "by_mechanism": {
+        "decisive_refutation_with_missing": {
+          "n": 1,
+          "groups": 1,
+          "valid": 1,
+          "decision_correct": 1,
+          "decision_accuracy": 1.0,
+          "prediction_counts": {
+            "refuted": 1
+          },
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "state_confusion_matrix": {
+            "supported": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "refuted": {
+              "supported": 0,
+              "refuted": 1,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "unknown": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            }
+          },
+          "determinate_n": 1,
+          "determinate_errors": 0,
+          "complete_condition_records": 1,
+          "condition_n": 2,
+          "condition_correct": 2,
+          "condition_accuracy": 1.0,
+          "aggregation_correct": 1,
+          "aggregation_accuracy": 1.0,
+          "unsupported_condition_affirmations": 0,
+          "unsupported_condition_refutations": 0,
+          "gap_localization": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "requests": {
+            "tp": 0,
+            "unnecessary": 0,
+            "missing_necessary": 0,
+            "precision": null,
+            "recall": null,
+            "exact_case_sets": 1
+          },
+          "evidence_id_acceptable": {
+            "correct": 2,
+            "scored": 2,
+            "determinate_correct": 1,
+            "determinate_scored": 1,
+            "joint_state_and_evidence_correct": 2,
+            "definition": "Agreement with an acceptable fact-ID set; equivalent target-frame evidence is admitted under the pre-result erratum. This is not expert-validated legal entailment. Missing or invalid condition records count as failures."
+          },
+          "refutation_with_missing": {
+            "n": 1,
+            "correct_with_no_request": 1
+          }
+        },
+        "direct_attribute": {
+          "n": 3,
+          "groups": 3,
+          "valid": 3,
+          "decision_correct": 3,
+          "decision_accuracy": 1.0,
+          "prediction_counts": {
+            "supported": 1,
+            "refuted": 1,
+            "unknown": 1
+          },
+          "unsupported_case_affirmations": 0,
+          "unsupported_case_refutations": 0,
+          "state_confusion_matrix": {
+            "supported": {
+              "supported": 1,
+              "refuted": 0,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "refuted": {
+              "supported": 0,
+              "refuted": 1,
+              "unknown": 0,
+              "invalid": 0
+            },
+            "unknown": {
+              "supported": 0,
+              "refuted": 0,
+              "unknown": 1,
+              "invalid": 0
+            }
+          },
+          "determinate_n": 2,
+          "determinate_errors": 0,
+          "complete_condition_records": 3,
+          "condition_n": 3,
+          "condition_correct": 3,
+          "condition_accuracy": 1.0,
+          "aggregation_correct": 3,
+          "aggregation_accuracy": 1.0,
+          "unsupported_condition_affirmations": 0,
+          "unsupported_condition_refutations": 0,
+          "gap_localization": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "requests": {
+            "tp": 1,
+            "unnecessary": 0,
+            "missing_necessary": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "exact_case_sets": 3
+          },
+          "evidence_id_acceptable": {
+            "correct": 3,
+            "scored": 3,
+            "determinate_correct": 2,
+            "determinate_scored": 2,
+            "joint_state_and_evidence_correct": 3,
+            "definition": "Agreement with an acceptable fact-ID set; equivalent target-frame evidence is admitted under the pre-result erratum. This is not expert-validated legal entailment. Missing or invalid condition records count as failures."
+          },
+          "refutation_with_missing": {
+            "n": 0,
+            "correct_with_no_request": 0
+          }
+        }
+      }
+    }
+  },
+  "case_records": {
+    "direct": [
+      {
+        "case_id": "DEV_S",
+        "group": "DEV_S",
+        "mechanism": "direct_attribute",
+        "variant": null,
+        "gold": "supported",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "DEV_R",
+        "group": "DEV_R",
+        "mechanism": "direct_attribute",
+        "variant": null,
+        "gold": "refuted",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "refuted",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "DEV_U",
+        "group": "DEV_U",
+        "mechanism": "direct_attribute",
+        "variant": null,
+        "gold": "unknown",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": null
+      },
+      {
+        "case_id": "DEV_RU",
+        "group": "DEV_RU",
+        "mechanism": "decisive_refutation_with_missing",
+        "variant": null,
+        "gold": "refuted",
+        "condition_n": null,
+        "required_request_n": null,
+        "valid": true,
+        "decision": "refuted",
+        "decision_correct": 1,
+        "aggregated_decision": null,
+        "aggregation_correct": null,
+        "complete_condition_ids": null,
+        "condition_correct": null,
+        "unsupported_affirmations": null,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": null,
+        "unsupported_case_refutation": 0,
+        "gap_tp": null,
+        "gap_fp": null,
+        "gap_fn": null,
+        "request_tp": null,
+        "request_fp": null,
+        "request_fn": null,
+        "request_n": null,
+        "request_set_correct": null,
+        "evidence_exact_n": null,
+        "evidence_scored_n": null,
+        "determinate_evidence_exact_n": null,
+        "determinate_evidence_scored_n": null,
+        "joint_state_and_evidence_correct": null,
+        "refutation_with_missing": true,
+        "refutation_retained_no_request": null
+      }
+    ],
+    "checklist": [
+      {
+        "case_id": "DEV_S",
+        "group": "DEV_S",
+        "mechanism": "direct_attribute",
+        "variant": null,
+        "gold": "supported",
+        "condition_n": 1,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "supported",
+        "decision_correct": 1,
+        "aggregated_decision": "supported",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 1,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "DEV_R",
+        "group": "DEV_R",
+        "mechanism": "direct_attribute",
+        "variant": null,
+        "gold": "refuted",
+        "condition_n": 1,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "refuted",
+        "decision_correct": 1,
+        "aggregated_decision": "refuted",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 0,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 1,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "DEV_U",
+        "group": "DEV_U",
+        "mechanism": "direct_attribute",
+        "variant": null,
+        "gold": "unknown",
+        "condition_n": 1,
+        "required_request_n": 1,
+        "valid": true,
+        "decision": "unknown",
+        "decision_correct": 1,
+        "aggregated_decision": "unknown",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 1,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 1,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 1,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 1,
+        "request_set_correct": true,
+        "evidence_exact_n": 1,
+        "evidence_scored_n": 1,
+        "determinate_evidence_exact_n": 0,
+        "determinate_evidence_scored_n": 0,
+        "joint_state_and_evidence_correct": 1,
+        "refutation_with_missing": false,
+        "refutation_retained_no_request": false
+      },
+      {
+        "case_id": "DEV_RU",
+        "group": "DEV_RU",
+        "mechanism": "decisive_refutation_with_missing",
+        "variant": null,
+        "gold": "refuted",
+        "condition_n": 2,
+        "required_request_n": 0,
+        "valid": true,
+        "decision": "refuted",
+        "decision_correct": 1,
+        "aggregated_decision": "refuted",
+        "aggregation_correct": 1,
+        "complete_condition_ids": true,
+        "condition_correct": 2,
+        "unsupported_affirmations": 0,
+        "unsupported_case_affirmation": 0,
+        "unsupported_refutations": 0,
+        "unsupported_case_refutation": 0,
+        "gap_tp": 1,
+        "gap_fp": 0,
+        "gap_fn": 0,
+        "request_tp": 0,
+        "request_fp": 0,
+        "request_fn": 0,
+        "request_n": 0,
+        "request_set_correct": true,
+        "evidence_exact_n": 2,
+        "evidence_scored_n": 2,
+        "determinate_evidence_exact_n": 1,
+        "determinate_evidence_scored_n": 1,
+        "joint_state_and_evidence_correct": 2,
+        "refutation_with_missing": true,
+        "refutation_retained_no_request": true
+      }
+    ]
+  },
+  "reference_policy": "original frozen reference",
+  "excluded_family": null,
+  "effective_references": {
+    "DEV_S": {
+      "states": {
+        "c1": "supported"
+      },
+      "evidence": {
+        "c1": [
+          "f1"
+        ]
+      },
+      "decision": "supported",
+      "requests": []
+    },
+    "DEV_R": {
+      "states": {
+        "c1": "refuted"
+      },
+      "evidence": {
+        "c1": [
+          "f1"
+        ]
+      },
+      "decision": "refuted",
+      "requests": []
+    },
+    "DEV_U": {
+      "states": {
+        "c1": "unknown"
+      },
+      "evidence": {
+        "c1": []
+      },
+      "decision": "unknown",
+      "requests": [
+        "c1"
+      ]
+    },
+    "DEV_RU": {
+      "states": {
+        "c1": "refuted",
+        "c2": "unknown"
+      },
+      "evidence": {
+        "c1": [
+          "f1"
+        ],
+        "c2": []
+      },
+      "decision": "refuted",
+      "requests": []
+    }
+  },
+  "paired_representations": {
+    "n": 4,
+    "groups": 4,
+    "difference": 0.0,
+    "percentile_95ci": [
+      0.0,
+      0.0
+    ],
+    "resamples": 2000,
+    "seed": 20261023,
+    "discordances": {
+      "same_correctness": 4
+    },
+    "meaning": "Paired checklist overall decision minus direct overall decision. Different supplied representations; not an isolated aggregation effect or population prevalence."
+  },
+  "reference_status": "AI-assisted text-evidence diagnostic reference; constructed cases are synthetic, not new observed adjudications."
+}
